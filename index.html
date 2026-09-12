@@ -38,58 +38,78 @@
   .float{ position:absolute; z-index:1000; background:var(--panel); backdrop-filter:blur(6px);
           border:1px solid var(--line); border-radius:8px; }
 
-  .marca{ top:12px; left:12px; padding:9px 14px; display:flex; align-items:center; gap:9px; max-width:calc(100% - 24px); }
-  .marca b{ font-size:.92rem; font-weight:600; white-space:nowrap; }
-  .marca .punto{ width:7px; height:7px; border-radius:50%; background:var(--ok); flex:none; }
-  @media (prefers-reduced-motion:no-preference){ .marca .punto{ animation:latir 1.8s ease-in-out infinite; } }
-  @keyframes latir{ 0%,100%{opacity:1} 50%{opacity:.3} }
-  .marca .sello{ font-size:.68rem; color:var(--muted); white-space:nowrap; }
+  /* ---- panel superior: una sola franja horizontal, plegable ----
+     Antes era una columna lateral. En horizontal el mapa queda entero de lado a
+     lado, que es lo que uno mira; las fichas caben en fila y se recorren de lado.
+     Plegado deja solo la cabecera con el conteo. */
+  .panel{ top:12px; left:12px; right:12px; display:flex; flex-direction:column; overflow:hidden; }
 
-  /* panel de tormentas */
-  .tablero{ top:62px; left:12px; width:326px; max-width:calc(100% - 24px);
-            max-height:calc(100% - 150px); overflow-y:auto; padding:13px 14px 11px; }
-  .tablero h2{ all:unset; display:block; font-size:.8rem; font-weight:600; margin-bottom:3px; }
-  .tablero .sub{ font-size:.72rem; color:var(--muted); margin-bottom:10px; }
-  .vacio{ border-left:3px solid var(--ok); padding:9px 11px; background:#35C98F14; font-size:.78rem; line-height:1.5; }
+  .cabecera{ display:flex; align-items:center; gap:9px; padding:9px 12px 9px 14px; cursor:pointer;
+             user-select:none; }
+  .cabecera:hover{ background:#ffffff06; }
+  .cabecera b{ font-size:.92rem; font-weight:600; white-space:nowrap; }
+  .cabecera .punto{ width:7px; height:7px; border-radius:50%; background:var(--ok); flex:none; }
+  @media (prefers-reduced-motion:no-preference){ .cabecera .punto{ animation:latir 1.8s ease-in-out infinite; } }
+  @keyframes latir{ 0%,100%{opacity:1} 50%{opacity:.3} }
+  .cabecera .resumen{ font-size:.74rem; color:var(--muted); flex:1; min-width:0;
+                      overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .cabecera .resumen b{ color:var(--text); font-weight:600; font-size:.74rem; }
+  .cabecera .sello{ font-size:.68rem; color:var(--faint); white-space:nowrap; }
+  .chevron{ background:none; border:none; color:var(--muted); font-size:.8rem; cursor:pointer;
+            padding:2px 4px; flex:none; transition:transform .2s; }
+  .panel.plegado .chevron{ transform:rotate(-90deg); }
+  .panel.plegado .fichas{ display:none; }
+
+  /* La franja: grupos lado a lado, cada uno con su rótulo y sus fichas en fila. */
+  .fichas{ display:flex; align-items:flex-start; gap:16px; overflow-x:auto; overflow-y:hidden;
+           padding:0 14px 13px; border-top:1px solid var(--line); padding-top:12px; }
+  .grupo{ display:flex; flex-direction:column; gap:7px; flex:none; }
+  .grupo + .grupo{ border-left:1px solid var(--line); padding-left:16px; }
+  .rotulo{ font-family:"IBM Plex Sans Condensed","IBM Plex Sans",sans-serif; font-weight:700;
+           text-transform:uppercase; letter-spacing:.08em; font-size:.62rem; color:var(--muted);
+           white-space:nowrap; }
+  .rotulo span{ color:var(--faint); font-weight:400; text-transform:none; letter-spacing:0; }
+  .fila{ display:flex; align-items:stretch; gap:9px; }
+
+  .vacio{ border-left:3px solid var(--ok); padding:9px 11px; background:#35C98F14;
+          font-size:.76rem; line-height:1.5; width:300px; border-radius:0 4px 4px 0; }
   .vacio b{ display:block; margin-bottom:2px; }
 
-  .tarjeta{ border-top:1px solid var(--line); padding:11px 0 9px; cursor:pointer; }
-  .tarjeta:first-of-type{ border-top:none; }
-  .tarjeta:hover{ background:#ffffff08; }
-  .tarjeta .fila1{ display:flex; align-items:center; gap:8px; }
-  .tarjeta .cat{ font-size:.6rem; font-weight:700; letter-spacing:.05em; padding:2px 7px;
-                 border-radius:99px; color:#0B1014; white-space:nowrap; }
-  .tarjeta .nom{ font-weight:600; font-size:.88rem; flex:1; min-width:0;
+  /* ---- ficha (una tormenta o una zona) ---- */
+  .tarjeta{ width:268px; flex:none; display:flex; flex-direction:column; cursor:pointer;
+            background:#ffffff08; border:1px solid var(--line); border-radius:6px; padding:9px 11px 10px; }
+  .tarjeta:hover{ background:#ffffff12; border-color:#33414a; }
+  .tarjeta .fila1{ display:flex; align-items:center; gap:7px; }
+  .tarjeta .cat{ font-size:.58rem; font-weight:700; letter-spacing:.05em; padding:2px 7px;
+                 border-radius:99px; color:#0B1014; white-space:nowrap; flex:none; }
+  .tarjeta .nom{ font-weight:600; font-size:.85rem; flex:1; min-width:0;
                  overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .tarjeta .fila2{ margin-top:5px; font-size:.74rem; color:var(--muted); line-height:1.5; }
+  .tarjeta .fila2{ margin-top:6px; font-size:.73rem; color:var(--muted); line-height:1.5; }
   .tarjeta .fila2 b{ color:var(--text); font-weight:600; }
-  .tarjeta .rumbo{ margin-top:5px; font-size:.72rem; padding:5px 8px; border-radius:4px; }
+  .tarjeta .rumbo{ margin-top:6px; font-size:.7rem; padding:5px 8px; border-radius:4px; line-height:1.4; }
   .tarjeta .rumbo.acerca{ background:#F2685C1c; color:var(--grave); }
   .tarjeta .rumbo.vigilar{ background:#E3A83B1c; color:var(--alerta); }
   .tarjeta .rumbo.aleja{ background:#35C98F14; color:var(--ok); }
-  .tarjeta a{ color:var(--azul); font-size:.72rem; text-decoration:none; }
+  .tarjeta .pie{ margin-top:auto; padding-top:7px; }
+  .tarjeta a{ color:var(--azul); font-size:.7rem; text-decoration:none; }
   .tarjeta a:hover{ text-decoration:underline; }
 
-  /* zonas de vigilancia (Tropical Weather Outlook) */
-  .seccion{ margin-top:14px; padding-top:12px; border-top:1px solid var(--line); }
-  .seccion h2{ margin-bottom:3px; }
+  /* probabilidad de formación a 48 h y 7 días */
   .barras{ display:flex; gap:6px; margin-top:7px; }
-  .plazo{ flex:1; background:#ffffff08; border-radius:4px; padding:5px 7px; }
-  .plazo .et{ font-size:.58rem; color:var(--faint); text-transform:uppercase;
+  .plazo{ flex:1; background:#ffffff0a; border-radius:4px; padding:5px 7px; }
+  .plazo .et{ font-size:.56rem; color:var(--faint); text-transform:uppercase;
               letter-spacing:.06em; font-weight:700; }
-  .plazo .pc{ font-size:.92rem; font-weight:700; line-height:1.25; }
+  .plazo .pc{ font-size:.9rem; font-weight:700; line-height:1.25; }
   .riel{ height:3px; border-radius:99px; background:#ffffff14; margin-top:4px; overflow:hidden; }
   .riel i{ display:block; height:100%; border-radius:99px; }
   .r-bajo{ color:var(--ts); } .r-medio{ color:var(--c1); } .r-alto{ color:var(--c3); }
   .f-bajo{ background:var(--ts); } .f-medio{ background:var(--c1); } .f-alto{ background:var(--c3); }
-  details.nhc{ margin-top:7px; }
-  details.nhc summary{ font-size:.7rem; color:var(--muted); cursor:pointer; list-style:none; }
-  details.nhc summary::-webkit-details-marker{ display:none; }
-  details.nhc summary::before{ content:"▸ "; }
-  details.nhc[open] summary::before{ content:"▾ "; }
-  details.nhc p{ margin:6px 0 0; font-size:.7rem; line-height:1.55; color:var(--muted);
-                 border-left:2px solid var(--line); padding-left:8px; }
-  .leyenda-zona{ font-size:.68rem; color:var(--faint); line-height:1.5; margin-top:9px; }
+
+  /* El texto del NHC no cabe en una ficha de altura fija: vive en el popup. */
+  .popup-nhc{ margin:7px 0 0; padding:7px 0 0; border-top:1px solid var(--line);
+              font-size:.72rem; line-height:1.5; color:var(--muted);
+              max-height:118px; overflow-y:auto; }
+  .leaflet-popup-content{ max-width:262px; }
 
   /* línea de tiempo del radar */
   .tiempo{ bottom:12px; left:12px; right:12px; padding:9px 13px 11px; display:flex; flex-direction:column; gap:6px; }
@@ -109,12 +129,16 @@
   .cargando.fuera{ opacity:0; pointer-events:none; }
 
   @media(max-width:720px){
-    /* En celular el tablero se va abajo. Con dos secciones (ciclones + vigilancia)
-       necesita más alto para que la segunda asome sin tener que buscarla. */
-    .tablero{ position:absolute; top:auto; bottom:86px; left:12px; right:12px; width:auto;
-              max-height:47vh; }
-    .marca b{ font-size:.82rem; }
-    .marca .sello{ display:none; }
+    /* En celular la franja se queda arriba igual, pero más compacta: el sello de
+       la hora estorba y los grupos se apilan para no pelear con el ancho. */
+    .cabecera b{ font-size:.82rem; }
+    .cabecera .sello{ display:none; }
+    .panel{ max-height:62vh; }
+    .fichas{ flex-direction:column; align-items:stretch; gap:12px; overflow-y:auto; }
+    .grupo + .grupo{ border-left:none; padding-left:0; border-top:1px solid var(--line); padding-top:12px; }
+    .fila{ overflow-x:auto; padding-bottom:2px; }
+    .tarjeta{ width:252px; }
+    .vacio{ width:auto; }
   }
 </style>
 </head>
@@ -127,20 +151,24 @@
   <div class="mono" style="font-size:.78rem;color:var(--muted)">cargando radar y ciclones…</div>
 </div>
 
-<div class="float marca">
-  <span class="punto"></span><b>Vigía del Golfo</b>
-  <span class="sello mono" id="sello">—</span>
-</div>
+<div class="float panel" id="panel">
+  <div class="cabecera" id="cabecera" role="button" tabindex="0"
+       aria-expanded="true" aria-controls="fichas">
+    <span class="punto"></span><b>Vigía del Golfo</b>
+    <span class="resumen" id="resumen">cargando…</span>
+    <span class="sello mono" id="sello">—</span>
+    <button class="chevron" id="chevron" aria-hidden="true" tabindex="-1">▾</button>
+  </div>
 
-<div class="float tablero">
-  <h2>Ciclones activos</h2>
-  <div class="sub">Atlántico, Golfo, Caribe y Pacífico oriental · fuente NHC</div>
-  <div id="listaTormentas"></div>
-
-  <div class="seccion">
-    <h2>Zonas en vigilancia</h2>
-    <div class="sub">Dónde podría formarse algo · pronóstico del NHC a 2 y 7 días</div>
-    <div id="listaVigilancia"></div>
+  <div class="fichas" id="fichas">
+    <div class="grupo">
+      <div class="rotulo">Ciclones activos <span>· fuente NHC</span></div>
+      <div class="fila" id="listaTormentas"></div>
+    </div>
+    <div class="grupo">
+      <div class="rotulo">Zonas en vigilancia <span>· dónde podría formarse algo</span></div>
+      <div class="fila" id="listaVigilancia"></div>
+    </div>
   </div>
 </div>
 
@@ -162,6 +190,61 @@
   "use strict";
 
   var CAMPECHE = [19.845, -90.54];
+
+  // ---------------- panel plegable ----------------
+  // Plegado deja el mapa completo y la cabecera sigue diciendo lo importante, así
+  // que el resumen tiene que bastar por sí solo: conteos y, si algo apunta hacia
+  // acá, el nombre en rojo.
+  var panel = document.getElementById("panel");
+  var cabecera = document.getElementById("cabecera");
+  var LLAVE_PLEGADO = "vigia-plegado";
+
+  function plegar(si){
+    panel.classList.toggle("plegado", si);
+    cabecera.setAttribute("aria-expanded", si ? "false" : "true");
+    try{ localStorage.setItem(LLAVE_PLEGADO, si ? "1" : "0"); }catch(e){}
+  }
+  cabecera.addEventListener("click", function(){
+    plegar(!panel.classList.contains("plegado"));
+  });
+  cabecera.addEventListener("keydown", function(e){
+    if(e.key === "Enter" || e.key === " "){
+      e.preventDefault();
+      plegar(!panel.classList.contains("plegado"));
+    }
+  });
+  // El navegador puede negar localStorage (modo privado); si pasa, abre y ya.
+  try{ if(localStorage.getItem(LLAVE_PLEGADO) === "1") plegar(true); }catch(e){}
+
+  // La franja flota sobre el mapa, así que al encuadrar hay que descontarla o el
+  // popup nace debajo de ella. Abajo se descuenta la línea de tiempo del radar.
+  function margenes(lado){
+    var arriba = panel.classList.contains("plegado") ? 30 : panel.offsetHeight + 22;
+    return {
+      paddingTopLeft: [lado, arriba],
+      paddingBottomRight: [lado, 96],
+      maxZoom: 6
+    };
+  }
+
+  var conteo = { ciclones:null, zonas:null, alerta:null };
+  function plural(n, uno, varios){ return n + " " + (n === 1 ? uno : varios); }
+  function actualizarResumen(){
+    var partes = [];
+    if(conteo.ciclones !== null){
+      partes.push(conteo.ciclones === 0 ? "sin ciclones activos"
+                                        : "<b>" + plural(conteo.ciclones, "ciclón activo", "ciclones activos") + "</b>");
+    }
+    if(conteo.zonas !== null){
+      partes.push(conteo.zonas === 0 ? "nada en formación"
+                                     : plural(conteo.zonas, "zona en vigilancia", "zonas en vigilancia"));
+    }
+    var texto = partes.join(" · ") || "cargando…";
+    if(conteo.alerta){
+      texto = '<b style="color:var(--grave)">' + conteo.alerta + ' apunta hacia acá</b> · ' + texto;
+    }
+    document.getElementById("resumen").innerHTML = texto;
+  }
 
   // ---------------- mapa ----------------
   var map = L.map("map", { zoomControl:true, attributionControl:true }).setView([21, -88], 5);
@@ -316,11 +399,14 @@
     capaCiclones.clearLayers();
     var tormentas = (datos && datos.tormentas) || [];
 
+    conteo.ciclones = tormentas.length;
+    conteo.alerta = null;
+
     if(!tormentas.length){
       lista.innerHTML =
         '<div class="vacio"><b>Sin ciclones activos</b>' +
-        'No hay ningún sistema tropical con aviso vigente del NHC en este momento. ' +
-        'El radar de lluvia de abajo sigue funcionando normal.</div>';
+        'Ningún sistema tropical con aviso vigente del NHC. El radar sigue normal.</div>';
+      actualizarResumen();
       return;
     }
 
@@ -341,6 +427,8 @@
       var rumboTxt = isFinite(t.rumboGrados)
         ? "se mueve al <b>" + aRumbo(t.rumboGrados) + "</b> a <b>" + kmh(t.velocidadKt) + " km/h</b>"
         : "sin dato de movimiento";
+      // Lo que vale la pena ver con el panel plegado.
+      if(nivel === "acerca" && !conteo.alerta) conteo.alerta = t.nombre;
       return '' +
         '<div class="tarjeta" data-i="' + idx + '">' +
           '<div class="fila1">' +
@@ -353,9 +441,13 @@
             rumboTxt +
           '</div>' +
           '<div class="rumbo ' + nivel + '">' + textoRumbo + '</div>' +
-          (t.graficas ? '<a href="' + t.graficas + '" target="_blank" rel="noopener">Cono y avisos oficiales del NHC →</a>' : '') +
+          (t.graficas
+            ? '<div class="pie"><a href="' + t.graficas + '" target="_blank" rel="noopener">' +
+              'Cono y avisos oficiales →</a></div>'
+            : '') +
         '</div>';
     }).join("");
+    actualizarResumen();
 
     tormentas.forEach(function(t, idx){
       var cat = categoria(t.clasificacion, t.intensidadKt);
@@ -377,7 +469,7 @@
       var tarjeta = document.querySelector('.tarjeta[data-i="' + idx + '"]');
       if(tarjeta){
         tarjeta.addEventListener("click", function(){
-          map.setView([t.lat, t.lon], 6);
+          map.fitBounds(L.latLngBounds([t.lat, t.lon], [t.lat, t.lon]), margenes(30));
           m.openPopup();
         });
       }
@@ -397,6 +489,8 @@
     capaZonas.clearLayers();
     var zonas = (datos && datos.zonas) || [];
 
+    conteo.zonas = zonas.length;
+
     if(!zonas.length){
       var cuencas = (datos && datos.cuencasSinFormacion) || [];
       lista.innerHTML =
@@ -406,6 +500,7 @@
             cuencas.join(" ni ") + '.'
           : 'No hay áreas marcadas como posible formación en este momento.') +
         '</div>';
+      actualizarResumen();
       return;
     }
 
@@ -439,16 +534,13 @@
             ? '<div class="fila2">Su centro está a <b>' + d.toLocaleString("es-MX") +
               ' km</b> de Campeche, al <b>' + rumboA + '</b></div>'
             : '') +
-          (z.descripcion
-            ? '<details class="nhc"><summary>Texto del NHC (en inglés)</summary><p>' +
-              z.descripcion + '</p></details>'
-            : '') +
           (z.boletin
-            ? '<div style="margin-top:6px"><a href="' + z.boletin + '" target="_blank" ' +
+            ? '<div class="pie"><a href="' + z.boletin + '" target="_blank" ' +
               'rel="noopener">Pronóstico completo del NHC →</a></div>'
             : '') +
         '</div>';
     }).join("");
+    actualizarResumen();
 
     zonas.forEach(function(z, idx){
       if(!z.anillos || !z.anillos.length) return;
@@ -460,17 +552,20 @@
         color: color, weight: 1.6, dashArray: "5 4", opacity: .9,
         fillColor: color, fillOpacity: .12, pane: "zonaPane"
       }).addTo(capaZonas);
+      // El párrafo del NHC va aquí y no en la ficha: es largo y variable, y en una
+      // franja de altura pareja desacomodaría todo. Va en inglés a propósito.
       poli.bindPopup(
         "<b>" + z.titulo + "</b><br>" +
         "Formación: " + (z.prob2dias === null ? "—" : z.prob2dias + "%") + " en 48 h · " +
         (z.prob7dias === null ? "—" : z.prob7dias + "%") + " en 7 días<br>" +
-        (z.centro ? "A " + distanciaKm(CAMPECHE, z.centro).toLocaleString("es-MX") + " km de Campeche" : "")
+        (z.centro ? "A " + distanciaKm(CAMPECHE, z.centro).toLocaleString("es-MX") + " km de Campeche" : "") +
+        (z.descripcion ? '<div class="popup-nhc">' + z.descripcion + "</div>" : "")
       );
       var tarjeta = document.querySelector('.tarjeta[data-z="' + idx + '"]');
       if(tarjeta){
         tarjeta.addEventListener("click", function(e){
-          if(e.target.closest("a, details")) return; // no secuestrar ligas ni el desplegable
-          map.fitBounds(poli.getBounds(), {padding:[40,40], maxZoom:6});
+          if(e.target.closest("a")) return; // no secuestrar la liga al boletín
+          map.fitBounds(poli.getBounds(), margenes(40));
           poli.openPopup();
         });
       }
@@ -491,6 +586,8 @@
           '<div class="vacio" style="border-left-color:var(--faint);background:#ffffff08">' +
           '<b>Sin datos de vigilancia</b>Todavía no hay un pronóstico de formación ' +
           'descargado. Se actualiza junto con los ciclones.</div>';
+        conteo.zonas = null;
+        actualizarResumen();
       });
   }
 
@@ -507,6 +604,9 @@
         document.getElementById("listaTormentas").innerHTML =
           '<div class="vacio" style="border-left-color:var(--grave);background:#F2685C14">' +
           '<b>No se pudo leer el archivo de ciclones</b>Revisa que el workflow haya corrido al menos una vez.</div>';
+        conteo.ciclones = null;
+        conteo.alerta = null;
+        actualizarResumen();
       });
   }
 

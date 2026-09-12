@@ -71,6 +71,23 @@ cono oficial del NHC es la fuente que manda, y por eso cada tarjeta liga directo
 a él. Si tocas esta lógica, no la conviertas en algo que parezca un pronóstico.
 Empezó siendo un sí/no y alarmaba en rojo por una tormenta a 3,200 km.
 
+## El tablero es una franja horizontal, no una columna
+
+Empezó siendo una columna lateral y **Marco pidió que fuera horizontal y
+plegable** (12-sep-2026). El motivo práctico: con dos secciones, la columna
+obligaba a hacer scroll y se comía un tercio del mapa. Ahora es una franja arriba
+con las fichas en fila, y el mapa queda de lado a lado.
+
+- **La cabecera tiene que bastar plegada.** Es lo único que se ve, así que lleva
+  los conteos y, si un ciclón apunta hacia Campeche, su nombre en rojo. Si le
+  agregas algo al tablero, pregúntate qué pasa con el panel cerrado.
+- **El estado plegado se guarda en `localStorage`** (`vigia-plegado`), envuelto en
+  try/catch porque en modo privado el navegador lo niega.
+- **Las fichas son de altura pareja.** Por eso el texto del NHC vive en el popup
+  del mapa y no en la ficha: es largo y variable, y desacomodaba la fila.
+- **Al encuadrar el mapa hay que descontar la franja** con `margenes()`, o el
+  popup nace debajo de ella.
+
 ## Las zonas de vigilancia no llevan semáforo
 
 Las tarjetas de vigilancia muestran probabilidad, distancia y rumbo **desde**
