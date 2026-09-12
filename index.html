@@ -77,12 +77,6 @@
             width:32px; height:32px; flex:none; font-size:.9rem; cursor:pointer;
             display:flex; align-items:center; justify-content:center; }
   #btnPlay:hover{ border-color:var(--azul); }
-  #btnPaleta{ background:var(--panel-solid); border:1px solid var(--line); color:var(--muted);
-              border-radius:99px; height:32px; padding:0 11px; flex:none; cursor:pointer;
-              font-size:.6rem; font-weight:700; letter-spacing:.05em; white-space:nowrap;
-              display:flex; align-items:center; gap:6px; }
-  #btnPaleta:hover{ border-color:var(--azul); color:var(--text); }
-  #btnPaleta .muestra{ width:34px; height:7px; border-radius:99px; flex:none; }
   #barra{ flex:1; accent-color:var(--azul); }
   .tiempo .meta{ display:flex; justify-content:space-between; align-items:baseline; font-size:.74rem; gap:10px; }
   .insignia{ font-size:.6rem; font-weight:700; letter-spacing:.05em; padding:2px 8px; border-radius:99px; }
@@ -125,9 +119,6 @@
   <div class="fila">
     <button id="btnPlay" aria-label="Reproducir radar">▶</button>
     <input type="range" id="barra" min="0" max="0" value="0" step="1">
-    <button id="btnPaleta" aria-label="Cambiar paleta del radar" title="Cambiar paleta del radar">
-      <span class="muestra" id="muestraPaleta"></span><span id="nombrePaleta">—</span>
-    </button>
   </div>
   <div class="meta">
     <span class="insignia pasado mono" id="insignia">—</span>
@@ -169,39 +160,15 @@
   // ---------------- radar (RainViewer) ----------------
   var TAM = (window.devicePixelRatio||1) >= 2 ? 512 : 256;
   var OPCIONES = "1_1";
-
-  // Paletas de RainViewer. El número va literal en la URL de la tesela, así que debe
-  // respetar la numeración documentada por ellos. La franja es solo una muestra para
-  // el botón: aproxima el gradiente, no pretende ser la escala exacta de dBZ.
-  var PALETAS = [
-    { id:6, nombre:"NEXRAD",  franja:"#12E312,#F2F215,#F28E15,#F23838,#E33BE3" },
-    { id:2, nombre:"AZUL",    franja:"#2B6BE3,#35C1E3,#E3D53B,#F28E15,#F23838" },
-    { id:8, nombre:"DARK SKY",franja:"#3B4FE3,#8E5CE3,#E35CB8,#F2687A,#F2B268" },
-    { id:4, nombre:"TWC",     franja:"#1EA83B,#7FD13B,#F2E33B,#F2883B,#D13B3B" }
-  ];
-  // Se recuerda la elección en este navegador; si no hay nada guardado, arranca en NEXRAD
-  // (verde→rojo), que es la que más contrasta sobre un mapa oscuro.
-  var iPaleta = 0;
-  try {
-    var guardada = localStorage.getItem("vigia.paleta");
-    if(guardada !== null){
-      var j = PALETAS.findIndex(function(p){ return String(p.id) === guardada; });
-      if(j >= 0) iPaleta = j;
-    }
-  } catch(e){ /* modo privado o storage bloqueado: se queda con la de fábrica */ }
-
-  function ESQUEMA(){ return PALETAS[iPaleta].id; }
-
-  function pintarBotonPaleta(){
-    var p = PALETAS[iPaleta];
-    document.getElementById("nombrePaleta").textContent = p.nombre;
-    document.getElementById("muestraPaleta").style.background =
-      "linear-gradient(to right," + p.franja + ")";
-  }
+  // Paleta NEXRAD Level III (verde→amarillo→rojo→magenta). El número va literal en la URL
+  // de la tesela y respeta la numeración documentada por RainViewer. Se eligió sobre la
+  // Universal Blue (2) porque su extremo bajo se pierde contra el mapa oscuro: con azul,
+  // la lluvia ligera quedaba casi invisible.
+  var ESQUEMA = 6;
   var cuadros = [], capaA = null, capaB = null, activaEsA = true;
   var iCuadro = 0, corriendo = false, cronometro = null, host = "";
 
-  function urlCuadro(c){ return host + c.path + "/" + TAM + "/{z}/{x}/{y}/" + ESQUEMA() + "/" + OPCIONES + ".png"; }
+  function urlCuadro(c){ return host + c.path + "/" + TAM + "/{z}/{x}/{y}/" + ESQUEMA + "/" + OPCIONES + ".png"; }
   function hhmm(seg){ return new Date(seg*1000).toLocaleTimeString("es-MX",{hour:"2-digit",minute:"2-digit"}); }
 
   function ultimoPasado(){
@@ -242,15 +209,6 @@
   document.getElementById("btnPlay").addEventListener("click", function(){ corriendo ? pausar() : reproducir(); });
   document.getElementById("barra").addEventListener("input", function(e){ pausar(); mostrar(+e.target.value); });
 
-  document.getElementById("btnPaleta").addEventListener("click", function(){
-    iPaleta = (iPaleta + 1) % PALETAS.length;
-    pintarBotonPaleta();
-    try { localStorage.setItem("vigia.paleta", String(ESQUEMA())); } catch(e){ /* storage bloqueado */ }
-    // mostrar() escribe la URL nueva en la capa que estaba oculta y desvanece la anterior,
-    // así que repetir el cuadro actual cambia la paleta con el mismo cruzado de siempre.
-    if(cuadros.length) mostrar(iCuadro);
-  });
-  pintarBotonPaleta();
 
   function cargarRadar(){
     fetch("https://api.rainviewer.com/public/weather-maps.json")
