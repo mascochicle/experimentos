@@ -1,0 +1,7 @@
+{
+  "generado": null,
+  "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
+  "total": 0,
+  "tormentas": [],
+  "nota": "Archivo semilla. Lo reemplaza el workflow 'Actualizar tormentas' en su primera corrida."
+}

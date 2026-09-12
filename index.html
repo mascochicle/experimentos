@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vigía del Golfo</title>
+<meta name="description" content="Ciclones activos, lluvia y tormentas en vivo sobre el Golfo, el Caribe y el Pacífico mexicano — con la distancia a Campeche.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --ink:#0B1014; --panel:#12181Cf2; --panel-solid:#12181C; --line:#232B30;
+    --text:#DCE4E4; --muted:#8B9A9F; --faint:#5B6A6F;
+    --ok:#35C98F; --alerta:#E3A83B; --grave:#F2685C; --azul:#5B8CFF;
+    --td:#58A6C9; --ts:#E3C64B; --c1:#E39A3B; --c2:#E3703B;
+    --c3:#D9453F; --c4:#B5306B; --c5:#8E2FA0;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ height:100%; margin:0; }
+  body{
+    background:var(--ink); color:var(--text);
+    font-family:"IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    overflow:hidden;
+  }
+  .mono{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric:tabular-nums; }
+  .eyebrow{ font-family:"IBM Plex Sans Condensed","IBM Plex Sans",sans-serif; font-weight:700;
+            text-transform:uppercase; letter-spacing:.08em; font-size:.64rem; color:var(--muted); }
+
+  #map{ position:absolute; inset:0; background:#0B1014; }
+  .leaflet-pane.leaflet-base-pane{ filter:invert(100%) hue-rotate(180deg) brightness(96%) contrast(88%); }
+  .leaflet-control-zoom a{ background:var(--panel-solid)!important; color:var(--text)!important; border-color:var(--line)!important; }
+  .leaflet-control-attribution{ background:rgba(18,24,28,.72)!important; color:var(--muted)!important; font-size:10px!important; }
+  .leaflet-control-attribution a{ color:var(--muted)!important; }
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{ background:var(--panel-solid); color:var(--text); border:1px solid var(--line); }
+  .leaflet-popup-content{ margin:11px 13px; font-size:.82rem; }
+
+  .float{ position:absolute; z-index:1000; background:var(--panel); backdrop-filter:blur(6px);
+          border:1px solid var(--line); border-radius:8px; }
+
+  .marca{ top:12px; left:12px; padding:9px 14px; display:flex; align-items:center; gap:9px; max-width:calc(100% - 24px); }
+  .marca b{ font-size:.92rem; font-weight:600; white-space:nowrap; }
+  .marca .punto{ width:7px; height:7px; border-radius:50%; background:var(--ok); flex:none; }
+  @media (prefers-reduced-motion:no-preference){ .marca .punto{ animation:latir 1.8s ease-in-out infinite; } }
+  @keyframes latir{ 0%,100%{opacity:1} 50%{opacity:.3} }
+  .marca .sello{ font-size:.68rem; color:var(--muted); white-space:nowrap; }
+
+  /* panel de tormentas */
+  .tablero{ top:62px; left:12px; width:326px; max-width:calc(100% - 24px);
+            max-height:calc(100% - 150px); overflow-y:auto; padding:13px 14px 11px; }
+  .tablero h2{ all:unset; display:block; font-size:.8rem; font-weight:600; margin-bottom:3px; }
+  .tablero .sub{ font-size:.72rem; color:var(--muted); margin-bottom:10px; }
+  .vacio{ border-left:3px solid var(--ok); padding:9px 11px; background:#35C98F14; font-size:.78rem; line-height:1.5; }
+  .vacio b{ display:block; margin-bottom:2px; }
+
+  .tarjeta{ border-top:1px solid var(--line); padding:11px 0 9px; cursor:pointer; }
+  .tarjeta:first-of-type{ border-top:none; }
+  .tarjeta:hover{ background:#ffffff08; }
+  .tarjeta .fila1{ display:flex; align-items:center; gap:8px; }
+  .tarjeta .cat{ font-size:.6rem; font-weight:700; letter-spacing:.05em; padding:2px 7px;
+                 border-radius:99px; color:#0B1014; white-space:nowrap; }
+  .tarjeta .nom{ font-weight:600; font-size:.88rem; flex:1; min-width:0;
+                 overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .tarjeta .fila2{ margin-top:5px; font-size:.74rem; color:var(--muted); line-height:1.5; }
+  .tarjeta .fila2 b{ color:var(--text); font-weight:600; }
+  .tarjeta .rumbo{ margin-top:5px; font-size:.72rem; padding:5px 8px; border-radius:4px; }
+  .tarjeta .rumbo.acerca{ background:#F2685C1c; color:var(--grave); }
+  .tarjeta .rumbo.vigilar{ background:#E3A83B1c; color:var(--alerta); }
+  .tarjeta .rumbo.aleja{ background:#35C98F14; color:var(--ok); }
+  .tarjeta a{ color:var(--azul); font-size:.72rem; text-decoration:none; }
+  .tarjeta a:hover{ text-decoration:underline; }
+
+  /* línea de tiempo del radar */
+  .tiempo{ bottom:12px; left:12px; right:12px; padding:9px 13px 11px; display:flex; flex-direction:column; gap:6px; }
+  .tiempo .fila{ display:flex; align-items:center; gap:10px; }
+  #btnPlay{ background:var(--panel-solid); border:1px solid var(--line); color:var(--text); border-radius:50%;
+            width:32px; height:32px; flex:none; font-size:.9rem; cursor:pointer;
+            display:flex; align-items:center; justify-content:center; }
+  #btnPlay:hover{ border-color:var(--azul); }
+  #barra{ flex:1; accent-color:var(--azul); }
+  .tiempo .meta{ display:flex; justify-content:space-between; align-items:baseline; font-size:.74rem; gap:10px; }
+  .insignia{ font-size:.6rem; font-weight:700; letter-spacing:.05em; padding:2px 8px; border-radius:99px; }
+  .insignia.pasado{ background:#35C98F1c; color:var(--ok); }
+  .insignia.futuro{ background:#E3A83B1c; color:var(--alerta); }
+
+  .cargando{ position:absolute; inset:0; z-index:2000; display:flex; align-items:center; justify-content:center;
+             background:var(--ink); flex-direction:column; gap:9px; transition:opacity .4s; }
+  .cargando.fuera{ opacity:0; pointer-events:none; }
+
+  @media(max-width:720px){
+    .tablero{ position:absolute; top:auto; bottom:86px; left:12px; right:12px; width:auto;
+              max-height:38vh; }
+    .marca b{ font-size:.82rem; }
+    .marca .sello{ display:none; }
+  }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="cargando" id="cargando">
+  <div class="eyebrow">Vigía del Golfo</div>
+  <div class="mono" style="font-size:.78rem;color:var(--muted)">cargando radar y ciclones…</div>
+</div>
+
+<div class="float marca">
+  <span class="punto"></span><b>Vigía del Golfo</b>
+  <span class="sello mono" id="sello">—</span>
+</div>
+
+<div class="float tablero">
+  <h2>Ciclones activos</h2>
+  <div class="sub">Atlántico, Golfo, Caribe y Pacífico oriental · fuente NHC</div>
+  <div id="listaTormentas"></div>
+</div>
+
+<div class="float tiempo">
+  <div class="fila">
+    <button id="btnPlay" aria-label="Reproducir radar">▶</button>
+    <input type="range" id="barra" min="0" max="0" value="0" step="1">
+  </div>
+  <div class="meta">
+    <span class="insignia pasado mono" id="insignia">—</span>
+    <span class="mono" id="horaCuadro">—</span>
+    <span class="eyebrow" id="cuentaCuadros">— / —</span>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  var CAMPECHE = [19.845, -90.54];
+
+  // ---------------- mapa ----------------
+  var map = L.map("map", { zoomControl:true, attributionControl:true }).setView([21, -88], 5);
+
+  map.createPane("basePane");
+  map.getPane("basePane").classList.add("leaflet-base-pane");
+  map.getPane("basePane").style.zIndex = 150;
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19, pane: "basePane"
+  }).addTo(map);
+  map.attributionControl.addAttribution(
+    'Radar: <a href="https://www.rainviewer.com/" target="_blank" rel="noopener">RainViewer</a> · ' +
+    'Ciclones: <a href="https://www.nhc.noaa.gov/" target="_blank" rel="noopener">NOAA/NHC</a>'
+  );
+
+  map.createPane("ciclonPane");
+  map.getPane("ciclonPane").style.zIndex = 650;
+
+  // referencia: casa
+  L.circleMarker(CAMPECHE, {
+    radius:5, color:"#DCE4E4", weight:2, fillColor:"#0B1014", fillOpacity:1, pane:"ciclonPane"
+  }).addTo(map).bindPopup("<b>Campeche</b><br>punto de referencia");
+
+  // ---------------- radar (RainViewer) ----------------
+  var TAM = (window.devicePixelRatio||1) >= 2 ? 512 : 256;
+  var ESQUEMA = 2, OPCIONES = "1_1";
+  var cuadros = [], capaA = null, capaB = null, activaEsA = true;
+  var iCuadro = 0, corriendo = false, cronometro = null, host = "";
+
+  function urlCuadro(c){ return host + c.path + "/" + TAM + "/{z}/{x}/{y}/" + ESQUEMA + "/" + OPCIONES + ".png"; }
+  function hhmm(seg){ return new Date(seg*1000).toLocaleTimeString("es-MX",{hour:"2-digit",minute:"2-digit"}); }
+
+  function ultimoPasado(){
+    for(var i=cuadros.length-1;i>=0;i--){ if(cuadros[i].tipo==="pasado") return i; }
+    return cuadros.length-1;
+  }
+
+  function mostrar(i){
+    if(!cuadros.length) return;
+    i = ((i % cuadros.length) + cuadros.length) % cuadros.length;
+    iCuadro = i;
+    var c = cuadros[i];
+    var entra = activaEsA ? capaB : capaA;
+    var sale  = activaEsA ? capaA : capaB;
+    entra.setUrl(urlCuadro(c)); entra.setOpacity(0.85);
+    if(sale) sale.setOpacity(0);
+    activaEsA = !activaEsA;
+
+    document.getElementById("barra").value = i;
+    document.getElementById("horaCuadro").textContent = hhmm(c.time);
+    document.getElementById("cuentaCuadros").textContent = (i+1) + " / " + cuadros.length;
+    var ins = document.getElementById("insignia");
+    if(c.tipo === "futuro"){ ins.textContent = "PRONÓSTICO"; ins.className = "insignia futuro mono"; }
+    else { ins.textContent = (i === ultimoPasado()) ? "AHORA" : "PASADO"; ins.className = "insignia pasado mono"; }
+  }
+
+  function reproducir(){
+    corriendo = true;
+    document.getElementById("btnPlay").textContent = "⏸";
+    clearInterval(cronometro);
+    cronometro = setInterval(function(){ mostrar(iCuadro+1); }, 650);
+  }
+  function pausar(){
+    corriendo = false;
+    document.getElementById("btnPlay").textContent = "▶";
+    clearInterval(cronometro);
+  }
+  document.getElementById("btnPlay").addEventListener("click", function(){ corriendo ? pausar() : reproducir(); });
+  document.getElementById("barra").addEventListener("input", function(e){ pausar(); mostrar(+e.target.value); });
+
+  function cargarRadar(){
+    fetch("https://api.rainviewer.com/public/weather-maps.json")
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        host = d.host;
+        var pasado = (d.radar && d.radar.past) || [];
+        var futuro = (d.radar && d.radar.nowcast) || [];
+        cuadros = pasado.map(function(f){ return {time:f.time, path:f.path, tipo:"pasado"}; })
+          .concat(futuro.map(function(f){ return {time:f.time, path:f.path, tipo:"futuro"}; }));
+        document.getElementById("barra").max = Math.max(0, cuadros.length-1);
+        if(!capaA){
+          capaA = L.tileLayer("", {tileSize:256, opacity:0, maxNativeZoom:7, maxZoom:19}).addTo(map);
+          capaB = L.tileLayer("", {tileSize:256, opacity:0, maxNativeZoom:7, maxZoom:19}).addTo(map);
+        }
+        mostrar(ultimoPasado());
+        document.getElementById("cargando").classList.add("fuera");
+      })
+      .catch(function(){
+        document.getElementById("cargando").classList.add("fuera");
+        document.getElementById("horaCuadro").textContent = "radar no disponible";
+      });
+  }
+
+  // ---------------- ciclones (archivo propio, sin CORS de por medio) ----------------
+  var capaCiclones = L.layerGroup([], {pane:"ciclonPane"}).addTo(map);
+  var RUMBOS = ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSO","SO","OSO","O","ONO","NO","NNO"];
+
+  function aRumbo(g){ return RUMBOS[Math.round(((g%360)+360)%360 / 22.5) % 16]; }
+  function kmh(kt){ return Math.round(kt * 1.852); }
+  function rad(d){ return d * Math.PI / 180; }
+
+  function distanciaKm(a, b){
+    var R = 6371;
+    var dLat = rad(b[0]-a[0]), dLon = rad(b[1]-a[1]);
+    var s = Math.sin(dLat/2)*Math.sin(dLat/2) +
+            Math.cos(rad(a[0]))*Math.cos(rad(b[0]))*Math.sin(dLon/2)*Math.sin(dLon/2);
+    return Math.round(2*R*Math.asin(Math.sqrt(s)));
+  }
+  function azimut(desde, hacia){
+    var y = Math.sin(rad(hacia[1]-desde[1])) * Math.cos(rad(hacia[0]));
+    var x = Math.cos(rad(desde[0]))*Math.sin(rad(hacia[0])) -
+            Math.sin(rad(desde[0]))*Math.cos(rad(hacia[0]))*Math.cos(rad(hacia[1]-desde[1]));
+    return (Math.atan2(y,x) * 180/Math.PI + 360) % 360;
+  }
+  function difAngulo(a, b){
+    var d = Math.abs(a-b) % 360;
+    return d > 180 ? 360-d : d;
+  }
+
+  // Categoría por viento sostenido en nudos (escala Saffir-Simpson).
+  function categoria(clasificacion, kt){
+    if(clasificacion === "HU" || clasificacion === "MH" || kt >= 64){
+      if(kt >= 137) return {txt:"CAT 5", color:"var(--c5)"};
+      if(kt >= 113) return {txt:"CAT 4", color:"var(--c4)"};
+      if(kt >= 96)  return {txt:"CAT 3", color:"var(--c3)"};
+      if(kt >= 83)  return {txt:"CAT 2", color:"var(--c2)"};
+      return {txt:"CAT 1", color:"var(--c1)"};
+    }
+    if(clasificacion === "TS" || clasificacion === "STS" || kt >= 34) return {txt:"T. TROPICAL", color:"var(--ts)"};
+    if(clasificacion === "PTC") return {txt:"POTENCIAL", color:"var(--td)"};
+    return {txt:"DEPRESIÓN", color:"var(--td)"};
+  }
+
+  function pintarCiclones(datos){
+    var lista = document.getElementById("listaTormentas");
+    capaCiclones.clearLayers();
+    var tormentas = (datos && datos.tormentas) || [];
+
+    if(!tormentas.length){
+      lista.innerHTML =
+        '<div class="vacio"><b>Sin ciclones activos</b>' +
+        'No hay ningún sistema tropical con aviso vigente del NHC en este momento. ' +
+        'El radar de lluvia de abajo sigue funcionando normal.</div>';
+      return;
+    }
+
+    lista.innerHTML = tormentas.map(function(t, idx){
+      var cat = categoria(t.clasificacion, t.intensidadKt);
+      var d = distanciaKm(CAMPECHE, [t.lat, t.lon]);
+      var azCampeche = azimut(CAMPECHE, [t.lat, t.lon]);
+      // ¿Su rumbo actual apunta hacia Campeche? Se compara contra el azimut de regreso.
+      // Ojo: es geometría del rumbo de este momento, NO un pronóstico de trayectoria.
+      var apunta = isFinite(t.rumboGrados) &&
+                   difAngulo(t.rumboGrados, (azCampeche + 180) % 360) < 50;
+      var nivel = !apunta ? "aleja" : (d < 1500 ? "acerca" : "vigilar");
+      var textoRumbo = {
+        acerca:  "Su rumbo actual apunta hacia acá y está cerca — checa el cono oficial.",
+        vigilar: "Apunta en esta dirección, pero todavía está lejos. Hay que seguirlo.",
+        aleja:   "Su rumbo actual no apunta hacia Campeche."
+      }[nivel];
+      var rumboTxt = isFinite(t.rumboGrados)
+        ? "se mueve al <b>" + aRumbo(t.rumboGrados) + "</b> a <b>" + kmh(t.velocidadKt) + " km/h</b>"
+        : "sin dato de movimiento";
+      return '' +
+        '<div class="tarjeta" data-i="' + idx + '">' +
+          '<div class="fila1">' +
+            '<span class="cat" style="background:' + cat.color + '">' + cat.txt + '</span>' +
+            '<span class="nom">' + t.nombre + '</span>' +
+          '</div>' +
+          '<div class="fila2">' +
+            'Vientos <b>' + kmh(t.intensidadKt) + ' km/h</b> · ' + (isFinite(t.presionMb) ? t.presionMb + ' mb' : '—') + '<br>' +
+            'A <b>' + d.toLocaleString("es-MX") + ' km</b> de Campeche, al <b>' + aRumbo(azCampeche) + '</b><br>' +
+            rumboTxt +
+          '</div>' +
+          '<div class="rumbo ' + nivel + '">' + textoRumbo + '</div>' +
+          (t.graficas ? '<a href="' + t.graficas + '" target="_blank" rel="noopener">Cono y avisos oficiales del NHC →</a>' : '') +
+        '</div>';
+    }).join("");
+
+    tormentas.forEach(function(t, idx){
+      var cat = categoria(t.clasificacion, t.intensidadKt);
+      var color = getComputedStyle(document.documentElement)
+        .getPropertyValue(cat.color.replace("var(","").replace(")","")).trim() || "#E3C64B";
+      var m = L.circleMarker([t.lat, t.lon], {
+        radius: 9, color:"#0B1014", weight:2, fillColor:color, fillOpacity:.95, pane:"ciclonPane"
+      }).addTo(capaCiclones);
+      m.bindPopup(
+        "<b>" + t.nombre + "</b> — " + cat.txt + "<br>" +
+        "Vientos " + kmh(t.intensidadKt) + " km/h<br>" +
+        "A " + distanciaKm(CAMPECHE, [t.lat, t.lon]).toLocaleString("es-MX") + " km de Campeche"
+      );
+      // halo proporcional a la intensidad, para que se lea de un vistazo en el mapa
+      L.circleMarker([t.lat, t.lon], {
+        radius: 9 + Math.min(26, t.intensidadKt/4), color:color, weight:1.5,
+        opacity:.5, fill:false, pane:"ciclonPane"
+      }).addTo(capaCiclones);
+      var tarjeta = document.querySelector('.tarjeta[data-i="' + idx + '"]');
+      if(tarjeta){
+        tarjeta.addEventListener("click", function(){
+          map.setView([t.lat, t.lon], 6);
+          m.openPopup();
+        });
+      }
+    });
+  }
+
+  function cargarCiclones(){
+    fetch("datos/tormentas.json?t=" + Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        pintarCiclones(d);
+        document.getElementById("sello").textContent = d.generado
+          ? "ciclones: " + new Date(d.generado).toLocaleString("es-MX",{hour12:false, dateStyle:"short", timeStyle:"short"})
+          : "ciclones: esperando primera corrida";
+      })
+      .catch(function(){
+        document.getElementById("listaTormentas").innerHTML =
+          '<div class="vacio" style="border-left-color:var(--grave);background:#F2685C14">' +
+          '<b>No se pudo leer el archivo de ciclones</b>Revisa que el workflow haya corrido al menos una vez.</div>';
+      });
+  }
+
+  cargarRadar();
+  cargarCiclones();
+  setInterval(cargarRadar, 5*60*1000);
+  setInterval(cargarCiclones, 10*60*1000);
+})();
+</script>
+</body>
+</html>
