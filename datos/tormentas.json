@@ -1,7 +1,22 @@
 {
-  "generado": null,
+  "generado": "2026-09-12T17:12:26.143Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 0,
-  "tormentas": [],
-  "nota": "Archivo semilla. Lo reemplaza el workflow 'Actualizar tormentas' en su primera corrida."
+  "total": 1,
+  "tormentas": [
+    {
+      "id": "ep142026",
+      "nombre": "Norbert",
+      "clasificacion": "TS",
+      "cuenca": "EP4",
+      "intensidadKt": 50,
+      "presionMb": 999,
+      "lat": 17.3,
+      "lon": -128.3,
+      "rumboGrados": 285,
+      "velocidadKt": 10,
+      "actualizado": "2026-09-12T15:00:00.000Z",
+      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP4.shtml",
+      "graficas": "https://www.nhc.noaa.gov/graphics_ep4.shtml"
+    }
+  ]
 }
