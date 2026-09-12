@@ -29,7 +29,23 @@
 
   #map{ position:absolute; inset:0; background:#0B1014; }
   .leaflet-pane.leaflet-base-pane{ filter:invert(100%) hue-rotate(180deg) brightness(96%) contrast(88%); }
-  .leaflet-control-zoom a{ background:var(--panel-solid)!important; color:var(--text)!important; border-color:var(--line)!important; }
+  /* Los controles propios sustituyen a los de Leaflet: los de fábrica nacen arriba
+     a la izquierda, justo debajo de la franja, y quedaban tapados. */
+  .mandos{ position:absolute; right:12px; bottom:96px; z-index:1000;
+           display:flex; flex-direction:column; align-items:flex-end; gap:7px; }
+  .mando{ background:var(--panel); backdrop-filter:blur(6px); border:1px solid var(--line);
+          color:var(--text); border-radius:8px; cursor:pointer; font-family:inherit;
+          display:flex; align-items:center; justify-content:center; padding:0; }
+  .mando:hover{ border-color:var(--azul); color:var(--azul); }
+  .mando:focus-visible{ outline:2px solid var(--azul); outline-offset:2px; }
+  #btnCasa{ gap:6px; padding:7px 11px; font-size:.74rem; font-weight:600; }
+  #btnCasa svg{ flex:none; }
+  .zoom{ display:flex; flex-direction:column; }
+  .zoom button{ width:32px; height:30px; background:none; border:none; color:inherit;
+                font-size:1rem; cursor:pointer; font-family:inherit; }
+  .zoom button:hover{ color:var(--azul); }
+  .zoom button:first-child{ border-bottom:1px solid var(--line); }
+  .leaflet-control-attribution{ margin-bottom:0!important; }
   .leaflet-control-attribution{ background:rgba(18,24,28,.72)!important; color:var(--muted)!important; font-size:10px!important; }
   .leaflet-control-attribution a{ color:var(--muted)!important; }
   .leaflet-popup-content-wrapper,.leaflet-popup-tip{ background:var(--panel-solid); color:var(--text); border:1px solid var(--line); }
@@ -139,6 +155,9 @@
     .fila{ overflow-x:auto; padding-bottom:2px; }
     .tarjeta{ width:252px; }
     .vacio{ width:auto; }
+    /* En celular el botón se queda con el ícono: la palabra no cabe junto al mapa. */
+    #btnCasa span{ display:none; }
+    #btnCasa{ width:32px; height:32px; padding:0; }
   }
 </style>
 </head>
@@ -172,6 +191,21 @@
   </div>
 </div>
 
+<div class="mandos">
+  <button class="mando" id="btnCasa" title="Volver a Campeche">
+    <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor"
+         stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+      <circle cx="8" cy="8" r="3.1"/>
+      <path d="M8 1v2.3M8 12.7V15M1 8h2.3M12.7 8H15"/>
+    </svg>
+    <span>Campeche</span>
+  </button>
+  <div class="mando zoom">
+    <button id="btnMas" title="Acercar" aria-label="Acercar">+</button>
+    <button id="btnMenos" title="Alejar" aria-label="Alejar">−</button>
+  </div>
+</div>
+
 <div class="float tiempo">
   <div class="fila">
     <button id="btnPlay" aria-label="Reproducir radar">▶</button>
@@ -199,10 +233,19 @@
   var cabecera = document.getElementById("cabecera");
   var LLAVE_PLEGADO = "vigia-plegado";
 
-  function plegar(si){
+  // guardar=false es para los plegados automáticos: no deben cambiar cómo abre la
+  // página la próxima vez, eso solo lo decide quien le da clic a la cabecera.
+  function plegar(si, guardar){
     panel.classList.toggle("plegado", si);
     cabecera.setAttribute("aria-expanded", si ? "false" : "true");
+    if(guardar === false) return;
     try{ localStorage.setItem(LLAVE_PLEGADO, si ? "1" : "0"); }catch(e){}
+  }
+  // En celular la franja desplegada ocupa más de media pantalla, así que al ir a
+  // un lugar del mapa se pliega sola; si no, queda una rendija donde centrarlo.
+  var PANTALLA_ANGOSTA = window.matchMedia("(max-width:720px)");
+  function hacerLugar(){
+    if(PANTALLA_ANGOSTA.matches) plegar(true, false);
   }
   cabecera.addEventListener("click", function(){
     plegar(!panel.classList.contains("plegado"));
@@ -218,13 +261,39 @@
 
   // La franja flota sobre el mapa, así que al encuadrar hay que descontarla o el
   // popup nace debajo de ella. Abajo se descuenta la línea de tiempo del radar.
+  // Se miden los elementos reales en vez de usar números fijos: la franja y la
+  // línea de tiempo cambian de alto entre escritorio, celular, plegado y abierto,
+  // y con constantes Campeche quedaba corrido 14 px en el celular.
+  function alturaFranja(){
+    return Math.round(panel.getBoundingClientRect().bottom) + 10;
+  }
+  function alturaAbajo(){
+    var t = document.querySelector(".tiempo");
+    return t ? Math.round(window.innerHeight - t.getBoundingClientRect().top) + 10 : 96;
+  }
   function margenes(lado){
-    var arriba = panel.classList.contains("plegado") ? 30 : panel.offsetHeight + 22;
     return {
-      paddingTopLeft: [lado, arriba],
-      paddingBottomRight: [lado, 96],
-      maxZoom: 6
+      paddingTopLeft: [lado, alturaFranja()],
+      paddingBottomRight: [lado, alturaAbajo()],
+      maxZoom: 6,
+      // Sin animación a propósito: el popup se abre enseguida, y con el encuadre
+      // todavía corriendo su autoPan peleaba con él y la zona quedaba descentrada.
+      animate: false
     };
+  }
+
+  // Encuadra algo y le abre su globo, dejándolo dentro de la parte visible del
+  // mapa (la que no tapan ni la franja de arriba ni la línea de tiempo de abajo).
+  function enfocar(capa, limites, ancla, lado){
+    hacerLugar(); // antes de medir la franja, para encuadrar con la altura ya plegada
+    var globo = capa.getPopup();
+    if(globo){
+      globo.options.autoPanPaddingTopLeft = L.point(24, alturaFranja() + 10);
+      globo.options.autoPanPaddingBottomRight = L.point(24, alturaAbajo() + 10);
+    }
+    map.fitBounds(limites, margenes(lado));
+    if(ancla) capa.openPopup(L.latLng(ancla[0], ancla[1]));
+    else capa.openPopup();
   }
 
   var conteo = { ciclones:null, zonas:null, alerta:null };
@@ -247,7 +316,7 @@
   }
 
   // ---------------- mapa ----------------
-  var map = L.map("map", { zoomControl:true, attributionControl:true }).setView([21, -88], 5);
+  var map = L.map("map", { zoomControl:false, attributionControl:true }).setView([21, -88], 5);
 
   map.createPane("basePane");
   map.getPane("basePane").classList.add("leaflet-base-pane");
@@ -277,6 +346,29 @@
   L.circleMarker(CAMPECHE, {
     radius:5, color:"#DCE4E4", weight:2, fillColor:"#0B1014", fillOpacity:1, pane:"ciclonPane"
   }).addTo(map).bindPopup("<b>Campeche</b><br>punto de referencia");
+
+  // ---------------- mandos del mapa ----------------
+  // Vista de casa: Campeche al centro, con el zoom de arranque. El botón existe
+  // porque al saltar a una zona lejana no había forma obvia de regresar, y los
+  // controles de Leaflet nacían debajo de la franja.
+  //
+  // Zoom fijo en vez de encuadrar un rectángulo: el rectángulo no cabe en el
+  // ancho de un celular y Leaflet se alejaba hasta mostrar medio continente.
+  var ZOOM_CASA = 5;
+  function centrarEn(punto, zoom){
+    // El centro que se ve no es el centro del mapa: arriba lo tapa la franja y
+    // abajo la línea de tiempo. Se corre el centro para compensar la diferencia.
+    var desfase = (alturaFranja() - alturaAbajo()) / 2;
+    var p = map.project(L.latLng(punto[0], punto[1]), zoom).subtract([0, desfase]);
+    map.setView(map.unproject(p, zoom), zoom, {animate:false});
+  }
+  document.getElementById("btnCasa").addEventListener("click", function(){
+    map.closePopup();
+    hacerLugar();
+    centrarEn(CAMPECHE, ZOOM_CASA);
+  });
+  document.getElementById("btnMas").addEventListener("click", function(){ map.zoomIn(); });
+  document.getElementById("btnMenos").addEventListener("click", function(){ map.zoomOut(); });
 
   // ---------------- radar (RainViewer) ----------------
   var TAM = (window.devicePixelRatio||1) >= 2 ? 512 : 256;
@@ -469,8 +561,7 @@
       var tarjeta = document.querySelector('.tarjeta[data-i="' + idx + '"]');
       if(tarjeta){
         tarjeta.addEventListener("click", function(){
-          map.fitBounds(L.latLngBounds([t.lat, t.lon], [t.lat, t.lon]), margenes(30));
-          m.openPopup();
+          enfocar(m, L.latLngBounds([t.lat, t.lon], [t.lat, t.lon]), null, 30);
         });
       }
     });
@@ -565,8 +656,9 @@
       if(tarjeta){
         tarjeta.addEventListener("click", function(e){
           if(e.target.closest("a")) return; // no secuestrar la liga al boletín
-          map.fitBounds(poli.getBounds(), margenes(40));
-          poli.openPopup();
+          // El globo se ancla al punto que marca el NHC, no al centro geométrico
+          // del polígono: en áreas alargadas no son el mismo lugar.
+          enfocar(poli, poli.getBounds(), z.centro, 40);
         });
       }
     });

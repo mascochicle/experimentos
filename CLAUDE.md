@@ -86,7 +86,19 @@ con las fichas en fila, y el mapa queda de lado a lado.
 - **Las fichas son de altura pareja.** Por eso el texto del NHC vive en el popup
   del mapa y no en la ficha: es largo y variable, y desacomodaba la fila.
 - **Al encuadrar el mapa hay que descontar la franja** con `margenes()`, o el
-  popup nace debajo de ella.
+  popup nace debajo de ella. Se **miden los elementos reales**, no números fijos:
+  con constantes Campeche quedaba corrido 14 px en celular.
+- **El encuadre va sin animación** (`animate:false`). Con animación, el popup se
+  abría mientras el mapa seguía moviéndose, su autoPan peleaba con el encuadre y
+  la zona quedaba descentrada. Marco lo reportó así: "no se centran bien".
+- **Los controles de zoom son propios**, abajo a la derecha. Los de Leaflet nacen
+  arriba a la izquierda, justo debajo de la franja, y quedaban tapados.
+- **El botón "Campeche" existe porque Marco no encontraba cómo regresar** después
+  de saltar a una zona lejana. Usa zoom fijo (`ZOOM_CASA`) y no un rectángulo: el
+  rectángulo no cabía en un celular y Leaflet se alejaba a medio continente.
+- **En celular la franja se pliega sola** al tocar una ficha o el botón de casa,
+  porque abierta ocupa más de media pantalla. Ese plegado automático **no se
+  guarda**: cómo abre la página lo decide solo el clic en la cabecera.
 
 ## Las zonas de vigilancia no llevan semáforo
 
