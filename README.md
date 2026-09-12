@@ -18,6 +18,13 @@ lee su propio archivo — mismo origen, sin llaves, sin backend que pagar ni man
 Ventaja extra: si algo falla, queda en los logs de Actions, que sí se pueden leer y
 depurar.
 
+El mismo workflow baja el **Tropical Weather Outlook**, que el NHC solo publica como un
+ZIP de shapefiles. Para no instalar GDAL en cada corrida,
+[`vigilancia.mjs`](.github/scripts/vigilancia.mjs) trae un lector de shapefile y dBASE
+escrito a mano, sin dependencias, y deja el resultado en
+[`datos/vigilancia.json`](datos/vigilancia.json). De paso simplifica los polígonos de 300
+vértices a unos 30, que a escala de continente se ven igual y pesan siete veces menos.
+
 ## Qué muestra
 
 - **Mapa oscuro** — teselas de OpenStreetMap, invertidas por CSS
@@ -29,7 +36,11 @@ depurar.
   - 🔴 apunta hacia acá y está a menos de 1,500 km
   - 🟡 apunta en esta dirección pero está lejos
   - 🟢 su rumbo no apunta hacia Campeche
-- **Liga al cono oficial del NHC** de cada tormenta
+- **Zonas en vigilancia** — las áreas donde el NHC ve posibilidad de que se forme un
+  ciclón, con su probabilidad a 48 horas y a 7 días, dibujadas sobre el mapa en los
+  mismos colores del NHC. Aparecen **antes** de que la tormenta exista y tenga nombre,
+  así que son el aviso más temprano que hay
+- **Liga al cono oficial del NHC** de cada tormenta, y al pronóstico completo de cada zona
 
 > El semáforo es **geometría del rumbo de este momento, no un pronóstico**. El cono
 > oficial del NHC es la fuente que manda; por eso cada tarjeta liga directo a él.

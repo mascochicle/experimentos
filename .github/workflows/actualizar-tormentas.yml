@@ -69,11 +69,37 @@ jobs:
             }
           '
 
+      # --- Zonas de vigilancia (Tropical Weather Outlook) -------------------
+      # Son las áreas que el NHC marca como posible formación en 2 y 7 días: avisan
+      # antes de que la tormenta exista y tenga nombre. Van con continue-on-error
+      # a propósito — si el GTWO falla, los ciclones activos igual se publican.
+      - name: Bajar el GTWO del NHC
+        id: gtwo
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          mkdir -p /tmp/gtwo
+          curl --fail --silent --show-error --location \
+            --max-time 30 \
+            --user-agent "vigia-del-golfo/1.0 (github.com/mascochicle/experimentos)" \
+            "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip" \
+            -o /tmp/gtwo.zip
+          echo "Bytes recibidos: $(wc -c < /tmp/gtwo.zip)"
+          unzip -o -q /tmp/gtwo.zip -d /tmp/gtwo
+          ls -1 /tmp/gtwo
+
+      - name: Armar datos/vigilancia.json
+        if: steps.gtwo.outcome == 'success'
+        continue-on-error: true
+        run: node .github/scripts/vigilancia.mjs /tmp/gtwo datos/vigilancia.json
+
       - name: Publicar si cambió
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datos/tormentas.json
+          # Con "set -e" un test que falla tumba el paso, así que va con if completo.
+          if [ -f datos/vigilancia.json ]; then git add datos/vigilancia.json; fi
           if git diff --staged --quiet; then
             echo "Sin cambios en el feed — no hay nada que publicar."
           else

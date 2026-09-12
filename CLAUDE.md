@@ -46,6 +46,19 @@ Si no, va por Actions igual que esta. No inventes un proxy.
   `binNumber`, `intensity` (kt), `pressure`, `latitudeNumeric`,
   `longitudeNumeric`, `movementDir`, `movementSpeed`, `lastUpdate`,
   `publicAdvisory.url`, `forecastGraphics.url`.
+- **El Tropical Weather Outlook solo existe como shapefile.** Está en
+  `https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip`. Se probaron
+  `gtwo_areas.kml`, `gtwo.kmz` y `gtwo.php`: los tres dan **404**. No hay GeoJSON.
+  Por eso `.github/scripts/vigilancia.mjs` trae un lector de shapefile y dBASE
+  escrito a mano — son ~100 líneas contra meterle `gdal-bin` (apt-get de ~1 min)
+  a cada corrida de media hora.
+- **Qué trae ese ZIP**: `gtwo_areas_*` (polígonos), `gtwo_points_*` (el marcador
+  de cada área), `gtwo_lines_*` y dos `two_*_text_*.rtf` que, pese a la
+  extensión, son **texto plano** con el boletín completo. Los nombres llevan la
+  hora de emisión pegada, así que se buscan por prefijo.
+- **Campos del DBF**: `BASIN` (`Atlantic` / `Pacific`), `AREA` (número que
+  corresponde al punto numerado del boletín), `PROB2DAY`, `RISK2DAY`,
+  `PROB7DAY`, `RISK7DAY`.
 
 ## El semáforo de rumbo
 
@@ -58,6 +71,22 @@ cono oficial del NHC es la fuente que manda, y por eso cada tarjeta liga directo
 a él. Si tocas esta lógica, no la conviertas en algo que parezca un pronóstico.
 Empezó siendo un sí/no y alarmaba en rojo por una tormenta a 3,200 km.
 
+## Las zonas de vigilancia no llevan semáforo
+
+Las tarjetas de vigilancia muestran probabilidad, distancia y rumbo **desde**
+Campeche, pero **no** dicen si se acercan: un área de posible formación no tiene
+trayectoria todavía, así que cualquier flecha sería inventada. Los colores son
+los del propio NHC (amarillo bajo · naranja medio · rojo alto), no un criterio
+nuestro.
+
+**El párrafo descriptivo se deja en inglés, tal cual.** Traducirlo automáticamente
+sería poner palabras propias en boca de un boletín oficial. Los títulos sí se
+traducen, porque son nombres de lugar con gramática fija
+(`[Well|Far] <direcciones> [of the] <lugar>`), y se traducen **por frase**: el
+intento de hacerlo palabra por palabra produjo "Centro del y oeste del East
+Pacífico". Si un lugar no está en la tabla `LUGARES`, se queda en inglés a
+propósito.
+
 ## Cómo probar sin publicar
 
 ```bash
@@ -68,8 +97,22 @@ Tiene que ser por HTTP: con `file://` el navegador bloquea la lectura de
 `datos/tormentas.json`.
 
 Para probar la lógica de las tarjetas sin depender de que haya ciclones reales,
-edita `datos/tormentas.json` a mano con tormentas inventadas. El workflow lo
-sobrescribe en su próxima corrida, así que no te preocupes por ensuciarlo.
+edita `datos/tormentas.json` o `datos/vigilancia.json` a mano con datos
+inventados. El workflow los sobrescribe en su próxima corrida, así que no te
+preocupes por ensuciarlos — pero **regenéralos antes de comitear**, que si no se
+publica el invento.
+
+Para el script de vigilancia sin esperar al workflow:
+
+```bash
+curl -L https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip -o /tmp/gtwo.zip
+mkdir -p /tmp/gtwo && unzip -o /tmp/gtwo.zip -d /tmp/gtwo
+node .github/scripts/vigilancia.mjs /tmp/gtwo datos/vigilancia.json
+```
+
+Los dos estados que **no** se ven cuando hay actividad y hay que probar a mano:
+el tablero sin zonas (`"zonas": []` con `cuencasSinFormacion`) y una zona cerca
+de Campeche.
 
 ## Límites del entorno
 

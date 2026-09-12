@@ -1,0 +1,284 @@
+{
+  "generado": "2026-09-12T18:38:24.301Z",
+  "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
+  "total": 2,
+  "cuencasSinFormacion": [
+    "Atlántico"
+  ],
+  "zonas": [
+    {
+      "cuenca": "Pacific",
+      "cuencaEs": "Pacífico oriental",
+      "numero": "1",
+      "titulo": "Pacífico oriental (centro y oeste) · EP97",
+      "tituloOriginal": "Central and Western East Pacific (EP97)",
+      "descripcion": "Showers and thunderstorms associated with an area of low pressure located several hundred miles southwest of the southwestern coast of Mexico have become a little less organized this morning. Environmental conditions appear conducive for development, however, and a tropical depression is expected to form during the next couple of days while it moves generally west-northwestward to westward over the central and western portions of the eastern Pacific basin. For more information, including gale warnings, please see the High Seas Forecast issued by the National Weather Service.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
+      "prob2dias": 80,
+      "riesgo2dias": "alto",
+      "prob7dias": 90,
+      "riesgo7dias": "alto",
+      "centro": [
+        16.645,
+        -114.11
+      ],
+      "anillos": [
+        [
+          [
+            18.33,
+            -114.08
+          ],
+          [
+            17.89,
+            -113.06
+          ],
+          [
+            17.45,
+            -112.44
+          ],
+          [
+            16.83,
+            -111.97
+          ],
+          [
+            16.35,
+            -111.83
+          ],
+          [
+            15.75,
+            -111.86
+          ],
+          [
+            15.23,
+            -112.1
+          ],
+          [
+            14.7,
+            -112.67
+          ],
+          [
+            14.34,
+            -113.43
+          ],
+          [
+            14.09,
+            -114.36
+          ],
+          [
+            13.91,
+            -115.51
+          ],
+          [
+            13.8,
+            -116.99
+          ],
+          [
+            13.8,
+            -118.91
+          ],
+          [
+            14.07,
+            -121.54
+          ],
+          [
+            14.36,
+            -122.8
+          ],
+          [
+            14.7,
+            -123.75
+          ],
+          [
+            15.1,
+            -124.54
+          ],
+          [
+            15.69,
+            -125.28
+          ],
+          [
+            16.22,
+            -125.65
+          ],
+          [
+            16.93,
+            -125.85
+          ],
+          [
+            17.64,
+            -125.79
+          ],
+          [
+            18.23,
+            -125.53
+          ],
+          [
+            18.82,
+            -124.98
+          ],
+          [
+            19.17,
+            -124.37
+          ],
+          [
+            19.42,
+            -123.49
+          ],
+          [
+            19.53,
+            -122.51
+          ],
+          [
+            19.48,
+            -120.28
+          ],
+          [
+            19.01,
+            -116.74
+          ],
+          [
+            18.7,
+            -115.31
+          ],
+          [
+            18.33,
+            -114.08
+          ]
+        ]
+      ]
+    },
+    {
+      "cuenca": "Pacific",
+      "cuencaEs": "Pacífico oriental",
+      "numero": "2",
+      "titulo": "Islas de Hawái (muy al sureste)",
+      "tituloOriginal": "Well Southeast of the Hawaiian Islands",
+      "descripcion": "A broad area of low pressure located several hundred miles southeast of Hilo, Hawaii, is producing disorganized showers and thunderstorms. Development of this system, if any, is expected to be slow to occur while it drifts generally west-northwestward.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
+      "prob2dias": 10,
+      "riesgo2dias": "bajo",
+      "prob7dias": 10,
+      "riesgo7dias": "bajo",
+      "centro": [
+        13.672,
+        -147.895
+      ],
+      "anillos": [
+        [
+          [
+            12.29,
+            -155.42
+          ],
+          [
+            11.98,
+            -154.27
+          ],
+          [
+            11.73,
+            -152.74
+          ],
+          [
+            11.59,
+            -151.09
+          ],
+          [
+            11.59,
+            -149.3
+          ],
+          [
+            11.69,
+            -148.2
+          ],
+          [
+            11.94,
+            -147.05
+          ],
+          [
+            12.29,
+            -146.26
+          ],
+          [
+            12.84,
+            -145.65
+          ],
+          [
+            13.29,
+            -145.46
+          ],
+          [
+            13.9,
+            -145.53
+          ],
+          [
+            14.39,
+            -145.84
+          ],
+          [
+            14.86,
+            -146.38
+          ],
+          [
+            15.24,
+            -147.04
+          ],
+          [
+            15.73,
+            -148.26
+          ],
+          [
+            16.36,
+            -150.77
+          ],
+          [
+            16.68,
+            -153.03
+          ],
+          [
+            16.75,
+            -154.82
+          ],
+          [
+            16.55,
+            -156.12
+          ],
+          [
+            16.17,
+            -156.81
+          ],
+          [
+            15.73,
+            -157.12
+          ],
+          [
+            15.21,
+            -157.26
+          ],
+          [
+            14.18,
+            -157.33
+          ],
+          [
+            13.63,
+            -157.21
+          ],
+          [
+            13.22,
+            -156.97
+          ],
+          [
+            12.84,
+            -156.57
+          ],
+          [
+            12.53,
+            -156.04
+          ],
+          [
+            12.29,
+            -155.42
+          ]
+        ]
+      ]
+    }
+  ]
+}

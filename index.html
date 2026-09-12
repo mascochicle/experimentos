@@ -70,6 +70,27 @@
   .tarjeta a{ color:var(--azul); font-size:.72rem; text-decoration:none; }
   .tarjeta a:hover{ text-decoration:underline; }
 
+  /* zonas de vigilancia (Tropical Weather Outlook) */
+  .seccion{ margin-top:14px; padding-top:12px; border-top:1px solid var(--line); }
+  .seccion h2{ margin-bottom:3px; }
+  .barras{ display:flex; gap:6px; margin-top:7px; }
+  .plazo{ flex:1; background:#ffffff08; border-radius:4px; padding:5px 7px; }
+  .plazo .et{ font-size:.58rem; color:var(--faint); text-transform:uppercase;
+              letter-spacing:.06em; font-weight:700; }
+  .plazo .pc{ font-size:.92rem; font-weight:700; line-height:1.25; }
+  .riel{ height:3px; border-radius:99px; background:#ffffff14; margin-top:4px; overflow:hidden; }
+  .riel i{ display:block; height:100%; border-radius:99px; }
+  .r-bajo{ color:var(--ts); } .r-medio{ color:var(--c1); } .r-alto{ color:var(--c3); }
+  .f-bajo{ background:var(--ts); } .f-medio{ background:var(--c1); } .f-alto{ background:var(--c3); }
+  details.nhc{ margin-top:7px; }
+  details.nhc summary{ font-size:.7rem; color:var(--muted); cursor:pointer; list-style:none; }
+  details.nhc summary::-webkit-details-marker{ display:none; }
+  details.nhc summary::before{ content:"▸ "; }
+  details.nhc[open] summary::before{ content:"▾ "; }
+  details.nhc p{ margin:6px 0 0; font-size:.7rem; line-height:1.55; color:var(--muted);
+                 border-left:2px solid var(--line); padding-left:8px; }
+  .leyenda-zona{ font-size:.68rem; color:var(--faint); line-height:1.5; margin-top:9px; }
+
   /* línea de tiempo del radar */
   .tiempo{ bottom:12px; left:12px; right:12px; padding:9px 13px 11px; display:flex; flex-direction:column; gap:6px; }
   .tiempo .fila{ display:flex; align-items:center; gap:10px; }
@@ -88,8 +109,10 @@
   .cargando.fuera{ opacity:0; pointer-events:none; }
 
   @media(max-width:720px){
+    /* En celular el tablero se va abajo. Con dos secciones (ciclones + vigilancia)
+       necesita más alto para que la segunda asome sin tener que buscarla. */
     .tablero{ position:absolute; top:auto; bottom:86px; left:12px; right:12px; width:auto;
-              max-height:38vh; }
+              max-height:47vh; }
     .marca b{ font-size:.82rem; }
     .marca .sello{ display:none; }
   }
@@ -113,6 +136,12 @@
   <h2>Ciclones activos</h2>
   <div class="sub">Atlántico, Golfo, Caribe y Pacífico oriental · fuente NHC</div>
   <div id="listaTormentas"></div>
+
+  <div class="seccion">
+    <h2>Zonas en vigilancia</h2>
+    <div class="sub">Dónde podría formarse algo · pronóstico del NHC a 2 y 7 días</div>
+    <div id="listaVigilancia"></div>
+  </div>
 </div>
 
 <div class="float tiempo">
@@ -149,8 +178,17 @@
     'Ciclones: <a href="https://www.nhc.noaa.gov/" target="_blank" rel="noopener">NOAA/NHC</a>'
   );
 
+  // Las zonas de vigilancia van encima del radar pero debajo de los ciclones:
+  // son contexto, no el dato principal.
+  map.createPane("zonaPane");
+  map.getPane("zonaPane").style.zIndex = 620;
+
   map.createPane("ciclonPane");
   map.getPane("ciclonPane").style.zIndex = 650;
+
+  function colorVar(nombre){
+    return getComputedStyle(document.documentElement).getPropertyValue(nombre).trim();
+  }
 
   // referencia: casa
   L.circleMarker(CAMPECHE, {
@@ -346,6 +384,116 @@
     });
   }
 
+  // -------- zonas de vigilancia (Tropical Weather Outlook del NHC) --------
+  // Áreas donde el NHC ve posibilidad de que se forme un ciclón en 2 o 7 días.
+  // Aparecen ANTES de que exista la tormenta, así que es el aviso más temprano
+  // que hay. Los colores son los mismos del NHC: amarillo bajo, naranja medio,
+  // rojo alto.
+  var capaZonas = L.layerGroup([], {pane:"zonaPane"}).addTo(map);
+  var COLOR_RIESGO = { bajo:"--ts", medio:"--c1", alto:"--c3" };
+
+  function pintarZonas(datos){
+    var lista = document.getElementById("listaVigilancia");
+    capaZonas.clearLayers();
+    var zonas = (datos && datos.zonas) || [];
+
+    if(!zonas.length){
+      var cuencas = (datos && datos.cuencasSinFormacion) || [];
+      lista.innerHTML =
+        '<div class="vacio"><b>Nada en formación</b>' +
+        (cuencas.length
+          ? 'El NHC no espera que se forme un ciclón en los próximos 7 días en: ' +
+            cuencas.join(" ni ") + '.'
+          : 'No hay áreas marcadas como posible formación en este momento.') +
+        '</div>';
+      return;
+    }
+
+    lista.innerHTML = zonas.map(function(z, idx){
+      var riesgo = z.riesgo7dias || z.riesgo2dias || "bajo";
+      var d = z.centro ? distanciaKm(CAMPECHE, z.centro) : null;
+      var rumboA = z.centro ? aRumbo(azimut(CAMPECHE, z.centro)) : null;
+
+      function plazo(etiqueta, pct, nivel){
+        var n = nivel || "bajo";
+        return '' +
+          '<div class="plazo">' +
+            '<div class="et">' + etiqueta + '</div>' +
+            '<div class="pc r-' + n + '">' + (pct === null ? "—" : pct + "%") + '</div>' +
+            '<div class="riel"><i class="f-' + n + '" style="width:' + (pct || 0) + '%"></i></div>' +
+          '</div>';
+      }
+
+      return '' +
+        '<div class="tarjeta" data-z="' + idx + '">' +
+          '<div class="fila1">' +
+            '<span class="cat" style="background:var(' + (COLOR_RIESGO[riesgo] || "--ts") + ')">' +
+              riesgo.toUpperCase() + '</span>' +
+            '<span class="nom">' + z.titulo + '</span>' +
+          '</div>' +
+          '<div class="barras">' +
+            plazo("48 horas", z.prob2dias, z.riesgo2dias) +
+            plazo("7 días", z.prob7dias, z.riesgo7dias) +
+          '</div>' +
+          (d !== null
+            ? '<div class="fila2">Su centro está a <b>' + d.toLocaleString("es-MX") +
+              ' km</b> de Campeche, al <b>' + rumboA + '</b></div>'
+            : '') +
+          (z.descripcion
+            ? '<details class="nhc"><summary>Texto del NHC (en inglés)</summary><p>' +
+              z.descripcion + '</p></details>'
+            : '') +
+          (z.boletin
+            ? '<div style="margin-top:6px"><a href="' + z.boletin + '" target="_blank" ' +
+              'rel="noopener">Pronóstico completo del NHC →</a></div>'
+            : '') +
+        '</div>';
+    }).join("");
+
+    zonas.forEach(function(z, idx){
+      if(!z.anillos || !z.anillos.length) return;
+      var riesgo = z.riesgo7dias || z.riesgo2dias || "bajo";
+      var color = colorVar(COLOR_RIESGO[riesgo] || "--ts") || "#E3C64B";
+      // Relleno tenue y borde punteado: es un área de posibilidad, no un objeto
+      // real, y además debajo tiene que seguir viéndose el radar.
+      var poli = L.polygon(z.anillos, {
+        color: color, weight: 1.6, dashArray: "5 4", opacity: .9,
+        fillColor: color, fillOpacity: .12, pane: "zonaPane"
+      }).addTo(capaZonas);
+      poli.bindPopup(
+        "<b>" + z.titulo + "</b><br>" +
+        "Formación: " + (z.prob2dias === null ? "—" : z.prob2dias + "%") + " en 48 h · " +
+        (z.prob7dias === null ? "—" : z.prob7dias + "%") + " en 7 días<br>" +
+        (z.centro ? "A " + distanciaKm(CAMPECHE, z.centro).toLocaleString("es-MX") + " km de Campeche" : "")
+      );
+      var tarjeta = document.querySelector('.tarjeta[data-z="' + idx + '"]');
+      if(tarjeta){
+        tarjeta.addEventListener("click", function(e){
+          if(e.target.closest("a, details")) return; // no secuestrar ligas ni el desplegable
+          map.fitBounds(poli.getBounds(), {padding:[40,40], maxZoom:6});
+          poli.openPopup();
+        });
+      }
+    });
+  }
+
+  function cargarVigilancia(){
+    fetch("datos/vigilancia.json?t=" + Date.now())
+      .then(function(r){
+        if(!r.ok) throw new Error("sin archivo");
+        return r.json();
+      })
+      .then(pintarZonas)
+      .catch(function(){
+        // Que falte este archivo no es un error de la página: el workflow pudo no
+        // haber corrido todavía, o el GTWO pudo no estar disponible.
+        document.getElementById("listaVigilancia").innerHTML =
+          '<div class="vacio" style="border-left-color:var(--faint);background:#ffffff08">' +
+          '<b>Sin datos de vigilancia</b>Todavía no hay un pronóstico de formación ' +
+          'descargado. Se actualiza junto con los ciclones.</div>';
+      });
+  }
+
   function cargarCiclones(){
     fetch("datos/tormentas.json?t=" + Date.now())
       .then(function(r){ return r.json(); })
@@ -364,8 +512,10 @@
 
   cargarRadar();
   cargarCiclones();
+  cargarVigilancia();
   setInterval(cargarRadar, 5*60*1000);
   setInterval(cargarCiclones, 10*60*1000);
+  setInterval(cargarVigilancia, 10*60*1000);
 })();
 </script>
 </body>
