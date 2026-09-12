@@ -21,7 +21,9 @@ depurar.
 ## Qué muestra
 
 - **Mapa oscuro** — teselas de OpenStreetMap, invertidas por CSS
-- **Radar de lluvia animado** — [RainViewer](https://www.rainviewer.com/), últimas ~2 h más pronóstico corto
+- **Radar de lluvia animado** — [RainViewer](https://www.rainviewer.com/), últimas ~2 h más pronóstico corto,
+  con cuatro paletas intercambiables (NEXRAD, Universal Blue, Dark Sky, TWC). El botón de
+  la derecha de la línea de tiempo las cicla y recuerda la elección en ese navegador.
 - **Ciclones activos** — posición, categoría Saffir-Simpson, vientos en km/h y presión
 - **Distancia y rumbo a Campeche** por cada sistema, con tres niveles:
   - 🔴 apunta hacia acá y está a menos de 1,500 km
