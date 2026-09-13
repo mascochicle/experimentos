@@ -1,22 +1,37 @@
 {
-  "generado": "2026-09-13T19:04:19.035Z",
+  "generado": "2026-09-13T21:30:09.600Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 1,
+  "total": 2,
   "tormentas": [
     {
       "id": "ep142026",
       "nombre": "Norbert",
       "clasificacion": "TS",
       "cuenca": "EP4",
-      "intensidadKt": 45,
-      "presionMb": 1000,
-      "lat": 18.2,
-      "lon": -132.7,
-      "rumboGrados": 280,
-      "velocidadKt": 12,
-      "actualizado": "2026-09-13T15:00:00.000Z",
+      "intensidadKt": 40,
+      "presionMb": 1002,
+      "lat": 18.8,
+      "lon": -134,
+      "rumboGrados": 290,
+      "velocidadKt": 13,
+      "actualizado": "2026-09-13T21:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP4.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep4.shtml"
+    },
+    {
+      "id": "ep152026",
+      "nombre": "Fifteen-E",
+      "clasificacion": "TD",
+      "cuenca": "EP5",
+      "intensidadKt": 30,
+      "presionMb": 1006,
+      "lat": 17.2,
+      "lon": -117.2,
+      "rumboGrados": 260,
+      "velocidadKt": 8,
+      "actualizado": "2026-09-13T21:00:00.000Z",
+      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
+      "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
     }
   ]
 }
