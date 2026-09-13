@@ -1,177 +1,26 @@
 {
-  "generado": "2026-09-13T21:30:09.756Z",
+  "generado": "2026-09-13T23:44:56.477Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 2,
-  "cuencasSinFormacion": [],
+  "total": 1,
+  "cuencasSinFormacion": [
+    "Pacífico oriental"
+  ],
   "zonas": [
-    {
-      "cuenca": "Pacific",
-      "cuencaEs": "Pacífico oriental",
-      "numero": "1",
-      "titulo": "Pacífico oriental (centro y oeste) · EP97",
-      "tituloOriginal": "Central and Western East Pacific (EP97)",
-      "descripcion": "Showers and thunderstorms associated with a low pressure area located several hundred miles southwest of the southern tip of the Baja Peninsula have become better organized and more persistent today. If these development trends continue, a tropical depression or storm is likely to form later today or tonight while the system moves generally westward. For more information on this disturbance, including gale warnings, please see High Seas Forecasts issued by the National Weather Service.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 90,
-      "riesgo2dias": "alto",
-      "prob7dias": 90,
-      "riesgo7dias": "alto",
-      "centro": [
-        17.347,
-        -116.411
-      ],
-      "anillos": [
-        [
-          [
-            18.51,
-            -126.69
-          ],
-          [
-            19.01,
-            -126.14
-          ],
-          [
-            19.36,
-            -125.53
-          ],
-          [
-            19.72,
-            -124.51
-          ],
-          [
-            19.9,
-            -123.59
-          ],
-          [
-            19.98,
-            -122.5
-          ],
-          [
-            19.96,
-            -121.26
-          ],
-          [
-            19.82,
-            -119.84
-          ],
-          [
-            19.58,
-            -118.54
-          ],
-          [
-            19.32,
-            -117.67
-          ],
-          [
-            18.89,
-            -116.73
-          ],
-          [
-            18.46,
-            -116.1
-          ],
-          [
-            17.84,
-            -115.57
-          ],
-          [
-            17.3,
-            -115.39
-          ],
-          [
-            16.79,
-            -115.42
-          ],
-          [
-            16.13,
-            -115.66
-          ],
-          [
-            15.67,
-            -115.94
-          ],
-          [
-            15.02,
-            -116.46
-          ],
-          [
-            14.42,
-            -117.17
-          ],
-          [
-            14.05,
-            -117.8
-          ],
-          [
-            13.59,
-            -119.06
-          ],
-          [
-            13.28,
-            -120.67
-          ],
-          [
-            13.19,
-            -121.92
-          ],
-          [
-            13.22,
-            -122.97
-          ],
-          [
-            13.42,
-            -124.18
-          ],
-          [
-            13.74,
-            -125.14
-          ],
-          [
-            14.34,
-            -126.11
-          ],
-          [
-            15.05,
-            -126.77
-          ],
-          [
-            15.61,
-            -127.09
-          ],
-          [
-            16.38,
-            -127.31
-          ],
-          [
-            17.08,
-            -127.32
-          ],
-          [
-            17.91,
-            -127.08
-          ],
-          [
-            18.51,
-            -126.69
-          ]
-        ]
-      ]
-    },
     {
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
       "numero": "1",
       "titulo": "Atlántico subtropical (centro)",
       "tituloOriginal": "Central Subtropical Atlantic",
-      "descripcion": "Disorganized showers and thunderstorms persist in association with a trough of low pressure over the central Subtropical Atlantic. Strong upper-level winds are making the current environment unfavorable for development. However, the system is expected to move into a more favorable environment for some gradual development by the middle to later portion of this week. The disturbance is forecast to move west-northwestward across the central part of the Subtropical Atlantic.",
+      "descripcion": "A trough of low pressure located about 1300 miles east-southeast of Bermuda is producing disorganized showers and thunderstorms. Conditions are currently unfavorable for development. However, the system is expected to move into a more conducive environment for some gradual development by the middle to latter portion of this week. The disturbance is forecast to move slowly west-northwestward across the central part of the Subtropical Atlantic.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        23.511,
-        -44.234
+        25.057,
+        -45.352
       ],
       "anillos": [
         [
