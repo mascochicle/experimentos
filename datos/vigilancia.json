@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-13T06:57:06.591Z",
+  "generado": "2026-09-13T12:29:59.043Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 3,
+  "total": 2,
   "cuencasSinFormacion": [],
   "zonas": [
     {
@@ -10,141 +10,145 @@
       "numero": "1",
       "titulo": "Pacífico oriental (centro y oeste) · EP97",
       "tituloOriginal": "Central and Western East Pacific (EP97)",
-      "descripcion": "An area of low pressure located several hundred miles southwest of the southwestern coast of Mexico is producing disorganized showers and thunderstorms, displaced to its south and east. Environmental conditions remain conducive for development, and a tropical depression is expected to form during the next couple of days while it moves generally west-northwestward to westward over the central and western portions of the eastern Pacific basin. For more information, including gale warnings, please see the High Seas Forecast issued by the National Weather Service.",
+      "descripcion": "An area of low pressure located several hundred miles southwest of the southern tip of the Baja Peninsula continues to produce an area of disorganized showers and thunderstorms to the southeast of its center. Environmental conditions are expected to be generally conducive for development, and a tropical depression is expected to form during the next couple of days while the system moves generally westward. For more information on this disturbance, including gale warnings, please see High Seas Forecasts issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 80,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        17.469,
-        -115.349
+        17.463,
+        -115.936
       ],
       "anillos": [
         [
           [
-            18.92,
-            -115.88
+            18.51,
+            -126.69
           ],
           [
-            18.35,
-            -114.97
+            19.01,
+            -126.14
           ],
           [
-            17.65,
-            -114.28
+            19.4,
+            -125.45
           ],
           [
-            16.86,
-            -113.81
+            19.7,
+            -124.62
           ],
           [
-            15.97,
-            -113.57
+            19.92,
+            -123.45
           ],
           [
-            15.24,
-            -113.6
+            19.98,
+            -121.23
           ],
           [
-            14.56,
-            -113.87
-          ],
-          [
-            13.95,
-            -114.41
-          ],
-          [
-            13.44,
-            -115.27
-          ],
-          [
-            13.01,
-            -116.63
-          ],
-          [
-            12.78,
-            -118.22
-          ],
-          [
-            12.7,
+            19.85,
             -119.81
           ],
           [
-            12.75,
-            -121.85
+            19.53,
+            -118.17
           ],
           [
-            12.91,
-            -123.39
+            19.2,
+            -117.16
           ],
           [
-            13.25,
+            18.79,
+            -116.33
+          ],
+          [
+            18.25,
+            -115.64
+          ],
+          [
+            17.86,
+            -115.34
+          ],
+          [
+            17.31,
+            -115.11
+          ],
+          [
+            16.72,
+            -115.08
+          ],
+          [
+            16.04,
+            -115.28
+          ],
+          [
+            15.5,
+            -115.63
+          ],
+          [
+            14.78,
+            -116.37
+          ],
+          [
+            14.26,
+            -117.17
+          ],
+          [
+            13.82,
+            -118.13
+          ],
+          [
+            13.53,
+            -119.07
+          ],
+          [
+            13.29,
+            -120.34
+          ],
+          [
+            13.19,
+            -121.66
+          ],
+          [
+            13.22,
+            -122.82
+          ],
+          [
+            13.43,
+            -124.16
+          ],
+          [
+            13.7,
             -125.03
           ],
           [
-            13.63,
-            -126.04
+            14.1,
+            -125.79
           ],
           [
-            14.2,
-            -126.95
+            14.75,
+            -126.54
           ],
           [
-            14.8,
-            -127.48
+            15.61,
+            -127.09
           ],
           [
-            15.3,
-            -127.72
+            16.21,
+            -127.28
           ],
           [
-            15.97,
-            -127.84
+            17.17,
+            -127.3
           ],
           [
-            16.73,
-            -127.74
+            17.99,
+            -127.04
           ],
           [
-            17.46,
-            -127.41
-          ],
-          [
-            18.01,
-            -126.99
-          ],
-          [
-            18.54,
-            -126.34
-          ],
-          [
-            18.93,
-            -125.63
-          ],
-          [
-            19.38,
-            -124.24
-          ],
-          [
-            19.6,
-            -123.02
-          ],
-          [
-            19.75,
-            -120.21
-          ],
-          [
-            19.53,
-            -117.82
-          ],
-          [
-            19.3,
-            -116.85
-          ],
-          [
-            18.92,
-            -115.88
+            18.51,
+            -126.69
           ]
         ]
       ]
@@ -155,15 +159,15 @@
       "numero": "1",
       "titulo": "Atlántico subtropical (centro)",
       "tituloOriginal": "Central Subtropical Atlantic",
-      "descripcion": "A trough of low pressure located in the central Subtropical Atlantic is associated with a broad area of disorganized showers and thunderstorms. Environmental conditions are currently not favorable for development of this system due to strong upper-level winds. However, conditions could become more favorable for some slow development by the middle to latter part of this week as the system moves generally west-northwestward across the central part of the Subtropical Atlantic.",
+      "descripcion": "Disorganized showers and thunderstorms continue in association with a trough of low pressure over the central Subtropical Atlantic. While the environmental conditions are not currently favorable for development due to strong upper-level winds, the system is expected to move into a more favorable environment for some gradual development by the middle to later portion of this week. The disturbance is forecast to move west-northwestward across the central part of the Subtropical Atlantic.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        23.656,
-        -42.69
+        23.141,
+        -43.318
       ],
       "anillos": [
         [
@@ -286,47 +290,6 @@
           [
             25.4,
             -53.94
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Pacific",
-      "cuencaEs": "Pacífico oriental",
-      "numero": "2",
-      "titulo": "Islas de Hawái (muy al sureste)",
-      "tituloOriginal": "Well Southeast of the Hawaiian Islands",
-      "descripcion": "A broad area of low pressure located several hundred miles southeast of Hilo, Hawaii, is producing minimal shower activity. Development of this system is no longer expected.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 0,
-      "riesgo2dias": "nearzero",
-      "prob7dias": 0,
-      "riesgo7dias": "nearzero",
-      "centro": [
-        13.672,
-        -147.895
-      ],
-      "anillos": [
-        [
-          [
-            13.77,
-            -147.99
-          ],
-          [
-            13.78,
-            -147.79
-          ],
-          [
-            13.56,
-            -147.99
-          ],
-          [
-            13.57,
-            -147.79
-          ],
-          [
-            13.77,
-            -147.99
           ]
         ]
       ]
