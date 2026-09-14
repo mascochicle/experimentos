@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-14T02:12:22.641Z",
+  "generado": "2026-09-14T07:59:23.494Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 2,
   "tormentas": [
@@ -10,11 +10,11 @@
       "cuenca": "EP4",
       "intensidadKt": 40,
       "presionMb": 1002,
-      "lat": 18.8,
-      "lon": -134,
+      "lat": 19.2,
+      "lon": -135.3,
       "rumboGrados": 290,
-      "velocidadKt": 13,
-      "actualizado": "2026-09-13T21:00:00.000Z",
+      "velocidadKt": 14,
+      "actualizado": "2026-09-14T03:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP4.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep4.shtml"
     },
@@ -25,11 +25,11 @@
       "cuenca": "EP5",
       "intensidadKt": 30,
       "presionMb": 1006,
-      "lat": 17.2,
-      "lon": -117.2,
+      "lat": 17,
+      "lon": -118.3,
       "rumboGrados": 260,
-      "velocidadKt": 8,
-      "actualizado": "2026-09-13T21:00:00.000Z",
+      "velocidadKt": 10,
+      "actualizado": "2026-09-14T03:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
     }
