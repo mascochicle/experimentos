@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-15T06:16:01.064Z",
+  "generado": "2026-09-15T11:55:31.888Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,15 +10,15 @@
       "numero": "1",
       "titulo": "Atlántico subtropical (centro)",
       "tituloOriginal": "Central Subtropical Atlantic",
-      "descripcion": "A trough of low pressure located well east-southeast of Bermuda continues to produce disorganized showers and thunderstorms. Environmental conditions are forecast to become more conducive for development in a few days, and a tropical depression could form late this week as the system moves slowly west-northwestward over the subtropical Atlantic.",
+      "descripcion": "A trough of low pressure located well east-southeast of Bermuda continues to produce disorganized showers and thunderstorms. Environmental conditions are forecast to become more conducive for development in a few days, and a tropical depression could form late this week as the system moves slowly westward to west-northwestward over the subtropical Atlantic.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 40,
       "riesgo7dias": "medio",
       "centro": [
-        28,
-        -51.755
+        28.321,
+        -51.318
       ],
       "anillos": [
         [
@@ -163,153 +163,149 @@
       "numero": "1",
       "titulo": "Southwestern Mexico (al suroeste)",
       "tituloOriginal": "Southwest of Southwestern Mexico",
-      "descripcion": "An area of low pressure could form well to the south of southwestern Mexico by the end of the week or early next week. Environmental conditions appear conducive for some gradual development thereafter while the system moves west-northwestward to northwestward at about 10 mph.",
+      "descripcion": "An area of low pressure could form well offshore of southwestern Mexico by the end of the week or over the weekend. Environmental conditions appear conducive for some gradual development thereafter while the system moves west-northwestward to northwestward at about 10 mph.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 20,
+      "prob7dias": 30,
       "riesgo7dias": "bajo",
       "centro": [
-        12.603,
-        -107.7
+        12.64,
+        -105.788
       ],
       "anillos": [
         [
           [
-            11.17,
-            -100.04
+            9.25,
+            -100.26
           ],
           [
-            12.18,
-            -100.23
+            9.98,
+            -99.89
           ],
           [
-            13.22,
-            -100.73
+            11.02,
+            -99.63
           ],
           [
-            14,
-            -101.34
+            11.95,
+            -99.63
           ],
           [
-            14.89,
-            -102.34
+            12.91,
+            -99.88
           ],
           [
-            15.77,
-            -103.7
+            13.66,
+            -100.28
           ],
           [
-            16.41,
-            -105.01
+            14.39,
+            -100.89
           ],
           [
-            16.96,
-            -106.43
+            15.19,
+            -101.83
           ],
           [
-            17.47,
-            -108.22
+            15.92,
+            -102.97
           ],
           [
-            17.69,
-            -109.35
+            16.91,
+            -105.02
           ],
           [
-            17.83,
-            -110.86
+            17.41,
+            -106.45
           ],
           [
-            17.79,
-            -111.82
+            17.77,
+            -108.14
           ],
           [
-            17.53,
-            -112.99
+            17.8,
+            -109.05
           ],
           [
-            17.07,
-            -113.93
+            17.67,
+            -109.79
           ],
           [
-            16.51,
-            -114.61
+            17.31,
+            -110.52
           ],
           [
-            15.85,
-            -115.12
+            16.89,
+            -110.98
           ],
           [
-            14.95,
-            -115.54
+            15.9,
+            -111.56
           ],
           [
-            13.9,
-            -115.74
+            15.06,
+            -111.86
+          ],
+          [
+            14.32,
+            -111.99
           ],
           [
             13.35,
-            -115.71
+            -111.96
           ],
           [
-            12.69,
-            -115.54
+            12.65,
+            -111.79
           ],
           [
-            11.71,
-            -115
+            11.77,
+            -111.34
           ],
           [
-            10.69,
-            -114.05
+            11.1,
+            -110.79
           ],
           [
-            9.64,
-            -112.64
+            10.47,
+            -110.06
           ],
           [
-            8.43,
-            -110.44
+            9.79,
+            -109.05
           ],
           [
-            7.58,
-            -108.38
+            8.92,
+            -107.33
           ],
           [
-            7.04,
-            -106.51
+            8.31,
+            -105.7
           ],
           [
-            6.8,
-            -104.94
+            7.95,
+            -104.32
           ],
           [
-            6.81,
-            -103.87
+            7.8,
+            -103.15
           ],
           [
-            6.98,
-            -102.94
+            7.85,
+            -102.27
           ],
           [
-            7.45,
-            -101.9
+            8.1,
+            -101.47
           ],
           [
-            8.03,
-            -101.19
+            8.49,
+            -100.88
           ],
           [
-            8.95,
-            -100.52
-          ],
-          [
-            9.99,
-            -100.14
-          ],
-          [
-            11.17,
-            -100.04
+            9.25,
+            -100.26
           ]
         ]
       ]
