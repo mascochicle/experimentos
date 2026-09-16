@@ -1,22 +1,6 @@
 {
-  "generado": "2026-09-16T10:09:10.702Z",
+  "generado": "2026-09-16T15:04:15.828Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 1,
-  "tormentas": [
-    {
-      "id": "ep152026",
-      "nombre": "Fifteen-E",
-      "clasificacion": "PTC",
-      "cuenca": "EP5",
-      "intensidadKt": 25,
-      "presionMb": 1006,
-      "lat": 15.5,
-      "lon": -125.8,
-      "rumboGrados": 255,
-      "velocidadKt": 12,
-      "actualizado": "2026-09-16T03:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
-    }
-  ]
+  "total": 0,
+  "tormentas": []
 }
