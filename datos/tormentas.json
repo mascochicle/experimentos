@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-15T22:22:22.656Z",
+  "generado": "2026-09-16T00:34:35.865Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 2,
+  "total": 1,
   "tormentas": [
     {
       "id": "ep152026",
@@ -17,21 +17,6 @@
       "actualizado": "2026-09-15T21:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
-    },
-    {
-      "id": "ep142026",
-      "nombre": "Norbert",
-      "clasificacion": "PTC",
-      "cuenca": "CP1",
-      "intensidadKt": 30,
-      "presionMb": 1007,
-      "lat": 20.5,
-      "lon": -143.1,
-      "rumboGrados": 280,
-      "velocidadKt": 13,
-      "actualizado": "2026-09-15T15:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP1.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_cp1.shtml"
     }
   ]
 }
