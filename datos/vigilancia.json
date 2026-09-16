@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-16T00:34:36.072Z",
+  "generado": "2026-09-16T05:26:53.469Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 4,
   "cuencasSinFormacion": [],
@@ -17,8 +17,8 @@
       "prob7dias": 50,
       "riesgo7dias": "medio",
       "centro": [
-        13.482,
-        -106.481
+        13.493,
+        -106.288
       ],
       "anillos": [
         [
@@ -27,84 +27,84 @@
             -101.03
           ],
           [
-            12.02,
-            -100.69
+            12.1,
+            -100.5
           ],
           [
-            12.81,
-            -100.59
+            13.1,
+            -100.23
           ],
           [
-            13.86,
-            -100.69
+            13.83,
+            -100.19
           ],
           [
-            14.8,
-            -100.99
+            14.87,
+            -100.38
           ],
           [
-            15.59,
-            -101.43
+            15.65,
+            -100.77
           ],
           [
-            16.39,
-            -102.11
+            16.27,
+            -101.3
           ],
           [
-            16.99,
-            -102.87
+            16.95,
+            -102.22
           ],
           [
-            17.54,
-            -103.86
+            17.46,
+            -103.22
           ],
           [
-            18.02,
-            -105.2
+            17.97,
+            -104.75
           ],
           [
-            18.26,
-            -106.47
+            18.24,
+            -106.21
           ],
           [
             18.31,
-            -107.72
+            -107.75
           ],
           [
-            18.16,
-            -108.91
+            18.21,
+            -108.77
           ],
           [
-            17.86,
+            17.9,
             -109.89
           ],
           [
-            17.22,
-            -111.01
+            17.4,
+            -110.83
           ],
           [
-            16.57,
-            -111.66
+            16.65,
+            -111.63
           ],
           [
             15.87,
-            -112.09
+            -112.08
           ],
           [
             14.85,
-            -112.39
+            -112.37
           ],
           [
             13.86,
-            -112.44
+            -112.42
           ],
           [
-            13.08,
-            -112.34
+            12.97,
+            -112.3
           ],
           [
-            12.21,
-            -112.08
+            12.11,
+            -112.03
           ],
           [
             11.22,
@@ -115,40 +115,40 @@
             -111.02
           ],
           [
-            10.09,
-            -110.3
+            10.21,
+            -110.49
           ],
           [
             9.72,
-            -109.57
+            -109.56
           ],
           [
-            9.41,
-            -108.67
+            9.35,
+            -108.41
           ],
           [
-            9.18,
-            -107.46
+            9.14,
+            -107.07
           ],
           [
-            9.1,
-            -105.97
+            9.11,
+            -105.61
           ],
           [
             9.21,
-            -104.55
+            -104.58
           ],
           [
-            9.47,
-            -103.35
+            9.54,
+            -103.23
           ],
           [
-            9.86,
-            -102.4
+            9.91,
+            -102.41
           ],
           [
-            10.47,
-            -101.54
+            10.41,
+            -101.69
           ],
           [
             11.13,
@@ -163,149 +163,250 @@
       "numero": "1",
       "titulo": "Atlántico subtropical (centro)",
       "tituloOriginal": "Central Subtropical Atlantic",
-      "descripcion": "A trough of low pressure located about 700 miles east-southeast of Bermuda continues to produce disorganized showers and thunderstorms. Environmental conditions are forecast to become a little more conducive for development in a couple of days while the system moves slowly westward to west-northwestward over the subtropical Atlantic.",
+      "descripcion": "A trough of low pressure located about 600 miles east of Bermuda continues to produce disorganized showers and thunderstorms. Environmental conditions could become a little more conducive for development in a couple of days while the system moves slowly westward to west-northwestward over the subtropical Atlantic.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 0,
+      "prob2dias": 10,
       "riesgo2dias": "bajo",
       "prob7dias": 30,
       "riesgo7dias": "bajo",
       "centro": [
-        29.961,
-        -52.978
+        30.585,
+        -54.702
       ],
       "anillos": [
         [
           [
-            26.49,
-            -56.6
+            27.1,
+            -56.5
           ],
           [
-            26.24,
-            -57.25
+            26.85,
+            -57.3
           ],
           [
-            26.04,
-            -58.26
+            26.69,
+            -58.25
           ],
           [
-            26.01,
-            -59.21
+            26.65,
+            -59.13
           ],
           [
-            26.11,
-            -60.14
+            26.73,
+            -60.18
           ],
           [
-            26.35,
-            -60.99
+            26.92,
+            -61.04
           ],
           [
-            26.62,
-            -61.57
+            27.14,
+            -61.62
           ],
           [
-            26.97,
-            -62.06
+            27.42,
+            -62.1
           ],
           [
-            27.52,
-            -62.55
+            27.91,
+            -62.62
           ],
           [
-            28.29,
-            -62.97
+            28.44,
+            -62.95
           ],
           [
-            29.16,
-            -63.22
+            29.32,
+            -63.23
           ],
           [
-            30.08,
-            -63.32
+            30.23,
+            -63.33
           ],
           [
-            31.16,
+            31.36,
             -63.27
           ],
           [
-            31.81,
-            -63.13
+            32.07,
+            -63.08
           ],
           [
-            32.62,
-            -62.77
+            32.72,
+            -62.75
           ],
           [
-            33.19,
-            -62.31
+            33.23,
+            -62.3
           ],
           [
             33.65,
-            -61.69
+            -61.68
           ],
           [
-            33.95,
-            -60.99
+            34.01,
+            -60.68
           ],
           [
             34.17,
-            -59.97
+            -59.74
           ],
           [
             34.22,
-            -58.99
+            -58.74
           ],
           [
-            34.11,
-            -57.9
+            34.14,
+            -57.62
           ],
           [
-            33.89,
-            -57.08
+            33.95,
+            -56.67
           ],
           [
-            33.45,
-            -56.19
+            33.66,
+            -55.84
           ],
           [
-            32.91,
-            -55.53
+            33.21,
+            -55.08
           ],
           [
-            32.34,
-            -55.07
-          ],
-          [
-            31.46,
-            -54.63
-          ],
-          [
-            30.78,
-            -54.45
-          ],
-          [
-            29.9,
-            -54.39
-          ],
-          [
-            28.87,
+            32.72,
             -54.56
           ],
           [
-            28.07,
-            -54.9
+            32.02,
+            -54.11
           ],
           [
-            27.49,
-            -55.3
+            31.33,
+            -53.89
           ],
           [
-            26.93,
-            -55.88
+            30.38,
+            -53.85
           ],
           [
-            26.49,
-            -56.6
+            29.58,
+            -54.03
+          ],
+          [
+            28.75,
+            -54.44
+          ],
+          [
+            28.2,
+            -54.87
+          ],
+          [
+            27.55,
+            -55.64
+          ],
+          [
+            27.1,
+            -56.5
+          ]
+        ]
+      ]
+    },
+    {
+      "cuenca": "Pacific",
+      "cuencaEs": "Pacífico oriental",
+      "numero": "2",
+      "titulo": "Gulf of California",
+      "tituloOriginal": "Gulf of California",
+      "descripcion": "Showers and thunderstorms have become a little better organized in association with a small area of low pressure that is moving north-northwestward over the central Gulf of California. Environmental conditions are favorable for additional development before the system moves inland over the state of Sonora by midday Wednesday. Regardless of formation, periods of heavy rain and isolated flooding are possible over that state through Thursday.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
+      "prob2dias": 30,
+      "riesgo2dias": "bajo",
+      "prob7dias": 30,
+      "riesgo7dias": "bajo",
+      "centro": [
+        27.602,
+        -111.498
+      ],
+      "anillos": [
+        [
+          [
+            26.6,
+            -111.09
+          ],
+          [
+            26.72,
+            -110.81
+          ],
+          [
+            26.95,
+            -110.59
+          ],
+          [
+            27.2,
+            -110.47
+          ],
+          [
+            27.48,
+            -110.48
+          ],
+          [
+            27.72,
+            -110.63
+          ],
+          [
+            28.45,
+            -111.57
+          ],
+          [
+            28.79,
+            -111.86
+          ],
+          [
+            29.37,
+            -112.17
+          ],
+          [
+            30.12,
+            -112.39
+          ],
+          [
+            30.36,
+            -112.57
+          ],
+          [
+            30.61,
+            -113.04
+          ],
+          [
+            30.62,
+            -113.26
+          ],
+          [
+            30.52,
+            -113.43
+          ],
+          [
+            30.08,
+            -113.47
+          ],
+          [
+            29.26,
+            -113.21
+          ],
+          [
+            27.82,
+            -112.54
+          ],
+          [
+            27.23,
+            -112.16
+          ],
+          [
+            26.66,
+            -111.52
+          ],
+          [
+            26.6,
+            -111.09
           ]
         ]
       ]
@@ -314,8 +415,8 @@
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "3",
-      "titulo": "Portion of the Eastern Pacific (oeste)",
-      "tituloOriginal": "Western Portion of the Eastern Pacific",
+      "titulo": "Pacífico oriental (oeste)",
+      "tituloOriginal": "Western East Pacific",
       "descripcion": "A westward-moving tropical wave is producing disorganized showers and thunderstorms well to the south of the southern tip of the Baja California Peninsula. Upper-level winds are forecast to be unfavorable for significant development through the weekend as the system moves westward at 10 to 15 mph. Some gradual development of this system is possible early next week when it reaches the western portion of the east Pacific basin.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
@@ -323,8 +424,8 @@
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        11.514,
-        -108.007
+        11.71,
+        -109.384
       ],
       "anillos": [
         [
@@ -463,95 +564,6 @@
           [
             10.1,
             -136.75
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Pacific",
-      "cuencaEs": "Pacífico oriental",
-      "numero": "2",
-      "titulo": "Gulf of California",
-      "tituloOriginal": "Gulf of California",
-      "descripcion": "Showers and thunderstorms remain disorganized in association with a small area of low pressure that is moving northward over the central Gulf of California. While this system has only a slight chance of formation before it moves inland on Wednesday over the state of Sonora, periods of heavy rain and isolated flooding are possible over that state during the next couple of days.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 10,
-      "riesgo2dias": "bajo",
-      "prob7dias": 10,
-      "riesgo7dias": "bajo",
-      "centro": [
-        26.797,
-        -110.603
-      ],
-      "anillos": [
-        [
-          [
-            25.8,
-            -110.36
-          ],
-          [
-            25.91,
-            -109.96
-          ],
-          [
-            26.06,
-            -109.76
-          ],
-          [
-            26.3,
-            -109.62
-          ],
-          [
-            26.57,
-            -109.66
-          ],
-          [
-            26.98,
-            -109.99
-          ],
-          [
-            28.59,
-            -111.71
-          ],
-          [
-            29.13,
-            -112.08
-          ],
-          [
-            30.32,
-            -112.68
-          ],
-          [
-            30.62,
-            -113.18
-          ],
-          [
-            30.57,
-            -113.39
-          ],
-          [
-            30.35,
-            -113.49
-          ],
-          [
-            29.53,
-            -113.32
-          ],
-          [
-            28.46,
-            -112.85
-          ],
-          [
-            26.35,
-            -111.57
-          ],
-          [
-            25.93,
-            -110.97
-          ],
-          [
-            25.8,
-            -110.36
           ]
         ]
       ]
