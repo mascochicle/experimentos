@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-17T13:53:48.490Z",
+  "generado": "2026-09-17T17:49:41.442Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 4,
   "cuencasSinFormacion": [],
@@ -332,15 +332,15 @@
       "numero": "1",
       "titulo": "Atlántico subtropical (centro) · AL98",
       "tituloOriginal": "Central Subtropical Atlantic (AL98)",
-      "descripcion": "Showers and thunderstorms associated with a low pressure area located about 350 miles east of Bermuda have changed little in organization during the past several hours. Environmental conditions could support gradual development of the system during the next day or two, and a tropical depression could form during that time. The system is forecast to move slowly today, and then possibly turn southward on Friday over the subtropical Atlantic. By Sunday, environmental conditions are forecast to become less favorable for development.",
+      "descripcion": "Showers and thunderstorms associated with a low pressure area located a few hundred miles east of Bermuda have become less organized over the past several hours. Environmental conditions appear marginally conducive for development over the next couple of days as the system moves slowly westward and southward over the subtropical Atlantic.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 40,
-      "riesgo2dias": "medio",
-      "prob7dias": 40,
-      "riesgo7dias": "medio",
+      "prob2dias": 20,
+      "riesgo2dias": "bajo",
+      "prob7dias": 30,
+      "riesgo7dias": "bajo",
       "centro": [
-        33.064,
-        -59.21
+        32.941,
+        -59.723
       ],
       "anillos": [
         [
