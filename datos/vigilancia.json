@@ -1,166 +1,158 @@
 {
-  "generado": "2026-09-17T08:47:01.512Z",
+  "generado": "2026-09-17T13:53:48.490Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 3,
+  "total": 4,
   "cuencasSinFormacion": [],
   "zonas": [
     {
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
-      "numero": "1",
+      "numero": "3",
       "titulo": "Southwestern Mexico (al suroeste)",
       "tituloOriginal": "Southwest of Southwestern Mexico",
-      "descripcion": "A tropical wave is producing disorganized showers and thunderstorms several hundred miles south of southwestern Mexico. Environmental conditions appear conducive for gradual development, and a tropical depression is likely to form late this weekend or early next week while it moves north-northwestward or northward at 5 to 10 mph.",
+      "descripcion": "Another tropical wave is producing disorganized showers and thunderstorms several hundred miles south of southwestern Mexico. Environmental conditions also appear conducive for gradual development of this system, and a tropical depression is likely to form late this weekend or early next week while it moves gradually northwestward turning northward off the coast of southwestern Mexico.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 70,
+      "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        7.396,
-        -101.501
+        9.283,
+        -98.431
       ],
       "anillos": [
         [
           [
-            9.95,
-            -102.69
+            10.63,
+            -102.31
           ],
           [
-            10.8,
-            -102.47
+            11.34,
+            -101.83
           ],
           [
-            11.73,
-            -102.36
+            12.1,
+            -101.51
           ],
           [
-            13.07,
-            -102.38
+            12.94,
+            -101.3
           ],
           [
-            14.24,
-            -102.53
+            14.11,
+            -101.2
           ],
           [
-            15.35,
-            -102.81
+            14.95,
+            -101.28
+          ],
+          [
+            15.71,
+            -101.51
           ],
           [
             16.46,
-            -103.25
+            -101.96
           ],
           [
-            17.17,
-            -103.66
+            16.99,
+            -102.47
           ],
           [
-            18.13,
-            -104.47
+            17.5,
+            -103.16
           ],
           [
-            18.8,
-            -105.3
+            18.06,
+            -104.23
           ],
           [
-            19.45,
-            -106.48
+            18.61,
+            -105.64
           ],
           [
-            19.89,
-            -107.77
+            18.97,
+            -106.99
           ],
           [
-            20.06,
-            -108.99
+            19.05,
+            -108.14
           ],
           [
-            19.99,
-            -109.89
+            18.93,
+            -108.85
           ],
           [
-            19.68,
-            -110.7
+            18.58,
+            -109.67
           ],
           [
-            19.03,
-            -111.4
+            18.08,
+            -110.39
           ],
           [
-            18.38,
-            -111.78
+            17.46,
+            -111.07
           ],
           [
-            17.12,
-            -112.19
+            16.68,
+            -111.65
           ],
           [
-            15.79,
-            -112.39
+            15.93,
+            -111.95
           ],
           [
-            14.56,
-            -112.44
+            15.2,
+            -112.03
           ],
           [
-            12.89,
-            -112.34
+            14.39,
+            -111.89
+          ],
+          [
+            13.18,
+            -111.36
+          ],
+          [
+            12.25,
+            -110.73
           ],
           [
             11.33,
-            -112.06
+            -109.91
           ],
           [
-            10.16,
-            -111.68
+            10.66,
+            -109.06
           ],
           [
-            9.14,
-            -111.14
+            10.21,
+            -108.14
           ],
           [
-            8.51,
-            -110.61
+            9.99,
+            -107.22
           ],
           [
-            7.83,
-            -109.64
+            9.88,
+            -106.17
           ],
           [
-            7.51,
-            -108.78
+            9.78,
+            -104.85
           ],
           [
-            7.35,
-            -107.99
+            9.83,
+            -103.83
           ],
           [
-            7.3,
-            -107.2
+            10.11,
+            -102.97
           ],
           [
-            7.42,
-            -105.9
-          ],
-          [
-            7.73,
-            -104.83
-          ],
-          [
-            8.05,
-            -104.19
-          ],
-          [
-            8.4,
-            -103.72
-          ],
-          [
-            9.13,
-            -103.09
-          ],
-          [
-            9.95,
-            -102.69
+            10.63,
+            -102.31
           ]
         ]
       ]
@@ -168,160 +160,168 @@
     {
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
-      "numero": "2",
+      "numero": "1",
       "titulo": "Pacífico oriental (oeste)",
       "tituloOriginal": "Western East Pacific",
-      "descripcion": "A tropical wave is producing disorganized showers and thunderstorms well to the south-southwest of the southern tip of the Baja California Peninsula. Environmental conditions appear conducive for gradual development, and a tropical depression could form this weekend as the system moves westward at around 10 mph.",
+      "descripcion": "A tropical wave continues to produce disorganized showers and thunderstorms well to the south-southwest of the southern tip of the Baja California Peninsula. Environmental conditions appear conducive for gradual development of this system, and a tropical depression is likely to form this weekend or early next week as it moves westward at 10 to 15 mph across the western part of the East Pacific.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 10,
+      "prob2dias": 20,
       "riesgo2dias": "bajo",
-      "prob7dias": 60,
-      "riesgo7dias": "medio",
+      "prob7dias": 70,
+      "riesgo7dias": "alto",
       "centro": [
-        12.398,
-        -113.501
+        11.878,
+        -114.282
       ],
       "anillos": [
         [
           [
-            8.74,
-            -128.79
+            9.73,
+            -132.73
           ],
           [
-            9.14,
-            -132.66
+            10.04,
+            -136.91
+          ],
+          [
+            10.24,
+            -137.95
+          ],
+          [
+            10.51,
+            -138.63
+          ],
+          [
+            11.23,
+            -139.42
+          ],
+          [
+            12.41,
+            -140.16
+          ],
+          [
+            13.5,
+            -140.5
+          ],
+          [
+            14.52,
+            -140.46
+          ],
+          [
+            15.22,
+            -140.17
+          ],
+          [
+            16.04,
+            -139.46
+          ],
+          [
+            16.87,
+            -138.16
+          ],
+          [
+            17.31,
+            -137.01
+          ],
+          [
+            17.55,
+            -135.9
+          ],
+          [
+            17.64,
+            -134.4
+          ],
+          [
+            17.52,
+            -133.01
+          ],
+          [
+            17.18,
+            -131.12
+          ],
+          [
+            16.42,
+            -127.27
+          ],
+          [
+            15.35,
+            -118.37
+          ],
+          [
+            15,
+            -116.37
+          ],
+          [
+            14.68,
+            -115.08
+          ],
+          [
+            14.11,
+            -113.54
+          ],
+          [
+            13.71,
+            -112.83
+          ],
+          [
+            13.28,
+            -112.26
+          ],
+          [
+            12.83,
+            -111.84
+          ],
+          [
+            12.37,
+            -111.59
+          ],
+          [
+            12.02,
+            -111.52
+          ],
+          [
+            11.67,
+            -111.56
+          ],
+          [
+            11.23,
+            -111.78
+          ],
+          [
+            10.91,
+            -112.09
+          ],
+          [
+            10.35,
+            -113.09
+          ],
+          [
+            10.11,
+            -113.79
+          ],
+          [
+            9.85,
+            -114.95
+          ],
+          [
+            9.58,
+            -117.13
+          ],
+          [
+            9.42,
+            -120.15
           ],
           [
             9.39,
-            -134.37
+            -122.99
           ],
           [
-            9.71,
-            -135.69
+            9.46,
+            -126.83
           ],
           [
-            10.09,
-            -136.68
-          ],
-          [
-            10.8,
-            -137.77
-          ],
-          [
-            11.74,
-            -138.57
-          ],
-          [
-            12.98,
-            -139.13
-          ],
-          [
-            14.13,
-            -139.35
-          ],
-          [
-            15.48,
-            -139.27
-          ],
-          [
-            16.38,
-            -138.94
-          ],
-          [
-            17.12,
-            -138.3
-          ],
-          [
-            17.62,
-            -137.4
-          ],
-          [
-            17.89,
-            -136.38
-          ],
-          [
-            18.06,
-            -134.32
-          ],
-          [
-            17.99,
-            -131.83
-          ],
-          [
-            17.8,
-            -129.69
-          ],
-          [
-            17.36,
-            -126.56
-          ],
-          [
-            16.92,
-            -124.31
-          ],
-          [
-            16.26,
-            -121.76
-          ],
-          [
-            15.62,
-            -120.06
-          ],
-          [
-            14.92,
-            -118.78
-          ],
-          [
-            14.07,
-            -117.78
-          ],
-          [
-            13.46,
-            -117.32
-          ],
-          [
-            13.06,
-            -117.12
-          ],
-          [
-            11.94,
-            -116.81
-          ],
-          [
-            10.81,
-            -116.87
-          ],
-          [
-            10.14,
-            -117.1
-          ],
-          [
-            9.54,
-            -117.47
-          ],
-          [
-            8.83,
-            -118.24
-          ],
-          [
-            8.52,
-            -118.81
-          ],
-          [
-            8.3,
-            -119.48
-          ],
-          [
-            8.08,
-            -121.06
-          ],
-          [
-            8.1,
-            -122.89
-          ],
-          [
-            8.74,
-            -128.79
+            9.73,
+            -132.73
           ]
         ]
       ]
@@ -332,15 +332,15 @@
       "numero": "1",
       "titulo": "Atlántico subtropical (centro) · AL98",
       "tituloOriginal": "Central Subtropical Atlantic (AL98)",
-      "descripcion": "Showers and thunderstorms have become a little better organized over the past day in association with a small area of low pressure located a few hundred miles east of Bermuda. Environmental conditions could support some additional gradual development over the next few days while the system moves slowly westward today, and then possibly turns southward on Friday over the subtropical Atlantic.",
+      "descripcion": "Showers and thunderstorms associated with a low pressure area located about 350 miles east of Bermuda have changed little in organization during the past several hours. Environmental conditions could support gradual development of the system during the next day or two, and a tropical depression could form during that time. The system is forecast to move slowly today, and then possibly turn southward on Friday over the subtropical Atlantic. By Sunday, environmental conditions are forecast to become less favorable for development.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 40,
       "riesgo2dias": "medio",
       "prob7dias": 40,
       "riesgo7dias": "medio",
       "centro": [
-        32.697,
-        -58.296
+        33.064,
+        -59.21
       ],
       "anillos": [
         [
@@ -475,6 +475,163 @@
           [
             31.53,
             -53.91
+          ]
+        ]
+      ]
+    },
+    {
+      "cuenca": "Pacific",
+      "cuencaEs": "Pacífico oriental",
+      "numero": "2",
+      "titulo": "-Southeast of the Hawaiian Islands (extremo este) · Former TD15-E",
+      "tituloOriginal": "Well East-Southeast of the Hawaiian Islands (Former TD15-E)",
+      "descripcion": "Showers and thunderstorms have increased somewhat with an area of low pressure related to the remnants of Tropical Depression Fifteen-E. Environmental conditions appear only marginally conducive for some development of this system as it moves gradually westward, remaining east-southeast of the Hawaiian Islands.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
+      "prob2dias": 10,
+      "riesgo2dias": "bajo",
+      "prob7dias": 10,
+      "riesgo7dias": "bajo",
+      "centro": [
+        15.006,
+        -131.324
+      ],
+      "anillos": [
+        [
+          [
+            13.07,
+            -132.6
+          ],
+          [
+            12.69,
+            -134.75
+          ],
+          [
+            12.27,
+            -138.69
+          ],
+          [
+            12.06,
+            -142.17
+          ],
+          [
+            11.95,
+            -146.27
+          ],
+          [
+            11.97,
+            -148.26
+          ],
+          [
+            12.14,
+            -150.29
+          ],
+          [
+            12.49,
+            -151.53
+          ],
+          [
+            12.69,
+            -151.89
+          ],
+          [
+            13.07,
+            -152.31
+          ],
+          [
+            13.46,
+            -152.55
+          ],
+          [
+            14.12,
+            -152.73
+          ],
+          [
+            15.08,
+            -152.67
+          ],
+          [
+            16.06,
+            -152.24
+          ],
+          [
+            16.96,
+            -151.39
+          ],
+          [
+            17.53,
+            -150.41
+          ],
+          [
+            17.94,
+            -149.14
+          ],
+          [
+            18.24,
+            -147.4
+          ],
+          [
+            18.37,
+            -145.7
+          ],
+          [
+            18.41,
+            -143.16
+          ],
+          [
+            18.34,
+            -140.89
+          ],
+          [
+            18.12,
+            -137.49
+          ],
+          [
+            17.82,
+            -134.67
+          ],
+          [
+            17.51,
+            -132.68
+          ],
+          [
+            17.15,
+            -131.12
+          ],
+          [
+            16.76,
+            -130.06
+          ],
+          [
+            16.3,
+            -129.41
+          ],
+          [
+            15.88,
+            -129.13
+          ],
+          [
+            15.39,
+            -129.03
+          ],
+          [
+            14.84,
+            -129.18
+          ],
+          [
+            14.49,
+            -129.43
+          ],
+          [
+            14.14,
+            -129.84
+          ],
+          [
+            13.67,
+            -130.69
+          ],
+          [
+            13.07,
+            -132.6
           ]
         ]
       ]
