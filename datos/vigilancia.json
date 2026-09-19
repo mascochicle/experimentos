@@ -1,110 +1,11 @@
 {
-  "generado": "2026-09-19T14:33:39.521Z",
+  "generado": "2026-09-19T17:34:15.590Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 4,
-  "cuencasSinFormacion": [],
+  "total": 3,
+  "cuencasSinFormacion": [
+    "Atlántico"
+  ],
   "zonas": [
-    {
-      "cuenca": "Atlantic",
-      "cuencaEs": "Atlántico",
-      "numero": "1",
-      "titulo": "Atlántico subtropical (este) · AL99",
-      "tituloOriginal": "Eastern Subtropical Atlantic (AL99)",
-      "descripcion": "Showers and thunderstorms have become more concentrated near the center of a low pressure system located several hundred miles southwest of the western Azores since yesterday. A short-lived tropical depression or tropical storm is expected to form later today or tonight while moving north-northeastward at about 5 mph, but remaining well to the southwest of the Azores. Upper-level winds are forecast to become less conducive for development beginning late Sunday.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 90,
-      "riesgo2dias": "alto",
-      "prob7dias": 90,
-      "riesgo7dias": "alto",
-      "centro": [
-        32.594,
-        -33.582
-      ],
-      "anillos": [
-        [
-          [
-            35.55,
-            -33.65
-          ],
-          [
-            34.9,
-            -34.41
-          ],
-          [
-            34.17,
-            -34.83
-          ],
-          [
-            33.44,
-            -35
-          ],
-          [
-            32.91,
-            -34.99
-          ],
-          [
-            32.33,
-            -34.83
-          ],
-          [
-            31.79,
-            -34.4
-          ],
-          [
-            31.48,
-            -33.74
-          ],
-          [
-            31.39,
-            -32.86
-          ],
-          [
-            31.62,
-            -31.98
-          ],
-          [
-            32.13,
-            -31.28
-          ],
-          [
-            33.01,
-            -30.71
-          ],
-          [
-            34,
-            -30.45
-          ],
-          [
-            34.85,
-            -30.56
-          ],
-          [
-            35.13,
-            -30.7
-          ],
-          [
-            35.46,
-            -31
-          ],
-          [
-            35.79,
-            -31.66
-          ],
-          [
-            35.88,
-            -32.14
-          ],
-          [
-            35.87,
-            -32.66
-          ],
-          [
-            35.55,
-            -33.65
-          ]
-        ]
-      ]
-    },
     {
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",

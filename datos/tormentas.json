@@ -1,6 +1,22 @@
 {
-  "generado": "2026-09-19T14:33:39.281Z",
+  "generado": "2026-09-19T17:34:15.424Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 0,
-  "tormentas": []
+  "total": 1,
+  "tormentas": [
+    {
+      "id": "al062026",
+      "nombre": "Six",
+      "clasificacion": "TD",
+      "cuenca": "AT1",
+      "intensidadKt": 30,
+      "presionMb": 1009,
+      "lat": 32.6,
+      "lon": -33.6,
+      "rumboGrados": 360,
+      "velocidadKt": 2,
+      "actualizado": "2026-09-19T15:00:00.000Z",
+      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPAT1.shtml",
+      "graficas": "https://www.nhc.noaa.gov/graphics_at1.shtml"
+    }
+  ]
 }
