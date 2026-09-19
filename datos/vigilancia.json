@@ -1,24 +1,161 @@
 {
-  "generado": "2026-09-18T23:24:34.856Z",
+  "generado": "2026-09-19T01:19:40.959Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 4,
   "cuencasSinFormacion": [],
   "zonas": [
     {
+      "cuenca": "Atlantic",
+      "cuencaEs": "Atlántico",
+      "numero": "1",
+      "titulo": "Atlántico subtropical (este) · AL99",
+      "tituloOriginal": "Eastern Subtropical Atlantic (AL99)",
+      "descripcion": "Showers and thunderstorms associated with the low pressure system located several hundred miles southwest of the Azores have become more concentrated during the past few hours, and a tropical depression could form later tonight or on Saturday. The system is expected to move slowly over the next couple of days remaining southwest of the Azores, followed by a turn to the southwest by early next week. Environmental conditions are forecast to become less favorable for development beginning Sunday night or on Monday.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
+      "prob2dias": 80,
+      "riesgo2dias": "alto",
+      "prob7dias": 80,
+      "riesgo7dias": "alto",
+      "centro": [
+        32.44,
+        -33.924
+      ],
+      "anillos": [
+        [
+          [
+            31.42,
+            -34.34
+          ],
+          [
+            31.59,
+            -34.97
+          ],
+          [
+            31.92,
+            -35.64
+          ],
+          [
+            32.15,
+            -35.93
+          ],
+          [
+            32.57,
+            -36.21
+          ],
+          [
+            32.83,
+            -36.27
+          ],
+          [
+            33.25,
+            -36.23
+          ],
+          [
+            33.69,
+            -36.03
+          ],
+          [
+            34.14,
+            -35.69
+          ],
+          [
+            34.83,
+            -34.95
+          ],
+          [
+            35.23,
+            -34.36
+          ],
+          [
+            35.87,
+            -32.95
+          ],
+          [
+            36.08,
+            -32.09
+          ],
+          [
+            36.14,
+            -31.48
+          ],
+          [
+            36.08,
+            -30.7
+          ],
+          [
+            35.97,
+            -30.32
+          ],
+          [
+            35.71,
+            -29.8
+          ],
+          [
+            35.39,
+            -29.42
+          ],
+          [
+            34.96,
+            -29.08
+          ],
+          [
+            34.25,
+            -28.75
+          ],
+          [
+            33.65,
+            -28.64
+          ],
+          [
+            32.97,
+            -28.72
+          ],
+          [
+            32.64,
+            -28.86
+          ],
+          [
+            32.21,
+            -29.18
+          ],
+          [
+            31.85,
+            -29.65
+          ],
+          [
+            31.62,
+            -30.13
+          ],
+          [
+            31.32,
+            -31.35
+          ],
+          [
+            31.24,
+            -32.75
+          ],
+          [
+            31.42,
+            -34.34
+          ]
+        ]
+      ]
+    },
+    {
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
-      "titulo": "Southwestern Mexico (al sur) · EP99",
-      "tituloOriginal": "South of Southwestern Mexico (EP99)",
-      "descripcion": "A broad area of low pressure located about 800 miles south-southwest of the southwestern coast of Mexico continues to produce disorganized shower and thunderstorm activity. Environmental conditions are conducive for development, and a tropical depression is likely to form late this weekend or early next week while it moves generally northward off the coast of southwestern Mexico.",
+      "titulo": "-Southwest of Southwestern Mexico (sur) · EP99",
+      "tituloOriginal": "South-Southwest of Southwestern Mexico (EP99)",
+      "descripcion": "A broad area of low pressure located well south-southwest of the southwestern coast of Mexico continues to produce disorganized shower and thunderstorm activity. Environmental conditions are conducive for development, and a tropical depression is likely to form late this weekend or early next week while it moves generally northward off the coast of southwestern Mexico.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 40,
+      "prob2dias": 50,
       "riesgo2dias": "medio",
       "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        7.279,
-        -106.103
+        7.834,
+        -105.838
       ],
       "anillos": [
         [
@@ -179,270 +316,153 @@
       "numero": "2",
       "titulo": "Pacífico oriental (oeste) · EP98",
       "tituloOriginal": "Western East Pacific (EP98)",
-      "descripcion": "Showers and thunderstorms associated with an area of low pressure located almost 1000 miles south-southwest of the southern tip of the Baja California Peninsula have become a little better organized since yesterday, but the system's circulation remains broad and elongated. Environmental conditions appear conducive for additional development of this system, and a tropical depression is likely to form this weekend as it moves westward at 10 to 15 mph across the western East Pacific.",
+      "descripcion": "Showers and thunderstorms associated with an area of low pressure located well southwest of the southern tip of the Baja California Peninsula remain disorganized. Environmental conditions are conducive for development, and a tropical depression is likely to form this weekend as it moves westward at 10 to 15 mph across the western East Pacific.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 70,
       "riesgo2dias": "alto",
       "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        11.103,
-        -117.701
+        11.628,
+        -118.974
       ],
       "anillos": [
         [
           [
-            15.02,
-            -118.19
+            14.85,
+            -118.07
           ],
           [
-            14.36,
-            -117.36
+            13.52,
+            -117.26
           ],
           [
-            13.57,
-            -116.65
+            12.86,
+            -116.99
           ],
           [
-            12.66,
-            -116.16
+            12.06,
+            -116.86
           ],
           [
-            12.09,
-            -116.02
+            11.26,
+            -116.94
           ],
           [
-            11.15,
-            -116.01
-          ],
-          [
-            10.39,
-            -116.23
-          ],
-          [
-            9.76,
-            -116.65
-          ],
-          [
-            9.24,
-            -117.36
-          ],
-          [
-            8.88,
-            -118.37
-          ],
-          [
-            8.65,
-            -119.84
-          ],
-          [
-            8.59,
-            -121.75
-          ],
-          [
-            8.67,
-            -123.27
-          ],
-          [
-            8.88,
-            -124.94
-          ],
-          [
-            9.15,
-            -126.23
+            10.49,
+            -117.22
           ],
           [
             9.61,
-            -127.69
+            -117.84
           ],
           [
-            10.15,
-            -128.82
+            9.03,
+            -118.54
           ],
           [
-            10.89,
-            -129.83
+            8.7,
+            -119.33
           ],
           [
-            11.59,
-            -130.42
+            8.61,
+            -120.31
           ],
           [
-            12.47,
-            -130.84
+            8.74,
+            -121.8
           ],
           [
-            13.5,
-            -131.02
+            9.74,
+            -128.01
           ],
           [
-            14.51,
-            -130.91
+            10.6,
+            -132.05
           ],
           [
-            15.36,
-            -130.56
+            11.47,
+            -135.29
           ],
           [
-            16.08,
-            -129.96
+            11.68,
+            -135.78
           ],
           [
-            16.61,
-            -129.1
+            11.99,
+            -136.24
           ],
           [
-            16.94,
-            -128.14
+            12.64,
+            -136.68
           ],
           [
-            17.17,
-            -126.76
+            13.13,
+            -136.8
           ],
           [
-            17.24,
-            -125.1
+            13.77,
+            -136.83
           ],
           [
-            17.14,
-            -123.68
+            14.56,
+            -136.75
           ],
           [
-            16.98,
-            -122.73
+            15.35,
+            -136.56
           ],
           [
-            16.47,
-            -120.98
+            16.63,
+            -135.96
           ],
           [
-            15.81,
-            -119.49
+            17.57,
+            -135.12
           ],
           [
-            15.02,
-            -118.19
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Atlantic",
-      "cuencaEs": "Atlántico",
-      "numero": "1",
-      "titulo": "Atlántico subtropical (este) · AL99",
-      "tituloOriginal": "Eastern Subtropical Atlantic (AL99)",
-      "descripcion": "Showers and thunderstorms have changed little in organization since this morning in association with an area of low pressure located several hundred miles southwest of the Azores. However, just a small increase in organization is likely to result in the formation of a tropical depression as soon as later today. The system is expected to move slowly over the next couple of days remaining southwest of the Azores, followed by a turn to the southwest by early next week, when environmental conditions are forecast to become less favorable for additional development.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 70,
-      "riesgo2dias": "alto",
-      "prob7dias": 70,
-      "riesgo7dias": "alto",
-      "centro": [
-        32.984,
-        -34.109
-      ],
-      "anillos": [
-        [
-          [
-            31.88,
-            -34.2
+            18.14,
+            -134.17
           ],
           [
-            32.29,
-            -35.11
+            18.45,
+            -133.04
           ],
           [
-            32.53,
-            -35.31
+            18.66,
+            -131.46
           ],
           [
-            32.83,
-            -35.4
+            18.7,
+            -129.79
           ],
           [
-            33.18,
-            -35.37
+            18.6,
+            -128.62
           ],
           [
-            33.7,
-            -35.17
+            18.29,
+            -126.9
           ],
           [
-            34.57,
-            -34.51
+            17.61,
+            -124.51
           ],
           [
-            35.19,
-            -33.76
+            16.1,
+            -120.34
           ],
           [
-            35.84,
-            -32.48
+            15.31,
+            -118.47
           ],
           [
-            36.09,
-            -31.36
+            15.13,
+            -118.2
           ],
           [
-            36.09,
-            -30.89
-          ],
-          [
-            35.97,
-            -30.32
-          ],
-          [
-            35.69,
-            -29.76
-          ],
-          [
-            35.36,
-            -29.38
-          ],
-          [
-            34.96,
-            -29.07
-          ],
-          [
-            34.37,
-            -28.78
-          ],
-          [
-            33.81,
-            -28.65
-          ],
-          [
-            33.39,
-            -28.66
-          ],
-          [
-            32.95,
-            -28.79
-          ],
-          [
-            32.53,
-            -29.07
-          ],
-          [
-            32.27,
-            -29.35
-          ],
-          [
-            31.97,
-            -29.87
-          ],
-          [
-            31.68,
-            -31.04
-          ],
-          [
-            31.65,
-            -32.75
-          ],
-          [
-            31.88,
-            -34.2
+            14.85,
+            -118.07
           ]
         ]
       ]
@@ -453,165 +473,161 @@
       "numero": "3",
       "titulo": "-Southeast of the Hawaiian Islands (extremo este) · Former TD 15-E",
       "tituloOriginal": "Well East-Southeast of the Hawaiian Islands (Former TD 15-E)",
-      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located more than 1000 miles east-southeast of the Hawaiian Islands, remain disorganized. Environmental conditions appear conducive for some development of this system next week as it moves westward to west-southwestward, and a tropical depression could form well to the south or southeast of the Hawaiian Islands by the middle to latter part of next week.",
+      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located well east of the Hawaiian Islands, remain disorganized. Environmental conditions appear conducive for some development of this system next week as it moves westward to west-southwestward, and a tropical depression could form well to the south or southeast of the Hawaiian Islands by the middle to latter part of next week.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
       "prob7dias": 40,
       "riesgo7dias": "medio",
       "centro": [
-        16.1,
-        -136.861
+        17.201,
+        -137.199
       ],
       "anillos": [
         [
           [
-            12.03,
-            -139.3
+            17.82,
+            -135.85
           ],
           [
-            10.94,
-            -143.99
+            17.52,
+            -135.7
           ],
           [
-            10.33,
-            -147.24
+            17.05,
+            -135.62
           ],
           [
-            10,
-            -149.72
+            15.93,
+            -135.71
           ],
           [
-            9.84,
-            -152.29
+            14.69,
+            -136.1
+          ],
+          [
+            13.86,
+            -136.71
+          ],
+          [
+            13.36,
+            -137.34
+          ],
+          [
+            12.77,
+            -138.43
+          ],
+          [
+            12.04,
+            -140.31
+          ],
+          [
+            11.32,
+            -142.57
+          ],
+          [
+            10.81,
+            -144.45
+          ],
+          [
+            10.38,
+            -147.13
+          ],
+          [
+            9.9,
+            -151.18
+          ],
+          [
+            9.82,
+            -153.35
           ],
           [
             9.93,
-            -154.59
+            -154.9
           ],
           [
-            10.27,
-            -156.26
+            10.26,
+            -156.29
           ],
           [
-            10.5,
-            -156.83
+            10.72,
+            -157.16
           ],
           [
-            10.79,
-            -157.29
+            11.05,
+            -157.53
           ],
           [
-            11.13,
-            -157.64
+            11.43,
+            -157.81
           ],
           [
-            11.62,
-            -157.95
+            11.95,
+            -158.06
           ],
           [
-            12.29,
-            -158.16
-          ],
-          [
-            12.9,
+            12.77,
             -158.22
           ],
           [
-            13.79,
-            -158.12
+            13.28,
+            -158.22
           ],
           [
-            14.27,
-            -157.91
+            14.03,
+            -158.04
           ],
           [
             14.61,
-            -157.65
+            -157.66
           ],
           [
-            15.17,
-            -156.85
+            14.91,
+            -157.31
           ],
           [
-            15.44,
-            -156.06
+            15.38,
+            -156.28
           ],
           [
-            15.7,
-            -154.58
+            15.73,
+            -154.3
           ],
           [
             15.97,
             -150.6
           ],
           [
-            16.24,
-            -148.52
+            16.15,
+            -149.02
           ],
           [
-            17.73,
-            -142.47
+            16.41,
+            -147.7
+          ],
+          [
+            17.69,
+            -142.69
+          ],
+          [
+            18.07,
+            -140.52
           ],
           [
             18.22,
-            -139.5
+            -139.13
           ],
           [
-            18.29,
-            -138.06
+            18.3,
+            -137.05
           ],
           [
-            18.21,
-            -136.9
+            18.16,
+            -136.28
           ],
           [
-            18.01,
-            -136.01
-          ],
-          [
-            17.61,
-            -135.17
-          ],
-          [
-            17.25,
-            -134.75
-          ],
-          [
-            16.83,
-            -134.43
-          ],
-          [
-            16.06,
-            -134.15
-          ],
-          [
-            15.65,
-            -134.13
-          ],
-          [
-            15.12,
-            -134.22
-          ],
-          [
-            14.21,
-            -134.69
-          ],
-          [
-            13.43,
-            -135.49
-          ],
-          [
-            12.95,
-            -136.31
-          ],
-          [
-            12.46,
-            -137.68
-          ],
-          [
-            12.03,
-            -139.3
+            17.82,
+            -135.85
           ]
         ]
       ]
