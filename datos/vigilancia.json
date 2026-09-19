@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-19T17:34:15.590Z",
+  "generado": "2026-09-19T19:44:01.701Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [
@@ -12,141 +12,149 @@
       "numero": "1",
       "titulo": "-Southwest of Southwestern Mexico (sur) · EP99",
       "tituloOriginal": "South-Southwest of Southwestern Mexico (EP99)",
-      "descripcion": "Recent satellite-derived wind data show that the area of low pressure located well south-southwest of the southwestern coast of Mexico is still elongated, and the shower and thunderstorm activity remains disorganized. However, environmental conditions are conducive for development, and a tropical depression is expected to form over the next couple of days as the system moves generally northward off the coast of southwestern Mexico. Interests along the southwestern and west-central coast of Mexico should monitor the progress of this system.",
+      "descripcion": "Persistent but disorganized shower and thunderstorm activity is associated with a broad area of low pressure well south-southwest of the southwestern coast of Mexico. Environmental conditions are conducive for development, and a tropical depression is expected to form over the next couple of days as the system moves generally northward off the coast of southwestern Mexico. Interests along the southwestern and west-central coast of Mexico should monitor the progress of this system.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 80,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        8.688,
-        -106.325
+        10.088,
+        -106.515
       ],
       "anillos": [
         [
           [
-            9.05,
-            -103.96
+            9.06,
+            -103.61
           ],
           [
-            9.65,
-            -103.98
+            10.03,
+            -103.45
           ],
           [
-            10.33,
-            -103.87
+            10.76,
+            -103.2
           ],
           [
-            13.27,
-            -102.5
+            11.66,
+            -102.7
           ],
           [
-            14.08,
-            -102.22
+            13.22,
+            -101.65
           ],
           [
-            14.99,
-            -102.05
+            13.84,
+            -101.34
           ],
           [
-            15.75,
-            -102.06
+            14.58,
+            -101.13
           ],
           [
-            16.58,
-            -102.27
+            15.3,
+            -101.11
           ],
           [
-            17.43,
-            -102.77
+            15.89,
+            -101.25
           ],
           [
-            17.78,
-            -103.12
+            16.67,
+            -101.7
           ],
           [
-            18.28,
-            -103.94
+            17.28,
+            -102.28
           ],
           [
-            18.52,
-            -105.05
+            18.07,
+            -103.48
           ],
           [
-            18.54,
-            -106.79
+            18.44,
+            -104.6
           ],
           [
-            18.32,
-            -108.38
+            18.55,
+            -105.74
           ],
           [
-            17.88,
-            -109.36
+            18.44,
+            -107.85
           ],
           [
-            17.24,
-            -110.11
+            18.24,
+            -108.63
           ],
           [
-            16.38,
-            -110.67
+            18.02,
+            -109.13
+          ],
+          [
+            17.44,
+            -109.92
+          ],
+          [
+            16.51,
+            -110.61
           ],
           [
             15.51,
             -110.93
           ],
           [
-            14.03,
-            -110.93
+            14.36,
+            -110.95
           ],
           [
-            11.9,
-            -110.57
+            11.61,
+            -110.54
           ],
           [
-            9.22,
-            -110.26
+            9.53,
+            -110.32
           ],
           [
-            8.09,
-            -109.94
+            8.46,
+            -109.91
           ],
           [
-            7.25,
-            -109.4
+            7.57,
+            -109.25
           ],
           [
-            6.75,
-            -108.65
+            7.34,
+            -108.77
           ],
           [
-            6.31,
-            -107.33
+            6.87,
+            -106.77
           ],
           [
-            6.23,
-            -106.39
+            6.83,
+            -106.03
           ],
           [
-            6.42,
+            6.94,
             -105.35
           ],
           [
-            6.77,
-            -104.67
+            7.33,
+            -104.5
           ],
           [
-            7.35,
-            -104.15
+            7.83,
+            -103.95
           ],
           [
-            7.97,
-            -103.96
+            8.36,
+            -103.71
           ],
           [
-            9.05,
-            -103.96
+            9.06,
+            -103.61
           ]
         ]
       ]
@@ -157,15 +165,15 @@
       "numero": "2",
       "titulo": "Pacífico oriental (oeste) · EP98",
       "tituloOriginal": "Western East Pacific (EP98)",
-      "descripcion": "Disorganized showers and thunderstorms continue to persist in association with an area of low pressure located well southwest of the southern tip of the Baja California Peninsula. Environmental conditions are conducive for development, and a tropical depression is expected to form over the next several days as it moves westward to west-northwestward at 10 to 15 mph across the western East Pacific.",
+      "descripcion": "A broad area of low pressure located well southwest of the southern tip of the Baja California Peninsula continues to produce disorganized showers and thunderstorms. Environmental conditions are conducive for development, and a tropical depression is expected to form over the next several days as it moves westward to west-northwestward at 10 to 15 mph across the western East Pacific.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 80,
       "riesgo2dias": "alto",
       "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        11.656,
-        -121.853
+        11.914,
+        -122.252
       ],
       "anillos": [
         [
@@ -318,15 +326,15 @@
       "numero": "3",
       "titulo": "-Southeast of the Hawaiian Islands (extremo este) · Former TD 15-E",
       "tituloOriginal": "Well East-Southeast of the Hawaiian Islands (Former TD 15-E)",
-      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located well east of the Hawaiian Islands, remain disorganized. Environmental conditions appear conducive for some development of this system next week as it moves westward to west-southwestward, and a tropical depression could form well to the south or southeast of the Hawaiian Islands towards the middle to latter portion of next week.",
+      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located well east of the Hawaiian Islands, remain persistent, but disorganized. Environmental conditions appear conducive for some development of this system next week as it moves westward to west-southwestward, and a tropical depression could form well to the south or southeast of the Hawaiian Islands towards the middle to latter portion of next week.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
-      "prob7dias": 50,
+      "prob7dias": 60,
       "riesgo7dias": "medio",
       "centro": [
-        16.642,
-        -138.777
+        16.552,
+        -139.061
       ],
       "anillos": [
         [
