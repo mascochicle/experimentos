@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-20T21:41:20.231Z",
+  "generado": "2026-09-20T23:40:57.839Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 3,
   "tormentas": [
@@ -45,8 +45,8 @@
       "rumboGrados": 30,
       "velocidadKt": 8,
       "actualizado": "2026-09-20T21:00:00.000Z",
-      "avisoPublico": null,
-      "graficas": null
+      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP2.shtml",
+      "graficas": "https://www.nhc.noaa.gov/graphics_ep2.shtml"
     }
   ]
 }
