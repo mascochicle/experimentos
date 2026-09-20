@@ -1,22 +1,37 @@
 {
-  "generado": "2026-09-20T07:49:49.435Z",
+  "generado": "2026-09-20T12:43:38.492Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 1,
+  "total": 2,
   "tormentas": [
     {
       "id": "al062026",
-      "nombre": "Six",
-      "clasificacion": "TD",
+      "nombre": "Fay",
+      "clasificacion": "TS",
       "cuenca": "AT1",
-      "intensidadKt": 30,
-      "presionMb": 1007,
-      "lat": 33.3,
-      "lon": -33.2,
+      "intensidadKt": 40,
+      "presionMb": 1004,
+      "lat": 33.7,
+      "lon": -33.1,
       "rumboGrados": 20,
       "velocidadKt": 5,
-      "actualizado": "2026-09-20T03:00:00.000Z",
+      "actualizado": "2026-09-20T09:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPAT1.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_at1.shtml"
+    },
+    {
+      "id": "ep162026",
+      "nombre": "Odalys",
+      "clasificacion": "TS",
+      "cuenca": "EP1",
+      "intensidadKt": 35,
+      "presionMb": 1005,
+      "lat": 11.4,
+      "lon": -124.5,
+      "rumboGrados": 305,
+      "velocidadKt": 8,
+      "actualizado": "2026-09-20T09:00:00.000Z",
+      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP1.shtml",
+      "graficas": "https://www.nhc.noaa.gov/graphics_ep1.shtml"
     }
   ]
 }
