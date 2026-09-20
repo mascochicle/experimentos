@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-20T16:36:59.491Z",
+  "generado": "2026-09-20T19:10:19.240Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "Southwestern Mexico (al suroeste) · EP99",
       "tituloOriginal": "Southwest of Southwestern Mexico (EP99)",
-      "descripcion": "Showers and thunderstorms associated with a broad area of low pressure located about 400 miles south of Manzanillo, Mexico have continued to become better organized over the past several hours. Environmental conditions remain conducive for development, and a tropical depression is likely to form within the next day or so as the system moves generally northward off the coast of southwestern Mexico. Interests along the southwestern and west-central coast of Mexico should monitor the progress of this system. For more information, including gale warnings, see the High Seas Forecast issued by the National Weather Service.",
+      "descripcion": "Showers and thunderstorms associated with a broad area of low pressure located about 350 miles south of Manzanillo, Mexico have changed little in organization since earlier today. However, environmental conditions remain conducive for development, and an increase in the organization of the system could result in it becoming a tropical depression or storm within the next day or so. The system is expected to move eastward off the coast of southern Mexico on Monday, but could begin moving toward the coast by late Tuesday. Interests along the southwestern and west-central coast of Mexico should monitor the progress of this system. For more information, including gale warnings, see the High Seas Forecast issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 90,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        14.301,
-        -105.093
+        14.62,
+        -104.733
       ],
       "anillos": [
         [
@@ -161,15 +161,15 @@
       "numero": "2",
       "titulo": "-Southeast of the Hawaiian Islands (extremo este) · Former TD 15-E",
       "tituloOriginal": "Well East-Southeast of the Hawaiian Islands (Former TD 15-E)",
-      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located well east-southeast of the Hawaiian Islands, remain limited. Environmental conditions appear conducive for some development of this system by the middle to latter portion of this week as it moves westward to west-southwestward, and a tropical depression could form to the south or southeast of the Hawaiian Islands once the environment becomes more favorable.",
+      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located well east-southeast of the Hawaiian Islands, remain limited. Environmental conditions appear conducive for some development of this system by the middle to latter portion of this week as the system moves westward to west-southwestward, and a tropical depression could form to the south or southeast of the Hawaiian Islands once the environment becomes more favorable.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 60,
       "riesgo7dias": "medio",
       "centro": [
-        14.934,
-        -142.162
+        14.725,
+        -143.922
       ],
       "anillos": [
         [
