@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-21T02:12:20.203Z",
+  "generado": "2026-09-21T08:04:04.275Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "-Southeast of the Hawaiian Islands (este) · Former TD 15-E",
       "tituloOriginal": "East-Southeast of the Hawaiian Islands (Former TD 15-E)",
-      "descripcion": "Showers and thunderstorms have increased, but remain disorganized, in association with the remnants of Tropical Depression Fifteen-E, located more than 500 miles to the east-southeast of the Hawaiian Islands. Environmental conditions are forecast to become more conducive for development of this system by the middle to latter portion of this week, and a tropical depression is likely to form by that time to the south or southeast of the Hawaiian Islands as the system moves generally westward at 10 to 15 mph.",
+      "descripcion": "Showers and thunderstorms remain disorganized in association with the remnants of Tropical Depression Fifteen-E, located several hundred miles to the east-southeast of the Hawaiian Islands. Environmental conditions are forecast to become more conducive for development of this system by the middle to latter portion of this week, and a tropical depression is likely to form by that time to the south or southeast of the Hawaiian Islands as the system moves generally westward at 10 to 15 mph.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 70,
       "riesgo7dias": "alto",
       "centro": [
-        13.24,
-        -144.93
+        13.641,
+        -144.94
       ],
       "anillos": [
         [
@@ -157,7 +157,7 @@
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 20,
+      "prob7dias": 30,
       "riesgo7dias": "bajo",
       "centro": [
         12.511,
