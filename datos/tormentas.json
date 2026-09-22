@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-22T17:25:19.752Z",
+  "generado": "2026-09-22T20:17:30.885Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 3,
   "tormentas": [
@@ -38,13 +38,13 @@
       "nombre": "Polo",
       "clasificacion": "HU",
       "cuenca": "EP2",
-      "intensidadKt": 145,
-      "presionMb": 920,
-      "lat": 14.7,
-      "lon": -101.6,
-      "rumboGrados": 360,
-      "velocidadKt": 2,
-      "actualizado": "2026-09-22T15:00:00.000Z",
+      "intensidadKt": 155,
+      "presionMb": 892,
+      "lat": 14.6,
+      "lon": -101.5,
+      "rumboGrados": 0,
+      "velocidadKt": 0,
+      "actualizado": "2026-09-22T19:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep2.shtml"
     }
