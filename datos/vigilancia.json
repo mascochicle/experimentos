@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T17:18:46.095Z",
+  "generado": "2026-09-23T20:33:24.481Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -10,7 +10,7 @@
       "numero": "1",
       "titulo": "Gulf of Tehuantepec (al sur)",
       "tituloOriginal": "South of the Gulf of Tehuantepec",
-      "descripcion": "An area of low pressure is expected to form in a couple of days to the south of the Gulf of Tehuantepec. Afterwards, environmental conditions should be favorable for gradual development, and a tropical depression is likely to form late this week or this weekend as the system moves slowly west-northwestward to northwestward, parallel to the coast of southern and southwestern Mexico.",
+      "descripcion": "An area of low pressure is expected to form in a couple of days to the south of the Gulf of Tehuantepec. Afterwards, environmental conditions should be favorable for gradual development, and a tropical depression is likely to form over the weekend or early next week as the system moves slowly west-northwestward to northwestward, parallel to the coast of southern and southwestern Mexico.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
@@ -148,144 +148,104 @@
     {
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
-      "numero": "1",
-      "titulo": "Atlántico tropical (extremo este)",
-      "tituloOriginal": "Far Eastern Tropical Atlantic",
-      "descripcion": "An area of low pressure, associated with a tropical wave that just moved off the west coast of Africa, has formed about 600 miles southeast of the Cabo Verde Islands. This system could become a short-lived tropical depression on Thursday or Friday while it moves northwestward to northward. However, strong upper-level winds should end the opportunity for development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds and areas of heavy rain are possible there by the end of the week.",
+      "numero": "2",
+      "titulo": "Atlántico subtropical (centro) · Former Tropical Storm Fay",
+      "tituloOriginal": "Central Subtropical Atlantic (Former Tropical Storm Fay)",
+      "descripcion": "Showers and thunderstorms have increased with the remnants of Fay located several hundred miles southwest of the Azores. While environmental conditions are only marginally conducive for development, this system could become a tropical depression again today or tonight if the current thunderstorm activity persists. The system is forecast to move westward during the next couple of days, and by the weekend upper-level winds should inhibit formation chances.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 30,
-      "riesgo2dias": "bajo",
-      "prob7dias": 40,
-      "riesgo7dias": "medio",
+      "prob2dias": 70,
+      "riesgo2dias": "alto",
+      "prob7dias": 70,
+      "riesgo7dias": "alto",
       "centro": [
-        9.467,
-        -16.368
+        30.272,
+        -38.153
       ],
       "anillos": [
         [
           [
-            17.63,
-            -18.86
+            30.97,
+            -38.29
           ],
           [
-            19.85,
-            -19.09
+            31.21,
+            -39.26
           ],
           [
-            20.75,
-            -19.34
+            31.3,
+            -41.61
           ],
           [
-            21.3,
-            -19.63
+            31.29,
+            -44.38
           ],
           [
-            21.83,
-            -20.09
+            31.12,
+            -45.68
           ],
           [
-            22.37,
-            -20.88
+            30.76,
+            -46.41
           ],
           [
-            22.63,
-            -21.6
+            30.23,
+            -46.79
           ],
           [
-            22.76,
-            -22.5
+            29.62,
+            -46.88
           ],
           [
-            22.68,
-            -23.54
+            29.33,
+            -46.81
           ],
           [
-            22.47,
-            -24.27
+            28.89,
+            -46.52
           ],
           [
-            22.12,
-            -24.93
+            28.62,
+            -46.18
           ],
           [
-            21.55,
-            -25.54
+            28.39,
+            -45.69
           ],
           [
-            21.07,
-            -25.85
+            28.2,
+            -44.62
           ],
           [
-            20.24,
-            -26.17
+            28.28,
+            -43.16
           ],
           [
-            19.21,
-            -26.33
+            28.7,
+            -41.05
           ],
           [
-            18.14,
-            -26.3
+            29.32,
+            -38.88
           ],
           [
-            17.09,
-            -26.1
+            29.76,
+            -38.04
           ],
           [
-            15.88,
-            -25.67
+            30.05,
+            -37.81
           ],
           [
-            14.81,
-            -25.1
+            30.39,
+            -37.77
           ],
           [
-            13.63,
-            -24.26
+            30.75,
+            -37.97
           ],
           [
-            12.9,
-            -23.59
-          ],
-          [
-            12.01,
-            -22.43
-          ],
-          [
-            11.65,
-            -21.62
-          ],
-          [
-            11.51,
-            -20.9
-          ],
-          [
-            11.57,
-            -20.21
-          ],
-          [
-            11.8,
-            -19.69
-          ],
-          [
-            12.16,
-            -19.31
-          ],
-          [
-            12.78,
-            -18.99
-          ],
-          [
-            13.73,
-            -18.79
-          ],
-          [
-            14.56,
-            -18.73
-          ],
-          [
-            17.63,
-            -18.86
+            30.97,
+            -38.29
           ]
         ]
       ]
@@ -293,116 +253,144 @@
     {
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
-      "numero": "2",
-      "titulo": "Atlántico subtropical (centro) · Former Tropical Storm Fay",
-      "tituloOriginal": "Central Subtropical Atlantic (Former Tropical Storm Fay)",
-      "descripcion": "A low pressure system, formerly Tropical Storm Fay, is located about 800 miles southwest of the Azores. Shower activity associated with the low has increased this morning. However, significant re-development of this system is unlikely while it moves generally westward over the next couple of days. By the weekend, increasingly strong upper-level winds should inhibit re-development.",
+      "numero": "1",
+      "titulo": "Atlántico tropical (extremo este) · AL90",
+      "tituloOriginal": "Far Eastern Tropical Atlantic (AL90)",
+      "descripcion": "An area of low pressure located a couple of hundred miles southwest off the coast of western Africa is gradually becoming better defined, and the associated shower and thunderstorm activity has increased since yesterday. This system could become a short-lived tropical depression on Thursday or Friday while it moves northwestward to northward. However, strong upper-level winds should end the opportunity for development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds, areas of heavy rain and flash flooding is possible there by Friday.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 20,
-      "riesgo2dias": "bajo",
-      "prob7dias": 20,
-      "riesgo7dias": "bajo",
+      "prob2dias": 50,
+      "riesgo2dias": "medio",
+      "prob7dias": 50,
+      "riesgo7dias": "medio",
       "centro": [
-        30.479,
-        -37.572
+        10.051,
+        -16.835
       ],
       "anillos": [
         [
           [
-            30.41,
-            -37.17
+            17.69,
+            -18.71
           ],
           [
-            30.74,
-            -37.33
+            18.89,
+            -18.84
           ],
           [
-            31.03,
-            -37.69
+            19.74,
+            -19.02
           ],
           [
-            31.22,
-            -38.11
+            20.28,
+            -19.21
           ],
           [
-            31.34,
-            -38.72
+            20.83,
+            -19.55
           ],
           [
-            31.3,
-            -44.13
+            21.12,
+            -19.84
           ],
           [
-            31.17,
-            -45.8
+            21.52,
+            -20.52
           ],
           [
-            31,
-            -46.32
+            21.7,
+            -21.1
           ],
           [
-            30.76,
-            -46.7
+            21.81,
+            -21.88
           ],
           [
-            30.32,
-            -47.11
+            21.8,
+            -22.62
           ],
           [
-            29.86,
-            -47.35
+            21.63,
+            -23.58
           ],
           [
-            29.47,
-            -47.43
+            21.26,
+            -24.4
           ],
           [
-            29.11,
-            -47.37
+            20.89,
+            -24.82
           ],
           [
-            28.81,
-            -47.18
+            20.42,
+            -25.1
           ],
           [
-            28.57,
-            -46.87
+            19.87,
+            -25.25
           ],
           [
-            28.24,
-            -46.14
+            19,
+            -25.3
           ],
           [
-            28.04,
-            -45.12
+            17.98,
+            -25.22
           ],
           [
-            28.02,
-            -43.93
+            17.01,
+            -25.08
           ],
           [
-            28.18,
-            -42.52
+            15.68,
+            -24.72
           ],
           [
-            28.62,
-            -40.8
+            14.98,
+            -24.41
           ],
           [
-            29.38,
-            -38.46
+            13.97,
+            -23.74
           ],
           [
-            29.89,
-            -37.48
+            13.04,
+            -22.87
           ],
           [
-            30.11,
-            -37.26
+            12.4,
+            -22.06
           ],
           [
-            30.41,
-            -37.17
+            11.93,
+            -21.22
+          ],
+          [
+            11.68,
+            -20.32
+          ],
+          [
+            11.72,
+            -19.81
+          ],
+          [
+            11.95,
+            -19.36
+          ],
+          [
+            12.41,
+            -19.01
+          ],
+          [
+            13.1,
+            -18.77
+          ],
+          [
+            14.87,
+            -18.59
+          ],
+          [
+            17.69,
+            -18.71
           ]
         ]
       ]
