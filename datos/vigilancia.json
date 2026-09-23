@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T01:34:36.281Z",
+  "generado": "2026-09-23T06:55:03.537Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -10,137 +10,125 @@
       "numero": "1",
       "titulo": "Islas de Hawái (al sureste) · Former TD 15-E",
       "tituloOriginal": "Southeast of the Hawaiian Islands (Former TD 15-E)",
-      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located roughly 430 miles south-southeast of South Point, Hawaii, are gradually becoming better organized. Environmental conditions are conducive for development, and a tropical depression is expected to form in a day or so, while the system moves slowly west-northwestward. Heavy rains associated with this system are forecast to spread over the southeastern Hawaiian Islands starting on Wednesday and continuing through Saturday, possibly resulting in life-threatening flash flooding and mudslides for portions of the Big Island and Maui. Interests in the Hawaiian Islands should continue to monitor the progress of this system.",
+      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located a few hundred miles south-southeast the Big Island of Hawaii, have become better organized. Environmental conditions remain conducive for development, and a tropical depression could form tonight or Wednesday while the system moves slowly west-northwestward. Heavy rains associated with this system are forecast to spread over the southeastern Hawaiian Islands starting on Wednesday and continuing through Saturday, possibly resulting in life-threatening flash flooding and mudslides for portions of the Big Island and Maui. Interests in the Hawaiian Islands should continue to monitor the progress of this system.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 90,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        13.599,
-        -152.304
+        13.838,
+        -152.607
       ],
       "anillos": [
         [
           [
-            13.65,
-            -151
-          ],
-          [
-            13.06,
-            -151.19
-          ],
-          [
-            12.75,
-            -151.45
-          ],
-          [
-            12.53,
-            -151.81
-          ],
-          [
-            12.37,
-            -152.32
-          ],
-          [
-            12.28,
-            -153.18
-          ],
-          [
-            12.3,
-            -154.15
-          ],
-          [
-            12.43,
-            -155.25
-          ],
-          [
-            12.66,
-            -156.17
-          ],
-          [
-            12.9,
-            -156.65
-          ],
-          [
-            13.16,
-            -156.97
-          ],
-          [
-            13.56,
-            -157.29
-          ],
-          [
-            14.15,
-            -157.58
-          ],
-          [
-            15.31,
-            -157.84
-          ],
-          [
-            15.86,
-            -157.84
-          ],
-          [
-            16.38,
-            -157.74
-          ],
-          [
-            16.95,
-            -157.46
-          ],
-          [
-            17.41,
-            -157.04
-          ],
-          [
-            17.73,
-            -156.57
-          ],
-          [
-            17.98,
-            -155.96
-          ],
-          [
-            18.14,
-            -155.17
-          ],
-          [
-            18.16,
-            -154.5
-          ],
-          [
-            18.06,
-            -153.66
-          ],
-          [
-            17.86,
-            -152.98
-          ],
-          [
-            17.42,
-            -152.23
-          ],
-          [
-            17.03,
-            -151.87
-          ],
-          [
-            16.58,
-            -151.6
-          ],
-          [
-            15.8,
+            14.16,
             -151.28
           ],
           [
-            14.92,
-            -151.06
+            13.73,
+            -151.49
           ],
           [
-            13.65,
-            -151
+            13.33,
+            -151.85
+          ],
+          [
+            12.95,
+            -152.41
+          ],
+          [
+            12.71,
+            -153.09
+          ],
+          [
+            12.65,
+            -153.65
+          ],
+          [
+            12.7,
+            -154.25
+          ],
+          [
+            13.13,
+            -155.69
+          ],
+          [
+            13.7,
+            -156.54
+          ],
+          [
+            14.43,
+            -157.08
+          ],
+          [
+            15.38,
+            -157.42
+          ],
+          [
+            16.11,
+            -157.47
+          ],
+          [
+            16.53,
+            -157.4
+          ],
+          [
+            17,
+            -157.21
+          ],
+          [
+            17.48,
+            -156.87
+          ],
+          [
+            17.83,
+            -156.5
+          ],
+          [
+            18.16,
+            -155.94
+          ],
+          [
+            18.32,
+            -155.4
+          ],
+          [
+            18.34,
+            -154.93
+          ],
+          [
+            18.08,
+            -153.8
+          ],
+          [
+            17.43,
+            -152.55
+          ],
+          [
+            17.1,
+            -152.14
+          ],
+          [
+            16.56,
+            -151.71
+          ],
+          [
+            15.9,
+            -151.39
+          ],
+          [
+            15.21,
+            -151.21
+          ],
+          [
+            14.7,
+            -151.18
+          ],
+          [
+            14.16,
+            -151.28
           ]
         ]
       ]
@@ -304,15 +292,15 @@
       "numero": "1",
       "titulo": "Atlántico tropical (extremo este)",
       "tituloOriginal": "Far Eastern Tropical Atlantic",
-      "descripcion": "A tropical wave is forecast to move off the coast of western Africa later tonight or tomorrow. Although upper-level winds are not very conducive for development, a tropical depression could form while it moves generally northwestward across the far eastern Atlantic. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds and areas of heavy rain are possible there by the end of the week.",
+      "descripcion": "A tropical wave is about to move off the west coast of Africa. An area of low pressure is expected to form in a day or so, and it could become a short-lived tropical depression on Thursday or Friday. Strong upper-level winds should end the opportunity for development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds and areas of heavy rain are possible there by the end of the week.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 20,
       "riesgo2dias": "bajo",
       "prob7dias": 40,
       "riesgo7dias": "medio",
       "centro": [
-        9.766,
-        -13.192
+        9.22,
+        -15.139
       ],
       "anillos": [
         [
@@ -321,59 +309,59 @@
             -18.86
           ],
           [
-            20.09,
-            -19.16
+            19.85,
+            -19.09
           ],
           [
-            20.81,
-            -19.38
+            20.75,
+            -19.34
           ],
           [
-            21.51,
-            -19.76
+            21.3,
+            -19.63
           ],
           [
-            22.11,
-            -20.3
+            21.83,
+            -20.09
           ],
           [
-            22.49,
-            -20.83
+            22.37,
+            -20.88
           ],
           [
-            22.79,
-            -21.54
+            22.63,
+            -21.6
           ],
           [
-            22.92,
-            -22.34
+            22.76,
+            -22.5
           ],
           [
-            22.86,
-            -23.2
+            22.68,
+            -23.54
           ],
           [
-            22.62,
-            -24.06
+            22.47,
+            -24.27
           ],
           [
-            22.26,
-            -24.76
+            22.12,
+            -24.93
           ],
           [
-            21.54,
-            -25.55
+            21.55,
+            -25.54
           ],
           [
-            21.05,
-            -25.86
+            21.07,
+            -25.85
           ],
           [
-            20.12,
-            -26.2
+            20.24,
+            -26.17
           ],
           [
-            19.2,
+            19.21,
             -26.33
           ],
           [
@@ -381,12 +369,12 @@
             -26.3
           ],
           [
-            17.2,
-            -26.13
+            17.09,
+            -26.1
           ],
           [
-            15.78,
-            -25.62
+            15.88,
+            -25.67
           ],
           [
             14.81,
@@ -397,16 +385,16 @@
             -24.26
           ],
           [
-            12.68,
-            -23.35
+            12.9,
+            -23.59
           ],
           [
-            12.06,
-            -22.51
+            12.01,
+            -22.43
           ],
           [
-            11.68,
-            -21.71
+            11.65,
+            -21.62
           ],
           [
             11.51,
@@ -429,12 +417,12 @@
             -18.99
           ],
           [
-            13.74,
+            13.73,
             -18.79
           ],
           [
-            14.86,
-            -18.72
+            14.56,
+            -18.73
           ],
           [
             17.63,
