@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T06:55:03.537Z",
+  "generado": "2026-09-23T12:24:55.139Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -8,146 +8,17 @@
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
-      "titulo": "Islas de Hawái (al sureste) · Former TD 15-E",
-      "tituloOriginal": "Southeast of the Hawaiian Islands (Former TD 15-E)",
-      "descripcion": "Showers and thunderstorms associated with the remnants of Tropical Depression Fifteen-E, located a few hundred miles south-southeast the Big Island of Hawaii, have become better organized. Environmental conditions remain conducive for development, and a tropical depression could form tonight or Wednesday while the system moves slowly west-northwestward. Heavy rains associated with this system are forecast to spread over the southeastern Hawaiian Islands starting on Wednesday and continuing through Saturday, possibly resulting in life-threatening flash flooding and mudslides for portions of the Big Island and Maui. Interests in the Hawaiian Islands should continue to monitor the progress of this system.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 90,
-      "riesgo2dias": "alto",
-      "prob7dias": 90,
-      "riesgo7dias": "alto",
-      "centro": [
-        13.838,
-        -152.607
-      ],
-      "anillos": [
-        [
-          [
-            14.16,
-            -151.28
-          ],
-          [
-            13.73,
-            -151.49
-          ],
-          [
-            13.33,
-            -151.85
-          ],
-          [
-            12.95,
-            -152.41
-          ],
-          [
-            12.71,
-            -153.09
-          ],
-          [
-            12.65,
-            -153.65
-          ],
-          [
-            12.7,
-            -154.25
-          ],
-          [
-            13.13,
-            -155.69
-          ],
-          [
-            13.7,
-            -156.54
-          ],
-          [
-            14.43,
-            -157.08
-          ],
-          [
-            15.38,
-            -157.42
-          ],
-          [
-            16.11,
-            -157.47
-          ],
-          [
-            16.53,
-            -157.4
-          ],
-          [
-            17,
-            -157.21
-          ],
-          [
-            17.48,
-            -156.87
-          ],
-          [
-            17.83,
-            -156.5
-          ],
-          [
-            18.16,
-            -155.94
-          ],
-          [
-            18.32,
-            -155.4
-          ],
-          [
-            18.34,
-            -154.93
-          ],
-          [
-            18.08,
-            -153.8
-          ],
-          [
-            17.43,
-            -152.55
-          ],
-          [
-            17.1,
-            -152.14
-          ],
-          [
-            16.56,
-            -151.71
-          ],
-          [
-            15.9,
-            -151.39
-          ],
-          [
-            15.21,
-            -151.21
-          ],
-          [
-            14.7,
-            -151.18
-          ],
-          [
-            14.16,
-            -151.28
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Pacific",
-      "cuencaEs": "Pacífico oriental",
-      "numero": "2",
       "titulo": "Gulf of Tehuantepec (al sur)",
       "tituloOriginal": "South of the Gulf of Tehuantepec",
       "descripcion": "An area of low pressure is expected to form in a couple of days to the south of the Gulf of Tehuantepec. Afterwards, environmental conditions should be favorable for gradual development, and a tropical depression is likely to form late this week or this weekend as the system moves slowly west-northwestward to northwestward, parallel to the coast of southern and southwestern Mexico.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 70,
+      "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        13.609,
-        -101.1
+        13.821,
+        -100.813
       ],
       "anillos": [
         [
@@ -156,128 +27,116 @@
             -94.65
           ],
           [
-            15,
-            -96.4
+            14.98,
+            -96.36
           ],
           [
-            15.89,
-            -98.07
+            15.97,
+            -98.23
           ],
           [
-            17.48,
-            -101.58
+            17.62,
+            -101.97
           ],
           [
-            17.89,
-            -102.71
+            18.14,
+            -103.53
           ],
           [
-            18.24,
-            -104.04
+            18.46,
+            -105.02
           ],
           [
-            18.34,
-            -104.93
+            18.52,
+            -105.93
           ],
           [
-            18.27,
-            -105.65
+            18.42,
+            -106.8
           ],
           [
-            18.06,
-            -106.22
+            18,
+            -107.73
           ],
           [
-            17.67,
-            -106.76
+            17.23,
+            -108.4
           ],
           [
-            16.48,
-            -107.71
+            16.81,
+            -108.6
           ],
           [
-            15.73,
-            -108.12
+            16.07,
+            -108.79
           ],
           [
-            15.06,
-            -108.37
+            14.92,
+            -108.79
           ],
           [
-            14.4,
-            -108.48
+            13.85,
+            -108.47
           ],
           [
-            14.04,
-            -108.46
+            13.07,
+            -107.93
           ],
           [
-            13.62,
-            -108.33
+            12.3,
+            -107
           ],
           [
-            13.24,
-            -108.09
+            11.6,
+            -105.64
           ],
           [
-            12.62,
-            -107.38
+            10.65,
+            -102.93
           ],
           [
-            12.11,
-            -106.51
+            9.89,
+            -99.82
           ],
           [
-            11.17,
-            -104.41
+            9.53,
+            -97.3
           ],
           [
-            9.81,
-            -101.14
+            9.52,
+            -96.18
           ],
           [
-            9.09,
-            -98.93
+            9.64,
+            -95.27
           ],
           [
-            8.87,
-            -97.81
+            9.95,
+            -94.38
           ],
           [
-            8.81,
-            -96.95
+            10.4,
+            -93.7
           ],
           [
-            8.99,
-            -95.52
+            11,
+            -93.18
           ],
           [
-            9.43,
-            -94.52
+            11.74,
+            -92.89
           ],
           [
-            10.02,
-            -93.8
-          ],
-          [
-            10.98,
-            -93.16
-          ],
-          [
-            11.64,
-            -92.92
-          ],
-          [
-            12.24,
+            12.23,
             -92.96
           ],
           [
             12.82,
-            -93.32
+            -93.33
           ],
           [
-            13.24,
-            -93.74
+            13.43,
+            -93.97
           ],
           [
             13.93,
@@ -292,15 +151,15 @@
       "numero": "1",
       "titulo": "Atlántico tropical (extremo este)",
       "tituloOriginal": "Far Eastern Tropical Atlantic",
-      "descripcion": "A tropical wave is about to move off the west coast of Africa. An area of low pressure is expected to form in a day or so, and it could become a short-lived tropical depression on Thursday or Friday. Strong upper-level winds should end the opportunity for development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds and areas of heavy rain are possible there by the end of the week.",
+      "descripcion": "An area of low pressure, associated with a tropical wave that just moved off the west coast of Africa, has formed about 600 miles southeast of the Cabo Verde Islands. This system could become a short-lived tropical depression on Thursday or Friday while it moves northwestward to northward. However, strong upper-level winds should end the opportunity for development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds and areas of heavy rain are possible there by the end of the week.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 20,
+      "prob2dias": 30,
       "riesgo2dias": "bajo",
       "prob7dias": 40,
       "riesgo7dias": "medio",
       "centro": [
-        9.22,
-        -15.139
+        9.467,
+        -16.368
       ],
       "anillos": [
         [
@@ -427,6 +286,123 @@
           [
             17.63,
             -18.86
+          ]
+        ]
+      ]
+    },
+    {
+      "cuenca": "Atlantic",
+      "cuencaEs": "Atlántico",
+      "numero": "2",
+      "titulo": "Atlántico subtropical (centro) · Former Tropical Storm Fay",
+      "tituloOriginal": "Central Subtropical Atlantic (Former Tropical Storm Fay)",
+      "descripcion": "A low pressure system, formerly Tropical Storm Fay, is located about 800 miles southwest of the Azores. Shower activity associated with the low has increased this morning. However, significant re-development of this system is unlikely while it moves generally westward over the next couple of days. By the weekend, increasingly strong upper-level winds should inhibit re-development.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
+      "prob2dias": 20,
+      "riesgo2dias": "bajo",
+      "prob7dias": 20,
+      "riesgo7dias": "bajo",
+      "centro": [
+        30.479,
+        -37.572
+      ],
+      "anillos": [
+        [
+          [
+            30.41,
+            -37.17
+          ],
+          [
+            30.74,
+            -37.33
+          ],
+          [
+            31.03,
+            -37.69
+          ],
+          [
+            31.22,
+            -38.11
+          ],
+          [
+            31.34,
+            -38.72
+          ],
+          [
+            31.3,
+            -44.13
+          ],
+          [
+            31.17,
+            -45.8
+          ],
+          [
+            31,
+            -46.32
+          ],
+          [
+            30.76,
+            -46.7
+          ],
+          [
+            30.32,
+            -47.11
+          ],
+          [
+            29.86,
+            -47.35
+          ],
+          [
+            29.47,
+            -47.43
+          ],
+          [
+            29.11,
+            -47.37
+          ],
+          [
+            28.81,
+            -47.18
+          ],
+          [
+            28.57,
+            -46.87
+          ],
+          [
+            28.24,
+            -46.14
+          ],
+          [
+            28.04,
+            -45.12
+          ],
+          [
+            28.02,
+            -43.93
+          ],
+          [
+            28.18,
+            -42.52
+          ],
+          [
+            28.62,
+            -40.8
+          ],
+          [
+            29.38,
+            -38.46
+          ],
+          [
+            29.89,
+            -37.48
+          ],
+          [
+            30.11,
+            -37.26
+          ],
+          [
+            30.41,
+            -37.17
           ]
         ]
       ]
