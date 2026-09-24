@@ -1,9 +1,150 @@
 {
-  "generado": "2026-09-24T20:35:44.368Z",
+  "generado": "2026-09-24T23:38:50.189Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
   "zonas": [
+    {
+      "cuenca": "Atlantic",
+      "cuencaEs": "Atlántico",
+      "numero": "1",
+      "titulo": "Atlántico tropical (extremo este) · AL90",
+      "tituloOriginal": "Far Eastern Tropical Atlantic (AL90)",
+      "descripcion": "Recent satellite-derived wind data indicates that an area of low pressure located less than 200 miles to the south-southeast of the Cabo Verde Islands is producing winds of 40-45 mph to the north of its center, which is gradually becoming better defined. In addition, the system is producing a large area of showers and thunderstorms that are also showing signs of organization. If these current trends continue, the system is likely to become a short-lived tropical storm as soon as later tonight or on Friday while it moves northwestward to northward. Increasing upper-level winds, however, should prevent further development over the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds, areas of heavy rain, and flash flooding are possible over the islands by Friday. Heavy rain and flash flooding could also occur well to the east along the coast of western Africa, particularly in western portions of Senegal, The Gambia, Guinea-Bissau, and southwest portions of Mauritania.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
+      "prob2dias": 80,
+      "riesgo2dias": "alto",
+      "prob7dias": 80,
+      "riesgo7dias": "alto",
+      "centro": [
+        13.33,
+        -21.73
+      ],
+      "anillos": [
+        [
+          [
+            13.55,
+            -18.93
+          ],
+          [
+            14.89,
+            -18.92
+          ],
+          [
+            16.17,
+            -19.08
+          ],
+          [
+            17.34,
+            -19.39
+          ],
+          [
+            17.97,
+            -19.64
+          ],
+          [
+            18.67,
+            -20.02
+          ],
+          [
+            19.6,
+            -20.73
+          ],
+          [
+            20.33,
+            -21.54
+          ],
+          [
+            20.8,
+            -22.29
+          ],
+          [
+            21.07,
+            -23.11
+          ],
+          [
+            21.08,
+            -23.84
+          ],
+          [
+            20.82,
+            -24.56
+          ],
+          [
+            20.36,
+            -25.15
+          ],
+          [
+            19.63,
+            -25.68
+          ],
+          [
+            18.84,
+            -25.97
+          ],
+          [
+            18.01,
+            -26.04
+          ],
+          [
+            16.97,
+            -25.87
+          ],
+          [
+            15.36,
+            -25.23
+          ],
+          [
+            13.79,
+            -24.36
+          ],
+          [
+            12.29,
+            -23.31
+          ],
+          [
+            11.87,
+            -22.9
+          ],
+          [
+            11.55,
+            -22.42
+          ],
+          [
+            11.37,
+            -21.94
+          ],
+          [
+            11.27,
+            -21.29
+          ],
+          [
+            11.33,
+            -20.51
+          ],
+          [
+            11.55,
+            -19.88
+          ],
+          [
+            11.8,
+            -19.54
+          ],
+          [
+            12.27,
+            -19.22
+          ],
+          [
+            12.93,
+            -19.01
+          ],
+          [
+            13.55,
+            -18.93
+          ]
+        ]
+      ]
+    },
     {
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
@@ -145,143 +286,6 @@
           [
             13.93,
             -94.65
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Atlantic",
-      "cuencaEs": "Atlántico",
-      "numero": "1",
-      "titulo": "Atlántico tropical (extremo este) · AL90",
-      "tituloOriginal": "Far Eastern Tropical Atlantic (AL90)",
-      "descripcion": "An elongated area of low pressure located a few hundred miles south-southeast of the Cabo Verde Islands is producing a large area of disorganized showers and thunderstorms. This system could become a short-lived tropical depression or tropical storm later today or on Friday while it moves northwestward to northward. Increasing upper-level winds, however, should prevent further development over the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds, areas of heavy rain, and flash flooding are possible over the islands by Friday. Heavy rain and flash flooding could also occur well to the east along the coast of western Africa, particularly in western portions of Senegal, The Gambia, Guinea-Bissau, and southwest portions of Mauritania.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 70,
-      "riesgo2dias": "alto",
-      "prob7dias": 70,
-      "riesgo7dias": "alto",
-      "centro": [
-        12.912,
-        -20.179
-      ],
-      "anillos": [
-        [
-          [
-            13.64,
-            -18.06
-          ],
-          [
-            14.95,
-            -18.37
-          ],
-          [
-            16.08,
-            -18.74
-          ],
-          [
-            17.23,
-            -19.23
-          ],
-          [
-            18.55,
-            -19.99
-          ],
-          [
-            19.38,
-            -20.64
-          ],
-          [
-            20.16,
-            -21.43
-          ],
-          [
-            20.68,
-            -22.15
-          ],
-          [
-            21.04,
-            -22.93
-          ],
-          [
-            21.13,
-            -23.8
-          ],
-          [
-            20.9,
-            -24.5
-          ],
-          [
-            20.35,
-            -25.17
-          ],
-          [
-            19.54,
-            -25.73
-          ],
-          [
-            18.6,
-            -26.08
-          ],
-          [
-            17.74,
-            -26.17
-          ],
-          [
-            16.91,
-            -26.06
-          ],
-          [
-            16.04,
-            -25.72
-          ],
-          [
-            14.75,
-            -24.86
-          ],
-          [
-            13.5,
-            -23.72
-          ],
-          [
-            11.89,
-            -21.93
-          ],
-          [
-            11.24,
-            -21.09
-          ],
-          [
-            10.9,
-            -20.47
-          ],
-          [
-            10.87,
-            -19.95
-          ],
-          [
-            11.06,
-            -19.2
-          ],
-          [
-            11.36,
-            -18.58
-          ],
-          [
-            11.69,
-            -18.21
-          ],
-          [
-            11.99,
-            -18.04
-          ],
-          [
-            12.39,
-            -17.95
-          ],
-          [
-            13.64,
-            -18.06
           ]
         ]
       ]
