@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T06:54:12.071Z",
+  "generado": "2026-09-24T12:24:06.126Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -151,15 +151,15 @@
       "numero": "1",
       "titulo": "Atlántico tropical (extremo este) · AL90",
       "tituloOriginal": "Far Eastern Tropical Atlantic (AL90)",
-      "descripcion": "An area of low pressure located a few hundred miles south-southeast of the Cabo Verde Islands is accompanied by a large area of disorganized showers and thunderstorms. This system could become a short-lived tropical depression later today or on Friday while it moves northwestward to northward. However, strong upper-level winds should end the opportunity for development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds, areas of heavy rain, and flash flooding are possible there by Friday.",
+      "descripcion": "A broad area of low pressure located a few hundred miles south-southeast of the Cabo Verde Islands is producing a large area of disorganized showers and thunderstorms. This system could become a short-lived tropical depression or a tropical storm later today or on Friday while it moves northwestward to northward. Increasing upper-level winds, however, should prevent further development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds, areas of heavy rain, and flash flooding are possible over the islands by Friday.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 60,
-      "riesgo2dias": "medio",
-      "prob7dias": 60,
-      "riesgo7dias": "medio",
+      "prob2dias": 70,
+      "riesgo2dias": "alto",
+      "prob7dias": 70,
+      "riesgo7dias": "alto",
       "centro": [
-        12.277,
-        -19.458
+        12.744,
+        -19.562
       ],
       "anillos": [
         [
@@ -168,108 +168,112 @@
             -18.06
           ],
           [
-            15.35,
-            -18.5
+            14.95,
+            -18.37
           ],
           [
-            16.38,
-            -18.85
+            16.08,
+            -18.74
           ],
           [
-            17.52,
-            -19.36
+            17.23,
+            -19.23
           ],
           [
-            18.31,
-            -19.84
+            18.55,
+            -19.99
           ],
           [
-            19.15,
-            -20.58
+            19.38,
+            -20.64
           ],
           [
-            19.66,
-            -21.21
+            20.16,
+            -21.43
           ],
           [
-            20.28,
-            -22.45
+            20.68,
+            -22.15
           ],
           [
-            20.49,
-            -23.57
+            21.04,
+            -22.93
           ],
           [
-            20.39,
-            -24.49
+            21.13,
+            -23.8
           ],
           [
-            20,
-            -25.35
+            20.9,
+            -24.5
           ],
           [
-            19.36,
-            -26.01
+            20.35,
+            -25.17
           ],
           [
-            18.65,
-            -26.36
+            19.54,
+            -25.73
           ],
           [
-            17.96,
-            -26.45
+            18.6,
+            -26.08
           ],
           [
-            17.07,
-            -26.29
+            17.74,
+            -26.17
           ],
           [
-            16.15,
-            -25.88
+            16.91,
+            -26.06
+          ],
+          [
+            16.04,
+            -25.72
           ],
           [
             14.75,
-            -24.89
+            -24.86
           ],
           [
-            13.11,
-            -23.38
+            13.5,
+            -23.72
           ],
           [
-            11.61,
-            -21.67
+            11.89,
+            -21.93
           ],
           [
-            11.16,
-            -20.99
+            11.24,
+            -21.09
           ],
           [
-            10.96,
-            -20.51
+            10.9,
+            -20.47
           ],
           [
-            10.91,
-            -19.98
+            10.87,
+            -19.95
           ],
           [
-            11.09,
-            -19.21
+            11.06,
+            -19.2
           ],
           [
-            11.37,
-            -18.54
+            11.36,
+            -18.58
           ],
           [
-            11.76,
-            -18.02
+            11.69,
+            -18.21
           ],
           [
-            12,
-            -17.88
+            11.99,
+            -18.04
           ],
           [
-            12.4,
-            -17.83
+            12.39,
+            -17.95
           ],
           [
             13.64,
