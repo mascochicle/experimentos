@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T01:31:14.639Z",
+  "generado": "2026-09-24T06:54:12.071Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -10,7 +10,7 @@
       "numero": "1",
       "titulo": "Gulf of Tehuantepec (al sur)",
       "tituloOriginal": "South of the Gulf of Tehuantepec",
-      "descripcion": "An area of low pressure is expected to form in a couple of days to the south of the Gulf of Tehuantepec. Afterwards, environmental conditions should be favorable for gradual development, and a tropical depression is likely to form over the weekend or early next week as the system moves slowly west-northwestward to northwestward, parallel to the coast of southern and southwestern Mexico.",
+      "descripcion": "An area of low pressure is expected to form in a couple of days to the south of the Gulf of Tehuantepec. Afterwards, environmental conditions should be favorable for gradual development, and a tropical depression is likely to form early next week as the system moves slowly west-northwestward to northwestward, parallel to the coast of southern and southwestern Mexico.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
@@ -151,141 +151,129 @@
       "numero": "1",
       "titulo": "Atlántico tropical (extremo este) · AL90",
       "tituloOriginal": "Far Eastern Tropical Atlantic (AL90)",
-      "descripcion": "An area of low pressure located a few hundred miles southeast of the Cabo Verde Islands is accompanied by a large area of disorganized showers and thunderstorms. This system could become a short-lived tropical depression on Thursday or Friday while it moves northwestward to northward. However, strong upper-level winds should end the opportunity for development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds, areas of heavy rain and flash flooding are possible there by Friday.",
+      "descripcion": "An area of low pressure located a few hundred miles south-southeast of the Cabo Verde Islands is accompanied by a large area of disorganized showers and thunderstorms. This system could become a short-lived tropical depression later today or on Friday while it moves northwestward to northward. However, strong upper-level winds should end the opportunity for development by the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds, areas of heavy rain, and flash flooding are possible there by Friday.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 60,
       "riesgo2dias": "medio",
       "prob7dias": 60,
       "riesgo7dias": "medio",
       "centro": [
-        11.001,
-        -18.498
+        12.277,
+        -19.458
       ],
       "anillos": [
         [
           [
-            15.85,
-            -18.36
+            13.64,
+            -18.06
           ],
           [
-            18.04,
-            -18.61
+            15.35,
+            -18.5
           ],
           [
-            18.78,
+            16.38,
             -18.85
           ],
           [
-            19.12,
-            -19.05
-          ],
-          [
-            19.45,
+            17.52,
             -19.36
           ],
           [
-            19.71,
-            -19.75
+            18.31,
+            -19.84
           ],
           [
-            19.95,
-            -20.46
+            19.15,
+            -20.58
           ],
           [
-            20.04,
-            -21.28
+            19.66,
+            -21.21
           ],
           [
-            19.98,
-            -22.38
+            20.28,
+            -22.45
           ],
           [
-            19.76,
-            -23.5
+            20.49,
+            -23.57
           ],
           [
-            19.31,
-            -24.71
+            20.39,
+            -24.49
           ],
           [
-            18.88,
-            -25.36
+            20,
+            -25.35
           ],
           [
-            18.3,
-            -25.84
+            19.36,
+            -26.01
           ],
           [
-            17.77,
-            -26.03
+            18.65,
+            -26.36
           ],
           [
-            16.99,
-            -26.07
+            17.96,
+            -26.45
           ],
           [
-            16.17,
-            -25.9
+            17.07,
+            -26.29
           ],
           [
-            15.29,
-            -25.55
+            16.15,
+            -25.88
           ],
           [
-            14.45,
-            -25.06
+            14.75,
+            -24.89
           ],
           [
-            13.8,
-            -24.57
+            13.11,
+            -23.38
           ],
           [
-            13.05,
-            -23.85
+            11.61,
+            -21.67
           ],
           [
-            12.57,
-            -23.22
+            11.16,
+            -20.99
           ],
           [
-            12.23,
-            -22.57
+            10.96,
+            -20.51
           ],
           [
-            11.98,
-            -21.73
+            10.91,
+            -19.98
           ],
           [
-            11.87,
-            -20.87
+            11.09,
+            -19.21
           ],
           [
-            11.92,
-            -19.93
+            11.37,
+            -18.54
           ],
           [
-            12.03,
-            -19.49
+            11.76,
+            -18.02
           ],
           [
-            12.27,
-            -18.97
+            12,
+            -17.88
           ],
           [
-            12.64,
-            -18.59
+            12.4,
+            -17.83
           ],
           [
-            13.22,
-            -18.34
-          ],
-          [
-            13.91,
-            -18.25
-          ],
-          [
-            15.85,
-            -18.36
+            13.64,
+            -18.06
           ]
         ]
       ]
@@ -303,146 +291,138 @@
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        12.759,
-        -135.101
+        13.841,
+        -135.111
       ],
       "anillos": [
         [
           [
-            13.43,
-            -142.99
+            15.1,
+            -140.48
+          ],
+          [
+            15.59,
+            -139.69
+          ],
+          [
+            16.35,
+            -138.06
+          ],
+          [
+            17.47,
+            -134.81
+          ],
+          [
+            17.74,
+            -133.75
+          ],
+          [
+            17.98,
+            -132.28
+          ],
+          [
+            18.01,
+            -131.33
+          ],
+          [
+            17.85,
+            -130.26
+          ],
+          [
+            17.54,
+            -129.46
+          ],
+          [
+            17.03,
+            -128.75
+          ],
+          [
+            16.45,
+            -128.3
+          ],
+          [
+            15.61,
+            -128
+          ],
+          [
+            14.8,
+            -127.97
           ],
           [
             13.9,
-            -142.14
+            -128.19
           ],
           [
-            14.17,
-            -141.44
+            13.15,
+            -128.61
           ],
           [
-            15.2,
-            -137.96
+            12.48,
+            -129.23
           ],
           [
-            15.7,
-            -136.56
+            11.95,
+            -129.93
           ],
           [
-            16.95,
-            -134.02
+            11.39,
+            -130.99
           ],
           [
-            17.4,
-            -132.9
-          ],
-          [
-            17.62,
-            -131.52
-          ],
-          [
-            17.45,
-            -130.16
-          ],
-          [
-            17.2,
-            -129.33
-          ],
-          [
-            16.66,
-            -128.11
-          ],
-          [
-            15.6,
-            -126.51
-          ],
-          [
-            15.21,
-            -126.09
-          ],
-          [
-            14.54,
-            -125.58
-          ],
-          [
-            14.03,
-            -125.37
-          ],
-          [
-            13.53,
-            -125.33
-          ],
-          [
-            13.05,
-            -125.45
-          ],
-          [
-            12.49,
-            -125.78
-          ],
-          [
-            11.59,
-            -126.75
+            10.95,
+            -132.24
           ],
           [
             10.58,
-            -128.52
+            -133.66
           ],
           [
-            9.9,
-            -130.3
+            10.11,
+            -136.07
           ],
           [
-            8.58,
-            -134.84
+            9.85,
+            -137.95
           ],
           [
-            8,
-            -137.34
+            9.79,
+            -139.4
           ],
           [
-            7.77,
-            -139.38
+            9.93,
+            -140.51
           ],
           [
-            7.8,
-            -140.52
+            10.24,
+            -141.28
           ],
           [
-            7.95,
-            -141.31
+            10.71,
+            -141.84
           ],
           [
-            8.4,
-            -142.35
+            11.46,
+            -142.27
           ],
           [
-            8.97,
-            -143.02
+            12.38,
+            -142.41
           ],
           [
-            9.73,
-            -143.54
+            13.09,
+            -142.26
           ],
           [
-            10.55,
-            -143.87
+            13.75,
+            -141.92
           ],
           [
-            11.33,
-            -144
+            14.57,
+            -141.18
           ],
           [
-            12.23,
-            -143.89
-          ],
-          [
-            12.87,
-            -143.57
-          ],
-          [
-            13.43,
-            -142.99
+            15.1,
+            -140.48
           ]
         ]
       ]
