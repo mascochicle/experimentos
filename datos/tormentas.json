@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T23:38:50.015Z",
+  "generado": "2026-09-25T02:21:13.310Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 4,
   "tormentas": [
@@ -56,10 +56,10 @@
       "intensidadKt": 60,
       "presionMb": 992,
       "lat": 14.9,
-      "lon": -156.1,
-      "rumboGrados": 360,
-      "velocidadKt": 2,
-      "actualizado": "2026-09-24T21:00:00.000Z",
+      "lon": -156,
+      "rumboGrados": 15,
+      "velocidadKt": 3,
+      "actualizado": "2026-09-25T00:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_cp2.shtml"
     }
