@@ -1,299 +1,148 @@
 {
-  "generado": "2026-09-25T02:21:13.668Z",
+  "generado": "2026-09-25T08:00:53.714Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 3,
-  "cuencasSinFormacion": [],
+  "total": 2,
+  "cuencasSinFormacion": [
+    "Atlántico"
+  ],
   "zonas": [
-    {
-      "cuenca": "Atlantic",
-      "cuencaEs": "Atlántico",
-      "numero": "1",
-      "titulo": "Atlántico tropical (extremo este) · AL90",
-      "tituloOriginal": "Far Eastern Tropical Atlantic (AL90)",
-      "descripcion": "Recent satellite-derived wind data indicates that an area of low pressure located less than 200 miles to the south-southeast of the Cabo Verde Islands is producing winds of 40-45 mph to the north of its center, which is gradually becoming better defined. In addition, the system is producing a large area of showers and thunderstorms that are also showing signs of organization. If these current trends continue, the system is likely to become a short-lived tropical storm as soon as later tonight or on Friday while it moves northwestward to northward. Increasing upper-level winds, however, should prevent further development over the weekend. Interests in the Cabo Verde Islands should monitor the progress of this system as gusty winds, areas of heavy rain, and flash flooding are possible over the islands by Friday. Heavy rain and flash flooding could also occur well to the east along the coast of western Africa, particularly in western portions of Senegal, The Gambia, Guinea-Bissau, and southwest portions of Mauritania.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 80,
-      "riesgo2dias": "alto",
-      "prob7dias": 80,
-      "riesgo7dias": "alto",
-      "centro": [
-        13.33,
-        -21.73
-      ],
-      "anillos": [
-        [
-          [
-            13.55,
-            -18.93
-          ],
-          [
-            14.89,
-            -18.92
-          ],
-          [
-            16.17,
-            -19.08
-          ],
-          [
-            17.34,
-            -19.39
-          ],
-          [
-            17.97,
-            -19.64
-          ],
-          [
-            18.67,
-            -20.02
-          ],
-          [
-            19.6,
-            -20.73
-          ],
-          [
-            20.33,
-            -21.54
-          ],
-          [
-            20.8,
-            -22.29
-          ],
-          [
-            21.07,
-            -23.11
-          ],
-          [
-            21.08,
-            -23.84
-          ],
-          [
-            20.82,
-            -24.56
-          ],
-          [
-            20.36,
-            -25.15
-          ],
-          [
-            19.63,
-            -25.68
-          ],
-          [
-            18.84,
-            -25.97
-          ],
-          [
-            18.01,
-            -26.04
-          ],
-          [
-            16.97,
-            -25.87
-          ],
-          [
-            15.36,
-            -25.23
-          ],
-          [
-            13.79,
-            -24.36
-          ],
-          [
-            12.29,
-            -23.31
-          ],
-          [
-            11.87,
-            -22.9
-          ],
-          [
-            11.55,
-            -22.42
-          ],
-          [
-            11.37,
-            -21.94
-          ],
-          [
-            11.27,
-            -21.29
-          ],
-          [
-            11.33,
-            -20.51
-          ],
-          [
-            11.55,
-            -19.88
-          ],
-          [
-            11.8,
-            -19.54
-          ],
-          [
-            12.27,
-            -19.22
-          ],
-          [
-            12.93,
-            -19.01
-          ],
-          [
-            13.55,
-            -18.93
-          ]
-        ]
-      ]
-    },
     {
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
       "titulo": "Gulf of Tehuantepec (al sur)",
       "tituloOriginal": "South of the Gulf of Tehuantepec",
-      "descripcion": "An area of low pressure is expected to form in a couple of days to the south of the Gulf of Tehuantepec. Afterwards, environmental conditions should be favorable for gradual development, and a tropical depression is likely to form late this weekend or early next week as the system moves slowly west-northwestward to northwestward, parallel to the coast of southern and southwestern Mexico.",
+      "descripcion": "An area of low pressure is expected to form within the next day or two to the south of the Gulf of Tehuantepec. Afterwards, environmental conditions should be favorable for gradual development, and a tropical depression is expected to form late this weekend or early next week as the system moves slowly west-northwestward to northwestward, parallel to the coast of southern and southwestern Mexico.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 10,
+      "prob2dias": 20,
       "riesgo2dias": "bajo",
-      "prob7dias": 80,
+      "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        10.685,
-        -90.893
+        11.029,
+        -92.198
       ],
       "anillos": [
         [
           [
-            13.93,
-            -94.65
+            9.21,
+            -99.18
           ],
           [
-            14.96,
-            -96.31
+            9.06,
+            -97.86
           ],
           [
-            16.05,
-            -98.39
+            9.12,
+            -96.7
           ],
           [
-            16.98,
-            -100.4
-          ],
-          [
-            17.93,
-            -102.87
-          ],
-          [
-            18.48,
-            -104.83
-          ],
-          [
-            18.69,
-            -106.12
-          ],
-          [
-            18.73,
-            -107.21
-          ],
-          [
-            18.55,
-            -108.32
-          ],
-          [
-            18.14,
-            -109.07
-          ],
-          [
-            17.83,
-            -109.34
-          ],
-          [
-            17.47,
-            -109.51
-          ],
-          [
-            16.71,
-            -109.61
-          ],
-          [
-            15.56,
-            -109.39
-          ],
-          [
-            14.15,
-            -108.76
-          ],
-          [
-            13.15,
-            -108.04
-          ],
-          [
-            12.39,
-            -107.25
-          ],
-          [
-            11.5,
-            -105.94
-          ],
-          [
-            10.94,
-            -104.8
-          ],
-          [
-            10.38,
-            -103.35
-          ],
-          [
-            9.97,
-            -102.01
-          ],
-          [
-            9.57,
-            -100.32
-          ],
-          [
-            9.28,
-            -97.91
-          ],
-          [
-            9.29,
-            -97.12
-          ],
-          [
-            9.44,
+            9.3,
             -95.91
           ],
           [
             9.82,
-            -94.72
+            -94.82
           ],
           [
-            10.27,
-            -93.89
+            10.58,
+            -94.09
           ],
           [
-            10.87,
-            -93.27
+            11.63,
+            -93.52
           ],
           [
-            11.52,
-            -92.94
+            11.97,
+            -93.44
           ],
           [
-            12.04,
-            -92.93
+            12.43,
+            -93.45
           ],
           [
-            12.67,
-            -93.23
+            13.03,
+            -93.68
           ],
           [
-            13.34,
-            -93.88
+            13.57,
+            -94.1
           ],
           [
-            13.93,
-            -94.65
+            14.38,
+            -95.12
+          ],
+          [
+            15.71,
+            -97.54
+          ],
+          [
+            16.6,
+            -99.55
+          ],
+          [
+            17.41,
+            -101.68
+          ],
+          [
+            17.88,
+            -103.17
+          ],
+          [
+            18.17,
+            -104.51
+          ],
+          [
+            18.22,
+            -105.53
+          ],
+          [
+            18.1,
+            -106.31
+          ],
+          [
+            17.8,
+            -107
+          ],
+          [
+            17.21,
+            -107.55
+          ],
+          [
+            16.34,
+            -107.93
+          ],
+          [
+            14.75,
+            -108.21
+          ],
+          [
+            13.64,
+            -108.16
+          ],
+          [
+            12.91,
+            -107.87
+          ],
+          [
+            12.51,
+            -107.53
+          ],
+          [
+            11.99,
+            -106.81
+          ],
+          [
+            10.94,
+            -104.64
+          ],
+          [
+            9.85,
+            -101.66
+          ],
+          [
+            9.21,
+            -99.18
           ]
         ]
       ]
@@ -304,15 +153,15 @@
       "numero": "2",
       "titulo": "-Southeast of the Hawaiian Islands (extremo este)",
       "tituloOriginal": "Well East-Southeast of the Hawaiian Islands",
-      "descripcion": "An area of low pressure could form about 1000 miles east-southeast of the Hawaiian Islands over the weekend. Environmental conditions could support some gradual development of this system, and a tropical depression could form late this weekend or early next week. The system is forecast to move generally northeastward, remaining well east-southeast of the Hawaiian Islands.",
+      "descripcion": "A broad area of low pressure is forecast to form about 1000 miles east-southeast of the Hawaiian Islands over the weekend. Environmental conditions appear favorable for gradual development of this system, and a tropical depression could form late this weekend or early next week. The system is forecast to move generally northeastward, remaining well east-southeast of the Hawaiian Islands.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 40,
+      "prob7dias": 50,
       "riesgo7dias": "medio",
       "centro": [
-        13.453,
-        -135.992
+        13.283,
+        -136.106
       ],
       "anillos": [
         [
@@ -325,140 +174,128 @@
             -136.59
           ],
           [
-            17.43,
-            -135.03
+            17.38,
+            -135.21
           ],
           [
-            17.82,
-            -133.39
+            17.79,
+            -133.58
           ],
           [
             17.99,
             -132.1
           ],
           [
-            17.99,
+            17.98,
             -130.47
           ],
           [
-            17.8,
-            -129.33
+            17.74,
+            -129.17
           ],
           [
-            17.56,
-            -128.64
+            17.36,
+            -128.28
           ],
           [
-            17.3,
-            -128.19
+            16.98,
+            -127.84
           ],
           [
-            17.07,
-            -127.92
+            16.62,
+            -127.64
           ],
           [
-            16.61,
-            -127.63
+            16.21,
+            -127.55
           ],
           [
-            16.18,
-            -127.53
+            15.65,
+            -127.58
           ],
           [
-            15.72,
-            -127.53
+            14.55,
+            -127.91
           ],
           [
-            15.11,
-            -127.65
+            12.57,
+            -128.85
           ],
           [
-            14.38,
-            -127.93
+            11.8,
+            -129.38
           ],
           [
-            13.25,
-            -128.59
+            10.96,
+            -130.27
           ],
           [
-            12.32,
-            -129.44
+            10.39,
+            -131.33
           ],
           [
-            11.73,
-            -130.29
+            10.02,
+            -132.47
           ],
           [
-            11.27,
-            -131.34
+            9.68,
+            -133.97
           ],
           [
-            10.83,
-            -132.92
+            9.27,
+            -136.59
           ],
           [
-            10.34,
-            -135.02
+            8.97,
+            -139.94
           ],
           [
-            9.2,
-            -139.2
+            9,
+            -141.43
           ],
           [
-            8.92,
-            -140.62
+            9.13,
+            -142.32
           ],
           [
-            8.86,
-            -141.33
+            9.3,
+            -142.93
           ],
           [
-            8.91,
-            -142.23
+            9.63,
+            -143.58
           ],
           [
-            9.08,
-            -142.83
+            9.97,
+            -143.97
           ],
           [
-            9.32,
-            -143.31
+            10.29,
+            -144.19
           ],
           [
-            9.69,
-            -143.75
+            10.94,
+            -144.38
           ],
           [
-            10.04,
-            -144.02
+            11.91,
+            -144.31
           ],
           [
-            10.75,
-            -144.32
+            12.9,
+            -143.94
           ],
           [
-            11.12,
-            -144.37
-          ],
-          [
-            11.84,
-            -144.32
-          ],
-          [
-            12.76,
-            -144.02
-          ],
-          [
-            13.28,
-            -143.68
+            13.4,
+            -143.57
           ],
           [
             13.85,
             -143.05
           ],
           [
-            14.34,
-            -142.17
+            14.29,
+            -142.27
           ],
           [
             15.1,
