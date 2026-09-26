@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T21:42:18.053Z",
+  "generado": "2026-09-26T00:14:29.845Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 5,
   "tormentas": [
@@ -25,11 +25,11 @@
       "cuenca": "AT2",
       "intensidadKt": 45,
       "presionMb": 1000,
-      "lat": 16.2,
-      "lon": -22.7,
+      "lat": 16.4,
+      "lon": -22.5,
       "rumboGrados": 350,
-      "velocidadKt": 12,
-      "actualizado": "2026-09-25T21:00:00.000Z",
+      "velocidadKt": 9,
+      "actualizado": "2026-09-26T00:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPAT2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_at2.shtml"
     },
@@ -69,12 +69,12 @@
       "clasificacion": "HU",
       "cuenca": "CP2",
       "intensidadKt": 90,
-      "presionMb": 978,
-      "lat": 16.5,
+      "presionMb": 975,
+      "lat": 16.8,
       "lon": -155.4,
       "rumboGrados": 15,
       "velocidadKt": 5,
-      "actualizado": "2026-09-25T21:00:00.000Z",
+      "actualizado": "2026-09-26T00:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_cp2.shtml"
     }
