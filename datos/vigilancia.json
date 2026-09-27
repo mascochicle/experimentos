@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-26T23:00:56.038Z",
+  "generado": "2026-09-27T01:35:49.060Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -8,135 +8,143 @@
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
-      "titulo": "Gulf of Tehuantepec (al sur) · EP90",
-      "tituloOriginal": "South of the Gulf of Tehuantepec (EP90)",
-      "descripcion": "Showers and thunderstorms continue to develop in association with an area of low pressure south of the Gulf of Tehuantepec. Additional development of the system is anticipated due to conducive environmental conditions and a tropical depression is expected to form in the next day or so. This system is forecast to continue moving slowly to the west-northwest or northwest, staying parallel to the coast of southern and southwestern Mexico.",
+      "titulo": "Gulf of Tehuantepec (al suroeste) · EP90",
+      "tituloOriginal": "Southwest of the Gulf of Tehuantepec (EP90)",
+      "descripcion": "Showers and thunderstorms continue to develop in association with an area of low pressure southwest of the Gulf of Tehuantepec. Additional development of the system is anticipated due to conducive environmental conditions and a tropical depression is expected to form in the next day or so. This system is forecast to continue moving slowly to the west-northwest or northwest, staying parallel to the coast of southern and southwestern Mexico. For additional information, including Gale Warnings, see High Seas forecast issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 90,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        12.077,
-        -98.181
+        11.983,
+        -99.066
       ],
       "anillos": [
         [
           [
-            10.91,
-            -103.1
+            10.83,
+            -103.13
           ],
           [
-            9.82,
-            -100.56
+            10.12,
+            -101.19
           ],
           [
-            9.58,
-            -99.62
+            9.91,
+            -100.21
           ],
           [
-            9.51,
-            -98.72
+            9.85,
+            -99.34
           ],
           [
-            9.63,
-            -97.88
+            9.98,
+            -98.42
           ],
           [
-            10,
-            -96.85
+            10.23,
+            -97.74
           ],
           [
-            10.62,
-            -95.87
+            10.57,
+            -97.19
           ],
           [
-            10.93,
-            -95.59
+            11.06,
+            -96.68
           ],
           [
-            11.17,
-            -95.5
+            11.66,
+            -96.35
           ],
           [
-            11.91,
-            -95.52
+            12.38,
+            -96.21
           ],
           [
-            12.96,
-            -95.78
+            13.09,
+            -96.26
           ],
           [
-            13.94,
-            -96.27
+            13.78,
+            -96.51
           ],
           [
-            14.48,
-            -96.74
+            14.4,
+            -96.97
           ],
           [
-            14.94,
-            -97.37
+            14.89,
+            -97.56
           ],
           [
-            15.41,
-            -98.3
+            15.27,
+            -98.22
           ],
           [
-            16.71,
-            -101.74
+            15.8,
+            -99.5
           ],
           [
-            18.59,
-            -106.24
-          ],
-          [
-            18.97,
-            -107.5
-          ],
-          [
-            19.06,
-            -108.23
-          ],
-          [
-            18.94,
-            -109
+            18.17,
+            -105.09
           ],
           [
             18.61,
-            -109.55
+            -106.25
           ],
           [
-            17.92,
-            -110.07
+            18.97,
+            -107.49
           ],
           [
-            16.85,
-            -110.52
+            19.06,
+            -108.16
           ],
           [
-            16.23,
-            -110.58
+            18.98,
+            -108.94
           ],
           [
-            15.6,
-            -110.41
+            18.81,
+            -109.32
           ],
           [
-            14.96,
-            -109.95
+            18.35,
+            -109.81
           ],
           [
-            14.39,
-            -109.33
+            17.27,
+            -110.37
           ],
           [
-            13.04,
-            -107.29
+            16.42,
+            -110.57
           ],
           [
-            10.91,
-            -103.1
+            15.65,
+            -110.43
+          ],
+          [
+            15.13,
+            -110.1
+          ],
+          [
+            14.35,
+            -109.26
+          ],
+          [
+            13.46,
+            -107.97
+          ],
+          [
+            11.71,
+            -104.95
+          ],
+          [
+            10.83,
+            -103.13
           ]
         ]
       ]
@@ -147,141 +155,133 @@
       "numero": "2",
       "titulo": "-Southeast of the Hawaiian Islands (extremo este)",
       "tituloOriginal": "Well East-Southeast of the Hawaiian Islands",
-      "descripcion": "A broad area of low pressure is expected to form within the next day or two about 1000 miles to the east-southeast of the Hawaiian Islands. Environmental conditions are expected to be conducive for development of the system, and a tropical depression is likely to form during the early to middle part of next week. The system is should move generally northeastward, and remain well east-southeast of the Hawaiian Islands.",
+      "descripcion": "A broad area of low pressure located about 1000 miles to the east-southeast of the Hawaiian Islands is becoming organized. Environmental conditions are expected to be conducive for development of this system, and a tropical depression is likely to form during the early to middle part of next week. The system should move generally northeastward, and remain well east-southeast of the Hawaiian Islands.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 20,
+      "prob2dias": 30,
       "riesgo2dias": "bajo",
       "prob7dias": 70,
       "riesgo7dias": "alto",
       "centro": [
-        13.12,
-        -142.843
+        11.808,
+        -140.01
       ],
       "anillos": [
         [
           [
+            9.99,
+            -135.29
+          ],
+          [
             9.5,
-            -138.69
+            -138.33
           ],
           [
-            9.7,
-            -139.47
+            9.42,
+            -139.36
           ],
           [
-            10.2,
-            -140.4
+            9.49,
+            -140.13
           ],
           [
-            10.65,
-            -140.9
+            9.65,
+            -140.37
           ],
           [
-            11.27,
-            -141.25
+            10.15,
+            -140.66
           ],
           [
-            11.81,
-            -141.32
+            12.04,
+            -141.23
           ],
           [
-            13.23,
-            -141.15
+            12.68,
+            -141.28
           ],
           [
-            13.75,
-            -140.93
+            13.01,
+            -141.21
           ],
           [
-            14.5,
-            -140.43
+            13.47,
+            -140.95
           ],
           [
-            15.21,
-            -139.81
+            14.03,
+            -140.46
           ],
           [
-            16.07,
-            -138.87
+            15.83,
+            -138.41
           ],
           [
-            16.71,
-            -138.01
+            17.18,
+            -136.38
           ],
           [
-            17.47,
-            -136.67
+            17.93,
+            -134.87
           ],
           [
-            18.01,
-            -135.36
+            18.49,
+            -133.35
           ],
           [
-            18.43,
-            -134
+            18.88,
+            -131.73
           ],
           [
-            18.92,
-            -131.44
-          ],
-          [
-            18.99,
-            -130.11
-          ],
-          [
-            18.8,
-            -129.09
-          ],
-          [
-            18.36,
-            -128.46
-          ],
-          [
-            17.84,
-            -128.18
-          ],
-          [
-            17.17,
-            -128.04
-          ],
-          [
-            16.53,
-            -128.03
-          ],
-          [
-            15.3,
-            -128.21
-          ],
-          [
-            14,
-            -128.64
-          ],
-          [
-            12.81,
-            -129.35
-          ],
-          [
-            12.19,
-            -129.95
-          ],
-          [
-            11.73,
+            19,
             -130.57
           ],
           [
-            11,
-            -132.12
+            18.93,
+            -129.56
           ],
           [
-            9.66,
-            -136.86
+            18.56,
+            -128.69
           ],
           [
-            9.48,
-            -137.97
+            18.03,
+            -128.25
           ],
           [
-            9.5,
-            -138.69
+            17.28,
+            -128.03
+          ],
+          [
+            16.24,
+            -128.03
+          ],
+          [
+            14.61,
+            -128.4
+          ],
+          [
+            13.53,
+            -128.89
+          ],
+          [
+            12.54,
+            -129.62
+          ],
+          [
+            11.66,
+            -130.7
+          ],
+          [
+            11.13,
+            -131.69
+          ],
+          [
+            10.43,
+            -133.57
+          ],
+          [
+            9.99,
+            -135.29
           ]
         ]
       ]
@@ -292,7 +292,7 @@
       "numero": "1",
       "titulo": "Atlántico subtropical (centro)",
       "tituloOriginal": "Central Subtropical Atlantic",
-      "descripcion": "A surface trough of low pressure located several hundred miles to the southeast of Bermuda is currently producing an area of disorganized showers and thunderstorms. Environmental conditions appear somewhat favorable for gradual development of this system as it moves northward this weekend and then turns eastward by the early to middle portion of next week.",
+      "descripcion": "A surface trough of low pressure located several hundred miles to the southeast of Bermuda is currently producing an area of disorganized showers and thunderstorms. Environmental conditions could become favorable for gradual development of this system as it moves northward this weekend and then turns eastward by the early to middle portion of next week.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
