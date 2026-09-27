@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-27T01:35:49.060Z",
+  "generado": "2026-09-27T07:17:24.807Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -10,15 +10,15 @@
       "numero": "1",
       "titulo": "Gulf of Tehuantepec (al suroeste) · EP90",
       "tituloOriginal": "Southwest of the Gulf of Tehuantepec (EP90)",
-      "descripcion": "Showers and thunderstorms continue to develop in association with an area of low pressure southwest of the Gulf of Tehuantepec. Additional development of the system is anticipated due to conducive environmental conditions and a tropical depression is expected to form in the next day or so. This system is forecast to continue moving slowly to the west-northwest or northwest, staying parallel to the coast of southern and southwestern Mexico. For additional information, including Gale Warnings, see High Seas forecast issued by the National Weather Service.",
+      "descripcion": "Recent satellite-derived wind data indicate that the area of low pressure located a few hundred miles southwest of the Gulf of Tehuantepec is gradually becoming better defined. Additional development of the system is anticipated due to conducive environmental conditions, and a tropical depression is expected to form in the next day or so. This system is forecast to continue moving slowly to the west-northwest or northwest, staying parallel to the coast of southern and southwestern Mexico. For additional information, including Gale Warnings, see High Seas forecast issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 90,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        11.983,
-        -99.066
+        11.81,
+        -98.69
       ],
       "anillos": [
         [
@@ -157,131 +157,143 @@
       "tituloOriginal": "Well East-Southeast of the Hawaiian Islands",
       "descripcion": "A broad area of low pressure located about 1000 miles to the east-southeast of the Hawaiian Islands is becoming organized. Environmental conditions are expected to be conducive for development of this system, and a tropical depression is likely to form during the early to middle part of next week. The system should move generally northeastward, and remain well east-southeast of the Hawaiian Islands.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 30,
-      "riesgo2dias": "bajo",
+      "prob2dias": 40,
+      "riesgo2dias": "medio",
       "prob7dias": 70,
       "riesgo7dias": "alto",
       "centro": [
-        11.808,
-        -140.01
+        11.123,
+        -139.733
       ],
       "anillos": [
         [
           [
-            9.99,
-            -135.29
-          ],
-          [
             9.5,
-            -138.33
-          ],
-          [
-            9.42,
-            -139.36
-          ],
-          [
-            9.49,
-            -140.13
-          ],
-          [
-            9.65,
-            -140.37
-          ],
-          [
-            10.15,
-            -140.66
-          ],
-          [
-            12.04,
-            -141.23
-          ],
-          [
-            12.68,
-            -141.28
-          ],
-          [
-            13.01,
-            -141.21
-          ],
-          [
-            13.47,
-            -140.95
-          ],
-          [
-            14.03,
-            -140.46
-          ],
-          [
-            15.83,
-            -138.41
-          ],
-          [
-            17.18,
-            -136.38
-          ],
-          [
-            17.93,
             -134.87
           ],
           [
-            18.49,
-            -133.35
+            9.13,
+            -135.97
           ],
           [
-            18.88,
-            -131.73
+            8.87,
+            -137.2
           ],
           [
-            19,
-            -130.57
+            8.8,
+            -138.4
           ],
           [
-            18.93,
-            -129.56
+            8.95,
+            -139.67
           ],
           [
-            18.56,
-            -128.69
+            9.18,
+            -140.32
           ],
           [
-            18.03,
-            -128.25
+            9.55,
+            -140.83
           ],
           [
-            17.28,
-            -128.03
+            10.08,
+            -141.16
           ],
           [
-            16.24,
-            -128.03
+            10.83,
+            -141.31
           ],
           [
-            14.61,
-            -128.4
+            11.64,
+            -141.28
           ],
           [
-            13.53,
-            -128.89
+            12.57,
+            -141.08
           ],
           [
-            12.54,
-            -129.62
+            13.22,
+            -140.81
           ],
           [
-            11.66,
-            -130.7
+            13.78,
+            -140.4
           ],
           [
-            11.13,
-            -131.69
+            14.36,
+            -139.77
           ],
           [
-            10.43,
-            -133.57
+            15.32,
+            -138.49
           ],
           [
-            9.99,
-            -135.29
+            17.24,
+            -135.55
+          ],
+          [
+            18.07,
+            -134.01
+          ],
+          [
+            18.48,
+            -133.06
+          ],
+          [
+            18.85,
+            -131.84
+          ],
+          [
+            19.01,
+            -130.64
+          ],
+          [
+            18.96,
+            -129.76
+          ],
+          [
+            18.62,
+            -128.82
+          ],
+          [
+            18.12,
+            -128.3
+          ],
+          [
+            17.27,
+            -128.01
+          ],
+          [
+            16.36,
+            -127.99
+          ],
+          [
+            15,
+            -128.26
+          ],
+          [
+            13.88,
+            -128.72
+          ],
+          [
+            12.86,
+            -129.4
+          ],
+          [
+            12.08,
+            -130.19
+          ],
+          [
+            11.21,
+            -131.41
+          ],
+          [
+            10.19,
+            -133.26
+          ],
+          [
+            9.5,
+            -134.87
           ]
         ]
       ]
