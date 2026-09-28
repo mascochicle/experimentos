@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-28T07:53:31.359Z",
+  "generado": "2026-09-28T16:12:30.349Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,141 +10,149 @@
       "numero": "1",
       "titulo": "-Southeast of the Hawaiian Islands (extremo este) · EP91",
       "tituloOriginal": "Well East-Southeast of the Hawaiian Islands (EP91)",
-      "descripcion": "A broad area of low pressure located well east-southeast of the Hawaiian Islands continues to become better organized. Environmental conditions are expected to be conducive for further development, and a tropical depression is likely to form during the next day or so. The system should move generally northeastward and remain well east of the Hawaiian Islands.",
+      "descripcion": "A broad area of low pressure located well east-southeast of the Hawaiian Islands continues to become better organized. Environmental conditions are conducive for further development, and a tropical depression is expected to form later today or tomorrow. The system should move generally northeastward and remain well east of the Hawaiian Islands.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 70,
+      "prob2dias": 90,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        12.446,
-        -136.243
+        14.293,
+        -136.91
       ],
       "anillos": [
         [
           [
-            10.97,
-            -134.09
+            11.47,
+            -132.05
           ],
           [
-            10.66,
-            -136.73
-          ],
-          [
-            10.72,
-            -137.61
+            11.09,
+            -133.2
           ],
           [
             10.88,
-            -138.06
+            -134.23
           ],
           [
-            11.2,
-            -138.52
+            10.75,
+            -135.95
           ],
           [
-            11.62,
-            -138.9
+            10.78,
+            -136.91
           ],
           [
-            12.03,
-            -139.13
+            10.88,
+            -137.45
           ],
           [
-            12.49,
-            -139.26
+            11.09,
+            -137.9
           ],
           [
-            13.04,
-            -139.22
+            11.45,
+            -138.25
           ],
           [
-            14.62,
-            -138.63
+            11.95,
+            -138.53
           ],
           [
-            15.69,
-            -137.91
+            12.55,
+            -138.68
           ],
           [
-            16.9,
-            -136.62
+            13.3,
+            -138.66
           ],
           [
-            17.62,
-            -135.57
+            14.18,
+            -138.41
           ],
           [
-            18.2,
-            -134.42
+            14.99,
+            -138.01
           ],
           [
-            18.68,
-            -132.95
+            15.96,
+            -137.31
           ],
           [
-            19.01,
-            -131.16
+            16.64,
+            -136.66
           ],
           [
-            19.08,
-            -130.07
+            17.36,
+            -135.8
           ],
           [
-            18.94,
-            -129.1
+            18.04,
+            -134.76
           ],
           [
-            18.76,
-            -128.69
+            18.66,
+            -133.48
           ],
           [
-            18.49,
-            -128.34
+            18.98,
+            -132.45
           ],
           [
-            17.88,
-            -127.97
+            19.2,
+            -131.22
           ],
           [
-            17.22,
-            -127.8
+            19.22,
+            -129.89
           ],
           [
-            16.63,
-            -127.75
+            19.03,
+            -128.95
           ],
           [
-            15.38,
-            -127.87
+            18.61,
+            -128.16
           ],
           [
-            14.34,
-            -128.2
+            18.11,
+            -127.66
           ],
           [
-            13.81,
-            -128.48
+            17.37,
+            -127.23
           ],
           [
-            13.12,
-            -129
+            16.41,
+            -127.01
           ],
           [
-            12.29,
-            -129.96
+            15.62,
+            -127.09
           ],
           [
-            11.64,
-            -131.19
+            14.73,
+            -127.4
           ],
           [
-            11.28,
-            -132.34
+            13.85,
+            -127.96
           ],
           [
-            10.97,
-            -134.09
+            13.22,
+            -128.58
+          ],
+          [
+            12.64,
+            -129.41
+          ],
+          [
+            12.14,
+            -130.38
+          ],
+          [
+            11.47,
+            -132.05
           ]
         ]
       ]
@@ -155,125 +163,125 @@
       "numero": "1",
       "titulo": "Atlántico subtropical (centro) · AL91",
       "tituloOriginal": "Central Subtropical Atlantic (AL91)",
-      "descripcion": "A trough of low pressure located several hundred miles east-northeast of Bermuda is moving quickly east-northeastward. This system is producing disorganized showers and thunderstorms, and it could become a tropical depression over the next couple of days as it turns eastward to east-southeastward and slows down over the central Atlantic. Environmental conditions are expected to become unfavorable for further development later this week.",
+      "descripcion": "An area of low pressure located well to the east-northeast of Bermuda is moving quickly eastward. Recent microwave imagery suggests the shower and thunderstorm activity is beginning to show signs of organization, though it is unclear if the system has developed a well-defined circulation given its fast forward motion. While environmental conditions are currently only marginally favorable, this system is now likely to become a tropical depression or storm over the next day or two as it turns east-southeastward and slows down over the central Subtropical Atlantic. Environmental conditions are expected to become unfavorable for further development later this week.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 50,
-      "riesgo2dias": "medio",
-      "prob7dias": 60,
-      "riesgo7dias": "medio",
+      "prob2dias": 70,
+      "riesgo2dias": "alto",
+      "prob7dias": 80,
+      "riesgo7dias": "alto",
       "centro": [
-        36.121,
-        -53.213
+        36.83,
+        -52.245
       ],
       "anillos": [
         [
           [
-            34.49,
-            -53.17
+            35.1,
+            -52.01
           ],
           [
-            34.66,
-            -53.87
+            35.34,
+            -52.75
           ],
           [
-            34.92,
-            -54.5
+            35.64,
+            -53.26
           ],
           [
-            35.39,
-            -55.08
+            36.02,
+            -53.65
           ],
           [
-            35.85,
-            -55.32
+            36.39,
+            -53.81
           ],
           [
-            36.54,
-            -55.39
+            36.86,
+            -53.74
           ],
           [
-            37.19,
-            -55.19
+            37.33,
+            -53.42
           ],
           [
-            37.64,
-            -54.78
+            37.76,
+            -52.83
           ],
           [
-            37.9,
-            -54.23
+            37.97,
+            -52.33
           ],
           [
-            38.19,
-            -52.54
+            38.13,
+            -51.34
           ],
           [
-            38.24,
-            -50.57
+            38.09,
+            -50.19
           ],
           [
-            38.05,
-            -48.02
+            37.26,
+            -44.29
           ],
           [
-            37.59,
-            -44.69
+            36.56,
+            -40.97
           ],
           [
-            36.91,
-            -41.74
+            35.92,
+            -39.19
           ],
           [
-            36.5,
-            -40.79
+            35.46,
+            -38.46
           ],
           [
-            36.12,
-            -40.3
+            35.11,
+            -38.15
           ],
           [
-            35.58,
-            -40.01
+            34.75,
+            -38.03
           ],
           [
-            34.93,
-            -40.02
+            34.36,
+            -38.1
           ],
           [
-            33.88,
-            -40.36
+            34.05,
+            -38.3
           ],
           [
-            33.22,
-            -40.85
+            33.65,
+            -38.72
           ],
           [
-            32.97,
-            -41.23
+            33.01,
+            -39.84
           ],
           [
-            32.8,
-            -41.72
+            32.62,
+            -41.12
           ],
           [
-            32.72,
-            -42.5
+            32.5,
+            -42.7
           ],
           [
-            32.77,
-            -43.31
+            32.85,
+            -44.45
           ],
           [
-            32.93,
-            -44.42
+            34.18,
+            -47.7
           ],
           [
-            33.93,
-            -49.19
+            34.52,
+            -48.71
           ],
           [
-            34.49,
-            -53.17
+            35.1,
+            -52.01
           ]
         ]
       ]
