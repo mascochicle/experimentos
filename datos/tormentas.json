@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-27T23:28:13.817Z",
+  "generado": "2026-09-28T01:50:47.376Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 5,
   "tormentas": [
@@ -40,11 +40,11 @@
       "cuenca": "EP2",
       "intensidadKt": 110,
       "presionMb": 951,
-      "lat": 21.9,
+      "lat": 22.4,
       "lon": -114.1,
       "rumboGrados": 355,
       "velocidadKt": 12,
-      "actualizado": "2026-09-27T21:00:00.000Z",
+      "actualizado": "2026-09-28T00:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep2.shtml"
     },
@@ -68,13 +68,13 @@
       "nombre": "Nolo",
       "clasificacion": "HU",
       "cuenca": "CP2",
-      "intensidadKt": 100,
-      "presionMb": 966,
+      "intensidadKt": 115,
+      "presionMb": 948,
       "lat": 16.2,
-      "lon": -159.3,
+      "lon": -159.8,
       "rumboGrados": 280,
       "velocidadKt": 12,
-      "actualizado": "2026-09-27T21:00:00.000Z",
+      "actualizado": "2026-09-28T00:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_cp2.shtml"
     }
