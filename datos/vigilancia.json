@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T20:03:51.147Z",
+  "generado": "2026-09-29T23:48:51.305Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,7 +12,7 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur)",
       "tituloOriginal": "South of Southern Mexico",
-      "descripcion": "An area of low pressure could form late this week or this weekend to the south of the southern coast of Mexico. Thereafter, environmental conditions appear favorable for gradual development while the system moves slowly west-northwestward to northwestward.",
+      "descripcion": "An area of low pressure could form late this weekend or early next week south of the southern coast of Mexico. Thereafter, environmental conditions appear favorable for gradual development while the system moves slowly west-northwestward to northwestward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
