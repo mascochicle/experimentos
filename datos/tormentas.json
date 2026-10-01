@@ -1,23 +1,8 @@
 {
-  "generado": "2026-09-30T20:38:00.963Z",
+  "generado": "2026-10-01T00:14:38.899Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 4,
+  "total": 3,
   "tormentas": [
-    {
-      "id": "al082026",
-      "nombre": "Hanna",
-      "clasificacion": "PTC",
-      "cuenca": "AT3",
-      "intensidadKt": 30,
-      "presionMb": 1008,
-      "lat": 33.4,
-      "lon": -43.6,
-      "rumboGrados": 90,
-      "velocidadKt": 5,
-      "actualizado": "2026-09-30T15:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPAT3.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_at3.shtml"
-    },
     {
       "id": "ep182026",
       "nombre": "Rachel",
@@ -25,11 +10,11 @@
       "cuenca": "EP3",
       "intensidadKt": 75,
       "presionMb": 978,
-      "lat": 18.1,
+      "lat": 18.8,
       "lon": -108,
       "rumboGrados": 315,
-      "velocidadKt": 9,
-      "actualizado": "2026-09-30T15:00:00.000Z",
+      "velocidadKt": 8,
+      "actualizado": "2026-09-30T21:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP3.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep3.shtml"
     },
@@ -55,11 +40,11 @@
       "cuenca": "CP2",
       "intensidadKt": 45,
       "presionMb": 996,
-      "lat": 21.8,
-      "lon": -164.6,
-      "rumboGrados": 180,
+      "lat": 21.5,
+      "lon": -164.8,
+      "rumboGrados": 170,
       "velocidadKt": 2,
-      "actualizado": "2026-09-30T18:00:00.000Z",
+      "actualizado": "2026-10-01T00:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_cp2.shtml"
     }
