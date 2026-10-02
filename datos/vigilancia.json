@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-02T02:21:01.981Z",
+  "generado": "2026-10-02T08:42:48.821Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,7 +10,7 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur)",
       "tituloOriginal": "South of Southern Mexico",
-      "descripcion": "An area of low pressure could form in a few days south of the southern coast of Mexico. Thereafter, environmental conditions appear favorable for gradual development, and a tropical depression is likely form by the middle of next week while the system moves slowly west-northwestward to northwestward.",
+      "descripcion": "An area of low pressure is forecast to form late this weekend or early next week south of the southern coast of Mexico. Thereafter, environmental conditions appear favorable for gradual development, and a tropical depression is likely to form by the middle of next week while the system moves slowly west-northwestward to northwestward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
@@ -170,8 +170,8 @@
       "prob7dias": 10,
       "riesgo7dias": "bajo",
       "centro": [
-        25.513,
-        -57.519
+        24.839,
+        -58.321
       ],
       "anillos": [
         [
@@ -180,92 +180,96 @@
             -61.66
           ],
           [
-            29.67,
-            -61.28
+            29.69,
+            -61.24
           ],
           [
-            29.83,
-            -60.75
+            29.82,
+            -60.76
           ],
           [
-            29.8,
-            -60.35
+            29.76,
+            -60.26
           ],
           [
-            29.55,
-            -60
+            29.52,
+            -59.95
           ],
           [
-            28.24,
-            -59.35
+            29.1,
+            -59.69
           ],
           [
-            27.8,
-            -59.04
+            27.64,
+            -59.06
           ],
           [
-            26.57,
-            -57.55
+            27.14,
+            -58.75
           ],
           [
-            26.09,
-            -57.13
+            26.67,
+            -58.32
           ],
           [
-            25.77,
-            -57.01
+            26.14,
+            -57.46
           ],
           [
-            25.4,
-            -57.02
+            25.87,
+            -57.24
           ],
           [
-            25.06,
-            -57.17
+            25.14,
+            -57.19
           ],
           [
-            24.8,
-            -57.45
+            24.41,
+            -57.48
           ],
           [
-            24.65,
-            -57.78
+            24.1,
+            -57.8
           ],
           [
-            24.56,
-            -58.33
+            23.96,
+            -58.18
           ],
           [
-            24.62,
-            -59.64
+            23.91,
+            -58.76
           ],
           [
-            24.94,
-            -60.69
+            24,
+            -59.5
           ],
           [
-            25.51,
-            -61.4
+            24.42,
+            -60.67
           ],
           [
-            25.96,
-            -61.72
+            24.82,
+            -61.25
           ],
           [
-            26.66,
-            -62.04
+            25.22,
+            -61.64
           ],
           [
-            27.84,
-            -62.29
+            26.06,
+            -62.12
           ],
           [
-            28.67,
-            -62.19
+            27.23,
+            -62.32
           ],
           [
-            29.15,
-            -61.93
+            28.56,
+            -62.18
+          ],
+          [
+            29.06,
+            -61.97
           ],
           [
             29.42,
