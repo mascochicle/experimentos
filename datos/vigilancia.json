@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-02T08:42:48.821Z",
+  "generado": "2026-10-02T15:09:36.782Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -17,8 +17,8 @@
       "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        13.735,
-        -100.899
+        13.695,
+        -100.946
       ],
       "anillos": [
         [
@@ -27,128 +27,140 @@
             -93.02
           ],
           [
-            13.99,
-            -93.2
+            14.04,
+            -93.24
           ],
           [
-            14.47,
-            -93.56
+            14.41,
+            -93.5
           ],
           [
-            14.77,
-            -93.95
+            14.71,
+            -93.83
           ],
           [
-            15.08,
-            -94.59
+            15.02,
+            -94.41
           ],
           [
-            15.32,
-            -95.56
+            15.27,
+            -95.27
           ],
           [
-            15.6,
-            -97.67
+            15.91,
+            -98.67
           ],
           [
-            15.93,
-            -99.19
+            16.31,
+            -99.99
           ],
           [
-            17.27,
-            -103.13
+            17.18,
+            -102.31
           ],
           [
-            17.72,
-            -104.9
+            17.59,
+            -103.96
           ],
           [
-            17.71,
-            -106.03
+            17.62,
+            -104.86
           ],
           [
-            17.38,
-            -106.88
+            17.54,
+            -105.46
           ],
           [
-            16.99,
-            -107.36
+            17.35,
+            -106.13
           ],
           [
-            16.5,
-            -107.77
+            17.02,
+            -106.81
           ],
           [
-            15.92,
-            -108.12
+            16.58,
+            -107.38
           ],
           [
-            15.29,
-            -108.38
+            16.13,
+            -107.76
           ],
           [
-            14.45,
-            -108.55
+            15.56,
+            -108.08
           ],
           [
-            13.99,
-            -108.54
+            15.12,
+            -108.22
           ],
           [
-            13.46,
-            -108.41
+            14.67,
+            -108.3
           ],
           [
-            12.73,
+            14.04,
+            -108.29
+          ],
+          [
+            13.52,
+            -108.18
+          ],
+          [
+            13.02,
             -107.97
           ],
           [
-            12.08,
-            -107.2
+            12.24,
+            -107.36
           ],
           [
-            11.61,
-            -106.35
+            11.51,
+            -106.37
           ],
           [
-            11.02,
-            -104.73
+            10.89,
+            -105.1
           ],
           [
-            10.58,
-            -102.96
+            10.26,
+            -103.31
           ],
           [
-            10.17,
-            -100.45
+            9.8,
+            -101.5
           ],
           [
-            10.04,
-            -98.68
+            9.46,
+            -99.44
           ],
           [
-            10.07,
-            -97.31
+            9.36,
+            -97.48
           ],
           [
-            10.21,
-            -96.26
+            9.48,
+            -96.09
           ],
           [
-            10.54,
-            -95.14
+            9.73,
+            -95.03
           ],
           [
-            11.1,
-            -94.16
+            10.13,
+            -94.18
           ],
           [
-            11.75,
-            -93.53
+            10.77,
+            -93.5
           ],
           [
-            12.64,
-            -93.09
+            11.55,
+            -93.1
+          ],
+          [
+            12.37,
+            -92.94
           ],
           [
             13.43,
@@ -161,119 +173,107 @@
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
       "numero": "1",
-      "titulo": "Subtropical Central Atlantic · Remnants of Fay",
-      "tituloOriginal": "Subtropical Central Atlantic (Remnants of Fay)",
-      "descripcion": "An area of low pressure associated with the remnants of former Tropical Storm Fay is located several hundred miles southeast of Bermuda. Despite ongoing thunderstorm activity, dry air and strong upper-level winds are expected to prevent significant re-development while it moves northwestward, to the east of Bermuda. Any formation chances should end by Sunday due to very strong upper-level winds.",
+      "titulo": "Subtropical West-Central Atlantic · Remnants of Fay",
+      "tituloOriginal": "Subtropical West-Central Atlantic (Remnants of Fay)",
+      "descripcion": "A trough of low pressure associated with the remnants of former Tropical Storm Fay is located several hundred miles south-southeast of Bermuda. Despite ongoing thunderstorm activity, dry air and strong upper-level winds are expected to prevent significant re-development while it moves north-northwestward at 5 to 10 mph to the east of Bermuda. Any formation chances should end by Sunday due to very strong upper-level winds.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
       "prob7dias": 10,
       "riesgo7dias": "bajo",
       "centro": [
-        24.839,
-        -58.321
+        25.33,
+        -59.4
       ],
       "anillos": [
         [
           [
-            29.42,
-            -61.66
+            29.37,
+            -61.73
           ],
           [
-            29.69,
-            -61.24
-          ],
-          [
-            29.82,
-            -60.76
+            29.66,
+            -61.26
           ],
           [
             29.76,
-            -60.26
+            -60.77
           ],
           [
-            29.52,
-            -59.95
+            29.67,
+            -60.39
           ],
           [
-            29.1,
-            -59.69
+            29.29,
+            -60.01
           ],
           [
-            27.64,
-            -59.06
+            27.32,
+            -59.2
           ],
           [
-            27.14,
-            -58.75
+            26.2,
+            -58.29
           ],
           [
-            26.67,
-            -58.32
+            25.81,
+            -58.07
           ],
           [
-            26.14,
-            -57.46
+            25.45,
+            -58
           ],
           [
-            25.87,
-            -57.24
+            25.07,
+            -58.03
           ],
           [
-            25.14,
-            -57.19
+            24.7,
+            -58.16
           ],
           [
-            24.41,
-            -57.48
+            24.44,
+            -58.35
           ],
           [
-            24.1,
-            -57.8
+            24.21,
+            -58.7
           ],
           [
-            23.96,
-            -58.18
+            24.09,
+            -59.17
           ],
           [
-            23.91,
-            -58.76
+            24.16,
+            -60.13
           ],
           [
-            24,
-            -59.5
+            24.59,
+            -61
           ],
           [
-            24.42,
-            -60.67
+            25.35,
+            -61.72
           ],
           [
-            24.82,
-            -61.25
-          ],
-          [
-            25.22,
-            -61.64
-          ],
-          [
-            26.06,
-            -62.12
-          ],
-          [
-            27.23,
-            -62.32
-          ],
-          [
-            28.56,
+            26.36,
             -62.18
           ],
           [
-            29.06,
-            -61.97
+            27.35,
+            -62.31
           ],
           [
-            29.42,
-            -61.66
+            28.63,
+            -62.18
+          ],
+          [
+            29.02,
+            -62.02
+          ],
+          [
+            29.37,
+            -61.73
           ]
         ]
       ]
