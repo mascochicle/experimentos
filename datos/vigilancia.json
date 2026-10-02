@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-02T20:00:15.622Z",
+  "generado": "2026-10-02T23:52:59.010Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -175,105 +175,37 @@
       "numero": "1",
       "titulo": "Subtropical West-Central Atlantic · Remnants of Fay",
       "tituloOriginal": "Subtropical West-Central Atlantic (Remnants of Fay)",
-      "descripcion": "Showers and thunderstorms associated with a trough of low pressure (the remnants of former Tropical Storm Fay) located several hundred miles southeast of Bermuda have become less organized during the past several hours. Dry air and strong upper-level winds are expected to prevent significant re-development while it moves north-northwestward at 5 to 10 mph to the east of Bermuda. Any formation chances should end by Sunday due to very strong upper-level winds.",
+      "descripcion": "Showers and thunderstorms associated with the remnants of former Tropical Storm Fay located several hundred miles southeast of Bermuda have become less organized since yesterday. No further development is expected while it moves north-northwestward at 5 to 10 mph to the east of Bermuda.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 10,
-      "riesgo2dias": "bajo",
-      "prob7dias": 10,
-      "riesgo7dias": "bajo",
+      "prob2dias": 0,
+      "riesgo2dias": "nearzero",
+      "prob7dias": 0,
+      "riesgo7dias": "nearzero",
       "centro": [
-        25.33,
-        -59.4
+        26.77,
+        -59.43
       ],
       "anillos": [
         [
           [
-            29.37,
-            -61.73
+            26.87,
+            -59.53
           ],
           [
-            29.66,
-            -61.26
+            26.88,
+            -59.33
           ],
           [
-            29.76,
-            -60.77
+            26.66,
+            -59.52
           ],
           [
-            29.67,
-            -60.39
+            26.68,
+            -59.33
           ],
           [
-            29.29,
-            -60.01
-          ],
-          [
-            27.32,
-            -59.2
-          ],
-          [
-            26.2,
-            -58.29
-          ],
-          [
-            25.81,
-            -58.07
-          ],
-          [
-            25.45,
-            -58
-          ],
-          [
-            25.07,
-            -58.03
-          ],
-          [
-            24.7,
-            -58.16
-          ],
-          [
-            24.44,
-            -58.35
-          ],
-          [
-            24.21,
-            -58.7
-          ],
-          [
-            24.09,
-            -59.17
-          ],
-          [
-            24.16,
-            -60.13
-          ],
-          [
-            24.59,
-            -61
-          ],
-          [
-            25.35,
-            -61.72
-          ],
-          [
-            26.36,
-            -62.18
-          ],
-          [
-            27.35,
-            -62.31
-          ],
-          [
-            28.63,
-            -62.18
-          ],
-          [
-            29.02,
-            -62.02
-          ],
-          [
-            29.37,
-            -61.73
+            26.87,
+            -59.53
           ]
         ]
       ]
