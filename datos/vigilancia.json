@@ -1,8 +1,10 @@
 {
-  "generado": "2026-10-03T02:46:08.460Z",
+  "generado": "2026-10-03T08:41:20.912Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 2,
-  "cuencasSinFormacion": [],
+  "total": 1,
+  "cuencasSinFormacion": [
+    "Atlántico"
+  ],
   "zonas": [
     {
       "cuenca": "Pacific",
@@ -165,47 +167,6 @@
           [
             13.43,
             -93.02
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Atlantic",
-      "cuencaEs": "Atlántico",
-      "numero": "1",
-      "titulo": "Subtropical West-Central Atlantic · Remnants of Fay",
-      "tituloOriginal": "Subtropical West-Central Atlantic (Remnants of Fay)",
-      "descripcion": "Showers and thunderstorms associated with the remnants of former Tropical Storm Fay located several hundred miles southeast of Bermuda have become less organized since yesterday. No further development is expected while it moves north-northwestward at 5 to 10 mph to the east of Bermuda.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 0,
-      "riesgo2dias": "nearzero",
-      "prob7dias": 0,
-      "riesgo7dias": "nearzero",
-      "centro": [
-        26.77,
-        -59.43
-      ],
-      "anillos": [
-        [
-          [
-            26.87,
-            -59.53
-          ],
-          [
-            26.88,
-            -59.33
-          ],
-          [
-            26.66,
-            -59.52
-          ],
-          [
-            26.68,
-            -59.33
-          ],
-          [
-            26.87,
-            -59.53
           ]
         ]
       ]
