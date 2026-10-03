@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-03T18:02:44.827Z",
+  "generado": "2026-10-03T21:32:43.019Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 2,
   "tormentas": [
@@ -8,13 +8,13 @@
       "nombre": "Rachel",
       "clasificacion": "HU",
       "cuenca": "EP3",
-      "intensidadKt": 75,
-      "presionMb": 973,
-      "lat": 19.6,
-      "lon": -112.1,
-      "rumboGrados": 290,
-      "velocidadKt": 3,
-      "actualizado": "2026-10-03T15:00:00.000Z",
+      "intensidadKt": 70,
+      "presionMb": 977,
+      "lat": 19.8,
+      "lon": -112.5,
+      "rumboGrados": 300,
+      "velocidadKt": 5,
+      "actualizado": "2026-10-03T21:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP3.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep3.shtml"
     },
@@ -26,10 +26,10 @@
       "intensidadKt": 100,
       "presionMb": 959,
       "lat": 23.2,
-      "lon": -172,
+      "lon": -173.1,
       "rumboGrados": 270,
-      "velocidadKt": 16,
-      "actualizado": "2026-10-03T18:00:00.000Z",
+      "velocidadKt": 17,
+      "actualizado": "2026-10-03T21:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_cp2.shtml"
     }
