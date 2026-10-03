@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-03T08:41:20.912Z",
+  "generado": "2026-10-03T14:02:44.560Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur)",
       "tituloOriginal": "South of Southern Mexico",
-      "descripcion": "An area of low pressure is forecast to form late this weekend or early next week south of the southern coast of Mexico. Thereafter, environmental conditions appear favorable for gradual development, and a tropical depression is likely to form by the middle of next week while the system moves slowly west-northwestward to northwestward.",
+      "descripcion": "An area of low pressure is forecast to form late this weekend or early next week south of the southern coast of Mexico. Thereafter, environmental conditions appear favorable for gradual development, and a tropical depression is likely to form during the middle to latter portion of next week while the system moves slowly west-northwestward to northwestward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        13.695,
-        -100.946
+        13.713,
+        -100.441
       ],
       "anillos": [
         [
@@ -33,104 +33,100 @@
             -93.24
           ],
           [
-            14.41,
-            -93.5
-          ],
-          [
-            14.71,
-            -93.83
-          ],
-          [
-            15.02,
-            -94.41
-          ],
-          [
-            15.27,
-            -95.27
-          ],
-          [
-            15.91,
-            -98.67
-          ],
-          [
-            16.31,
-            -99.99
-          ],
-          [
-            17.18,
-            -102.31
-          ],
-          [
-            17.59,
-            -103.96
-          ],
-          [
-            17.62,
-            -104.86
-          ],
-          [
-            17.54,
-            -105.46
-          ],
-          [
-            17.35,
-            -106.13
-          ],
-          [
-            17.02,
-            -106.81
-          ],
-          [
-            16.58,
-            -107.38
-          ],
-          [
-            16.13,
-            -107.76
-          ],
-          [
-            15.56,
-            -108.08
-          ],
-          [
-            15.12,
-            -108.22
+            14.36,
+            -93.44
           ],
           [
             14.67,
-            -108.3
+            -93.76
           ],
           [
-            14.04,
-            -108.29
+            14.99,
+            -94.33
           ],
           [
-            13.52,
-            -108.18
+            15.22,
+            -95.06
           ],
           [
-            13.02,
+            15.63,
+            -97.54
+          ],
+          [
+            15.93,
+            -98.82
+          ],
+          [
+            16.35,
+            -99.97
+          ],
+          [
+            17.47,
+            -102.5
+          ],
+          [
+            17.82,
+            -103.85
+          ],
+          [
+            17.85,
+            -104.51
+          ],
+          [
+            17.72,
+            -105.38
+          ],
+          [
+            17.57,
+            -105.85
+          ],
+          [
+            17.14,
+            -106.69
+          ],
+          [
+            16.35,
+            -107.59
+          ],
+          [
+            15.78,
             -107.97
           ],
           [
-            12.24,
-            -107.36
+            15.09,
+            -108.23
           ],
           [
-            11.51,
-            -106.37
+            14.21,
+            -108.31
+          ],
+          [
+            13.69,
+            -108.23
+          ],
+          [
+            13.19,
+            -108.05
+          ],
+          [
+            12.4,
+            -107.5
+          ],
+          [
+            11.73,
+            -106.71
           ],
           [
             10.89,
             -105.1
           ],
           [
-            10.26,
-            -103.31
+            10.2,
+            -103.12
           ],
           [
-            9.8,
-            -101.5
+            9.84,
+            -101.71
           ],
           [
             9.46,
@@ -138,7 +134,7 @@
           ],
           [
             9.36,
-            -97.48
+            -97.67
           ],
           [
             9.48,
@@ -161,7 +157,7 @@
             -93.1
           ],
           [
-            12.37,
+            12.47,
             -92.94
           ],
           [
