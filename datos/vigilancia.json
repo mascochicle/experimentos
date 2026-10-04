@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-04T17:10:27.197Z",
+  "generado": "2026-10-04T20:15:52.115Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -17,8 +17,8 @@
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        13.164,
-        -94.206
+        13.039,
+        -93.896
       ],
       "anillos": [
         [
@@ -167,133 +167,145 @@
       "numero": "1",
       "titulo": "Golfo de México (suroeste)",
       "tituloOriginal": "Southwestern Gulf of America",
-      "descripcion": "A broad area of low pressure could form in a few days over the southwestern Gulf of America. Some subsequent slow development of this system is possible while it drifts northward over the southwestern Gulf.",
+      "descripcion": "An area of low pressure is likely to form around the middle of the week over the southwestern Gulf of America. Although environmental conditions are only expected to be marginally conducive, some slow development is possible and a tropical depression could form late this week while the system drifts northward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 30,
-      "riesgo7dias": "bajo",
+      "prob7dias": 40,
+      "riesgo7dias": "medio",
       "centro": [
-        22.683,
-        -93.544
+        23.016,
+        -92.858
       ],
       "anillos": [
         [
           [
-            22.32,
-            -90.48
+            22.64,
+            -89.81
           ],
           [
-            21.66,
-            -90.67
+            22.04,
+            -90.02
           ],
           [
-            20.88,
-            -91.02
+            21.28,
+            -90.43
           ],
           [
-            20.05,
-            -91.69
+            20.58,
+            -91
           ],
           [
-            19.55,
-            -92.57
+            20.16,
+            -91.49
           ],
           [
-            19.39,
-            -93.24
+            19.87,
+            -91.97
           ],
           [
-            19.36,
-            -94.08
+            19.56,
+            -92.79
           ],
           [
-            19.6,
-            -95.16
+            19.43,
+            -93.49
           ],
           [
-            19.98,
-            -95.76
+            19.41,
+            -94.17
           ],
           [
-            20.31,
-            -96.05
+            19.52,
+            -94.92
           ],
           [
-            20.9,
-            -96.35
+            19.69,
+            -95.38
           ],
           [
-            21.39,
-            -96.47
+            19.93,
+            -95.75
           ],
           [
-            21.86,
-            -96.53
+            20.38,
+            -96.13
           ],
           [
-            22.7,
+            20.96,
+            -96.38
+          ],
+          [
+            21.73,
+            -96.52
+          ],
+          [
+            23,
             -96.48
           ],
           [
-            23.41,
+            23.85,
             -96.28
           ],
           [
-            23.87,
-            -96.06
+            24.5,
+            -96
           ],
           [
-            24.4,
-            -95.68
+            25.26,
+            -95.46
           ],
           [
-            24.82,
-            -95.25
+            25.74,
+            -94.94
           ],
           [
-            25.19,
-            -94.68
+            26.22,
+            -94.19
           ],
           [
-            25.37,
-            -94.24
+            26.54,
+            -93.42
           ],
           [
-            25.51,
-            -93.55
+            26.76,
+            -92.51
           ],
           [
-            25.51,
-            -93.1
+            26.81,
+            -91.68
           ],
           [
-            25.42,
-            -92.44
+            26.74,
+            -91.14
           ],
           [
-            25.19,
-            -91.74
+            26.51,
+            -90.52
           ],
           [
-            24.86,
-            -91.15
+            26.15,
+            -90.09
           ],
           [
-            24.49,
-            -90.75
+            25.77,
+            -89.85
           ],
           [
-            23.96,
-            -90.46
+            25.17,
+            -89.65
           ],
           [
-            23.53,
-            -90.37
+            24.29,
+            -89.56
           ],
           [
-            22.32,
-            -90.48
+            23.37,
+            -89.64
+          ],
+          [
+            22.64,
+            -89.81
           ]
         ]
       ]
