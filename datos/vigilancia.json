@@ -1,10 +1,8 @@
 {
-  "generado": "2026-10-03T21:32:43.147Z",
+  "generado": "2026-10-04T00:12:49.470Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 1,
-  "cuencasSinFormacion": [
-    "Atlántico"
-  ],
+  "total": 2,
+  "cuencasSinFormacion": [],
   "zonas": [
     {
       "cuenca": "Pacific",
@@ -12,11 +10,11 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur)",
       "tituloOriginal": "South of Southern Mexico",
-      "descripcion": "An area of low pressure is forecast to form late this weekend or early next week south of the southern coast of Mexico. Thereafter, environmental conditions appear favorable for gradual development, and a tropical depression is likely to form during the middle to latter portion of next week while the system moves slowly west-northwestward to northwestward.",
+      "descripcion": "An area of low pressure is forecast to form late this weekend or early next week south of the southern coast of Mexico. Thereafter, environmental conditions appear favorable for gradual development, and a tropical depression is expected to form during the middle to latter portion of next week while the system moves slowly west-northwestward to northwestward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 80,
+      "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
         13.713,
@@ -163,6 +161,127 @@
           [
             13.43,
             -93.02
+          ]
+        ]
+      ]
+    },
+    {
+      "cuenca": "Atlantic",
+      "cuencaEs": "Atlántico",
+      "numero": "1",
+      "titulo": "Golfo de México (suroeste)",
+      "tituloOriginal": "Southwestern Gulf of America",
+      "descripcion": "A broad area of low pressure could form in a few days over the southwestern Gulf of America. Any development of this system is expected to be slow to occur as it drifts over the southwestern Gulf waters.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
+      "prob2dias": 0,
+      "riesgo2dias": "bajo",
+      "prob7dias": 20,
+      "riesgo7dias": "bajo",
+      "centro": [
+        21.969,
+        -93.466
+      ],
+      "anillos": [
+        [
+          [
+            21.4,
+            -90.89
+          ],
+          [
+            20.87,
+            -91.01
+          ],
+          [
+            20.41,
+            -91.23
+          ],
+          [
+            19.99,
+            -91.6
+          ],
+          [
+            19.77,
+            -91.92
+          ],
+          [
+            19.37,
+            -93.06
+          ],
+          [
+            19.29,
+            -93.7
+          ],
+          [
+            19.33,
+            -94.6
+          ],
+          [
+            19.66,
+            -95.51
+          ],
+          [
+            20.3,
+            -96.17
+          ],
+          [
+            21.18,
+            -96.59
+          ],
+          [
+            22.25,
+            -96.75
+          ],
+          [
+            22.81,
+            -96.68
+          ],
+          [
+            23.29,
+            -96.48
+          ],
+          [
+            23.74,
+            -96.1
+          ],
+          [
+            24.1,
+            -95.59
+          ],
+          [
+            24.47,
+            -94.5
+          ],
+          [
+            24.54,
+            -93.8
+          ],
+          [
+            24.48,
+            -92.94
+          ],
+          [
+            24.16,
+            -91.96
+          ],
+          [
+            23.95,
+            -91.64
+          ],
+          [
+            23.54,
+            -91.27
+          ],
+          [
+            22.74,
+            -90.93
+          ],
+          [
+            22.19,
+            -90.85
+          ],
+          [
+            21.4,
+            -90.89
           ]
         ]
       ]
