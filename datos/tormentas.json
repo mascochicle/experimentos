@@ -1,37 +1,22 @@
 {
-  "generado": "2026-10-05T02:09:47.898Z",
+  "generado": "2026-10-05T09:17:23.583Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 2,
+  "total": 1,
   "tormentas": [
     {
       "id": "ep182026",
       "nombre": "Rachel",
       "clasificacion": "HU",
       "cuenca": "EP3",
-      "intensidadKt": 90,
-      "presionMb": 965,
-      "lat": 20.1,
-      "lon": -114.3,
-      "rumboGrados": 270,
-      "velocidadKt": 6,
-      "actualizado": "2026-10-04T21:00:00.000Z",
+      "intensidadKt": 80,
+      "presionMb": 970,
+      "lat": 20.4,
+      "lon": -115.6,
+      "rumboGrados": 280,
+      "velocidadKt": 8,
+      "actualizado": "2026-10-05T09:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP3.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep3.shtml"
-    },
-    {
-      "id": "ep152026",
-      "nombre": "Nolo",
-      "clasificacion": "HU",
-      "cuenca": "CP2",
-      "intensidadKt": 100,
-      "presionMb": 959,
-      "lat": 24.2,
-      "lon": 180,
-      "rumboGrados": 280,
-      "velocidadKt": 17,
-      "actualizado": "2026-10-04T21:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_cp2.shtml"
     }
   ]
 }
