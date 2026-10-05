@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-05T09:17:23.767Z",
+  "generado": "2026-10-05T18:37:30.354Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -8,11 +8,11 @@
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
-      "titulo": "Southern Mexico (al sur)",
-      "tituloOriginal": "South of Southern Mexico",
-      "descripcion": "A broad area of low pressure located just to the south of the Gulf of Tehuantepec is currently producing scattered showers and thunderstorm activity. Environmental conditions appear favorable for gradual development, and a tropical depression is expected to form during the middle to latter portion of the week while the system moves slowly west-northwestward to northwestward, just offshore of the southern to southwestern coast of Mexico.",
+      "titulo": "Southern Mexico (al sur) · 92E",
+      "tituloOriginal": "South of Southern Mexico (92E)",
+      "descripcion": "A broad area of low pressure located near the Gulf of Tehuantepec is producing disorganized showers and thunderstorms. Environmental conditions appear favorable for gradual development, and a tropical depression is expected to form during the next few days while the system moves slowly west-northwestward to northwestward. Interests along the coast of southwestern Mexico should monitor the progress of this system.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 40,
+      "prob2dias": 60,
       "riesgo2dias": "medio",
       "prob7dias": 90,
       "riesgo7dias": "alto",
@@ -161,131 +161,131 @@
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
       "numero": "1",
-      "titulo": "Golfo de México (suroeste)",
-      "tituloOriginal": "Southwestern Gulf of America",
-      "descripcion": "A surface trough of low pressure has developed along the coast of Mexico in the southwestern Gulf of America. Although environmental conditions are expected to be only marginally conducive, gradual development of this system is possible and a tropical depression could form by the second half of this week while it initially drifts eastward before turning northward.",
+      "titulo": "Golfo de México (suroeste) · AL92",
+      "tituloOriginal": "Southwestern Gulf of America (AL92)",
+      "descripcion": "A trough of low pressure over the southwestern Gulf of America is producing disorganized showers and thunderstorms. Although environmental conditions appear to be marginally conducive, gradual development is becoming more likely, and a tropical depression is expected to form during the middle portion of the week. This system is expected to drift eastward over the next couple of days, before it turns northward. It is too early to determine the specific impacts to the northern Gulf Coast, but interests there should closely monitor the progress of this system.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 10,
-      "riesgo2dias": "bajo",
-      "prob7dias": 50,
-      "riesgo7dias": "medio",
+      "prob2dias": 60,
+      "riesgo2dias": "medio",
+      "prob7dias": 80,
+      "riesgo7dias": "alto",
       "centro": [
-        21.589,
-        -96.267
+        22.073,
+        -95.242
       ],
       "anillos": [
         [
           [
-            23.29,
-            -89.06
+            24.13,
+            -89.03
           ],
           [
-            22.68,
-            -89.24
+            23.13,
+            -89.19
           ],
           [
-            22.16,
-            -89.56
+            22.12,
+            -89.76
           ],
           [
-            20.76,
-            -90.78
+            21.35,
+            -90.64
           ],
           [
-            20.03,
-            -91.7
+            21.03,
+            -91.21
           ],
           [
-            19.47,
-            -93.06
+            20.72,
+            -92
           ],
           [
-            19.3,
-            -94.36
+            20.52,
+            -92.83
           ],
           [
-            19.36,
-            -94.94
+            20.42,
+            -93.83
           ],
           [
-            19.5,
-            -95.4
+            20.56,
+            -95.42
           ],
           [
-            19.74,
-            -95.89
+            20.73,
+            -95.95
           ],
           [
-            20.17,
-            -96.43
+            20.95,
+            -96.32
           ],
           [
-            21.12,
-            -97.07
+            21.33,
+            -96.62
           ],
           [
-            21.94,
-            -97.32
+            21.77,
+            -96.76
           ],
           [
-            22.66,
-            -97.36
+            22.32,
+            -96.84
           ],
           [
-            23.56,
-            -97.21
+            23.14,
+            -96.79
           ],
           [
-            24.38,
-            -96.87
+            23.88,
+            -96.57
           ],
           [
-            25.16,
-            -96.34
+            24.41,
+            -96.28
           ],
           [
-            25.64,
-            -95.85
+            25.08,
+            -95.7
           ],
           [
-            26.14,
-            -95.08
+            25.5,
+            -95.16
           ],
           [
-            26.41,
-            -94.38
+            26.09,
+            -93.88
           ],
           [
-            26.56,
-            -93.48
+            26.28,
+            -92.98
           ],
           [
-            26.54,
-            -92.41
+            26.34,
+            -91.95
           ],
           [
-            26.3,
-            -91.26
+            26.27,
+            -91.17
           ],
           [
-            25.86,
-            -90.29
+            26.03,
+            -90.32
           ],
           [
-            25.32,
-            -89.66
+            25.69,
+            -89.75
           ],
           [
-            24.62,
-            -89.23
+            25.24,
+            -89.35
           ],
           [
-            23.83,
-            -89.04
+            24.71,
+            -89.11
           ],
           [
-            23.29,
-            -89.06
+            24.13,
+            -89.03
           ]
         ]
       ]
