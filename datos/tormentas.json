@@ -1,20 +1,35 @@
 {
-  "generado": "2026-10-06T19:12:14.255Z",
+  "generado": "2026-10-06T23:08:40.992Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 1,
+  "total": 2,
   "tormentas": [
+    {
+      "id": "al092026",
+      "nombre": "Nine",
+      "clasificacion": "TD",
+      "cuenca": "AT4",
+      "intensidadKt": 30,
+      "presionMb": 1007,
+      "lat": 22.1,
+      "lon": -95.6,
+      "rumboGrados": 90,
+      "velocidadKt": 5,
+      "actualizado": "2026-10-06T21:00:00.000Z",
+      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPAT4.shtml",
+      "graficas": "https://www.nhc.noaa.gov/graphics_at4.shtml"
+    },
     {
       "id": "ep182026",
       "nombre": "Rachel",
       "clasificacion": "HU",
       "cuenca": "EP3",
-      "intensidadKt": 75,
-      "presionMb": 977,
+      "intensidadKt": 70,
+      "presionMb": 979,
       "lat": 20.5,
-      "lon": -119.5,
+      "lon": -120.1,
       "rumboGrados": 275,
-      "velocidadKt": 8,
-      "actualizado": "2026-10-06T15:00:00.000Z",
+      "velocidadKt": 7,
+      "actualizado": "2026-10-06T21:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP3.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep3.shtml"
     }
