@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T06:39:28.953Z",
+  "generado": "2026-10-06T13:45:11.378Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 1,
   "tormentas": [
@@ -8,13 +8,13 @@
       "nombre": "Rachel",
       "clasificacion": "HU",
       "cuenca": "EP3",
-      "intensidadKt": 80,
-      "presionMb": 973,
-      "lat": 20.4,
-      "lon": -117.9,
+      "intensidadKt": 75,
+      "presionMb": 976,
+      "lat": 20.3,
+      "lon": -118.6,
       "rumboGrados": 270,
-      "velocidadKt": 9,
-      "actualizado": "2026-10-06T03:00:00.000Z",
+      "velocidadKt": 8,
+      "actualizado": "2026-10-06T09:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP3.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep3.shtml"
     }
