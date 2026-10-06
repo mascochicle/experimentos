@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T13:45:12.210Z",
+  "generado": "2026-10-06T19:12:14.928Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -10,133 +10,109 @@
       "numero": "1",
       "titulo": "Golfo de México (suroeste) · AL92",
       "tituloOriginal": "Southwestern Gulf of America (AL92)",
-      "descripcion": "Showers and thunderstorms are showing signs of organization in association with a broad area of low pressure located over the southwestern Gulf of America. Continued development of this system is expected, and a tropical depression is anticipated to form over the next day or so while it drifts eastward. The low pressure area could bring gusty winds and areas of heavy rain to the western portions of the Yucatan Peninsula of Mexico in a couple of days. 1. The disturbance is expected to turn to the north or northeast toward the northern Gulf Coast by the end of the week. It is still too early to determine specific impacts to the northern Gulf Coast, but interests from the Florida Panhandle to Louisiana should closely monitor the progress of this system. The NOAA Gulfstream is scheduled to sample the environment over the Gulf later today and an Air Force reconnaissance aircraft is scheduled to investigate the system tomorrow.",
+      "descripcion": "Satellite images and surface observations indicate that showers and thunderstorms are becoming better organized while surface pressures are gradually falling. If these trends continue, advisories will likely be issued on this system later today or tonight while it moves slowly eastward. The low pressure area could bring gusty winds and areas of heavy rain to the western portions of the Yucatan Peninsula of Mexico in a couple of days. 1. The disturbance is expected to turn to the north or northeast toward the northern Gulf Coast by the end of the week. It is still too early to determine specific impacts to the northern Gulf Coast, but interests from the Florida Panhandle to Louisiana should closely monitor the progress of this system. The NOAA Gulfstream jet is en route to sample the environment over the Gulf this afternoon and Air Force and NOAA reconnaissance aircraft are scheduled to investigate the system tomorrow.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 90,
+      "prob2dias": 100,
       "riesgo2dias": "alto",
-      "prob7dias": 90,
+      "prob7dias": 100,
       "riesgo7dias": "alto",
       "centro": [
-        21.942,
-        -95.7
+        22.542,
+        -96.17
       ],
       "anillos": [
         [
           [
-            24.48,
-            -89.47
+            24.6,
+            -90.49
           ],
           [
-            23.4,
-            -89.45
+            23.81,
+            -90.46
           ],
           [
-            22.88,
-            -89.57
+            23.18,
+            -90.68
           ],
           [
-            22.24,
-            -89.87
+            22.73,
+            -91.1
           ],
           [
-            21.58,
-            -90.48
+            22.35,
+            -91.85
           ],
           [
-            20.95,
-            -91.67
+            21.94,
+            -93.39
           ],
           [
-            20.41,
-            -93.75
+            21.53,
+            -95.6
           ],
           [
-            20.31,
-            -94.55
+            21.68,
+            -96.28
           ],
           [
-            20.32,
-            -95.23
+            22.25,
+            -96.93
           ],
           [
-            20.42,
-            -95.69
+            22.61,
+            -97.09
           ],
           [
-            20.7,
-            -96.2
+            22.94,
+            -97.03
           ],
           [
-            21.17,
-            -96.63
+            23.52,
+            -96.7
           ],
           [
-            21.65,
-            -96.88
+            24.21,
+            -96.17
           ],
           [
-            22.16,
-            -97.04
+            25.53,
+            -94.81
           ],
           [
-            22.64,
-            -97.04
+            25.98,
+            -94.15
           ],
           [
-            23.26,
-            -96.84
+            26.21,
+            -93.66
           ],
           [
-            23.73,
-            -96.57
-          ],
-          [
-            24.4,
-            -96.07
-          ],
-          [
-            25.07,
-            -95.43
-          ],
-          [
-            25.72,
-            -94.6
-          ],
-          [
-            26.11,
-            -93.89
-          ],
-          [
-            26.34,
-            -93.16
-          ],
-          [
-            26.42,
-            -92.53
+            26.32,
+            -93.26
           ],
           [
             26.37,
-            -91.61
+            -92.52
           ],
           [
-            26.22,
-            -91.02
+            26.1,
+            -91.55
           ],
           [
-            25.93,
-            -90.41
+            25.84,
+            -91.15
           ],
           [
-            25.58,
-            -89.99
+            25.49,
+            -90.83
           ],
           [
-            25.09,
-            -89.66
+            25.03,
+            -90.6
           ],
           [
-            24.48,
-            -89.47
+            24.6,
+            -90.49
           ]
         ]
       ]
@@ -147,149 +123,141 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur) · EP92",
       "tituloOriginal": "South of Southern Mexico (EP92)",
-      "descripcion": "Shower and thunderstorm coverage has been increasing in association with a broad area of low pressure located offshore of southern Mexico. Environmental conditions appear favorable for gradual development, and a tropical depression is likely to form within the next day or two while the system moves slowly west-northwestward to northwestward. Regardless of development, heavy rainfall is expected across portions of southern and southwestern Mexico over the next few days. Interests along the coast of southwestern Mexico should monitor the progress of this system.",
+      "descripcion": "A broad area of low pressure located offshore of southern Mexico is producing disorganized showers and thunderstorms. Environmental conditions appear favorable for gradual development, and a tropical depression is likely to form within the next day or so while the system moves slowly west-northwestward to northwestward. Regardless of development, heavy rainfall is expected across portions of southern and southwestern Mexico over the next few days. Interests along the coast of southwestern Mexico should monitor the progress of this system.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 90,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        12.365,
-        -98.002
+        13.136,
+        -98.181
       ],
       "anillos": [
         [
           [
-            11.92,
-            -95.85
+            12.35,
+            -96.9
           ],
           [
-            12.76,
-            -95.7
+            13.04,
+            -96.68
           ],
           [
-            13.59,
-            -95.75
+            13.89,
+            -96.63
           ],
           [
-            14.34,
-            -95.99
+            14.67,
+            -96.77
           ],
           [
-            14.87,
-            -96.44
+            15.24,
+            -97.11
           ],
           [
-            15.14,
-            -97.02
+            15.44,
+            -97.53
           ],
           [
-            15.52,
-            -98.58
+            15.61,
+            -98.77
           ],
           [
-            15.88,
-            -99.67
+            15.86,
+            -99.62
           ],
           [
-            17.45,
-            -103.07
+            17.77,
+            -103.59
+          ],
+          [
+            18.02,
+            -104.74
           ],
           [
             18,
-            -104.47
+            -105.33
           ],
           [
-            18.15,
-            -105.03
+            17.88,
+            -105.86
           ],
           [
-            18.25,
-            -105.9
+            17.37,
+            -106.8
           ],
           [
-            18.2,
-            -106.56
+            16.95,
+            -107.25
           ],
           [
-            18.07,
-            -107.05
+            16.39,
+            -107.65
           ],
           [
-            17.47,
-            -108.17
-          ],
-          [
-            16.97,
-            -108.76
-          ],
-          [
-            16.34,
-            -109.31
-          ],
-          [
-            15.67,
-            -109.66
+            15.76,
+            -107.93
           ],
           [
             15.07,
-            -109.73
+            -108.06
           ],
           [
-            14.41,
-            -109.5
+            14.49,
+            -108.05
           ],
           [
-            13.84,
-            -109.02
+            13.81,
+            -107.87
           ],
           [
-            13.05,
-            -107.99
+            13.33,
+            -107.6
           ],
           [
-            12.4,
-            -106.85
+            12.87,
+            -107.18
           ],
           [
-            11.76,
-            -105.5
+            12.46,
+            -106.6
           ],
           [
-            11.2,
-            -104.03
+            12.05,
+            -105.72
           ],
           [
-            10.74,
-            -102.38
+            11.52,
+            -103.95
           ],
           [
-            10.58,
-            -101.43
+            11.24,
+            -102.62
           ],
           [
-            10.48,
-            -99.95
+            11.01,
+            -101.18
           ],
           [
-            10.53,
-            -98.78
+            10.93,
+            -100.03
           ],
           [
-            10.68,
-            -97.69
-          ],
-          [
-            10.98,
-            -96.66
+            11.06,
+            -98.87
           ],
           [
             11.33,
-            -96.18
+            -98.03
           ],
           [
-            11.92,
-            -95.85
+            11.76,
+            -97.35
+          ],
+          [
+            12.35,
+            -96.9
           ]
         ]
       ]
@@ -307,126 +275,126 @@
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        10.21,
-        -95.279
+        10.279,
+        -96.089
       ],
       "anillos": [
         [
           [
-            12.05,
-            -89.44
+            12.18,
+            -90.37
           ],
           [
-            12.42,
-            -89.92
+            12.5,
+            -90.86
           ],
           [
-            12.79,
-            -90.69
+            12.81,
+            -91.56
           ],
           [
-            13.16,
-            -92.26
+            13.25,
+            -93.31
           ],
           [
-            13.31,
-            -94.1
+            13.5,
+            -95.82
           ],
           [
-            13.53,
-            -99.34
+            13.72,
+            -100.56
           ],
           [
-            13.36,
-            -100.37
+            13.58,
+            -101.32
           ],
           [
-            12.86,
-            -101.43
+            13.07,
+            -102.17
           ],
           [
-            12.08,
-            -102.32
+            12.32,
+            -102.97
           ],
           [
-            11.31,
-            -102.76
+            11.42,
+            -103.52
           ],
           [
-            10.86,
-            -102.86
+            10.66,
+            -103.66
           ],
           [
-            10.46,
-            -102.84
+            10.19,
+            -103.56
           ],
           [
-            10.07,
-            -102.72
+            9.79,
+            -103.35
           ],
           [
-            9.59,
-            -102.41
-          ],
-          [
-            8.88,
-            -101.59
-          ],
-          [
-            8.29,
-            -100.48
-          ],
-          [
-            7.7,
-            -98.9
-          ],
-          [
-            7.18,
-            -96.91
-          ],
-          [
-            6.87,
-            -95.03
-          ],
-          [
-            6.76,
-            -92.64
-          ],
-          [
-            6.92,
-            -91.27
-          ],
-          [
-            7.18,
-            -90.41
-          ],
-          [
-            7.69,
-            -89.54
-          ],
-          [
-            8.45,
-            -88.88
+            9.32,
+            -102.93
           ],
           [
             9.01,
-            -88.62
+            -102.53
           ],
           [
-            9.51,
-            -88.51
+            8.36,
+            -101.3
           ],
           [
-            10.41,
-            -88.54
+            7.66,
+            -99.33
           ],
           [
-            11.35,
-            -88.88
+            7.19,
+            -97.3
           ],
           [
-            12.05,
-            -89.44
+            6.94,
+            -95.41
+          ],
+          [
+            6.9,
+            -93.43
+          ],
+          [
+            7.12,
+            -91.89
+          ],
+          [
+            7.42,
+            -91.06
+          ],
+          [
+            7.89,
+            -90.29
+          ],
+          [
+            8.38,
+            -89.8
+          ],
+          [
+            8.75,
+            -89.56
+          ],
+          [
+            9.72,
+            -89.25
+          ],
+          [
+            10.72,
+            -89.34
+          ],
+          [
+            11.55,
+            -89.75
+          ],
+          [
+            12.18,
+            -90.37
           ]
         ]
       ]
