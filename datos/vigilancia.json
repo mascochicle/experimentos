@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-07T16:48:11.094Z",
+  "generado": "2026-10-07T21:41:30.342Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 2,
+  "total": 1,
   "cuencasSinFormacion": [
     "Atlántico"
   ],
@@ -10,272 +10,143 @@
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
-      "titulo": "Southern Mexico (al sur) · EP92",
-      "tituloOriginal": "South of Southern Mexico (EP92)",
-      "descripcion": "Showers and thunderstorms associated with a broad area of low pressure located offshore of southern Mexico are becoming better organized. Environmental conditions appear conducive for gradual development, and this system is expected to become a tropical depression within a day or so. The disturbance should continue to move slowly west-northwestward to northwestward for the next few days. Regardless of development, heavy rainfall is forecast across portions of southern and southwestern Mexico through this week. Interests along the coast of southwestern Mexico should monitor the progress of this system. For additional information, including Storm Warnings, see High Seas forecasts issued by the National Weather Service.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 90,
-      "riesgo2dias": "alto",
-      "prob7dias": 90,
-      "riesgo7dias": "alto",
-      "centro": [
-        13.973,
-        -101.081
-      ],
-      "anillos": [
-        [
-          [
-            12.37,
-            -97.19
-          ],
-          [
-            12.94,
-            -97.02
-          ],
-          [
-            13.72,
-            -97.07
-          ],
-          [
-            14.5,
-            -97.34
-          ],
-          [
-            15.01,
-            -97.72
-          ],
-          [
-            17.58,
-            -103.06
-          ],
-          [
-            17.85,
-            -103.84
-          ],
-          [
-            18,
-            -104.64
-          ],
-          [
-            17.92,
-            -105.69
-          ],
-          [
-            17.75,
-            -106.17
-          ],
-          [
-            17.37,
-            -106.8
-          ],
-          [
-            17.01,
-            -107.22
-          ],
-          [
-            16.4,
-            -107.69
-          ],
-          [
-            15.91,
-            -107.92
-          ],
-          [
-            15.31,
-            -108.04
-          ],
-          [
-            14.65,
-            -108
-          ],
-          [
-            13.98,
-            -107.77
-          ],
-          [
-            13.42,
-            -107.42
-          ],
-          [
-            12.97,
-            -106.99
-          ],
-          [
-            12.51,
-            -106.33
-          ],
-          [
-            12.19,
-            -105.64
-          ],
-          [
-            11.85,
-            -104.62
-          ],
-          [
-            11.52,
-            -103.17
-          ],
-          [
-            11.26,
-            -101.63
-          ],
-          [
-            11.16,
-            -100.22
-          ],
-          [
-            11.29,
-            -99.11
-          ],
-          [
-            11.59,
-            -98.12
-          ],
-          [
-            11.97,
-            -97.51
-          ],
-          [
-            12.37,
-            -97.19
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Pacific",
-      "cuencaEs": "Pacífico oriental",
-      "numero": "2",
       "titulo": "Guatemala (al sur)",
       "tituloOriginal": "South of Guatemala",
-      "descripcion": "An area of low pressure is forecast to form south of the coast of Guatemala during the early portion of next week. Environmental conditions appear conducive for some gradual development of this system thereafter while it moves generally west-northwestward around 10 mph.",
+      "descripcion": "An area of low pressure is forecast to form south of the coast of Guatemala during the early portion of next week. Environmental conditions appear conducive for some gradual development of this system thereafter while it moves generally west-northwestward at around 10 mph.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 30,
       "riesgo7dias": "bajo",
       "centro": [
-        10.279,
-        -96.089
+        10.441,
+        -96.597
       ],
       "anillos": [
         [
           [
-            12.18,
-            -90.37
+            11.98,
+            -91.03
           ],
           [
-            12.5,
-            -90.86
-          ],
-          [
-            12.81,
+            12.4,
             -91.56
           ],
           [
-            13.25,
-            -93.31
+            12.84,
+            -92.39
           ],
           [
-            13.5,
-            -95.82
+            13.13,
+            -93.21
+          ],
+          [
+            13.4,
+            -94.35
           ],
           [
             13.72,
-            -100.56
+            -97.22
           ],
           [
-            13.58,
-            -101.32
+            13.92,
+            -101
           ],
           [
-            13.07,
-            -102.17
+            13.7,
+            -102.31
           ],
           [
-            12.32,
-            -102.97
+            13.25,
+            -103.25
           ],
           [
-            11.42,
-            -103.52
+            12.91,
+            -103.71
           ],
           [
-            10.66,
-            -103.66
+            12.38,
+            -104.22
           ],
           [
-            10.19,
-            -103.56
+            11.54,
+            -104.66
           ],
           [
-            9.79,
-            -103.35
+            10.76,
+            -104.7
           ],
           [
-            9.32,
-            -102.93
+            10.35,
+            -104.57
           ],
           [
-            9.01,
-            -102.53
+            9.86,
+            -104.27
           ],
           [
-            8.36,
-            -101.3
+            9.12,
+            -103.45
           ],
           [
-            7.66,
-            -99.33
+            8.41,
+            -102.18
           ],
           [
-            7.19,
-            -97.3
+            7.63,
+            -100.17
           ],
           [
-            6.94,
-            -95.41
+            7.07,
+            -98.09
           ],
           [
-            6.9,
-            -93.43
+            6.71,
+            -95.97
           ],
           [
-            7.12,
-            -91.89
+            6.61,
+            -93.98
           ],
           [
-            7.42,
-            -91.06
+            6.7,
+            -92.93
           ],
           [
-            7.89,
-            -90.29
+            7.01,
+            -91.78
           ],
           [
-            8.38,
-            -89.8
+            7.53,
+            -90.92
           ],
           [
-            8.75,
-            -89.56
+            8.2,
+            -90.35
           ],
           [
-            9.72,
-            -89.25
+            8.68,
+            -90.13
           ],
           [
-            10.72,
-            -89.34
+            9.18,
+            -90.01
           ],
           [
-            11.55,
-            -89.75
+            10.01,
+            -90.01
           ],
           [
-            12.18,
-            -90.37
+            11.02,
+            -90.32
+          ],
+          [
+            11.66,
+            -90.73
+          ],
+          [
+            11.98,
+            -91.03
           ]
         ]
       ]
