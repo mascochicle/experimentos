@@ -1,20 +1,20 @@
 {
-  "generado": "2026-10-07T09:29:27.597Z",
+  "generado": "2026-10-07T16:48:10.884Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 2,
+  "total": 3,
   "tormentas": [
     {
       "id": "al092026",
       "nombre": "Isaias",
       "clasificacion": "TS",
       "cuenca": "AT4",
-      "intensidadKt": 35,
-      "presionMb": 1004,
-      "lat": 22,
-      "lon": -94.1,
-      "rumboGrados": 75,
+      "intensidadKt": 40,
+      "presionMb": 1000,
+      "lat": 22.4,
+      "lon": -93.6,
+      "rumboGrados": 70,
       "velocidadKt": 8,
-      "actualizado": "2026-10-07T09:00:00.000Z",
+      "actualizado": "2026-10-07T15:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPAT4.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_at4.shtml"
     },
@@ -25,13 +25,28 @@
       "cuenca": "EP3",
       "intensidadKt": 70,
       "presionMb": 979,
-      "lat": 20.6,
-      "lon": -121.2,
-      "rumboGrados": 290,
+      "lat": 20.9,
+      "lon": -121.8,
+      "rumboGrados": 285,
       "velocidadKt": 7,
-      "actualizado": "2026-10-07T09:00:00.000Z",
+      "actualizado": "2026-10-07T15:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP3.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep3.shtml"
+    },
+    {
+      "id": "ep202026",
+      "nombre": "Twenty-E",
+      "clasificacion": "TD",
+      "cuenca": "EP5",
+      "intensidadKt": 30,
+      "presionMb": 1006,
+      "lat": 14.1,
+      "lon": -100.9,
+      "rumboGrados": 300,
+      "velocidadKt": 8,
+      "actualizado": "2026-10-07T15:00:00.000Z",
+      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
+      "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
     }
   ]
 }

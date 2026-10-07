@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-07T09:29:27.975Z",
+  "generado": "2026-10-07T16:48:11.094Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur) · EP92",
       "tituloOriginal": "South of Southern Mexico (EP92)",
-      "descripcion": "A broad area of low pressure located offshore of southern Mexico is producing disorganized showers and thunderstorms. Environmental conditions appear favorable for gradual development, and a tropical depression is expected to form within the next day or so while the system moves slowly west-northwestward to northwestward. Regardless of development, heavy rainfall is forecast across portions of southern and southwestern Mexico over the next few days. Interests along the coast of southwestern Mexico should monitor the progress of this system. For additional information, including Gale Warnings, see High Seas forecasts issued by the National Weather Service.",
+      "descripcion": "Showers and thunderstorms associated with a broad area of low pressure located offshore of southern Mexico are becoming better organized. Environmental conditions appear conducive for gradual development, and this system is expected to become a tropical depression within a day or so. The disturbance should continue to move slowly west-northwestward to northwestward for the next few days. Regardless of development, heavy rainfall is forecast across portions of southern and southwestern Mexico through this week. Interests along the coast of southwestern Mexico should monitor the progress of this system. For additional information, including Storm Warnings, see High Seas forecasts issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 90,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        13.187,
-        -98.53
+        13.973,
+        -101.081
       ],
       "anillos": [
         [
@@ -149,7 +149,7 @@
       "numero": "2",
       "titulo": "Guatemala (al sur)",
       "tituloOriginal": "South of Guatemala",
-      "descripcion": "An area of low pressure is forecast to form south of the coast of Guatemala early next week. Environmental conditions appear conducive for some gradual development of this system thereafter while it moves generally west-northwestward around 10 mph.",
+      "descripcion": "An area of low pressure is forecast to form south of the coast of Guatemala during the early portion of next week. Environmental conditions appear conducive for some gradual development of this system thereafter while it moves generally west-northwestward around 10 mph.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
