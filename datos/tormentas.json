@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-11T19:03:18.439Z",
+  "generado": "2026-10-11T23:00:38.857Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 3,
+  "total": 2,
   "tormentas": [
     {
       "id": "al092026",
@@ -19,32 +19,17 @@
       "graficas": "https://www.nhc.noaa.gov/graphics_at4.shtml"
     },
     {
-      "id": "ep182026",
-      "nombre": "Rachel",
-      "clasificacion": "PTC",
-      "cuenca": "EP3",
-      "intensidadKt": 30,
-      "presionMb": 994,
-      "lat": 35.8,
-      "lon": -114.6,
-      "rumboGrados": 15,
-      "velocidadKt": 29,
-      "actualizado": "2026-10-11T15:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP3.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_ep3.shtml"
-    },
-    {
       "id": "ep202026",
       "nombre": "Simon",
       "clasificacion": "HU",
       "cuenca": "EP5",
-      "intensidadKt": 120,
-      "presionMb": 940,
-      "lat": 19.5,
-      "lon": -105.5,
-      "rumboGrados": 345,
-      "velocidadKt": 7,
-      "actualizado": "2026-10-11T18:00:00.000Z",
+      "intensidadKt": 115,
+      "presionMb": 947,
+      "lat": 19.6,
+      "lon": -105.8,
+      "rumboGrados": 335,
+      "velocidadKt": 6,
+      "actualizado": "2026-10-11T21:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
     }
