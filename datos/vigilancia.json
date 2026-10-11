@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-11T07:25:53.752Z",
+  "generado": "2026-10-11T14:15:39.725Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,15 +10,15 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur)",
       "tituloOriginal": "South of Southern Mexico",
-      "descripcion": "Disorganized showers and thunderstorms over the far eastern East Pacific are associated with a tropical wave. Environmental conditions are expected to be conducive for gradual development, and a tropical depression is likely to form well south of southern Mexico by the middle or latter half of next week as the system moves generally west-northwestward at around 10 mph.",
+      "descripcion": "A tropical wave over the far eastern East Pacific is producing disorganized showers and thunderstorms. Environmental conditions are expected to be conducive for gradual development, and a tropical depression is likely to form well south of southern Mexico by the middle or latter half of the week as the system moves generally west-northwestward at around 10 mph.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 20,
       "riesgo2dias": "bajo",
       "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        8.504,
-        -87.991
+        8.65,
+        -88.89
       ],
       "anillos": [
         [
@@ -159,125 +159,133 @@
       "numero": "1",
       "titulo": "Atlántico tropical (este)",
       "tituloOriginal": "Eastern Tropical Atlantic",
-      "descripcion": "An elongated area of low pressure centered about 100 miles southwest of the Cabo Verde Islands is producing a large but disorganized area of showers and thunderstorms extending from near those islands southward for several hundred miles. Some development of this system is possible during the next couple of days while the low north-northwestward before upper-level winds become too strong for development by midweek. Very heavy rainfall is also possible during the next few days over portions of the Cabo Verde Islands regardless of whether the system ever becomes a tropical cyclone.",
+      "descripcion": "An elongated area of low pressure centered a few hundred miles southwest of the Cabo Verde Islands is producing a large but disorganized area of showers and thunderstorms extending from these islands southward into the eastern Tropical Atlantic. Environmental conditions appear only marginally conducive for some development of this system over the next day or two before upper-level winds become too strong for development by midweek. Regardless of development, heavy rainfall will be possible during the next few days over portions of the Cabo Verde Islands as the system moves slowly northward to north-northwestward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 10,
+      "prob2dias": 20,
       "riesgo2dias": "bajo",
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        12.148,
-        -26.624
+        12.438,
+        -28.631
       ],
       "anillos": [
         [
           [
             15.58,
-            -25.37
+            -25.76
           ],
           [
-            14.17,
-            -25.3
+            14.7,
+            -25.72
           ],
           [
-            12.66,
-            -25.48
+            13.98,
+            -25.78
           ],
           [
-            11.84,
-            -25.81
+            12.76,
+            -26.08
           ],
           [
-            11.59,
-            -26.03
-          ],
-          [
-            11.41,
+            12.23,
             -26.33
           ],
           [
-            11.31,
-            -26.77
+            11.78,
+            -26.68
           ],
           [
-            11.33,
-            -27.16
+            11.45,
+            -27.14
           ],
           [
-            11.42,
-            -27.54
+            11.28,
+            -27.53
           ],
           [
-            11.69,
-            -28.1
+            11.15,
+            -28.08
           ],
           [
-            12.42,
+            11.08,
             -28.96
           ],
           [
-            13.45,
-            -29.75
+            11.13,
+            -29.26
           ],
           [
-            15.02,
-            -30.54
+            11.34,
+            -29.67
           ],
           [
-            15.8,
-            -30.77
+            11.77,
+            -30.07
           ],
           [
-            16.72,
-            -30.88
+            12.24,
+            -30.35
           ],
           [
-            17.4,
-            -30.8
+            13.92,
+            -31.03
           ],
           [
-            17.93,
-            -30.58
+            15.72,
+            -31.47
           ],
           [
-            18.3,
-            -30.26
+            16.37,
+            -31.53
           ],
           [
-            18.55,
-            -29.89
+            17,
+            -31.47
           ],
           [
-            18.78,
-            -29.19
+            17.44,
+            -31.28
           ],
           [
-            18.85,
+            17.74,
+            -31
+          ],
+          [
+            18.21,
+            -30.07
+          ],
+          [
+            18.4,
+            -29.34
+          ],
+          [
+            18.47,
             -28.32
           ],
           [
-            18.72,
-            -27.46
+            18.38,
+            -27.72
           ],
           [
-            18.39,
-            -26.71
+            18.18,
+            -27.19
           ],
           [
-            17.99,
-            -26.25
+            17.89,
+            -26.78
           ],
           [
             17.28,
-            -25.8
+            -26.28
           ],
           [
-            16.54,
-            -25.54
+            16.49,
+            -25.94
           ],
           [
             15.58,
-            -25.37
+            -25.76
           ]
         ]
       ]
