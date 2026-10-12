@@ -1,35 +1,20 @@
 {
-  "generado": "2026-10-11T23:00:38.857Z",
+  "generado": "2026-10-12T02:31:14.161Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 2,
+  "total": 1,
   "tormentas": [
-    {
-      "id": "al092026",
-      "nombre": "Isaias",
-      "clasificacion": "PTC",
-      "cuenca": "AT4",
-      "intensidadKt": 20,
-      "presionMb": 1010,
-      "lat": 37.5,
-      "lon": -84,
-      "rumboGrados": 65,
-      "velocidadKt": 22,
-      "actualizado": "2026-10-11T15:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPAT4.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_at4.shtml"
-    },
     {
       "id": "ep202026",
       "nombre": "Simon",
       "clasificacion": "HU",
       "cuenca": "EP5",
-      "intensidadKt": 115,
-      "presionMb": 947,
-      "lat": 19.6,
+      "intensidadKt": 110,
+      "presionMb": 951,
+      "lat": 19.7,
       "lon": -105.8,
-      "rumboGrados": 335,
-      "velocidadKt": 6,
-      "actualizado": "2026-10-11T21:00:00.000Z",
+      "rumboGrados": 325,
+      "velocidadKt": 5,
+      "actualizado": "2026-10-12T00:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
     }
