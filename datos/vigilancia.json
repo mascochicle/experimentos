@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-12T09:56:59.570Z",
+  "generado": "2026-10-12T19:33:50.987Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,145 +10,149 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur) · EP93",
       "tituloOriginal": "South of Southern Mexico (EP93)",
-      "descripcion": "A broad area of low pressure has formed several hundred miles south of the coast of Guatemala, accompanied by some shower and thunderstorm activity. This system has become better defined since yesterday, and environmental conditions are forecast to be conducive for further development. A tropical depression is expected to form well south of southern Mexico in a few days while the system moves generally west-northwestward at around 10 mph.",
+      "descripcion": "A broad area of low pressure located several hundred miles south-southwest of the coast of Guatemala continues to produce disorganized showers and thunderstorms. This system is gradually becoming better defined, and environmental conditions are forecast to be conducive for further development. A tropical depression is expected to form well south of southern Mexico in the next two days while the system moves generally west-northwestward at around 10 mph.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 60,
-      "riesgo2dias": "medio",
+      "prob2dias": 90,
+      "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        8.543,
-        -91.031
+        7.862,
+        -93.73
       ],
       "anillos": [
         [
           [
-            9.56,
+            9.43,
+            -103.48
+          ],
+          [
+            7.12,
+            -97.66
+          ],
+          [
+            6.43,
+            -95.37
+          ],
+          [
+            6.25,
+            -94.32
+          ],
+          [
+            6.22,
+            -93.56
+          ],
+          [
+            6.34,
+            -92.81
+          ],
+          [
+            6.58,
             -92.31
           ],
           [
-            10.47,
-            -92.65
+            6.87,
+            -92.01
           ],
           [
-            11.2,
-            -93.15
+            7.24,
+            -91.79
           ],
           [
-            11.9,
-            -93.82
+            8.24,
+            -91.56
           ],
           [
-            12.54,
-            -94.64
+            8.84,
+            -91.57
           ],
           [
-            13.18,
-            -95.69
+            9.53,
+            -91.7
           ],
           [
-            14.07,
-            -97.51
+            10.4,
+            -92.09
           ],
           [
-            14.6,
-            -98.85
+            11.07,
+            -92.67
           ],
           [
-            14.98,
-            -100.19
+            11.63,
+            -93.39
           ],
           [
-            15.21,
-            -101.69
+            13.09,
+            -95.65
           ],
           [
-            15.26,
-            -103.14
+            13.91,
+            -97.16
           ],
           [
-            15.19,
-            -104.39
+            14.38,
+            -98.19
           ],
           [
             14.93,
-            -105.97
+            -99.92
           ],
           [
-            14.65,
-            -106.8
+            15.14,
+            -101.05
           ],
           [
-            14.19,
-            -107.48
+            15.25,
+            -102.46
           ],
           [
-            13.7,
-            -107.8
+            15.21,
+            -104.1
           ],
           [
-            13.01,
+            15.07,
+            -105.28
+          ],
+          [
+            14.8,
+            -106.4
+          ],
+          [
+            14.4,
+            -107.25
+          ],
+          [
+            13.88,
+            -107.72
+          ],
+          [
+            13.49,
+            -107.88
+          ],
+          [
+            12.99,
             -107.96
           ],
           [
-            12.19,
-            -107.93
+            11.99,
+            -107.87
           ],
           [
-            11.53,
-            -107.7
+            11.21,
+            -107.5
           ],
           [
-            11,
-            -107.3
+            10.76,
+            -107
           ],
           [
-            10.48,
-            -106.57
+            10.49,
+            -106.48
           ],
           [
-            9.99,
-            -105.48
-          ],
-          [
-            9.02,
-            -102.71
-          ],
-          [
-            8.05,
-            -99.36
-          ],
-          [
-            7.76,
-            -97.81
-          ],
-          [
-            7.58,
-            -96.22
-          ],
-          [
-            7.54,
-            -94.77
-          ],
-          [
-            7.65,
-            -93.72
-          ],
-          [
-            7.86,
-            -93.05
-          ],
-          [
-            8.29,
-            -92.5
-          ],
-          [
-            8.85,
-            -92.27
-          ],
-          [
-            9.56,
-            -92.31
+            9.43,
+            -103.48
           ]
         ]
       ]
@@ -159,109 +163,113 @@
       "numero": "1",
       "titulo": "Atlántico tropical (este)",
       "tituloOriginal": "Eastern Tropical Atlantic",
-      "descripcion": "An elongated area of low pressure centered a few hundred miles west of the Cabo Verde Islands continues to produce a large but disorganized area of showers and thunderstorms extending from these islands southwestward into the eastern tropical Atlantic. Environmental conditions appear, at best, marginally conducive for any development of this system during the next day or two before upper-level winds become too strong for any further development. Regardless, heavy rainfall is expected over the couple of days for portions of the Cabo Verde Islands as the system moves slowly northward to north-northwestward.",
+      "descripcion": "An elongated area of low pressure centered a few hundred miles west of the Cabo Verde Islands continues to produce a large but disorganized area of showers and thunderstorms occurring on its east side, extending toward the westernmost Cabo Verde Islands. Environmental conditions appear, at best, only marginally conducive for development of this system during the next day or so before upper-level winds become too strong for any further development on Tuesday. Regardless, heavy rainfall is expected to continue for the next day or two across western portions of the Cabo Verde Islands, and some flooding is possible there as the system moves slowly northward to north-northwestward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 20,
       "riesgo2dias": "bajo",
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        16.11,
-        -29.592
+        16.797,
+        -31.303
       ],
       "anillos": [
         [
           [
-            15.23,
-            -29.89
+            15.32,
+            -31.12
           ],
           [
-            15.25,
-            -30.29
+            15.35,
+            -31.7
           ],
           [
-            15.37,
-            -30.62
+            15.5,
+            -32.19
           ],
           [
-            15.69,
-            -31.01
+            15.78,
+            -32.61
           ],
           [
-            16.25,
-            -31.45
+            16.1,
+            -32.87
           ],
           [
-            17.18,
-            -31.97
+            16.63,
+            -33.09
           ],
           [
-            17.86,
-            -32.25
+            17.11,
+            -33.17
           ],
           [
-            18.5,
-            -32.4
+            17.74,
+            -33.17
           ],
           [
-            18.92,
-            -32.4
+            18.35,
+            -33.06
           ],
           [
-            19.27,
-            -32.3
-          ],
-          [
-            19.65,
-            -32.01
-          ],
-          [
-            20.01,
-            -31.26
-          ],
-          [
-            20.07,
-            -30.27
-          ],
-          [
-            19.98,
-            -29.81
-          ],
-          [
-            19.75,
-            -29.33
+            18.83,
+            -32.88
           ],
           [
             19.24,
-            -28.88
+            -32.62
           ],
           [
-            18.6,
-            -28.63
+            19.57,
+            -32.29
           ],
           [
-            17.23,
-            -28.38
+            19.8,
+            -31.88
           ],
           [
-            16.35,
-            -28.37
+            19.96,
+            -30.88
           ],
           [
-            15.8,
-            -28.51
+            19.78,
+            -29.94
           ],
           [
-            15.48,
-            -28.78
+            19.42,
+            -29.28
           ],
           [
-            15.29,
-            -29.23
+            19.12,
+            -28.98
           ],
           [
-            15.23,
-            -29.89
+            18.74,
+            -28.75
+          ],
+          [
+            18.04,
+            -28.59
+          ],
+          [
+            17.03,
+            -28.72
+          ],
+          [
+            16.28,
+            -29.09
+          ],
+          [
+            15.81,
+            -29.6
+          ],
+          [
+            15.45,
+            -30.35
+          ],
+          [
+            15.32,
+            -31.12
           ]
         ]
       ]

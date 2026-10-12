@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-12T09:56:59.455Z",
+  "generado": "2026-10-12T19:33:50.559Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 1,
   "tormentas": [
@@ -8,13 +8,13 @@
       "nombre": "Simon",
       "clasificacion": "HU",
       "cuenca": "EP5",
-      "intensidadKt": 100,
-      "presionMb": 958,
-      "lat": 20,
-      "lon": -106.3,
-      "rumboGrados": 315,
-      "velocidadKt": 5,
-      "actualizado": "2026-10-12T09:00:00.000Z",
+      "intensidadKt": 90,
+      "presionMb": 965,
+      "lat": 20.2,
+      "lon": -106.6,
+      "rumboGrados": 270,
+      "velocidadKt": 2,
+      "actualizado": "2026-10-12T18:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
     }
