@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T11:47:43.835Z",
+  "generado": "2026-10-15T15:55:03.182Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 2,
   "tormentas": [
@@ -8,13 +8,13 @@
       "nombre": "Trudy",
       "clasificacion": "HU",
       "cuenca": "EP1",
-      "intensidadKt": 65,
-      "presionMb": 989,
-      "lat": 12.9,
+      "intensidadKt": 80,
+      "presionMb": 975,
+      "lat": 13.1,
       "lon": -101.6,
-      "rumboGrados": 305,
-      "velocidadKt": 9,
-      "actualizado": "2026-10-15T09:00:00.000Z",
+      "rumboGrados": 335,
+      "velocidadKt": 6,
+      "actualizado": "2026-10-15T15:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP1.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep1.shtml"
     },
@@ -26,10 +26,10 @@
       "intensidadKt": 50,
       "presionMb": 996,
       "lat": 19.2,
-      "lon": -108.5,
+      "lon": -108.1,
       "rumboGrados": 0,
       "velocidadKt": 0,
-      "actualizado": "2026-10-15T09:00:00.000Z",
+      "actualizado": "2026-10-15T15:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
     }
