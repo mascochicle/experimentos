@@ -1,10 +1,155 @@
 {
-  "generado": "2026-10-14T22:48:33.843Z",
+  "generado": "2026-10-15T01:03:55.912Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 0,
+  "total": 1,
   "cuencasSinFormacion": [
-    "Atlántico",
-    "Pacífico oriental"
+    "Atlántico"
   ],
-  "zonas": []
+  "zonas": [
+    {
+      "cuenca": "Pacific",
+      "cuencaEs": "Pacífico oriental",
+      "numero": "1",
+      "titulo": "Southern Mexico (al sur)",
+      "tituloOriginal": "South of Southern Mexico",
+      "descripcion": "An area of low pressure is forecast to form offshore of southern Mexico during the early to middle part of next week. Environmental conditions appear conducive for some gradual development thereafter while the system moves generally westward to west-northwestward.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
+      "prob2dias": 0,
+      "riesgo2dias": "bajo",
+      "prob7dias": 20,
+      "riesgo7dias": "bajo",
+      "centro": [
+        10.859,
+        -99.961
+      ],
+      "anillos": [
+        [
+          [
+            7.5,
+            -95.58
+          ],
+          [
+            7.69,
+            -93.48
+          ],
+          [
+            7.88,
+            -92.86
+          ],
+          [
+            8.21,
+            -92.28
+          ],
+          [
+            8.65,
+            -91.85
+          ],
+          [
+            9.25,
+            -91.59
+          ],
+          [
+            9.89,
+            -91.63
+          ],
+          [
+            10.46,
+            -91.95
+          ],
+          [
+            11.08,
+            -92.58
+          ],
+          [
+            11.71,
+            -93.49
+          ],
+          [
+            12.28,
+            -94.51
+          ],
+          [
+            12.95,
+            -96.1
+          ],
+          [
+            13.44,
+            -97.71
+          ],
+          [
+            13.8,
+            -99.27
+          ],
+          [
+            14.28,
+            -102.41
+          ],
+          [
+            14.4,
+            -104.04
+          ],
+          [
+            14.35,
+            -105.4
+          ],
+          [
+            14.12,
+            -106.45
+          ],
+          [
+            13.82,
+            -107.08
+          ],
+          [
+            13.19,
+            -107.75
+          ],
+          [
+            12.75,
+            -108.02
+          ],
+          [
+            12.15,
+            -108.24
+          ],
+          [
+            11.54,
+            -108.33
+          ],
+          [
+            11.07,
+            -108.31
+          ],
+          [
+            10.26,
+            -108.01
+          ],
+          [
+            9.67,
+            -107.4
+          ],
+          [
+            9.24,
+            -106.55
+          ],
+          [
+            8.29,
+            -103.14
+          ],
+          [
+            7.68,
+            -99.68
+          ],
+          [
+            7.52,
+            -97.53
+          ],
+          [
+            7.5,
+            -95.58
+          ]
+        ]
+      ]
+    }
+  ]
 }
