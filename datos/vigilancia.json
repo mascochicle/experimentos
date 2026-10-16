@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T22:45:14.885Z",
+  "generado": "2026-10-16T00:53:03.367Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -16,7 +16,7 @@
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 40,
+      "prob7dias": 50,
       "riesgo7dias": "medio",
       "centro": [
         10.501,
