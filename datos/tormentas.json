@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-17T04:43:54.669Z",
+  "generado": "2026-10-17T08:54:42.262Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 2,
+  "total": 1,
   "tormentas": [
     {
       "id": "ep212026",
@@ -10,28 +10,13 @@
       "cuenca": "EP1",
       "intensidadKt": 80,
       "presionMb": 979,
-      "lat": 15.2,
-      "lon": -102.5,
-      "rumboGrados": 350,
-      "velocidadKt": 7,
-      "actualizado": "2026-10-17T03:00:00.000Z",
+      "lat": 16,
+      "lon": -103.4,
+      "rumboGrados": 325,
+      "velocidadKt": 8,
+      "actualizado": "2026-10-17T09:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP1.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep1.shtml"
-    },
-    {
-      "id": "ep202026",
-      "nombre": "Simon",
-      "clasificacion": "PTC",
-      "cuenca": "EP5",
-      "intensidadKt": 30,
-      "presionMb": 1006,
-      "lat": 21.5,
-      "lon": -110.3,
-      "rumboGrados": 320,
-      "velocidadKt": 13,
-      "actualizado": "2026-10-16T21:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_ep5.shtml"
     }
   ]
 }
