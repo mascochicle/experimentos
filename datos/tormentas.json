@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-17T08:54:42.262Z",
+  "generado": "2026-10-17T12:33:03.733Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 1,
   "tormentas": [
@@ -10,11 +10,11 @@
       "cuenca": "EP1",
       "intensidadKt": 80,
       "presionMb": 979,
-      "lat": 16,
-      "lon": -103.4,
+      "lat": 16.3,
+      "lon": -103.7,
       "rumboGrados": 325,
       "velocidadKt": 8,
-      "actualizado": "2026-10-17T09:00:00.000Z",
+      "actualizado": "2026-10-17T12:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP1.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep1.shtml"
     }
