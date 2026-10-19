@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-19T10:29:43.797Z",
+  "generado": "2026-10-19T17:04:59.469Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,137 +10,137 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur)",
       "tituloOriginal": "South of Southern Mexico",
-      "descripcion": "Disorganized showers and thunderstorms have persisted with an area of disturbed weather located several hundred miles south of Guatemala. Environmental conditions appear conducive for development, and a tropical depression is expected to form around the middle of this week as the system moves westward to west-northwestward at around 10 mph, well to the south of the coast of southern Mexico.",
+      "descripcion": "Showers and thunderstorms, associated with a trough of low pressure located several hundred miles south of Guatemala, remain disorganized. Environmental conditions appear conducive for development, and a tropical depression is expected to form around the middle of this week as the system moves westward to west-northwestward at around 10 mph, well to the south of the coast of southern Mexico.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 40,
+      "prob2dias": 50,
       "riesgo2dias": "medio",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        7.898,
-        -90.597
+        8.38,
+        -90.13
       ],
       "anillos": [
         [
           [
-            6.29,
-            -93.02
+            6.13,
+            -93.34
           ],
           [
-            6.52,
-            -91.03
+            6.24,
+            -92.21
           ],
           [
-            6.81,
-            -90.02
+            6.51,
+            -91.01
           ],
           [
-            7.16,
-            -89.38
+            6.92,
+            -90.16
           ],
           [
-            7.41,
-            -89.14
+            7.53,
+            -89.58
           ],
           [
-            7.77,
-            -88.98
+            8.37,
+            -89.35
           ],
           [
-            8.38,
-            -89.03
+            9.09,
+            -89.43
           ],
           [
-            8.86,
-            -89.26
+            9.91,
+            -89.8
           ],
           [
-            9.37,
-            -89.63
+            10.26,
+            -90.07
           ],
           [
-            10.29,
-            -90.63
+            10.62,
+            -90.49
           ],
           [
-            11.05,
-            -91.83
+            11.03,
+            -91.28
           ],
           [
-            11.54,
-            -92.89
+            11.33,
+            -92.1
           ],
           [
-            12,
-            -94.26
+            11.99,
+            -94.69
           ],
           [
-            12.73,
-            -97.73
+            13.71,
+            -103.02
           ],
           [
-            13.9,
-            -104.76
+            13.93,
+            -105.04
           ],
           [
-            13.92,
-            -106.13
+            13.8,
+            -106.67
           ],
           [
-            13.72,
-            -107.04
+            13.49,
+            -107.67
           ],
           [
-            13.32,
-            -107.79
+            13.04,
+            -108.39
           ],
           [
-            12.66,
-            -108.47
+            12.43,
+            -108.91
           ],
           [
-            11.68,
-            -109.05
+            11.43,
+            -109.3
           ],
           [
-            10.89,
-            -109.31
+            10.32,
+            -109.36
           ],
           [
-            10.12,
-            -109.39
+            9.43,
+            -109.04
           ],
           [
-            9.63,
-            -109.29
+            8.78,
+            -108.41
           ],
           [
-            9.11,
-            -108.93
+            8.25,
+            -107.49
           ],
           [
-            8.66,
-            -108.29
+            7.64,
+            -105.8
           ],
           [
-            8.19,
-            -107.2
-          ],
-          [
-            7.59,
-            -105.21
+            7.14,
+            -103.85
           ],
           [
             6.76,
-            -101.07
+            -101.86
           ],
           [
-            6.31,
-            -96.68
+            6.45,
+            -99.71
           ],
           [
-            6.29,
-            -93.02
+            6.17,
+            -96.71
+          ],
+          [
+            6.13,
+            -93.34
           ]
         ]
       ]
@@ -151,15 +151,15 @@
       "numero": "1",
       "titulo": "Off the East Coast of the United States",
       "tituloOriginal": "Off the East Coast of the United States",
-      "descripcion": "A storm-force non-tropical low pressure area is located along a frontal boundary a few hundred miles off the southeast coast of the United States. This low is likely to move slowly and erratically over the next couple of days, and it could gradually acquire subtropical characteristics if it remains over the Gulf Stream. A subtropical cyclone could form during the middle to latter portions of the week when the system begins to move northeastward away from the eastern United States. Environmental conditions are expected to become unfavorable for development by the weekend. Regardless of the system's status, high winds, coastal flooding, and dangerous surf are expected along portions of the U.S. East Coast during the next few days. Please consult statements and warnings from local National Weather Service offices and the Weather Prediction Center for more information, along with High Seas Forecasts and Storm Warnings issued by the National Weather Service.",
+      "descripcion": "A storm-force non-tropical low pressure area is located along a frontal boundary a few hundred miles off the southeast coast of the United States. This low is likely to move slowly and erratically over the next couple of days. If the low remains over the Gulf Stream and becomes detached from the front, it could briefly acquire some subtropical cyclone characteristics during the middle to latter portions of the week. The system is expected to begin to move northeastward away from the the eastern United States later this week, and environmental conditions are expected to become unfavorable for development by the weekend. Regardless of the status of the system, high winds, coastal flooding, and dangerous surf are expected along portions of the U.S. East Coast during the next few days. Please consult statements and warnings from local National Weather Service offices and the Weather Prediction Center for more information, along with High Seas Forecasts and Storm Warnings issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 40,
       "riesgo7dias": "medio",
       "centro": [
-        31.755,
-        -71.258
+        32.537,
+        -71.475
       ],
       "anillos": [
         [
