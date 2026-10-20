@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-19T21:37:06.276Z",
+  "generado": "2026-10-20T00:47:06.781Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,145 +10,133 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur) · EP94",
       "tituloOriginal": "South of Southern Mexico (EP94)",
-      "descripcion": "Showers and thunderstorms, associated with a trough of low pressure located several hundred miles south-southwest of Guatemala, remain disorganized. Environmental conditions appear conducive for development, and a tropical depression is expected to form around the middle of this week as the system moves westward to west-northwestward at around 10 mph, well to the south of the coast of southern Mexico.",
+      "descripcion": "Showers and thunderstorms are beginning to show signs of organization in association with a trough of low pressure located several hundred miles south-southwest of the coasts of Guatemala and El Salvador. Environmental conditions appear conducive for development, and a tropical depression is expected to form in the next day or so as the system moves westward to west-northwestward at around 10 mph, remaining well offshore of Central America and southern Mexico.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 60,
-      "riesgo2dias": "medio",
+      "prob2dias": 80,
+      "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        10.539,
-        -93.041
+        10.703,
+        -94.433
       ],
       "anillos": [
         [
           [
-            7.79,
-            -91.24
+            8.98,
+            -94.15
           ],
           [
-            8.28,
-            -91.03
+            9.47,
+            -93.45
           ],
           [
-            8.81,
-            -90.92
+            9.81,
+            -93.18
           ],
           [
-            9.34,
-            -90.92
+            10.2,
+            -93.07
           ],
           [
-            9.95,
-            -91.07
+            10.62,
+            -93.2
           ],
           [
-            10.52,
-            -91.39
+            11,
+            -93.51
           ],
           [
-            11.22,
-            -91.95
+            11.42,
+            -94.12
           ],
           [
-            11.49,
-            -92.39
+            11.78,
+            -94.99
           ],
           [
-            11.71,
-            -93.04
+            11.99,
+            -95.78
           ],
           [
-            13.61,
-            -102.54
+            12.24,
+            -97.27
           ],
           [
-            13.9,
-            -104.42
+            13.09,
+            -104.15
           ],
           [
-            13.93,
-            -105.66
+            13.14,
+            -105.37
           ],
           [
-            13.77,
-            -106.85
+            13.03,
+            -106.02
           ],
           [
-            13.51,
-            -107.64
+            12.83,
+            -106.42
           ],
           [
-            13.04,
-            -108.39
+            12.45,
+            -106.78
           ],
           [
-            12.29,
-            -108.97
+            11.65,
+            -107.15
           ],
           [
-            11.52,
-            -109.26
+            11.05,
+            -107.25
           ],
           [
-            10.41,
-            -109.37
+            10.44,
+            -107.21
           ],
           [
-            9.62,
-            -109.21
+            9.91,
+            -106.99
           ],
           [
-            9.08,
-            -108.84
+            9.6,
+            -106.72
           ],
           [
-            8.67,
-            -108.31
+            9.3,
+            -106.33
           ],
           [
-            8.27,
-            -107.53
+            8.98,
+            -105.67
           ],
           [
-            7.8,
-            -106.22
+            8.45,
+            -103.8
           ],
           [
-            7.11,
-            -103.52
+            8.18,
+            -102.24
           ],
           [
-            6.73,
-            -101.61
+            8.04,
+            -100.84
           ],
           [
-            6.39,
-            -99.37
+            8.09,
+            -97.79
           ],
           [
-            6.26,
-            -97.5
+            8.3,
+            -95.78
           ],
           [
-            6.35,
-            -94.87
+            8.51,
+            -95.09
           ],
           [
-            6.67,
-            -92.86
-          ],
-          [
-            7.08,
-            -91.9
-          ],
-          [
-            7.43,
-            -91.49
-          ],
-          [
-            7.79,
-            -91.24
+            8.98,
+            -94.15
           ]
         ]
       ]
@@ -157,139 +145,151 @@
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
       "numero": "1",
-      "titulo": "Off the East Coast of the United States",
-      "tituloOriginal": "Off the East Coast of the United States",
-      "descripcion": "A storm-force non-tropical low pressure area is located along a frontal boundary a few hundred miles off the southeast coast of the United States. This low is likely to move slowly north-northeastward over the next couple of days. If the low remains over the Gulf Stream and becomes detached from the front, it could briefly acquire some subtropical cyclone characteristics during the middle to latter portions of the week. The system is expected to move northeastward away from the the eastern United States later this week, and environmental conditions are expected to become unfavorable for development by the weekend. Regardless of the status of the system, high winds, coastal flooding, and dangerous surf are expected along portions of the U.S. East Coast during the next few days. Please consult statements and warnings from local National Weather Service offices and the Weather Prediction Center for more information, along with High Seas Forecasts and Storm Warnings issued by the National Weather Service.",
+      "titulo": "Off the East Coast of the United States · AL93",
+      "tituloOriginal": "Off the East Coast of the United States (AL93)",
+      "descripcion": "A storm-force non-tropical low pressure area is currently attached to an occluded frontal boundary a few hundred miles off the southeast coast of the United States. This low is likely to move slowly north-northeastward over the next couple of days. If the low remains over the Gulf Stream, it could develop organized shower and thunderstorm activity. If the low is also then able to separate from frontal features, it could briefly acquire subtropical cyclone characteristics during the middle to latter portion of this week. The system is expected to move northeastward away from the the eastern United States later this week, and environmental conditions are expected to become unfavorable for subtropical or tropical development by the weekend. 1. Regardless of the status of the system, high winds, coastal flooding, and dangerous surf are expected along portions of the U.S. East Coast during the next few days. For more information, please consult statements and warnings from local National Weather Service offices and the Weather Prediction Center, along with High Seas Forecasts and Storm Warnings issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 0,
+      "prob2dias": 20,
       "riesgo2dias": "bajo",
       "prob7dias": 40,
       "riesgo7dias": "medio",
       "centro": [
-        33.637,
-        -70.557
+        35.074,
+        -70.68
       ],
       "anillos": [
         [
           [
-            35.96,
-            -73.26
+            34.06,
+            -72.51
           ],
           [
-            36.43,
-            -73.5
+            34.62,
+            -72.87
           ],
           [
-            36.91,
-            -73.57
+            35.25,
+            -73.06
           ],
           [
-            37.52,
-            -73.44
+            36.04,
+            -73.12
           ],
           [
-            38.01,
-            -73.17
+            36.83,
+            -73.01
           ],
           [
-            38.58,
-            -72.67
+            37.47,
+            -72.77
           ],
           [
-            39,
-            -72.13
+            38,
+            -72.38
           ],
           [
-            39.73,
-            -70.69
-          ],
-          [
-            40.29,
-            -68.55
-          ],
-          [
-            40.51,
-            -66.96
-          ],
-          [
-            40.63,
-            -65.07
-          ],
-          [
-            40.53,
-            -63.29
-          ],
-          [
-            40.26,
-            -62.5
-          ],
-          [
-            39.93,
-            -62.08
-          ],
-          [
-            39.48,
-            -61.78
+            38.51,
+            -71.78
           ],
           [
             38.87,
-            -61.61
+            -71.14
           ],
           [
-            38.12,
-            -61.63
+            39.27,
+            -70.17
           ],
           [
-            37.45,
-            -61.85
+            39.81,
+            -68.42
           ],
           [
-            36.7,
-            -62.38
+            40.28,
+            -66.48
           ],
           [
-            36.22,
-            -62.95
+            40.7,
+            -64.17
           ],
           [
-            35.84,
-            -63.56
+            40.87,
+            -62.76
           ],
           [
-            35.37,
-            -64.63
+            40.92,
+            -61.34
           ],
           [
-            34.95,
-            -66.03
+            40.85,
+            -60.54
           ],
           [
-            34.68,
-            -67.44
+            40.61,
+            -59.7
           ],
           [
-            34.55,
-            -68.85
+            40.2,
+            -59.1
           ],
           [
-            34.57,
-            -70.05
+            39.72,
+            -58.74
           ],
           [
-            34.74,
-            -71.11
+            39.06,
+            -58.49
           ],
           [
-            35,
-            -71.92
+            38.41,
+            -58.41
           ],
           [
-            35.44,
-            -72.72
+            37.9,
+            -58.47
           ],
           [
-            35.96,
-            -73.26
+            37.59,
+            -58.62
+          ],
+          [
+            37.24,
+            -58.96
+          ],
+          [
+            36.87,
+            -59.53
+          ],
+          [
+            36.24,
+            -61
+          ],
+          [
+            35.59,
+            -62.94
+          ],
+          [
+            34.62,
+            -66.3
+          ],
+          [
+            33.85,
+            -69.4
+          ],
+          [
+            33.63,
+            -70.65
+          ],
+          [
+            33.6,
+            -71.31
+          ],
+          [
+            33.73,
+            -72
+          ],
+          [
+            34.06,
+            -72.51
           ]
         ]
       ]
