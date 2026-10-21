@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-21T10:46:58.006Z",
+  "generado": "2026-10-21T15:43:28.848Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 2,
+  "total": 3,
   "cuencasSinFormacion": [],
   "zonas": [
     {
@@ -10,129 +10,109 @@
       "numero": "1",
       "titulo": "Southern Mexico (al sur) · EP94",
       "tituloOriginal": "South of Southern Mexico (EP94)",
-      "descripcion": "A low-pressure system located a few hundred miles south of the Gulf of Tehuantepec is producing a large area of showers and thunderstorms that continue to show signs of organization, and a tropical depression is likely to form within the next day or so. This system is expected to move westward to west-northwestward at around 10 mph during the next few days, remaining well offshore of southern Mexico. For additional information, including Gale Warnings, see the High Seas Forecast issued by the National Weather Service.",
+      "descripcion": "Satellite imagery indicates that a low-pressure system located a few hundred miles south-southwest of the Gulf of Tehuantepec is producing a large area of showers and thunderstorms. This activity continues to become better organized, and if current trends persist, a tropical depression is expected to form later today. The system is expected to move westward to west-northwestward at around 10 mph during the next few days, well offshore the coast of southern Mexico. For additional information, including Gale Warnings, see the High Seas Forecast issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 90,
+      "prob2dias": 100,
       "riesgo2dias": "alto",
-      "prob7dias": 90,
+      "prob7dias": 100,
       "riesgo7dias": "alto",
       "centro": [
-        9.387,
-        -98.1
+        9.449,
+        -99.005
       ],
       "anillos": [
         [
           [
-            7.23,
-            -99.09
+            8.41,
+            -99.45
           ],
           [
-            7.55,
-            -97.78
+            8.35,
+            -98.93
           ],
           [
-            7.78,
-            -97.38
+            8.4,
+            -98.37
           ],
           [
-            8.25,
-            -96.88
+            8.73,
+            -97.57
           ],
           [
-            8.66,
-            -96.58
-          ],
-          [
-            9.36,
-            -96.27
-          ],
-          [
-            9.95,
-            -96.22
-          ],
-          [
-            10.42,
-            -96.37
-          ],
-          [
-            10.75,
-            -96.61
-          ],
-          [
-            11.09,
+            9.3,
             -97
           ],
           [
-            11.79,
-            -98.39
+            9.65,
+            -96.86
           ],
           [
-            12.29,
-            -99.89
+            10.05,
+            -96.83
           ],
           [
-            12.72,
-            -102.03
+            10.84,
+            -97.04
           ],
           [
-            12.78,
-            -103.3
+            11.42,
+            -97.52
           ],
           [
-            12.64,
-            -104.33
+            11.67,
+            -98.01
           ],
           [
-            12.28,
-            -105.37
+            12.14,
+            -99.46
           ],
           [
-            11.79,
-            -106.12
+            12.65,
+            -101.52
           ],
           [
-            11.24,
-            -106.59
+            12.68,
+            -102.18
           ],
           [
-            10.46,
-            -106.89
+            12.57,
+            -102.81
           ],
           [
-            9.62,
-            -106.88
+            12.26,
+            -103.38
           ],
           [
-            8.79,
-            -106.58
+            11.68,
+            -103.88
           ],
           [
-            8.19,
-            -106.14
+            11.06,
+            -104.16
           ],
           [
-            7.76,
-            -105.62
+            10.44,
+            -104.22
           ],
           [
-            7.4,
-            -104.88
+            10.09,
+            -104.12
           ],
           [
-            7.2,
-            -104.13
+            9.8,
+            -103.92
           ],
           [
-            7.08,
-            -103.19
+            9.41,
+            -103.32
           ],
           [
-            7.05,
-            -101.41
+            9.1,
+            -102.37
           ],
           [
-            7.23,
-            -99.09
+            8.41,
+            -99.45
           ]
         ]
       ]
@@ -143,15 +123,15 @@
       "numero": "1",
       "titulo": "Frente a East Coast of the United States · AL93",
       "tituloOriginal": "Offshore of the East Coast of the United States (AL93)",
-      "descripcion": "A storm-force non-tropical low pressure area located a few hundred miles off the mid-Atlantic United States coast is producing some shower and thunderstorm activity primarily west and northwest of its center. Satellite imagery indicates that the low is still frontal. Over the next day or two, the low could gradually lose its frontal features while it moves slowly north-northeastward over the Gulf Stream, allowing the system to briefly develop subtropical characteristics. By the end of the week, the system is expected to accelerate northeastward away from the the eastern United States, and environmental conditions are expected to become unfavorable for additional subtropical or tropical development. 1. Regardless of the status of the system, high winds, coastal flooding, and dangerous surf are expected along portions of the U.S. East Coast during the next few days. For more information, please consult statements and warnings from local National Weather Service offices and the Weather Prediction Center, along with the High Seas Forecasts and the Storm Warnings issued by the National Weather Service.",
+      "descripcion": "A storm-force non-tropical low pressure area located a few hundred miles off the mid-Atlantic United States coast is producing some shower and thunderstorm activity primarily west and northwest of its center. Over the next day or two, the low could gradually lose its frontal features while it moves slowly north-northeastward over the Gulf Stream, allowing the system to possibly develop subtropical characteristics. By Friday, the system is expected to accelerate northeastward away from the the eastern United States, and environmental conditions are expected to become unfavorable for additional subtropical or tropical development. 1. Regardless of the status of the system, high winds, coastal flooding, and dangerous surf are expected along portions of the U.S. East Coast during the next few days. For more information, please consult statements and warnings from local National Weather Service offices and the Weather Prediction Center, along with the High Seas Forecasts and the Storm Warnings issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 40,
       "riesgo2dias": "medio",
       "prob7dias": 40,
       "riesgo7dias": "medio",
       "centro": [
-        36.719,
-        -69.208
+        36.948,
+        -69.332
       ],
       "anillos": [
         [
@@ -160,100 +140,265 @@
             -71.09
           ],
           [
-            37.83,
-            -70.95
+            37.93,
+            -70.81
           ],
           [
-            38.42,
-            -70.47
+            38.41,
+            -70.44
           ],
           [
-            39.41,
-            -69.28
+            39.16,
+            -69.64
           ],
           [
-            40.17,
-            -68.21
+            39.99,
+            -68.53
           ],
           [
-            41.03,
-            -66.68
+            40.99,
+            -66.75
           ],
           [
-            41.42,
-            -65.69
+            41.34,
+            -65.91
           ],
           [
-            41.77,
-            -64.5
+            41.75,
+            -64.57
           ],
           [
-            41.89,
-            -63.8
+            41.92,
+            -63.69
           ],
           [
-            41.88,
-            -63.16
+            41.97,
+            -62.7
           ],
           [
-            41.67,
-            -62.06
+            41.87,
+            -62.05
           ],
           [
-            41.43,
-            -61.41
+            41.68,
+            -61.54
           ],
           [
-            41.09,
-            -60.91
+            41.4,
+            -61.13
           ],
           [
-            40.78,
-            -60.71
+            40.91,
+            -60.76
           ],
           [
-            40.34,
-            -60.67
+            40.43,
+            -60.64
           ],
           [
-            39.76,
-            -60.9
+            39.82,
+            -60.72
           ],
           [
-            38.83,
-            -61.71
+            39.34,
+            -60.97
           ],
           [
-            37.98,
-            -62.93
+            38.93,
+            -61.32
           ],
           [
-            36.19,
-            -66.5
+            38.07,
+            -62.57
           ],
           [
-            35.56,
-            -68.1
+            35.99,
+            -66.96
           ],
           [
-            35.36,
-            -69.38
+            35.53,
+            -68.25
           ],
           [
-            35.42,
+            35.43,
+            -69.47
+          ],
+          [
+            35.53,
+            -70.04
+          ],
+          [
+            35.74,
             -70.54
           ],
           [
-            35.64,
-            -70.77
+            36.1,
+            -70.95
           ],
           [
-            36.15,
-            -70.97
+            36.46,
+            -71.13
+          ],
+          [
+            36.94,
+            -71.17
           ],
           [
             37.33,
             -71.09
+          ]
+        ]
+      ]
+    },
+    {
+      "cuenca": "Pacific",
+      "cuencaEs": "Pacífico oriental",
+      "numero": "2",
+      "titulo": "Pacífico central (oeste)",
+      "tituloOriginal": "Western Central Pacific",
+      "descripcion": "An area of low pressure is forecast to form in the far western central Pacific a few hundred miles southwest of Johnson Atoll late this weekend of early next week. Environmental conditions appear conducive for some gradual development thereafter while the system moves generally eastward to east-northeastward.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
+      "prob2dias": 0,
+      "riesgo2dias": "bajo",
+      "prob7dias": 20,
+      "riesgo7dias": "bajo",
+      "centro": [
+        14.876,
+        -173.406
+      ],
+      "anillos": [
+        [
+          [
+            18.69,
+            -170.69
+          ],
+          [
+            18.78,
+            -171.51
+          ],
+          [
+            18.7,
+            -172.79
+          ],
+          [
+            18.53,
+            -173.65
+          ],
+          [
+            18.08,
+            -175.07
+          ],
+          [
+            17.6,
+            -176.14
+          ],
+          [
+            17.05,
+            -177.11
+          ],
+          [
+            16.46,
+            -177.95
+          ],
+          [
+            15.79,
+            -178.69
+          ],
+          [
+            15.13,
+            -179.2
+          ],
+          [
+            14.56,
+            -179.48
+          ],
+          [
+            13.83,
+            -179.63
+          ],
+          [
+            13.21,
+            -179.56
+          ],
+          [
+            12.58,
+            -179.3
+          ],
+          [
+            11.95,
+            -178.81
+          ],
+          [
+            11.45,
+            -178.13
+          ],
+          [
+            11.15,
+            -177.38
+          ],
+          [
+            10.95,
+            -176.35
+          ],
+          [
+            10.91,
+            -175.07
+          ],
+          [
+            11.03,
+            -173.66
+          ],
+          [
+            11.37,
+            -171.79
+          ],
+          [
+            11.78,
+            -170.34
+          ],
+          [
+            12.26,
+            -169.14
+          ],
+          [
+            12.85,
+            -168.12
+          ],
+          [
+            13.37,
+            -167.51
+          ],
+          [
+            13.97,
+            -167.09
+          ],
+          [
+            14.72,
+            -166.88
+          ],
+          [
+            15.7,
+            -167
+          ],
+          [
+            16.39,
+            -167.31
+          ],
+          [
+            17.04,
+            -167.77
+          ],
+          [
+            17.85,
+            -168.67
+          ],
+          [
+            18.49,
+            -169.92
+          ],
+          [
+            18.69,
+            -170.69
           ]
         ]
       ]
