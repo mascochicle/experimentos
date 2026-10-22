@@ -1,291 +1,158 @@
 {
-  "generado": "2026-10-21T22:52:20.940Z",
+  "generado": "2026-10-22T01:04:22.539Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 3,
+  "total": 2,
   "cuencasSinFormacion": [],
   "zonas": [
-    {
-      "cuenca": "Atlantic",
-      "cuencaEs": "Atlántico",
-      "numero": "1",
-      "titulo": "Frente a East Coast of the United States · AL93",
-      "tituloOriginal": "Offshore of the East Coast of the United States (AL93)",
-      "descripcion": "Updated: Shower and thunderstorm activity has become better organized in association with a storm-force low pressure area located a few hundred miles off the mid-Atlantic United States coast. The system has continued to acquire subtropical characteristics today and has become separated from fronts. If these trends continue, a subtropical storm could form later this afternoon or tonight while it accelerates northeastward. 1. Regardless of the status of the system, high winds, coastal flooding, and dangerous surf are expected along portions of the U.S. East Coast during the next few days. For more information, including hurricane-force extratropical wind warnings, please consult statements and warnings from local National Weather Service offices and the Weather Prediction Center, along with the High Seas Forecasts and the Storm Warnings issued by the National Weather Service.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 70,
-      "riesgo2dias": "alto",
-      "prob7dias": 70,
-      "riesgo7dias": "alto",
-      "centro": [
-        36.948,
-        -69.332
-      ],
-      "anillos": [
-        [
-          [
-            37.33,
-            -71.09
-          ],
-          [
-            37.93,
-            -70.81
-          ],
-          [
-            38.41,
-            -70.44
-          ],
-          [
-            39.16,
-            -69.64
-          ],
-          [
-            39.99,
-            -68.53
-          ],
-          [
-            40.99,
-            -66.75
-          ],
-          [
-            41.34,
-            -65.91
-          ],
-          [
-            41.75,
-            -64.57
-          ],
-          [
-            41.92,
-            -63.69
-          ],
-          [
-            41.97,
-            -62.7
-          ],
-          [
-            41.87,
-            -62.05
-          ],
-          [
-            41.68,
-            -61.54
-          ],
-          [
-            41.4,
-            -61.13
-          ],
-          [
-            40.91,
-            -60.76
-          ],
-          [
-            40.43,
-            -60.64
-          ],
-          [
-            39.82,
-            -60.72
-          ],
-          [
-            39.34,
-            -60.97
-          ],
-          [
-            38.93,
-            -61.32
-          ],
-          [
-            38.07,
-            -62.57
-          ],
-          [
-            35.99,
-            -66.96
-          ],
-          [
-            35.53,
-            -68.25
-          ],
-          [
-            35.43,
-            -69.47
-          ],
-          [
-            35.53,
-            -70.04
-          ],
-          [
-            35.74,
-            -70.54
-          ],
-          [
-            36.1,
-            -70.95
-          ],
-          [
-            36.46,
-            -71.13
-          ],
-          [
-            36.94,
-            -71.17
-          ],
-          [
-            37.33,
-            -71.09
-          ]
-        ]
-      ]
-    },
     {
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
       "titulo": "Pacífico central (oeste)",
       "tituloOriginal": "Western Central Pacific",
-      "descripcion": "An area of low pressure is forecast to form near the International Date Line, a few hundred miles southwest of Johnston Atoll late this weekend or early next week. Environmental conditions appear conducive for some gradual development thereafter while the system moves generally eastward to east-northeastward.",
+      "descripcion": "An area of low pressure is forecast to form near the International Date Line, a few hundred miles west-southwest of Johnston Atoll late this weekend or early next week. Environmental conditions appear conducive for some gradual development thereafter while the system moves generally eastward to east-northeastward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
       "prob7dias": 30,
       "riesgo7dias": "bajo",
       "centro": [
-        14.429,
-        185.141
+        15.621,
+        184.707
       ],
       "anillos": [
         [
           [
-            18.69,
-            189.31
+            19.85,
+            188.72
           ],
           [
-            18.8,
-            188.15
+            20.07,
+            187.43
           ],
           [
-            18.74,
-            186.71
+            20.1,
+            185.87
           ],
           [
-            18.51,
-            185.19
+            19.98,
+            184.62
           ],
           [
-            18.03,
-            183.27
+            19.61,
+            182.84
           ],
           [
-            17.45,
-            181.6
+            19.16,
+            181.47
           ],
           [
-            16.68,
-            179.91
+            18.5,
+            180.04
           ],
           [
-            16,
-            178.76
+            17.9,
+            179.06
           ],
           [
-            15.11,
-            177.63
+            16.91,
+            177.91
           ],
           [
-            14.21,
-            176.86
+            15.72,
+            177.01
           ],
           [
-            13.33,
-            176.44
+            14.61,
+            176.52
           ],
           [
-            12.59,
-            176.35
+            13.96,
+            176.38
           ],
           [
-            11.78,
-            176.61
+            13.35,
+            176.36
           ],
           [
-            11.18,
-            177.19
+            12.52,
+            176.55
           ],
           [
-            10.77,
-            177.97
+            11.91,
+            176.94
           ],
           [
-            10.46,
-            179.09
+            11.37,
+            177.73
           ],
           [
-            10.28,
-            180.57
+            11.05,
+            178.81
           ],
           [
-            10.25,
-            182.24
-          ],
-          [
-            10.37,
-            184.02
-          ],
-          [
-            10.59,
-            185.69
+            10.93,
+            180.42
           ],
           [
             10.99,
-            187.66
+            181.94
           ],
           [
-            11.44,
-            189.2
+            11.26,
+            184.08
           ],
           [
-            11.88,
-            190.32
+            12.06,
+            187.94
           ],
           [
-            12.45,
-            191.41
+            12.53,
+            189.48
           ],
           [
-            13.04,
-            192.19
+            13.03,
+            190.7
           ],
           [
-            13.7,
-            192.76
+            13.61,
+            191.71
           ],
           [
-            14.63,
-            193.13
+            14.05,
+            192.24
           ],
           [
-            15.61,
-            193.12
+            14.79,
+            192.78
           ],
           [
-            16.39,
-            192.84
+            15.62,
+            192.98
           ],
           [
-            17.21,
-            192.27
+            16.41,
+            192.88
           ],
           [
-            17.91,
-            191.43
+            17.31,
+            192.48
           ],
           [
-            18.39,
-            190.46
+            18.16,
+            191.81
           ],
           [
-            18.69,
-            189.31
+            18.91,
+            190.89
+          ],
+          [
+            19.4,
+            190.02
+          ],
+          [
+            19.85,
+            188.72
           ]
         ]
       ]
@@ -293,18 +160,18 @@
     {
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
-      "numero": "2",
+      "numero": "1",
       "titulo": "Subtropical Central Atlantic",
       "tituloOriginal": "Subtropical Central Atlantic",
-      "descripcion": "A trough of low pressure located several hundred miles east-southeast of Bermuda is producing a large area of disorganized showers and thunderstorms. Some development of this system is possible during the next day or two while it moves slowly north-northeastward. Upper-level winds are forecast to become too strong for further development by the weekend.",
+      "descripcion": "A trough of low pressure located several hundred miles to the east-southeast of Bermuda is producing a large area of disorganized showers and thunderstorms. Some development of this system is possible during the next day or two while it moves slowly north-northeastward. Upper-level winds are forecast to become too strong for further development by the weekend.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
       "prob7dias": 10,
       "riesgo7dias": "bajo",
       "centro": [
-        28.401,
-        -52.882
+        28.613,
+        -52.937
       ],
       "anillos": [
         [
