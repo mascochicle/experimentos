@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T20:39:40.260Z",
+  "generado": "2026-10-22T23:45:12.831Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -175,121 +175,133 @@
       "numero": "1",
       "titulo": "Subtropical Central Atlantic",
       "tituloOriginal": "Subtropical Central Atlantic",
-      "descripcion": "A trough of low pressure located several hundred miles to the east-southeast of Bermuda is producing a large area of disorganized showers and thunderstorms. Some development of this system is possible through Friday while it moves slowly north-northeastward. Upper-level winds are forecast to become too strong for further development by the weekend.",
+      "descripcion": "A trough of low pressure located several hundred miles to the east-southeast of Bermuda is producing a large area of disorganized showers and thunderstorms. Some slight development of this system is possible through Friday while it moves slowly north-northeastward. Upper-level winds are forecast to become too strong for further development by the weekend.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
       "prob7dias": 10,
       "riesgo7dias": "bajo",
       "centro": [
-        30.265,
-        -52.719
+        30.706,
+        -52.351
       ],
       "anillos": [
         [
           [
-            30.84,
-            -50.86
+            30.69,
+            -50.54
           ],
           [
-            29.92,
-            -51.82
+            30.09,
+            -51.36
           ],
           [
-            29.46,
-            -52.67
+            29.83,
+            -52.26
           ],
           [
-            29.47,
-            -53.3
+            29.86,
+            -52.81
           ],
           [
-            29.59,
-            -53.51
+            30.01,
+            -53.24
           ],
           [
-            29.98,
-            -53.82
+            30.2,
+            -53.52
           ],
           [
-            30.48,
-            -54.04
+            30.59,
+            -53.86
           ],
           [
-            31.41,
-            -54.27
+            31.15,
+            -54.13
           ],
           [
-            33.65,
-            -54.47
+            31.86,
+            -54.32
           ],
           [
-            34.29,
-            -54.44
+            32.95,
+            -54.45
           ],
           [
-            35,
-            -54.3
+            33.85,
+            -54.46
           ],
           [
-            35.38,
-            -54.15
+            35.14,
+            -54.23
           ],
           [
             35.96,
             -53.77
           ],
           [
-            36.53,
-            -53.17
+            36.39,
+            -53.36
           ],
           [
-            36.95,
-            -52.48
+            36.85,
+            -52.69
           ],
           [
-            37.15,
-            -51.88
+            37.09,
+            -52.12
           ],
           [
             37.2,
-            -51.19
+            -51.5
           ],
           [
-            37.06,
-            -50.56
+            37.18,
+            -51
           ],
           [
-            36.82,
-            -50.07
+            36.94,
+            -50.27
           ],
           [
-            36.43,
-            -49.59
+            36.56,
+            -49.73
           ],
           [
-            35.87,
-            -49.18
+            36.03,
+            -49.29
           ],
           [
-            35.34,
-            -48.98
+            35.43,
+            -49.02
           ],
           [
-            34.89,
+            34.98,
+            -48.92
+          ],
+          [
+            34.21,
             -48.91
           ],
           [
-            33.84,
-            -49.06
+            33.58,
+            -49.01
           ],
           [
-            32.39,
-            -49.72
+            32.74,
+            -49.26
           ],
           [
-            30.84,
-            -50.86
+            32.03,
+            -49.58
+          ],
+          [
+            31.37,
+            -49.97
+          ],
+          [
+            30.69,
+            -50.54
           ]
         ]
       ]
