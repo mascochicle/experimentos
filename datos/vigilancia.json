@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T02:25:25.757Z",
+  "generado": "2026-10-23T07:46:41.436Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,11 +10,11 @@
       "numero": "1",
       "titulo": "Pacífico central (oeste)",
       "tituloOriginal": "Western Central Pacific",
-      "descripcion": "An area of low pressure is forecast to form near the International Date Line, a few hundred miles west-southwest of Johnston Atoll late this weekend or early next week. Environmental conditions appear conducive for some gradual development thereafter while the system moves generally eastward to east-northeastward.",
+      "descripcion": "An area of low pressure is forecast to form near the International Date Line, several hundred miles west of Johnston Atoll late this weekend or early next week. Environmental conditions could support some slow development thereafter while the system moves generally eastward to east-northeastward.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 30,
+      "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
         15.653,
@@ -175,133 +175,37 @@
       "numero": "1",
       "titulo": "Subtropical Central Atlantic",
       "tituloOriginal": "Subtropical Central Atlantic",
-      "descripcion": "A trough of low pressure located several hundred miles to the east-southeast of Bermuda is producing a large area of disorganized showers and thunderstorms. Some slight development of this system is possible through Friday while it moves slowly north-northeastward. Upper-level winds are forecast to become too strong for further development by the weekend.",
+      "descripcion": "A trough of low pressure located several hundred miles east of Bermuda is producing a large area of disorganized showers and thunderstorms. Further development of this system is not expected as it moves north-northeastward into increasingly unfavorable environmental conditions during the next day or so.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 10,
-      "riesgo2dias": "bajo",
-      "prob7dias": 10,
-      "riesgo7dias": "bajo",
+      "prob2dias": 0,
+      "riesgo2dias": "nearzero",
+      "prob7dias": 0,
+      "riesgo7dias": "nearzero",
       "centro": [
-        30.706,
-        -52.351
+        32.36,
+        -51.92
       ],
       "anillos": [
         [
           [
-            30.69,
-            -50.54
+            32.46,
+            -52.02
           ],
           [
-            30.09,
-            -51.36
+            32.47,
+            -51.82
           ],
           [
-            29.83,
-            -52.26
+            32.25,
+            -52.01
           ],
           [
-            29.86,
-            -52.81
+            32.27,
+            -51.82
           ],
           [
-            30.01,
-            -53.24
-          ],
-          [
-            30.2,
-            -53.52
-          ],
-          [
-            30.59,
-            -53.86
-          ],
-          [
-            31.15,
-            -54.13
-          ],
-          [
-            31.86,
-            -54.32
-          ],
-          [
-            32.95,
-            -54.45
-          ],
-          [
-            33.85,
-            -54.46
-          ],
-          [
-            35.14,
-            -54.23
-          ],
-          [
-            35.96,
-            -53.77
-          ],
-          [
-            36.39,
-            -53.36
-          ],
-          [
-            36.85,
-            -52.69
-          ],
-          [
-            37.09,
-            -52.12
-          ],
-          [
-            37.2,
-            -51.5
-          ],
-          [
-            37.18,
-            -51
-          ],
-          [
-            36.94,
-            -50.27
-          ],
-          [
-            36.56,
-            -49.73
-          ],
-          [
-            36.03,
-            -49.29
-          ],
-          [
-            35.43,
-            -49.02
-          ],
-          [
-            34.98,
-            -48.92
-          ],
-          [
-            34.21,
-            -48.91
-          ],
-          [
-            33.58,
-            -49.01
-          ],
-          [
-            32.74,
-            -49.26
-          ],
-          [
-            32.03,
-            -49.58
-          ],
-          [
-            31.37,
-            -49.97
-          ],
-          [
-            30.69,
-            -50.54
+            32.46,
+            -52.02
           ]
         ]
       ]
