@@ -1,20 +1,20 @@
 {
-  "generado": "2026-10-23T07:46:40.378Z",
+  "generado": "2026-10-23T12:56:31.401Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 1,
   "tormentas": [
     {
       "id": "ep222026",
       "nombre": "Vance",
-      "clasificacion": "TS",
+      "clasificacion": "HU",
       "cuenca": "EP2",
-      "intensidadKt": 60,
-      "presionMb": 991,
-      "lat": 10.5,
-      "lon": -101.9,
-      "rumboGrados": 325,
+      "intensidadKt": 75,
+      "presionMb": 982,
+      "lat": 10.9,
+      "lon": -102.1,
+      "rumboGrados": 330,
       "velocidadKt": 6,
-      "actualizado": "2026-10-23T03:00:00.000Z",
+      "actualizado": "2026-10-23T09:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep2.shtml"
     }
