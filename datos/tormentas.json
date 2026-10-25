@@ -1,22 +1,37 @@
 {
-  "generado": "2026-10-25T11:51:12.775Z",
+  "generado": "2026-10-25T15:12:23.499Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 1,
+  "total": 2,
   "tormentas": [
     {
       "id": "ep222026",
       "nombre": "Vance",
       "clasificacion": "HU",
       "cuenca": "EP2",
-      "intensidadKt": 75,
-      "presionMb": 980,
+      "intensidadKt": 65,
+      "presionMb": 989,
       "lat": 14.3,
-      "lon": -103.4,
-      "rumboGrados": 340,
+      "lon": -103.8,
+      "rumboGrados": 315,
       "velocidadKt": 5,
-      "actualizado": "2026-10-25T09:00:00.000Z",
+      "actualizado": "2026-10-25T15:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep2.shtml"
+    },
+    {
+      "id": "cp032026",
+      "nombre": "Three-C",
+      "clasificacion": "TD",
+      "cuenca": "CP3",
+      "intensidadKt": 30,
+      "presionMb": 1006,
+      "lat": 14.6,
+      "lon": -179.3,
+      "rumboGrados": 75,
+      "velocidadKt": 7,
+      "actualizado": "2026-10-25T15:00:00.000Z",
+      "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP3.shtml",
+      "graficas": "https://www.nhc.noaa.gov/graphics_cp3.shtml"
     }
   ]
 }
