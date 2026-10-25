@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-25T06:23:10.125Z",
+  "generado": "2026-10-25T11:51:13.066Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,141 +12,137 @@
       "numero": "1",
       "titulo": "Pacífico central (oeste)",
       "tituloOriginal": "Western Central Pacific",
-      "descripcion": "Showers and thunderstorms are becoming more organized in association with a broad area of low pressure located near the International Date Line, several hundred miles west of Johnston Atoll. Environmental conditions appear conducive for development over the next few days, and a tropical depression could form during the early part of next week while the system moves east-northeastward at 10 to 15 mph. By the middle of next week, however, strong upper-level winds should limit any additional development.",
+      "descripcion": "Showers and thunderstorms continue to show signs of organization with an area of low pressure just crossing the International Date Line, several hundred miles west of Johnston Atoll. Earlier satellite wind data indicated that the circulation was also becoming better defined. If these current trends continue, the system is likely to become a tropical depression, possibly as soon as later today. The system is moving towards the east-northeast at 10 to 15 mph and will slowly approach the Johnston Atoll later this week. By the middle of the week, however, strong upper-level winds should limit additional development of the system.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 40,
-      "riesgo2dias": "medio",
-      "prob7dias": 50,
-      "riesgo7dias": "medio",
+      "prob2dias": 70,
+      "riesgo2dias": "alto",
+      "prob7dias": 70,
+      "riesgo7dias": "alto",
       "centro": [
-        14.297,
-        179.429
+        14.546,
+        -179.913
       ],
       "anillos": [
         [
           [
-            19.66,
-            191.82
+            18.37,
+            188.41
           ],
           [
-            19.97,
-            191.12
+            18.62,
+            187.73
           ],
           [
-            20.25,
+            18.77,
+            186.83
+          ],
+          [
+            18.73,
+            184.47
+          ],
+          [
+            18.39,
+            182.03
+          ],
+          [
+            18.07,
+            180.81
+          ],
+          [
+            17.63,
+            179.78
+          ],
+          [
+            17.23,
+            179.2
+          ],
+          [
+            16.62,
+            178.66
+          ],
+          [
+            15.87,
+            178.29
+          ],
+          [
+            15.21,
+            178.16
+          ],
+          [
+            14.43,
+            178.24
+          ],
+          [
+            13.92,
+            178.51
+          ],
+          [
+            13.46,
+            179.04
+          ],
+          [
+            13.21,
+            179.63
+          ],
+          [
+            13.07,
+            180.19
+          ],
+          [
+            12.98,
+            181.23
+          ],
+          [
+            13.03,
+            183.24
+          ],
+          [
+            13.2,
+            185.38
+          ],
+          [
+            13.4,
+            186.94
+          ],
+          [
+            13.65,
+            188.18
+          ],
+          [
+            14.14,
+            189.41
+          ],
+          [
+            14.58,
+            189.86
+          ],
+          [
+            15.03,
+            190.05
+          ],
+          [
+            15.69,
+            190.07
+          ],
+          [
+            16.36,
             189.95
           ],
           [
-            20.35,
-            188.82
+            17.05,
+            189.69
           ],
           [
-            20.26,
-            186.79
+            17.56,
+            189.38
           ],
           [
-            20.02,
-            185.34
+            18.07,
+            188.89
           ],
           [
-            19.59,
-            183.76
-          ],
-          [
-            18.95,
-            182.13
-          ],
-          [
-            18.29,
-            180.85
-          ],
-          [
-            17.6,
-            179.75
-          ],
-          [
-            16.67,
-            178.59
-          ],
-          [
-            15.89,
-            177.91
-          ],
-          [
-            15.09,
-            177.5
-          ],
-          [
-            14.25,
-            177.41
-          ],
-          [
-            13.33,
-            177.68
-          ],
-          [
-            12.69,
-            178.2
-          ],
-          [
-            12.32,
-            178.98
-          ],
-          [
-            12.27,
-            179.37
-          ],
-          [
-            12.32,
-            180.29
-          ],
-          [
-            12.76,
-            183.05
-          ],
-          [
-            13.29,
-            188.35
-          ],
-          [
-            13.71,
-            190.14
-          ],
-          [
-            14.37,
-            191.65
-          ],
-          [
-            14.97,
-            192.44
-          ],
-          [
-            15.51,
-            192.88
-          ],
-          [
-            16.25,
-            193.22
-          ],
-          [
-            17.06,
-            193.34
-          ],
-          [
-            17.88,
-            193.23
-          ],
-          [
-            18.55,
-            192.95
-          ],
-          [
-            19.16,
-            192.48
-          ],
-          [
-            19.66,
-            191.82
+            18.37,
+            188.41
           ]
         ]
       ]
