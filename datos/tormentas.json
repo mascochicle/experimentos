@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-26T01:25:04.070Z",
+  "generado": "2026-10-26T06:33:01.609Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 2,
   "tormentas": [
@@ -8,13 +8,13 @@
       "nombre": "Vance",
       "clasificacion": "TS",
       "cuenca": "EP2",
-      "intensidadKt": 60,
-      "presionMb": 994,
-      "lat": 14.9,
-      "lon": -104.2,
-      "rumboGrados": 330,
+      "intensidadKt": 55,
+      "presionMb": 995,
+      "lat": 15,
+      "lon": -104.7,
+      "rumboGrados": 305,
       "velocidadKt": 7,
-      "actualizado": "2026-10-25T21:00:00.000Z",
+      "actualizado": "2026-10-26T03:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep2.shtml"
     },
@@ -25,11 +25,11 @@
       "cuenca": "CP3",
       "intensidadKt": 35,
       "presionMb": 1002,
-      "lat": 14.8,
-      "lon": -178,
+      "lat": 14.9,
+      "lon": -177.3,
       "rumboGrados": 75,
-      "velocidadKt": 8,
-      "actualizado": "2026-10-25T21:00:00.000Z",
+      "velocidadKt": 9,
+      "actualizado": "2026-10-26T03:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP3.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_cp3.shtml"
     }
