@@ -1,37 +1,22 @@
 {
-  "generado": "2026-10-27T08:05:18.930Z",
+  "generado": "2026-10-27T14:44:20.055Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 2,
+  "total": 1,
   "tormentas": [
     {
       "id": "ep222026",
       "nombre": "Vance",
       "clasificacion": "TS",
       "cuenca": "EP2",
-      "intensidadKt": 45,
-      "presionMb": 999,
-      "lat": 15.5,
-      "lon": -106.3,
-      "rumboGrados": 275,
-      "velocidadKt": 5,
-      "actualizado": "2026-10-27T03:00:00.000Z",
+      "intensidadKt": 35,
+      "presionMb": 1003,
+      "lat": 16.3,
+      "lon": -107.7,
+      "rumboGrados": 305,
+      "velocidadKt": 8,
+      "actualizado": "2026-10-27T15:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/MIATCPEP2.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_ep2.shtml"
-    },
-    {
-      "id": "cp032026",
-      "nombre": "Olana",
-      "clasificacion": "PTC",
-      "cuenca": "CP3",
-      "intensidadKt": 25,
-      "presionMb": 1007,
-      "lat": 13,
-      "lon": -175.9,
-      "rumboGrados": 150,
-      "velocidadKt": 7,
-      "actualizado": "2026-10-27T03:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP3.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_cp3.shtml"
     }
   ]
 }
