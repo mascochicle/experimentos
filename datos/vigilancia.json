@@ -1,10 +1,171 @@
 {
-  "generado": "2026-10-28T20:39:50.283Z",
+  "generado": "2026-10-29T00:30:40.790Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 0,
+  "total": 1,
   "cuencasSinFormacion": [
-    "Atlántico",
-    "Pacífico oriental"
+    "Atlántico"
   ],
-  "zonas": []
+  "zonas": [
+    {
+      "cuenca": "Pacific",
+      "cuencaEs": "Pacífico oriental",
+      "numero": "1",
+      "titulo": "Islas de Hawái (muy al sureste)",
+      "tituloOriginal": "Well Southeast of the Hawaiian Islands",
+      "descripcion": "A broad area of low pressure could develop well to the southeast of the Hawaiian Islands by this weekend or early next week. Thereafter, environmental conditions appear generally favorable for some slow development of this system as it moves westward to west-northwestward into the Central Pacific basin.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
+      "prob2dias": 0,
+      "riesgo2dias": "bajo",
+      "prob7dias": 20,
+      "riesgo7dias": "bajo",
+      "centro": [
+        8.587,
+        -144.139
+      ],
+      "anillos": [
+        [
+          [
+            3.78,
+            -141.92
+          ],
+          [
+            3.9,
+            -144.49
+          ],
+          [
+            4.22,
+            -146.97
+          ],
+          [
+            4.68,
+            -149.1
+          ],
+          [
+            5.22,
+            -150.77
+          ],
+          [
+            5.9,
+            -152.12
+          ],
+          [
+            6.71,
+            -153.05
+          ],
+          [
+            7.49,
+            -153.52
+          ],
+          [
+            8.04,
+            -153.69
+          ],
+          [
+            8.6,
+            -153.75
+          ],
+          [
+            9.29,
+            -153.7
+          ],
+          [
+            9.97,
+            -153.53
+          ],
+          [
+            10.49,
+            -153.33
+          ],
+          [
+            11.31,
+            -152.86
+          ],
+          [
+            12.22,
+            -152.04
+          ],
+          [
+            12.87,
+            -150.94
+          ],
+          [
+            13.17,
+            -149.81
+          ],
+          [
+            13.33,
+            -147.91
+          ],
+          [
+            13.28,
+            -145.24
+          ],
+          [
+            13.08,
+            -142.45
+          ],
+          [
+            12.66,
+            -138.66
+          ],
+          [
+            12.1,
+            -135.77
+          ],
+          [
+            11.77,
+            -134.94
+          ],
+          [
+            11.41,
+            -134.41
+          ],
+          [
+            11.03,
+            -134.1
+          ],
+          [
+            10.31,
+            -133.87
+          ],
+          [
+            9.72,
+            -133.86
+          ],
+          [
+            8.85,
+            -134.01
+          ],
+          [
+            7.45,
+            -134.54
+          ],
+          [
+            6.23,
+            -135.3
+          ],
+          [
+            5.22,
+            -136.27
+          ],
+          [
+            4.52,
+            -137.38
+          ],
+          [
+            4.09,
+            -138.64
+          ],
+          [
+            3.86,
+            -140.02
+          ],
+          [
+            3.78,
+            -141.92
+          ]
+        ]
+      ]
+    }
+  ]
 }
