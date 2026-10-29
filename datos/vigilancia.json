@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T06:36:18.983Z",
+  "generado": "2026-10-29T13:49:18.535Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,7 +12,7 @@
       "numero": "1",
       "titulo": "Islas de Hawái (muy al sureste)",
       "tituloOriginal": "Well Southeast of the Hawaiian Islands",
-      "descripcion": "A broad area of low pressure could develop well to the southeast of the Hawaiian Islands by this weekend or early next week. Thereafter, environmental conditions appear generally favorable for some slow development of this system as it moves westward to west-northwestward into the Central Pacific basin.",
+      "descripcion": "A broad area of low pressure is likely to develop well to the southeast of the Hawaiian Islands this weekend or early next week. Thereafter, environmental conditions appear generally favorable for some slow development of this system as it moves westward to west-northwestward into the Central Pacific basin.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
