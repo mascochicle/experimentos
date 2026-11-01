@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-01T10:40:27.037Z",
+  "generado": "2026-11-01T16:56:33.262Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,169 +12,173 @@
       "numero": "1",
       "titulo": "Islas de Hawái (muy al sureste)",
       "tituloOriginal": "Well Southeast of the Hawaiian Islands",
-      "descripcion": "A broad area of low pressure is forecast to develop well to the southeast of the Hawaiian Islands by early next week. Thereafter, environmental conditions appear generally favorable for gradual development of this system, and a tropical depression could form by the end of next week as it moves westward to west-northwestward over the Central Pacific basin.",
+      "descripcion": "A broad area of low pressure is forecast to develop well to the southeast of the Hawaiian Islands in a couple of days. Thereafter, environmental conditions appear generally favorable for gradual development of this system, and a tropical depression could form by the middle to end of the week as it moves westward to west-northwestward over the Central Pacific basin.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 40,
+      "prob7dias": 50,
       "riesgo7dias": "medio",
       "centro": [
-        10.226,
-        -145.198
+        9.914,
+        -144.679
       ],
       "anillos": [
         [
           [
-            4.8,
-            -141.75
+            5.31,
+            -141.35
           ],
           [
-            5.17,
-            -144.53
+            6.4,
+            -148.67
           ],
           [
-            5.55,
-            -146.49
-          ],
-          [
-            6.03,
-            -148.4
-          ],
-          [
-            6.69,
-            -150.42
-          ],
-          [
-            7.33,
-            -151.83
-          ],
-          [
-            7.91,
-            -152.72
-          ],
-          [
-            8.65,
-            -153.48
-          ],
-          [
-            9.43,
-            -153.94
-          ],
-          [
-            10.23,
-            -154.17
-          ],
-          [
-            10.91,
-            -154.22
-          ],
-          [
-            11.6,
-            -154.17
-          ],
-          [
-            12.67,
-            -153.96
-          ],
-          [
-            13.56,
-            -153.65
-          ],
-          [
-            14.25,
-            -153.29
-          ],
-          [
-            14.86,
+            7.27,
             -152.85
           ],
           [
-            15.35,
-            -152.34
+            7.75,
+            -154.52
           ],
           [
-            15.61,
-            -151.97
+            8.25,
+            -155.75
           ],
           [
-            15.93,
-            -151.24
+            8.76,
+            -156.55
           ],
           [
-            16.09,
-            -150.55
+            9.29,
+            -157
           ],
           [
-            16.15,
-            -149.82
-          ],
-          [
-            16.03,
-            -148.1
-          ],
-          [
-            15.59,
-            -146.06
-          ],
-          [
-            13.88,
-            -140.55
-          ],
-          [
-            12.58,
-            -137.17
-          ],
-          [
-            12.02,
-            -136.06
-          ],
-          [
-            11.42,
-            -135.18
-          ],
-          [
-            10.74,
-            -134.54
+            9.72,
+            -157.15
           ],
           [
             10.15,
-            -134.23
+            -157.15
           ],
           [
-            9.58,
-            -134.08
+            10.82,
+            -156.96
           ],
           [
-            8.84,
-            -134.04
+            11.6,
+            -156.58
           ],
           [
-            7.54,
-            -134.3
+            12.59,
+            -156.02
           ],
           [
-            6.44,
-            -134.89
+            13.61,
+            -155.28
           ],
           [
-            5.64,
-            -135.69
+            14.06,
+            -154.84
           ],
           [
-            5.09,
-            -136.77
+            14.6,
+            -154.12
           ],
           [
-            4.77,
-            -138.16
+            15.19,
+            -152.74
           ],
           [
-            4.69,
-            -140.15
+            15.5,
+            -151.14
           ],
           [
-            4.8,
-            -141.75
+            15.59,
+            -148.86
+          ],
+          [
+            15.41,
+            -146.77
+          ],
+          [
+            15.02,
+            -144.62
+          ],
+          [
+            14.4,
+            -142.09
+          ],
+          [
+            13.83,
+            -140.21
+          ],
+          [
+            12.95,
+            -137.98
+          ],
+          [
+            12.28,
+            -136.71
+          ],
+          [
+            11.19,
+            -135.19
+          ],
+          [
+            10.24,
+            -134.28
+          ],
+          [
+            9.37,
+            -133.72
+          ],
+          [
+            8.75,
+            -133.48
+          ],
+          [
+            8.25,
+            -133.39
+          ],
+          [
+            7.64,
+            -133.39
+          ],
+          [
+            7.07,
+            -133.51
+          ],
+          [
+            6.53,
+            -133.73
+          ],
+          [
+            6.05,
+            -134.05
+          ],
+          [
+            5.65,
+            -134.44
+          ],
+          [
+            5.33,
+            -134.91
+          ],
+          [
+            5.01,
+            -135.81
+          ],
+          [
+            4.92,
+            -136.72
+          ],
+          [
+            5,
+            -138.6
+          ],
+          [
+            5.31,
+            -141.35
           ]
         ]
       ]
