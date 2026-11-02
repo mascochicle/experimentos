@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-02T16:39:49.915Z",
+  "generado": "2026-11-02T23:43:46.738Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 2,
   "cuencasSinFormacion": [],
@@ -10,161 +10,165 @@
       "numero": "1",
       "titulo": "Islas de Hawái (muy al sureste)",
       "tituloOriginal": "Well Southeast of the Hawaiian Islands",
-      "descripcion": "A broad area of low pressure located well east-southeast of the Hawaiian Islands is producing a large area of disorganized showers and thunderstorms. Environmental conditions appear generally favorable for gradual development of this system, and a tropical depression is likely to form during the middle to latter portions of this week as it moves westward to west-northwestward around 10 to 15 mph over the Central Pacific basin.",
+      "descripcion": "A broad area of low pressure located well east-southeast of the Hawaiian Islands is producing disorganized showers and thunderstorms. Environmental conditions appear generally favorable for gradual development of this system, and a tropical depression is likely to form during the middle to latter portions of this week as it moves westward to west-northwestward around 10 to 15 mph over the Central Pacific basin.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 20,
+      "prob2dias": 30,
       "riesgo2dias": "bajo",
       "prob7dias": 70,
       "riesgo7dias": "alto",
       "centro": [
-        7.112,
-        -131.906
+        8.401,
+        -133.149
       ],
       "anillos": [
         [
           [
-            5.34,
-            -143.4
+            6.14,
+            -143.92
           ],
           [
-            6.19,
-            -149.36
+            7.53,
+            -150.21
           ],
           [
-            6.84,
-            -152.91
+            8.56,
+            -153.89
           ],
           [
-            7.48,
-            -155.62
+            9.14,
+            -155.46
           ],
           [
-            7.87,
-            -156.86
+            9.63,
+            -156.41
           ],
           [
-            8.37,
-            -158
+            10.12,
+            -157.04
           ],
           [
-            8.78,
-            -158.61
+            10.63,
+            -157.4
           ],
           [
-            9.42,
-            -159.11
+            11.18,
+            -157.52
           ],
           [
-            9.96,
-            -159.22
+            11.56,
+            -157.49
           ],
           [
-            10.51,
-            -159.13
+            12.29,
+            -157.27
           ],
           [
-            12.28,
-            -158.27
+            12.83,
+            -157
           ],
           [
-            13.72,
-            -157.25
+            13.98,
+            -156.13
           ],
           [
-            14.62,
-            -156.18
+            14.9,
+            -154.99
           ],
           [
-            15.17,
-            -154.93
+            15.41,
+            -153.83
           ],
           [
-            15.52,
-            -153.19
+            15.66,
+            -152.69
           ],
           [
-            15.61,
-            -150.92
+            15.8,
+            -150.66
           ],
           [
-            15.43,
-            -148.82
+            15.77,
+            -148.28
           ],
           [
-            15.04,
-            -146.67
+            15.57,
+            -146.39
           ],
           [
-            14.48,
-            -144.35
+            15.09,
+            -143.99
           ],
           [
-            13.78,
-            -142.05
+            14.41,
+            -141.59
           ],
           [
-            13.06,
-            -140.23
+            13.71,
+            -139.71
           ],
           [
-            12.2,
-            -138.6
+            13.1,
+            -138.4
           ],
           [
-            11.44,
-            -137.52
+            12.24,
+            -137.03
           ],
           [
-            10.5,
-            -136.53
+            11.51,
+            -136.23
           ],
           [
-            9.52,
-            -135.84
+            10.62,
+            -135.62
+          ],
+          [
+            10.03,
+            -135.41
+          ],
+          [
+            9.53,
+            -135.35
           ],
           [
             8.9,
-            -135.57
+            -135.39
           ],
           [
-            8.27,
-            -135.44
+            8.13,
+            -135.61
           ],
           [
-            7.67,
-            -135.44
+            7.4,
+            -135.99
           ],
           [
-            7.2,
-            -135.53
+            6.95,
+            -136.33
           ],
           [
-            6.26,
-            -135.96
+            6.46,
+            -136.82
           ],
           [
-            5.67,
-            -136.49
+            6.05,
+            -137.38
           ],
           [
-            5.35,
-            -136.96
+            5.65,
+            -138.41
           ],
           [
-            5.06,
-            -137.74
+            5.53,
+            -139.64
           ],
           [
-            4.94,
-            -138.95
+            5.75,
+            -141.84
           ],
           [
-            5.05,
-            -140.92
-          ],
-          [
-            5.34,
-            -143.4
+            6.14,
+            -143.92
           ]
         ]
       ]
@@ -175,153 +179,149 @@
       "numero": "1",
       "titulo": "Atlántico (oeste)",
       "tituloOriginal": "Western Atlantic",
-      "descripcion": "An area of low pressure is likely to form along a weakening frontal boundary a few hundred miles northeast of the Bahamas in a couple of days. This system could acquire some subtropical characteristics late this week while it drifts over the western Atlantic. The chances of subtropical development should end by the weekend when the system is expected to move eastward or northeastward into unfavorable environmental conditions.",
+      "descripcion": "An area of low pressure is expected to form along a weakening frontal boundary a few hundred miles northeast of the Bahamas in a day or so. This system could acquire some subtropical characteristics late this week while it drifts over the western Atlantic. The chances of subtropical development should end by the weekend when the system is expected to move eastward or northeastward into unfavorable environmental conditions.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 20,
+      "prob7dias": 30,
       "riesgo7dias": "bajo",
       "centro": [
-        29.416,
-        -67.114
+        29.544,
+        -66.78
       ],
       "anillos": [
         [
           [
-            31.59,
-            -60.72
+            31.34,
+            -60.41
           ],
           [
-            32.41,
-            -61.03
+            32.18,
+            -60.82
           ],
           [
-            33.04,
-            -61.53
+            32.87,
+            -61.41
           ],
           [
-            33.53,
-            -62.2
+            33.42,
+            -62.14
           ],
           [
-            33.93,
-            -63.12
+            33.95,
+            -63.23
           ],
           [
-            34.3,
-            -64.51
+            34.35,
+            -64.66
           ],
           [
-            34.49,
-            -66.1
+            34.51,
+            -65.98
           ],
           [
-            34.49,
-            -67.14
+            34.51,
+            -67.02
           ],
           [
-            34.31,
-            -68.47
+            34.33,
+            -68.35
           ],
           [
-            33.85,
-            -69.83
+            34.08,
+            -69.22
           ],
           [
-            33.46,
-            -70.56
+            33.61,
+            -70.29
           ],
           [
-            32.84,
-            -71.43
+            32.9,
+            -71.36
           ],
           [
-            32.27,
-            -72.03
+            32.34,
+            -71.97
           ],
           [
-            31.77,
-            -72.42
+            31.7,
+            -72.47
           ],
           [
             30.96,
             -72.85
           ],
           [
-            30.02,
-            -73.12
+            29.81,
+            -73.15
           ],
           [
             28.86,
             -73.23
           ],
           [
-            27.59,
-            -73.18
+            27.39,
+            -73.15
           ],
           [
-            26.17,
-            -72.85
+            26.35,
+            -72.93
           ],
           [
-            25.3,
-            -72.35
+            25.54,
+            -72.55
           ],
           [
-            24.7,
-            -71.69
+            24.77,
+            -71.79
           ],
           [
-            24.36,
-            -71.09
+            24.14,
+            -70.57
           ],
           [
-            24.08,
-            -70.38
+            23.74,
+            -69.1
           ],
           [
-            23.77,
-            -69
+            23.6,
+            -67.25
           ],
           [
-            23.7,
-            -67.62
+            23.78,
+            -65.67
           ],
           [
-            23.91,
-            -66.06
+            24.13,
+            -64.47
           ],
           [
-            24.32,
-            -64.84
+            24.84,
+            -63.03
           ],
           [
-            24.87,
-            -63.83
+            25.58,
+            -62.06
           ],
           [
-            25.59,
-            -62.92
+            26.62,
+            -61.17
           ],
           [
-            26.5,
-            -62.13
+            27.82,
+            -60.57
           ],
           [
-            27.75,
-            -61.4
+            29.1,
+            -60.24
           ],
           [
-            29.26,
-            -60.86
+            30.5,
+            -60.22
           ],
           [
-            30.57,
-            -60.66
-          ],
-          [
-            31.59,
-            -60.72
+            31.34,
+            -60.41
           ]
         ]
       ]
