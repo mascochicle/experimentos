@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T08:00:37.129Z",
+  "generado": "2026-11-05T16:35:59.336Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -10,153 +10,129 @@
       "numero": "1",
       "titulo": "Islas de Hawái (muy al sureste) · CP95",
       "tituloOriginal": "Well Southeast of the Hawaiian Islands (CP95)",
-      "descripcion": "Showers and thunderstorms associated with a broad area of low pressure located over the eastern portion of the Central Pacific basin are showing some signs of organization. Environmental conditions appear conducive for additional development of this system, and a tropical depression is likely to form over the Central Pacific basin during the next few days while it moves westward to west-northwestward at 10 to 15 mph.",
+      "descripcion": "Showers and thunderstorms continue to show signs of organization in association with an area of low pressure located over the eastern portion of the Central Pacific basin. While earlier satellite wind data suggested the system does not yet have a well-defined circulation, environmental conditions appear conducive for additional development. A tropical depression is now likely to form over the next day or so while the system moves westward to west-northwestward at 10 to 15 mph, passing well south of the Hawaiian Islands.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 60,
-      "riesgo2dias": "medio",
-      "prob7dias": 70,
+      "prob2dias": 80,
+      "riesgo2dias": "alto",
+      "prob7dias": 80,
       "riesgo7dias": "alto",
       "centro": [
-        10.049,
-        -142.322
+        10.432,
+        -144.311
       ],
       "anillos": [
         [
           [
-            8.43,
-            -145
+            9.35,
+            -146.36
           ],
           [
-            8.52,
-            -143.4
+            9.23,
+            -144.12
           ],
           [
-            8.66,
-            -142.38
+            9.31,
+            -143.61
           ],
           [
-            8.9,
-            -141.68
+            9.53,
+            -143.23
           ],
           [
-            9.39,
-            -141.1
+            9.93,
+            -143.03
           ],
           [
-            10.19,
-            -140.74
+            10.71,
+            -143.03
           ],
           [
-            11.12,
-            -140.71
+            11.57,
+            -143.35
           ],
           [
-            11.64,
-            -140.86
+            12.09,
+            -143.77
           ],
           [
-            12.05,
-            -141.08
+            12.48,
+            -144.27
           ],
           [
-            12.78,
-            -141.76
+            13.02,
+            -145.23
           ],
           [
-            13.34,
-            -142.55
+            14.06,
+            -147.63
           ],
           [
-            13.98,
-            -143.76
+            14.52,
+            -149.22
           ],
           [
-            14.35,
-            -144.67
-          ],
-          [
-            14.59,
-            -145.57
-          ],
-          [
-            15.06,
-            -149.29
-          ],
-          [
-            15.36,
-            -154.01
-          ],
-          [
-            15.43,
-            -156.1
-          ],
-          [
-            15.37,
-            -159.07
+            14.8,
+            -150.57
           ],
           [
             15.14,
-            -160.66
+            -153.12
           ],
           [
-            14.91,
-            -161.32
+            15.22,
+            -154.35
           ],
           [
-            14.73,
-            -161.61
+            15.16,
+            -155.95
           ],
           [
-            14.39,
-            -161.94
+            14.9,
+            -156.96
           ],
           [
-            13.89,
-            -162.16
+            14.47,
+            -157.6
           ],
           [
-            12.72,
-            -162.24
+            13.77,
+            -158.01
           ],
           [
-            11.37,
-            -162.03
+            13.29,
+            -158.11
           ],
           [
-            10.76,
-            -161.8
+            12.52,
+            -158.13
           ],
           [
-            10.19,
-            -161.47
+            11.52,
+            -157.91
           ],
           [
-            9.51,
-            -160.8
+            11,
+            -157.6
           ],
           [
-            9.14,
-            -160.16
+            10.74,
+            -157.35
           ],
           [
-            8.78,
-            -159.05
+            10.2,
+            -156.37
           ],
           [
-            8.56,
-            -157.69
+            9.98,
+            -155.52
           ],
           [
-            8.4,
-            -154.84
+            9.81,
+            -154.37
           ],
           [
-            8.36,
-            -152.05
-          ],
-          [
-            8.43,
-            -145
+            9.35,
+            -146.36
           ]
         ]
       ]
@@ -167,117 +143,117 @@
       "numero": "2",
       "titulo": "Pacífico oriental (este)",
       "tituloOriginal": "Eastern East Pacific",
-      "descripcion": "A broad area of low pressure offshore of Central America is producing a large area of disorganized cloudiness and showers. Gradual development of this system is possible during the next several days, and a tropical depression could form by this weekend while the low drifts northward. Regardless of development, this system could bring areas of heavy rain to portions of Central America through this weekend.",
+      "descripcion": "A broad area of low pressure offshore of Central America is producing a large area of showers and thunderstorms that have not become any better organized over the past day. Gradual development of this system is possible during the next several days, and a tropical depression could form by this weekend while the low drifts slowly offshore of the Central America coast. Regardless of development, this system could bring areas of heavy rain to portions of Central America through this weekend.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 40,
       "riesgo2dias": "medio",
       "prob7dias": 60,
       "riesgo7dias": "medio",
       "centro": [
-        8.588,
-        -90.644
+        9.319,
+        -90.927
       ],
       "anillos": [
         [
           [
-            11.05,
-            -87.22
+            11.39,
+            -86.67
           ],
           [
-            11.7,
-            -87.49
+            12.09,
+            -87.06
           ],
           [
-            12.26,
-            -87.96
-          ],
-          [
-            12.6,
-            -88.52
+            12.55,
+            -87.53
           ],
           [
             12.79,
+            -87.94
+          ],
+          [
+            13,
+            -88.63
+          ],
+          [
+            13.06,
             -89.15
           ],
           [
-            12.86,
-            -89.81
+            13,
+            -90.39
           ],
           [
-            12.79,
-            -91.1
+            12.88,
+            -91.08
           ],
           [
-            12.5,
-            -92.28
+            12.52,
+            -92.19
           ],
           [
-            12.18,
-            -92.91
+            12.17,
+            -92.8
           ],
           [
-            11.83,
-            -93.27
+            11.68,
+            -93.33
           ],
           [
             11.26,
-            -93.54
+            -93.58
+          ],
+          [
+            10.85,
+            -93.69
+          ],
+          [
+            10.42,
+            -93.68
+          ],
+          [
+            9.93,
+            -93.51
+          ],
+          [
+            9.33,
+            -93.14
+          ],
+          [
+            8.98,
+            -92.77
+          ],
+          [
+            8.67,
+            -91.97
+          ],
+          [
+            8.56,
+            -90.76
+          ],
+          [
+            8.6,
+            -88.53
+          ],
+          [
+            8.81,
+            -87.39
+          ],
+          [
+            9.25,
+            -86.77
+          ],
+          [
+            9.72,
+            -86.52
           ],
           [
             10.54,
-            -93.63
+            -86.45
           ],
           [
-            9.64,
-            -93.59
-          ],
-          [
-            9.1,
-            -93.49
-          ],
-          [
-            8.44,
-            -93.23
-          ],
-          [
-            7.94,
-            -92.83
-          ],
-          [
-            7.68,
-            -92.46
-          ],
-          [
-            7.35,
-            -91.63
-          ],
-          [
-            7.23,
-            -90.47
-          ],
-          [
-            7.43,
-            -89.16
-          ],
-          [
-            7.84,
-            -88.21
-          ],
-          [
-            8.47,
-            -87.56
-          ],
-          [
-            9.2,
-            -87.23
-          ],
-          [
-            9.99,
-            -87.1
-          ],
-          [
-            11.05,
-            -87.22
+            11.39,
+            -86.67
           ]
         ]
       ]
@@ -288,7 +264,7 @@
       "numero": "1",
       "titulo": "Atlántico (oeste y centro)",
       "tituloOriginal": "Western and Central Atlantic",
-      "descripcion": "A non-tropical low pressure area is located a few hundred miles south of Bermuda. Environmental conditions could support this system gradually acquiring subtropical characteristics through this weekend while it moves slowly eastward over the western and central subtropical Atlantic. By early next week, environmental conditions are forecast to become unfavorable for further development. For more information on this system, including Gale Warnings, please see High Seas Forecasts issued by the National Weather Service.",
+      "descripcion": "A broad, non-tropical low pressure area located a few hundred miles south of Bermuda is producing some disorganized convection mainly to the east of its center. Environmental conditions could support this system gradually acquiring subtropical characteristics through this weekend while it moves slowly eastward over the western and central subtropical Atlantic. By early next week, environmental conditions are forecast to become unfavorable for further development. For more information on this system, including Gale Warnings, please see High Seas Forecasts issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 30,
       "riesgo2dias": "bajo",
