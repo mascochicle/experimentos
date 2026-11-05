@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T20:59:58.177Z",
+  "generado": "2026-11-05T01:20:53.632Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -8,151 +8,264 @@
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
-      "titulo": "Islas de Hawái (muy al sureste) · EP95",
-      "tituloOriginal": "Well Southeast of the Hawaiian Islands (EP95)",
-      "descripcion": "An area of low pressure located over the western portion of the East Pacific basin is starting to produce more concentrated shower and thunderstorm activity. Environmental conditions appear conducive for additional development of this system, and a tropical depression is likely to form over the Central Pacific basin during the next few days while it moves westward to west-northwestward at 10 to 15 mph.",
+      "titulo": "Islas de Hawái (muy al sureste) · CP95",
+      "tituloOriginal": "Well Southeast of the Hawaiian Islands (CP95)",
+      "descripcion": "Showers and thunderstorms associated with a trough of low pressure located over the eastern portion of the Central Pacific basin are gradually becoming better organized. Environmental conditions appear conducive for additional development of this system, and a tropical depression is likely to form over the Central Pacific basin during the next few days while it moves westward to west-northwestward at 10 to 15 mph.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 60,
       "riesgo2dias": "medio",
       "prob7dias": 70,
       "riesgo7dias": "alto",
       "centro": [
-        9.484,
-        -139.857
+        9.996,
+        -141.858
       ],
       "anillos": [
         [
           [
-            13.49,
-            -142.55
+            8.52,
+            -142.65
           ],
           [
-            12.65,
-            -140.74
+            8.73,
+            -141.22
           ],
           [
-            12.12,
-            -140.01
+            8.98,
+            -140.64
           ],
           [
-            11.53,
-            -139.45
+            9.23,
+            -140.39
           ],
           [
-            10.96,
-            -139.14
+            9.49,
+            -140.29
           ],
           [
-            10.13,
-            -138.95
+            10.4,
+            -140.37
           ],
           [
-            9.11,
-            -139.04
+            11.06,
+            -140.51
           ],
           [
-            8.74,
-            -139.18
+            11.59,
+            -140.72
           ],
           [
-            8.54,
-            -139.35
+            12.6,
+            -141.33
           ],
           [
-            8.31,
-            -140.01
+            13.96,
+            -142.48
           ],
           [
-            8.21,
-            -141.01
+            14.79,
+            -143.5
           ],
           [
-            8.21,
-            -145.29
+            15.35,
+            -144.74
           ],
           [
-            8.55,
-            -156.46
+            15.57,
+            -146.12
           ],
           [
-            8.68,
-            -158.89
+            15.65,
+            -154.11
           ],
           [
-            8.87,
-            -160.69
+            15.56,
+            -156.45
+          ],
+          [
+            15.38,
+            -158.18
+          ],
+          [
+            15.09,
+            -159.44
+          ],
+          [
+            14.61,
+            -160.36
+          ],
+          [
+            14.16,
+            -160.77
+          ],
+          [
+            13.74,
+            -160.99
+          ],
+          [
+            11.88,
+            -161.4
+          ],
+          [
+            11.12,
+            -161.43
+          ],
+          [
+            10.61,
+            -161.36
+          ],
+          [
+            10.14,
+            -161.19
+          ],
+          [
+            9.82,
+            -160.97
+          ],
+          [
+            9.5,
+            -160.56
           ],
           [
             9.19,
-            -161.96
+            -159.73
           ],
           [
-            9.71,
-            -162.78
+            8.96,
+            -157.94
           ],
           [
-            10.36,
-            -163.2
+            8.49,
+            -147.03
           ],
           [
-            10.8,
-            -163.31
+            8.46,
+            -143.98
           ],
           [
-            11.37,
-            -163.31
+            8.52,
+            -142.65
+          ]
+        ]
+      ]
+    },
+    {
+      "cuenca": "Pacific",
+      "cuencaEs": "Pacífico oriental",
+      "numero": "2",
+      "titulo": "Pacífico oriental (este)",
+      "tituloOriginal": "Eastern East Pacific",
+      "descripcion": "A broad area of low pressure is producing a large area of disorganized showers and thunderstorms offshore of the coast of Central America. Gradual development of this system is possible during the next several days, and a tropical depression could form by this weekend while the low drifts northward. Regardless of development, this system could bring areas of heavy rain to portions of Central America through this weekend.",
+      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
+      "prob2dias": 40,
+      "riesgo2dias": "medio",
+      "prob7dias": 60,
+      "riesgo7dias": "medio",
+      "centro": [
+        8.588,
+        -90.644
+      ],
+      "anillos": [
+        [
+          [
+            11.05,
+            -87.22
           ],
           [
-            12.19,
-            -163.06
+            11.75,
+            -87.47
           ],
           [
-            12.64,
-            -162.77
+            12.27,
+            -87.85
           ],
           [
-            13.06,
-            -162.37
+            12.61,
+            -88.39
           ],
           [
-            13.6,
-            -161.57
+            12.75,
+            -88.95
           ],
           [
-            14.13,
-            -160.15
+            12.74,
+            -90.35
           ],
           [
-            14.48,
-            -158.42
+            12.48,
+            -91.79
           ],
           [
-            14.65,
-            -156.72
+            12.06,
+            -93.07
           ],
           [
-            14.72,
-            -154.9
+            11.66,
+            -93.81
           ],
           [
-            14.69,
-            -152.51
+            11.22,
+            -94.25
           ],
           [
-            14.54,
-            -149.94
+            10.81,
+            -94.43
           ],
           [
-            14.14,
-            -145.67
+            10.39,
+            -94.46
           ],
           [
-            13.86,
-            -143.85
+            9.96,
+            -94.37
           ],
           [
-            13.49,
-            -142.55
+            9.29,
+            -94.06
+          ],
+          [
+            8.61,
+            -93.59
+          ],
+          [
+            7.56,
+            -92.56
+          ],
+          [
+            7.31,
+            -92.1
+          ],
+          [
+            7.18,
+            -91.54
+          ],
+          [
+            7.21,
+            -90.29
+          ],
+          [
+            7.44,
+            -89.4
+          ],
+          [
+            8.27,
+            -87.62
+          ],
+          [
+            8.72,
+            -87.2
+          ],
+          [
+            9.26,
+            -87.03
+          ],
+          [
+            10.09,
+            -87.03
+          ],
+          [
+            11.05,
+            -87.22
           ]
         ]
       ]
@@ -170,8 +283,8 @@
       "prob7dias": 50,
       "riesgo7dias": "medio",
       "centro": [
-        26.481,
-        -65.11
+        26.783,
+        -64.229
       ],
       "anillos": [
         [
@@ -180,265 +293,128 @@
             -46.92
           ],
           [
-            31.59,
-            -47.66
+            31.65,
+            -47.94
           ],
           [
-            31.77,
-            -48.8
+            31.8,
+            -49.12
           ],
           [
-            31.84,
-            -50.75
+            31.85,
+            -50.43
           ],
           [
-            31.76,
-            -52.5
+            31.79,
+            -52.17
           ],
           [
-            31.19,
-            -57.28
+            31.33,
+            -56.34
           ],
           [
-            30.63,
-            -60.65
+            30.37,
+            -61.9
           ],
           [
-            30.21,
-            -62.57
+            29.91,
+            -63.49
           ],
           [
-            29.63,
-            -64.29
+            29.52,
+            -64.32
           ],
           [
-            29.27,
-            -64.94
+            29.18,
+            -64.8
           ],
           [
-            28.82,
-            -65.53
+            28.78,
+            -65.15
           ],
           [
-            28.47,
-            -65.83
+            28.44,
+            -65.33
           ],
           [
-            27.88,
-            -66.12
+            27.15,
+            -65.73
           ],
           [
-            27.21,
-            -66.27
+            26.62,
+            -65.79
           ],
           [
-            26.49,
-            -66.28
+            26.23,
+            -65.7
           ],
           [
-            25.91,
-            -66.16
+            25.84,
+            -65.43
           ],
           [
-            25.5,
-            -65.97
+            25.29,
+            -64.64
           ],
           [
-            24.88,
-            -65.35
+            24.51,
+            -62.75
           ],
           [
-            24.54,
-            -64.73
+            24.16,
+            -61.28
           ],
           [
-            24.31,
-            -64.1
+            24.8,
+            -53.59
           ],
           [
-            23.99,
-            -62.41
+            25.11,
+            -51.37
           ],
           [
-            23.97,
-            -60.65
+            25.47,
+            -49.59
           ],
           [
-            24.29,
-            -56.16
+            25.95,
+            -47.99
           ],
           [
-            24.67,
-            -52.99
+            26.56,
+            -46.69
           ],
           [
-            25.22,
-            -50.14
+            27.31,
+            -45.76
           ],
           [
-            25.7,
-            -48.53
+            28.15,
+            -45.19
           ],
           [
-            26.29,
-            -47.16
+            29.01,
+            -44.99
           ],
           [
-            27.02,
-            -46.12
+            29.51,
+            -45.04
           ],
           [
-            27.67,
-            -45.54
+            30,
+            -45.22
           ],
           [
-            28.18,
-            -45.25
+            30.44,
+            -45.52
           ],
           [
-            28.7,
-            -45.09
-          ],
-          [
-            29.21,
-            -45.05
-          ],
-          [
-            30.02,
-            -45.26
-          ],
-          [
-            30.46,
-            -45.55
-          ],
-          [
-            30.86,
-            -45.96
+            30.85,
+            -45.95
           ],
           [
             31.37,
             -46.92
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Pacific",
-      "cuencaEs": "Pacífico oriental",
-      "numero": "2",
-      "titulo": "Pacífico oriental (este)",
-      "tituloOriginal": "Eastern East Pacific",
-      "descripcion": "A broad area of low pressure is producing a large area of disorganized showers and thunderstorms offshore of the coast of Central America. Gradual development of this system is possible during the next several days, and a tropical depression could form by this weekend while the low drifts northward. Regardless of development, this system could bring areas of heavy rain to portions of Central America through this weekend.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 30,
-      "riesgo2dias": "bajo",
-      "prob7dias": 50,
-      "riesgo7dias": "medio",
-      "centro": [
-        8.363,
-        -90.152
-      ],
-      "anillos": [
-        [
-          [
-            11.05,
-            -87.22
-          ],
-          [
-            11.72,
-            -87.46
-          ],
-          [
-            12.22,
-            -87.84
-          ],
-          [
-            12.57,
-            -88.38
-          ],
-          [
-            12.81,
-            -89.3
-          ],
-          [
-            12.87,
-            -90.69
-          ],
-          [
-            12.7,
-            -92.34
-          ],
-          [
-            12.42,
-            -93.41
-          ],
-          [
-            12.02,
-            -94.23
-          ],
-          [
-            11.53,
-            -94.76
-          ],
-          [
-            11.11,
-            -94.98
-          ],
-          [
-            10.51,
-            -95.06
-          ],
-          [
-            9.98,
-            -94.94
-          ],
-          [
-            9.37,
-            -94.62
-          ],
-          [
-            8.61,
-            -94
-          ],
-          [
-            7.7,
-            -92.99
-          ],
-          [
-            7.4,
-            -92.51
-          ],
-          [
-            7.17,
-            -91.56
-          ],
-          [
-            7.24,
-            -90.12
-          ],
-          [
-            7.49,
-            -89.28
-          ],
-          [
-            8.24,
-            -87.66
-          ],
-          [
-            8.67,
-            -87.23
-          ],
-          [
-            9.27,
-            -87.03
-          ],
-          [
-            9.95,
-            -87.02
-          ],
-          [
-            11.05,
-            -87.22
           ]
         ]
       ]
