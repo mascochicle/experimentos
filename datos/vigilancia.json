@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-06T17:35:40.802Z",
+  "generado": "2026-11-06T22:29:37.473Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 3,
   "cuencasSinFormacion": [],
@@ -10,133 +10,129 @@
       "numero": "1",
       "titulo": "Pacífico central (este) · CP95",
       "tituloOriginal": "Eastern Central Pacific (CP95)",
-      "descripcion": "Showers and thunderstorms associated with a trough of low pressure located several hundred miles to the southeast of the Big Island of Hawaii continue to show signs of organization. Environmental conditions are conducive for additional development, and a tropical depression is expected to develop later today or on Saturday. The system is forecast to move west-northwestward to westward at 10 to 15 mph, passing well south of the Hawaiian Islands.",
+      "descripcion": "Showers and thunderstorms associated with a trough of low pressure located several hundred miles to the southeast of the Big Island of Hawaii continue to become better organized. However, recent satellite wind data indicate the system still lacks a well-defined center. Environmental conditions are conducive for additional development, and a tropical depression is expected to develop either later today or on Saturday. The system is forecast to move west-northwestward to westward at 10 to 15 mph, passing well south of the Hawaiian Islands.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 90,
       "riesgo2dias": "alto",
       "prob7dias": 90,
       "riesgo7dias": "alto",
       "centro": [
-        11.623,
-        -147.366
+        11.666,
+        -149.919
       ],
       "anillos": [
         [
           [
-            9.87,
-            -153.84
+            14.79,
+            -151.29
           ],
           [
-            9.73,
-            -150.87
+            15.01,
+            -154.39
           ],
           [
-            9.77,
-            -148.39
-          ],
-          [
-            10.04,
-            -146.91
-          ],
-          [
-            10.23,
-            -146.49
-          ],
-          [
-            10.53,
-            -146.11
-          ],
-          [
-            10.96,
-            -145.83
-          ],
-          [
-            11.71,
-            -145.71
-          ],
-          [
-            12.29,
-            -145.85
-          ],
-          [
-            12.89,
-            -146.23
-          ],
-          [
-            13.48,
-            -146.87
-          ],
-          [
-            13.93,
-            -147.59
-          ],
-          [
-            14.29,
-            -148.4
-          ],
-          [
-            14.55,
-            -149.24
-          ],
-          [
-            15.12,
-            -152.24
-          ],
-          [
-            15.29,
-            -153.74
-          ],
-          [
-            15.33,
-            -155.21
-          ],
-          [
-            15.23,
-            -156.24
-          ],
-          [
-            15.06,
+            14.89,
             -156.87
           ],
           [
-            14.76,
-            -157.5
+            14.62,
+            -158.02
           ],
           [
-            14.23,
-            -158.13
+            14.34,
+            -158.65
           ],
           [
-            13.52,
-            -158.55
+            13.91,
+            -159.25
           ],
           [
-            12.69,
-            -158.67
+            13.43,
+            -159.62
           ],
           [
-            11.89,
-            -158.47
+            12.76,
+            -159.84
           ],
           [
-            11.11,
-            -157.93
+            11.87,
+            -159.77
           ],
           [
-            10.57,
-            -157.21
+            10.88,
+            -159.31
           ],
           [
-            10.22,
-            -156.32
+            10.21,
+            -158.66
           ],
           [
-            10.01,
-            -155.27
+            9.84,
+            -158.02
           ],
           [
-            9.87,
-            -153.84
+            9.52,
+            -156.85
+          ],
+          [
+            9.29,
+            -154.08
+          ],
+          [
+            9.13,
+            -151.33
+          ],
+          [
+            9.13,
+            -150.56
+          ],
+          [
+            9.25,
+            -149.65
+          ],
+          [
+            9.64,
+            -148.89
+          ],
+          [
+            10,
+            -148.57
+          ],
+          [
+            10.61,
+            -148.2
+          ],
+          [
+            11.22,
+            -147.96
+          ],
+          [
+            11.78,
+            -147.92
+          ],
+          [
+            12.47,
+            -148.12
+          ],
+          [
+            13.13,
+            -148.5
+          ],
+          [
+            13.73,
+            -148.99
+          ],
+          [
+            14.28,
+            -149.62
+          ],
+          [
+            14.63,
+            -150.39
+          ],
+          [
+            14.79,
+            -151.29
           ]
         ]
       ]
@@ -147,117 +143,101 @@
       "numero": "2",
       "titulo": "Pacífico oriental (este)",
       "tituloOriginal": "Eastern East Pacific",
-      "descripcion": "A broad area of low pressure located offshore of Central America is producing disorganized showers and thunderstorms. A tropical depression could form over the weekend while the low drifts slowly offshore. Thereafter, upper-level winds should prevent any further development. This system could bring areas of heavy rain to portions of Central America through the weekend.",
+      "descripcion": "A broad area of low pressure located offshore of Central America is producing disorganized showers and thunderstorms. Recent satellite wind data indicate this system has a weak and elongated circulation. Environmental conditions are forecast to become increasingly hostile over the weekend, and the chances for further development are decreasing. However, this system could still bring areas of heavy rain to portions of Central America through the weekend.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 40,
-      "riesgo2dias": "medio",
-      "prob7dias": 40,
-      "riesgo7dias": "medio",
+      "prob2dias": 30,
+      "riesgo2dias": "bajo",
+      "prob7dias": 30,
+      "riesgo7dias": "bajo",
       "centro": [
-        10.5,
-        -90.173
+        10.159,
+        -89.69
       ],
       "anillos": [
         [
           [
-            11.96,
-            -86.94
+            11.81,
+            -86.58
           ],
           [
-            12.44,
-            -87.72
+            12.05,
+            -86.9
           ],
           [
-            12.61,
-            -88.34
+            12.34,
+            -87.53
           ],
           [
-            12.68,
-            -89.03
+            12.5,
+            -88.55
           ],
           [
-            12.55,
-            -90.32
+            12.29,
+            -89.74
           ],
           [
-            12.31,
-            -91.15
+            11.79,
+            -90.85
           ],
           [
-            12.01,
-            -91.8
+            11.13,
+            -91.72
           ],
           [
-            11.38,
-            -92.55
+            10.46,
+            -92.04
           ],
           [
-            10.96,
-            -92.79
+            9.91,
+            -92.09
           ],
           [
-            10.56,
-            -92.9
+            9.27,
+            -91.98
           ],
           [
-            10.07,
-            -92.9
+            8.98,
+            -91.83
           ],
           [
-            9.52,
-            -92.75
+            8.8,
+            -91.57
           ],
           [
-            9.12,
-            -92.53
+            8.57,
+            -90.27
           ],
           [
-            8.81,
-            -92.24
+            8.48,
+            -88.47
           ],
           [
-            8.58,
-            -91.84
+            8.59,
+            -87.52
           ],
           [
-            8.41,
-            -91.31
+            8.91,
+            -86.72
           ],
           [
-            8.31,
-            -89.86
+            9.47,
+            -86.14
           ],
           [
-            8.52,
-            -88.36
+            10.18,
+            -85.9
           ],
           [
-            8.96,
-            -87.26
+            10.67,
+            -85.93
           ],
           [
-            9.48,
-            -86.61
+            11.11,
+            -86.07
           ],
           [
-            9.89,
-            -86.36
-          ],
-          [
-            10.28,
-            -86.26
-          ],
-          [
-            10.93,
-            -86.32
-          ],
-          [
-            11.26,
-            -86.44
-          ],
-          [
-            11.96,
-            -86.94
+            11.81,
+            -86.58
           ]
         ]
       ]
