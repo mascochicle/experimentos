@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-07T02:12:12.083Z",
+  "generado": "2026-11-07T08:58:53.293Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 1,
   "tormentas": [
@@ -8,13 +8,13 @@
       "nombre": "Pena",
       "clasificacion": "TS",
       "cuenca": "CP4",
-      "intensidadKt": 40,
-      "presionMb": 1002,
-      "lat": 11.3,
-      "lon": -150.1,
-      "rumboGrados": 280,
+      "intensidadKt": 45,
+      "presionMb": 1000,
+      "lat": 11.4,
+      "lon": -152.4,
+      "rumboGrados": 275,
       "velocidadKt": 12,
-      "actualizado": "2026-11-06T21:00:00.000Z",
+      "actualizado": "2026-11-07T09:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP4.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_cp4.shtml"
     }
