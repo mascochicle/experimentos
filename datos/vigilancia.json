@@ -1,243 +1,114 @@
 {
-  "generado": "2026-11-06T22:29:37.473Z",
+  "generado": "2026-11-07T02:12:12.303Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 3,
+  "total": 2,
   "cuencasSinFormacion": [],
   "zonas": [
     {
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
-      "titulo": "Pacífico central (este) · CP95",
-      "tituloOriginal": "Eastern Central Pacific (CP95)",
-      "descripcion": "Showers and thunderstorms associated with a trough of low pressure located several hundred miles to the southeast of the Big Island of Hawaii continue to become better organized. However, recent satellite wind data indicate the system still lacks a well-defined center. Environmental conditions are conducive for additional development, and a tropical depression is expected to develop either later today or on Saturday. The system is forecast to move west-northwestward to westward at 10 to 15 mph, passing well south of the Hawaiian Islands.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 90,
-      "riesgo2dias": "alto",
-      "prob7dias": 90,
-      "riesgo7dias": "alto",
-      "centro": [
-        11.666,
-        -149.919
-      ],
-      "anillos": [
-        [
-          [
-            14.79,
-            -151.29
-          ],
-          [
-            15.01,
-            -154.39
-          ],
-          [
-            14.89,
-            -156.87
-          ],
-          [
-            14.62,
-            -158.02
-          ],
-          [
-            14.34,
-            -158.65
-          ],
-          [
-            13.91,
-            -159.25
-          ],
-          [
-            13.43,
-            -159.62
-          ],
-          [
-            12.76,
-            -159.84
-          ],
-          [
-            11.87,
-            -159.77
-          ],
-          [
-            10.88,
-            -159.31
-          ],
-          [
-            10.21,
-            -158.66
-          ],
-          [
-            9.84,
-            -158.02
-          ],
-          [
-            9.52,
-            -156.85
-          ],
-          [
-            9.29,
-            -154.08
-          ],
-          [
-            9.13,
-            -151.33
-          ],
-          [
-            9.13,
-            -150.56
-          ],
-          [
-            9.25,
-            -149.65
-          ],
-          [
-            9.64,
-            -148.89
-          ],
-          [
-            10,
-            -148.57
-          ],
-          [
-            10.61,
-            -148.2
-          ],
-          [
-            11.22,
-            -147.96
-          ],
-          [
-            11.78,
-            -147.92
-          ],
-          [
-            12.47,
-            -148.12
-          ],
-          [
-            13.13,
-            -148.5
-          ],
-          [
-            13.73,
-            -148.99
-          ],
-          [
-            14.28,
-            -149.62
-          ],
-          [
-            14.63,
-            -150.39
-          ],
-          [
-            14.79,
-            -151.29
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Pacific",
-      "cuencaEs": "Pacífico oriental",
-      "numero": "2",
       "titulo": "Pacífico oriental (este)",
       "tituloOriginal": "Eastern East Pacific",
-      "descripcion": "A broad area of low pressure located offshore of Central America is producing disorganized showers and thunderstorms. Recent satellite wind data indicate this system has a weak and elongated circulation. Environmental conditions are forecast to become increasingly hostile over the weekend, and the chances for further development are decreasing. However, this system could still bring areas of heavy rain to portions of Central America through the weekend.",
+      "descripcion": "A broad area of low pressure located offshore of Central America continues to produce a large area of showers and thunderstorms. Environmental conditions are marginally conducive for further development through the weekend, but strong upper-level winds are forecast to end formation chances early next week. However, this system is expected to bring areas of heavy rain to portions of Central America through the weekend.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 30,
       "riesgo2dias": "bajo",
       "prob7dias": 30,
       "riesgo7dias": "bajo",
       "centro": [
-        10.159,
-        -89.69
+        10.146,
+        -89.293
       ],
       "anillos": [
         [
           [
-            11.81,
-            -86.58
+            12.11,
+            -86.81
           ],
           [
-            12.05,
-            -86.9
+            12.6,
+            -87.55
           ],
           [
-            12.34,
-            -87.53
+            12.74,
+            -88.15
           ],
           [
-            12.5,
-            -88.55
+            12.75,
+            -88.6
           ],
           [
-            12.29,
-            -89.74
+            12.47,
+            -89.83
           ],
           [
-            11.79,
-            -90.85
+            11.8,
+            -91.1
           ],
           [
-            11.13,
-            -91.72
+            11.16,
+            -91.73
           ],
           [
-            10.46,
-            -92.04
+            10.4,
+            -92.06
           ],
           [
-            9.91,
-            -92.09
+            9.84,
+            -92.1
           ],
           [
-            9.27,
-            -91.98
+            9.3,
+            -92
           ],
           [
-            8.98,
-            -91.83
+            9.03,
+            -91.86
           ],
           [
             8.8,
-            -91.57
+            -91.56
           ],
           [
-            8.57,
-            -90.27
+            8.54,
+            -90.01
           ],
           [
-            8.48,
-            -88.47
+            8.49,
+            -88.29
           ],
           [
-            8.59,
-            -87.52
+            8.72,
+            -87.11
           ],
           [
-            8.91,
-            -86.72
+            9.11,
+            -86.39
           ],
           [
-            9.47,
+            9.63,
+            -85.97
+          ],
+          [
+            10.05,
+            -85.86
+          ],
+          [
+            10.35,
+            -85.87
+          ],
+          [
+            11.19,
             -86.14
           ],
           [
-            10.18,
-            -85.9
+            11.69,
+            -86.44
           ],
           [
-            10.67,
-            -85.93
-          ],
-          [
-            11.11,
-            -86.07
-          ],
-          [
-            11.81,
-            -86.58
+            12.11,
+            -86.81
           ]
         ]
       ]
@@ -248,7 +119,7 @@
       "numero": "1",
       "titulo": "Atlántico (oeste y centro) · AL94",
       "tituloOriginal": "Western and Central Atlantic (AL94)",
-      "descripcion": "A non-tropical low pressure area located several hundred miles south of Bermuda is producing limited shower activity. The chances of this low acquiring subtropical characteristics are decreasing due to strong upper-level winds that are expected to persist over the system into the weekend. The low is forecast to move generally eastward over the western and central subtropical Atlantic during the next couple of days and become absorbed by a new non-tropical low pressure system to its east later this weekend. Regardless, gale-force winds are likely over parts of the central subtropical Atlantic through the weekend. For more information, including Gale Warnings, see High Seas Forecasts issued by the National Weather Service.",
+      "descripcion": "A non-tropical low pressure area located several hundred miles south of Bermuda is producing disorganized showers and thunderstorms. The low could still acquire some subtropical characteristics through Saturday before upper-level winds increase on Sunday. The low is forecast to move generally eastward over the western and central subtropical Atlantic during the next couple of days and become absorbed by a new non-tropical low pressure system to its east early next week. Regardless, gale-force winds are likely over parts of the central subtropical Atlantic through the weekend. For more information, including Gale Warnings, see High Seas Forecasts issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
