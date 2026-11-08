@@ -1,8 +1,10 @@
 {
-  "generado": "2026-11-08T02:35:00.044Z",
+  "generado": "2026-11-08T09:40:26.616Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 2,
-  "cuencasSinFormacion": [],
+  "total": 1,
+  "cuencasSinFormacion": [
+    "Atlántico"
+  ],
   "zonas": [
     {
       "cuenca": "Pacific",
@@ -10,15 +12,15 @@
       "numero": "1",
       "titulo": "Pacífico oriental (este)",
       "tituloOriginal": "Eastern East Pacific",
-      "descripcion": "A broad area of low pressure is producing disorganized showers and thunderstorms. Some development is possible over the next day or so while the system drifts northward. Regardless of development, this system is expected to bring areas of heavy rain to portions of Central America this weekend. Thereafter, unfavorable environmental conditions should end formation chances early next week as the system turns westward and moves away from land.",
+      "descripcion": "An area of low pressure located just offshore of Costa Rica and Nicaragua continues to produce disorganized shower and thunderstorm activity. Some development of this system is possible over the next day or so while the system drifts slowly northwestward. Thereafter, environmental conditions are forecast to become unfavorable for additional development as the system turns westward away from land. Regardless of development, this system is expected to bring areas of heavy rain to portions of Central America over the remainder of this weekend.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 20,
       "riesgo2dias": "bajo",
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        10.733,
-        -86.723
+        10.855,
+        -86.936
       ],
       "anillos": [
         [
@@ -27,149 +29,88 @@
             -86.4
           ],
           [
-            12.01,
-            -86.79
+            12.28,
+            -87.16
           ],
           [
-            12.22,
-            -87.18
+            12.7,
+            -87.95
           ],
           [
-            12.58,
-            -88.49
+            13.46,
+            -90.07
           ],
           [
-            12.62,
-            -89.54
+            13.65,
+            -90.89
           ],
           [
-            12.4,
-            -90.56
+            13.65,
+            -91.61
           ],
           [
-            11.94,
-            -91.45
+            13.45,
+            -92.13
           ],
           [
-            11.61,
-            -91.81
+            13.02,
+            -92.6
           ],
           [
-            11.32,
-            -92
+            12.52,
+            -92.89
           ],
           [
-            10.94,
-            -92.14
+            12.12,
+            -93.04
           ],
           [
-            10.47,
-            -92.19
+            11.7,
+            -93.07
           ],
           [
-            9.61,
-            -92
+            11.29,
+            -92.92
           ],
           [
-            9.17,
-            -91.71
+            11.02,
+            -92.66
           ],
           [
-            8.89,
-            -91.38
+            10.68,
+            -92.01
           ],
           [
-            8.6,
-            -90.81
+            10.44,
+            -91.28
           ],
           [
-            8.35,
-            -89.97
+            10.02,
+            -89.25
           ],
           [
-            8.23,
-            -88.34
+            9.92,
+            -87.17
           ],
           [
-            8.31,
-            -87.62
+            10.11,
+            -86.18
           ],
           [
-            8.51,
-            -86.9
+            10.3,
+            -85.94
           ],
           [
-            8.77,
-            -86.42
+            10.66,
+            -85.85
           ],
           [
-            9.06,
-            -86.1
-          ],
-          [
-            9.46,
-            -85.84
-          ],
-          [
-            9.91,
-            -85.72
-          ],
-          [
-            10.34,
-            -85.73
-          ],
-          [
-            10.82,
-            -85.86
-          ],
-          [
-            11.28,
-            -86.09
+            11.14,
+            -86
           ],
           [
             11.67,
             -86.4
-          ]
-        ]
-      ]
-    },
-    {
-      "cuenca": "Atlantic",
-      "cuencaEs": "Atlántico",
-      "numero": "1",
-      "titulo": "Atlántico (oeste y centro) · AL94",
-      "tituloOriginal": "Western and Central Atlantic (AL94)",
-      "descripcion": "A broad, non-tropical low pressure system located several hundred miles south-southeast of Bermuda is producing disorganized showers and thunderstorms to the east of its center. The system remains in close proximity to fronts, and recent satellite images indicate the circulation of the low has become less defined today. Subtropical development of this system is not expected while it moves generally eastward and merges with a frontal system over the next day or two. For more information, including Gale Warnings, see High Seas Forecasts issued by the National Weather Service.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 0,
-      "riesgo2dias": "nearzero",
-      "prob7dias": 0,
-      "riesgo7dias": "nearzero",
-      "centro": [
-        26.477,
-        -59.843
-      ],
-      "anillos": [
-        [
-          [
-            26.58,
-            -59.94
-          ],
-          [
-            26.58,
-            -59.74
-          ],
-          [
-            26.38,
-            -59.94
-          ],
-          [
-            26.37,
-            -59.74
-          ],
-          [
-            26.58,
-            -59.94
           ]
         ]
       ]
