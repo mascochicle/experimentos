@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-08T09:40:26.339Z",
+  "generado": "2026-11-08T16:26:41.750Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
   "total": 1,
   "tormentas": [
@@ -10,11 +10,11 @@
       "cuenca": "CP4",
       "intensidadKt": 40,
       "presionMb": 1002,
-      "lat": 11.5,
-      "lon": -155,
-      "rumboGrados": 270,
-      "velocidadKt": 7,
-      "actualizado": "2026-11-08T09:00:00.000Z",
+      "lat": 11.6,
+      "lon": -156.1,
+      "rumboGrados": 275,
+      "velocidadKt": 8,
+      "actualizado": "2026-11-08T15:00:00.000Z",
       "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP4.shtml",
       "graficas": "https://www.nhc.noaa.gov/graphics_cp4.shtml"
     }

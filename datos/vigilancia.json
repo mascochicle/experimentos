@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-08T09:40:26.616Z",
+  "generado": "2026-11-08T16:26:41.945Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,105 +12,105 @@
       "numero": "1",
       "titulo": "Pacífico oriental (este)",
       "tituloOriginal": "Eastern East Pacific",
-      "descripcion": "An area of low pressure located just offshore of Costa Rica and Nicaragua continues to produce disorganized shower and thunderstorm activity. Some development of this system is possible over the next day or so while the system drifts slowly northwestward. Thereafter, environmental conditions are forecast to become unfavorable for additional development as the system turns westward away from land. Regardless of development, this system is expected to bring areas of heavy rain to portions of Central America over the remainder of this weekend.",
+      "descripcion": "An area of low pressure located just offshore of Nicaragua continues to produce disorganized shower and thunderstorm activity. Some development of this system is possible over the next day or so while the system drifts slowly northwestward. Thereafter, environmental conditions are forecast to become unfavorable for additional development as the system turns westward away from land. Regardless of development, this system is expected to bring areas of heavy rain to portions of Central America through tonight.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 20,
       "riesgo2dias": "bajo",
       "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        10.855,
-        -86.936
+        10.926,
+        -87.151
       ],
       "anillos": [
         [
           [
-            11.67,
-            -86.4
+            11.71,
+            -86.77
           ],
           [
-            12.28,
-            -87.16
+            12.34,
+            -87.44
           ],
           [
-            12.7,
-            -87.95
+            12.94,
+            -88.39
           ],
           [
-            13.46,
-            -90.07
+            13.24,
+            -89.05
           ],
           [
-            13.65,
-            -90.89
+            13.43,
+            -89.97
           ],
           [
-            13.65,
-            -91.61
+            13.42,
+            -90.67
           ],
           [
-            13.45,
-            -92.13
+            13.25,
+            -91.19
           ],
           [
-            13.02,
-            -92.6
+            12.72,
+            -91.76
           ],
           [
-            12.52,
-            -92.89
+            12.11,
+            -92.07
           ],
           [
-            12.12,
-            -93.04
+            11.69,
+            -92.12
           ],
           [
-            11.7,
-            -93.07
+            11.37,
+            -92.03
           ],
           [
-            11.29,
-            -92.92
+            11.04,
+            -91.78
           ],
           [
-            11.02,
-            -92.66
+            10.77,
+            -91.41
           ],
           [
-            10.68,
-            -92.01
+            10.31,
+            -90.1
           ],
           [
-            10.44,
-            -91.28
+            10.08,
+            -88.49
           ],
           [
-            10.02,
-            -89.25
+            10.08,
+            -87.5
           ],
           [
-            9.92,
-            -87.17
+            10.15,
+            -87.14
           ],
           [
-            10.11,
-            -86.18
+            10.33,
+            -86.81
           ],
           [
-            10.3,
-            -85.94
+            10.59,
+            -86.64
           ],
           [
-            10.66,
-            -85.85
+            10.94,
+            -86.55
           ],
           [
-            11.14,
-            -86
+            11.33,
+            -86.58
           ],
           [
-            11.67,
-            -86.4
+            11.71,
+            -86.77
           ]
         ]
       ]
