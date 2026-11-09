@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-08T20:39:36.895Z",
+  "generado": "2026-11-09T00:15:22.733Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "Pacífico oriental (este) · EP96",
       "tituloOriginal": "Eastern East Pacific (EP96)",
-      "descripcion": "An area of low pressure located just offshore of Nicaragua continues to produce disorganized shower and thunderstorm activity. Some development of this system is possible through early Monday while the system drifts slowly northwestward. Thereafter, environmental conditions are forecast to become unfavorable for additional development as the system turns westward away from land. Regardless of development, this system is expected to bring areas of heavy rain to portions of Central America through tonight.",
+      "descripcion": "An area of low pressure located just offshore of Nicaragua has been producing increasingly organized shower and thunderstorm activity over the past several hours. Some additional development of this system is possible through early Monday while it drifts slowly northwestward. Thereafter, environmental conditions are forecast to become unfavorable for further development as the system turns westward away from land. Regardless of development, this system is expected to bring periods of heavy rain to portions of Central America through tonight.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 20,
+      "prob2dias": 30,
       "riesgo2dias": "bajo",
-      "prob7dias": 20,
+      "prob7dias": 30,
       "riesgo7dias": "bajo",
       "centro": [
-        10.874,
-        -87.524
+        11.361,
+        -87.543
       ],
       "anillos": [
         [
@@ -29,8 +29,8 @@
             -86.77
           ],
           [
-            12.34,
-            -87.44
+            12.2,
+            -87.24
           ],
           [
             12.94,
@@ -45,64 +45,64 @@
             -89.97
           ],
           [
-            13.42,
-            -90.67
+            13.41,
+            -90.74
           ],
           [
             13.25,
             -91.19
           ],
           [
-            12.72,
-            -91.76
+            12.79,
+            -91.7
           ],
           [
             12.11,
             -92.07
           ],
           [
-            11.69,
-            -92.12
+            11.84,
+            -92.13
           ],
           [
-            11.37,
-            -92.03
+            11.44,
+            -92.08
           ],
           [
-            11.13,
-            -91.87
+            10.94,
+            -91.66
           ],
           [
-            10.79,
-            -91.46
+            10.44,
+            -90.57
           ],
           [
-            10.36,
-            -90.34
+            10.15,
+            -89.2
           ],
           [
-            10.17,
-            -89.04
+            10.14,
+            -88.07
           ],
           [
-            10.16,
-            -87.57
+            10.23,
+            -87.6
           ],
           [
-            10.35,
-            -86.84
+            10.47,
+            -87.07
           ],
           [
-            10.59,
-            -86.64
+            10.74,
+            -86.79
           ],
           [
-            10.92,
-            -86.55
+            11.11,
+            -86.63
           ],
           [
             11.36,
-            -86.59
+            -86.63
           ],
           [
             11.71,
