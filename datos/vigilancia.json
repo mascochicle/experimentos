@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-09T06:56:26.946Z",
+  "generado": "2026-11-09T17:01:01.377Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,89 +12,81 @@
       "numero": "1",
       "titulo": "Pacífico oriental (este) · EP96",
       "tituloOriginal": "Eastern East Pacific (EP96)",
-      "descripcion": "Recent satellite wind data indicates that a small area of low pressure located more than one hundred miles offshore of Nicaragua and El Salvador has a well-defined circulation and is producing winds of 30-35 mph near its center. However, the associated shower and thunderstorm activity has become less organized near its center. Environmental conditions are forecast to become less favorable for additional development over the next several days as the system moves westward or west-southwestward away from land, and the chances of it becoming a short-lived tropical cyclone are decreasing. Regardless, this system is expected to bring periods of heavy rain to portions of Central America over the next day or so.",
+      "descripcion": "Shower and thunderstorm activity has diminished near the small area of low pressure located several hundred miles offshore of El Salvador and Nicaragua. Environmental conditions are expected to remain unfavorable for development over the next several days as the system drifts westward or west-southwestward away from land, and the chances of it becoming a short-lived tropical cyclone are decreasing.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 20,
+      "prob2dias": 10,
       "riesgo2dias": "bajo",
-      "prob7dias": 20,
+      "prob7dias": 10,
       "riesgo7dias": "bajo",
       "centro": [
-        11.13,
-        -88.947
+        10.52,
+        -89.708
       ],
       "anillos": [
         [
           [
-            12.1,
-            -87.99
+            11.03,
+            -90.61
           ],
           [
-            12.34,
-            -88.19
+            10.87,
+            -90.99
           ],
           [
-            12.47,
-            -88.65
+            10.57,
+            -91.22
           ],
           [
-            12.46,
+            10.23,
+            -91.27
+          ],
+          [
+            9.83,
+            -91.15
+          ],
+          [
+            9.66,
+            -90.89
+          ],
+          [
+            9.58,
+            -90.52
+          ],
+          [
+            9.61,
+            -90.04
+          ],
+          [
+            9.74,
+            -89.67
+          ],
+          [
+            9.97,
+            -89.32
+          ],
+          [
+            10.19,
+            -89.16
+          ],
+          [
+            10.52,
+            -89.1
+          ],
+          [
+            10.88,
             -89.24
           ],
           [
-            12.31,
-            -90.09
+            11.05,
+            -89.43
           ],
           [
-            12.07,
-            -90.66
+            11.13,
+            -89.72
           ],
           [
-            11.64,
-            -91.32
-          ],
-          [
-            11.22,
-            -91.68
-          ],
-          [
-            10.83,
-            -91.82
-          ],
-          [
-            10.34,
-            -91.73
-          ],
-          [
-            10.15,
-            -91.58
-          ],
-          [
-            9.98,
-            -91.29
-          ],
-          [
-            9.91,
-            -90.45
-          ],
-          [
-            10.12,
-            -89.41
-          ],
-          [
-            10.43,
-            -88.71
-          ],
-          [
-            10.8,
-            -88.3
-          ],
-          [
-            11.52,
-            -87.99
-          ],
-          [
-            12.1,
-            -87.99
+            11.03,
+            -90.61
           ]
         ]
       ]
