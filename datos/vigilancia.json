@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-09T00:15:22.733Z",
+  "generado": "2026-11-09T06:56:26.946Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,101 +12,89 @@
       "numero": "1",
       "titulo": "Pacífico oriental (este) · EP96",
       "tituloOriginal": "Eastern East Pacific (EP96)",
-      "descripcion": "An area of low pressure located just offshore of Nicaragua has been producing increasingly organized shower and thunderstorm activity over the past several hours. Some additional development of this system is possible through early Monday while it drifts slowly northwestward. Thereafter, environmental conditions are forecast to become unfavorable for further development as the system turns westward away from land. Regardless of development, this system is expected to bring periods of heavy rain to portions of Central America through tonight.",
+      "descripcion": "Recent satellite wind data indicates that a small area of low pressure located more than one hundred miles offshore of Nicaragua and El Salvador has a well-defined circulation and is producing winds of 30-35 mph near its center. However, the associated shower and thunderstorm activity has become less organized near its center. Environmental conditions are forecast to become less favorable for additional development over the next several days as the system moves westward or west-southwestward away from land, and the chances of it becoming a short-lived tropical cyclone are decreasing. Regardless, this system is expected to bring periods of heavy rain to portions of Central America over the next day or so.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 30,
+      "prob2dias": 20,
       "riesgo2dias": "bajo",
-      "prob7dias": 30,
+      "prob7dias": 20,
       "riesgo7dias": "bajo",
       "centro": [
-        11.361,
-        -87.543
+        11.13,
+        -88.947
       ],
       "anillos": [
         [
           [
-            11.71,
-            -86.77
+            12.1,
+            -87.99
           ],
           [
-            12.2,
-            -87.24
+            12.34,
+            -88.19
           ],
           [
-            12.94,
-            -88.39
+            12.47,
+            -88.65
           ],
           [
-            13.24,
-            -89.05
+            12.46,
+            -89.24
           ],
           [
-            13.43,
-            -89.97
+            12.31,
+            -90.09
           ],
           [
-            13.41,
-            -90.74
+            12.07,
+            -90.66
           ],
           [
-            13.25,
-            -91.19
+            11.64,
+            -91.32
           ],
           [
-            12.79,
-            -91.7
+            11.22,
+            -91.68
           ],
           [
-            12.11,
-            -92.07
+            10.83,
+            -91.82
           ],
           [
-            11.84,
-            -92.13
-          ],
-          [
-            11.44,
-            -92.08
-          ],
-          [
-            10.94,
-            -91.66
-          ],
-          [
-            10.44,
-            -90.57
+            10.34,
+            -91.73
           ],
           [
             10.15,
-            -89.2
+            -91.58
           ],
           [
-            10.14,
-            -88.07
+            9.98,
+            -91.29
           ],
           [
-            10.23,
-            -87.6
+            9.91,
+            -90.45
           ],
           [
-            10.47,
-            -87.07
+            10.12,
+            -89.41
           ],
           [
-            10.74,
-            -86.79
+            10.43,
+            -88.71
           ],
           [
-            11.11,
-            -86.63
+            10.8,
+            -88.3
           ],
           [
-            11.36,
-            -86.63
+            11.52,
+            -87.99
           ],
           [
-            11.71,
-            -86.77
+            12.1,
+            -87.99
           ]
         ]
       ]
