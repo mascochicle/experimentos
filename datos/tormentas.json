@@ -1,22 +1,6 @@
 {
-  "generado": "2026-11-12T20:11:42.469Z",
+  "generado": "2026-11-13T01:15:22.196Z",
   "fuente": "https://www.nhc.noaa.gov/CurrentStorms.json",
-  "total": 1,
-  "tormentas": [
-    {
-      "id": "cp042026",
-      "nombre": "Pena",
-      "clasificacion": "PTC",
-      "cuenca": "CP4",
-      "intensidadKt": 30,
-      "presionMb": 1006,
-      "lat": 9.8,
-      "lon": -173.4,
-      "rumboGrados": 270,
-      "velocidadKt": 18,
-      "actualizado": "2026-11-12T15:00:00.000Z",
-      "avisoPublico": "https://www.nhc.noaa.gov/text/HFOTCPCP4.shtml",
-      "graficas": "https://www.nhc.noaa.gov/graphics_cp4.shtml"
-    }
-  ]
+  "total": 0,
+  "tormentas": []
 }
