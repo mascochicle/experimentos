@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-13T08:15:46.843Z",
+  "generado": "2026-11-13T16:35:42.635Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "-Southwest of the Hawaiian Islands (extremo oeste) · Remnants of Pena",
       "tituloOriginal": "Well West-Southwest of the Hawaiian Islands (Remnants of Pena)",
-      "descripcion": "Showers and thunderstorms have increased somewhat in association with the remnants of Tropical Storm Pena. However, recent satellite-derived wind data indicate that the system lacks a well-defined circulation. Environmental conditions appear only marginally conducive for some redevelopment before the system moves westward across the International Date Line on Friday.",
+      "descripcion": "Showers and thunderstorms remain disorganized in association with the remnants of Pena. In addition, the system still lacks a well-defined circulation, and environmental conditions are only marginally conducive for redevelopment. The system is expected to continue moving westward, crossing the International Date Line later today.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
       "prob7dias": 10,
       "riesgo7dias": "bajo",
       "centro": [
-        9.96,
-        -177.34
+        10.323,
+        -179.147
       ],
       "anillos": [
         [
@@ -29,88 +29,76 @@
             177
           ],
           [
-            11.67,
-            178.08
+            11.65,
+            177.72
           ],
           [
-            11.74,
+            11.66,
+            178.72
+          ],
+          [
+            11.39,
+            180.01
+          ],
+          [
+            10.9,
+            181.22
+          ],
+          [
+            10.52,
+            181.74
+          ],
+          [
+            10.09,
+            181.9
+          ],
+          [
+            9.67,
+            181.67
+          ],
+          [
+            9.25,
+            181.13
+          ],
+          [
+            8.64,
             179.98
           ],
           [
-            11.53,
-            181.87
+            8.28,
+            178.91
           ],
           [
-            11.1,
-            183.65
+            8.16,
+            177.76
           ],
           [
-            10.64,
-            184.63
+            8.34,
+            177.1
           ],
           [
-            10.33,
-            184.96
+            8.63,
+            176.74
           ],
           [
-            10.08,
-            185.06
+            8.9,
+            176.55
           ],
           [
-            9.79,
-            185
+            9.39,
+            176.36
           ],
           [
-            9.52,
-            184.79
+            9.83,
+            176.3
           ],
           [
-            8.99,
-            183.86
+            10.7,
+            176.45
           ],
           [
-            8.52,
-            182.4
-          ],
-          [
-            8.17,
-            180.43
-          ],
-          [
-            8.09,
-            178.46
-          ],
-          [
-            8.32,
-            177.15
-          ],
-          [
-            8.65,
-            176.49
-          ],
-          [
-            8.96,
-            176.15
-          ],
-          [
-            9.36,
-            175.91
-          ],
-          [
-            9.75,
-            175.81
-          ],
-          [
-            10.23,
-            175.85
-          ],
-          [
-            10.65,
-            176.05
-          ],
-          [
-            11.1,
-            176.48
+            11.07,
+            176.66
           ],
           [
             11.39,
