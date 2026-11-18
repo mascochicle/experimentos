@@ -1,9 +1,8 @@
 {
-  "generado": "2026-11-18T17:23:20.313Z",
+  "generado": "2026-11-18T23:27:18.272Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
-    "Atlántico",
     "Pacífico oriental"
   ],
   "zonas": [
@@ -11,14 +10,14 @@
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
       "numero": "1",
-      "titulo": "Área 1",
-      "tituloOriginal": null,
-      "descripcion": null,
+      "titulo": "Off the Southeast U.S. Coast",
+      "tituloOriginal": "Off the Southeast U.S. Coast",
+      "descripcion": "A non-tropical low pressure system is expected to form near the northern Bahamas by late Friday. This system could become a subtropical or tropical storm while it moves northward or northeastward near or offshore of the southeastern U.S. coast through the weekend. Regardless of development, strong winds, dangerous surf, and coastal flooding are likely along portions of the southeast and mid-Atlantic coasts into early next week. Interests along the eastern U.S. coast should monitor the progress of this system.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 20,
-      "riesgo7dias": "bajo",
+      "prob7dias": 40,
+      "riesgo7dias": "medio",
       "centro": [
         33.391,
         -74.322
