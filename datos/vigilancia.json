@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-19T13:38:20.344Z",
+  "generado": "2026-11-19T21:54:46.143Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "Frente a Southeast U.S. Coast",
       "tituloOriginal": "Offshore of the Southeast U.S. Coast",
-      "descripcion": "Disorganized showers and thunderstorms near the northwestern Bahamas and Florida are associated with a frontal system. A non-tropical low pressure system is expected to form along the front near the northwest Bahamas on Friday. This system could become a subtropical or tropical storm while it moves northward or northeastward near or just offshore of the southeastern U.S. coast through the weekend. Regardless of development, strong winds, dangerous surf, and coastal flooding are likely along portions of the southeast and mid-Atlantic coasts into early next week. Interests along the eastern U.S. coast should monitor the progress of this system.",
+      "descripcion": "Disorganized showers and thunderstorms extending over portions of the Bahamas and Florida are associated with a frontal system. A non-tropical low pressure system is expected to form along the front east of the Florida peninsula on Friday. This system could become a subtropical or tropical storm while it moves northward or north-northeastward near or just offshore of the southeastern U.S. coast through the weekend. Regardless of development, strong winds, dangerous surf, and coastal flooding are likely along portions of the southeast and mid-Atlantic coasts into early next week. Heavy rain and flash flooding will continue for portions of the Florida peninsula through Friday, potentially spreading toward coastal portions of the Carolinas and mid-Atlantic into this weekend. Interests along the eastern U.S. coast should monitor the progress of this system. For more information on this system, including Gale Warnings, please see High Seas Forecasts issued by the National Weather Service.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
-      "prob2dias": 20,
+      "prob2dias": 30,
       "riesgo2dias": "bajo",
       "prob7dias": 60,
       "riesgo7dias": "medio",
       "centro": [
-        25.499,
-        -78.6
+        25.998,
+        -78.504
       ],
       "anillos": [
         [
