@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-18T23:27:18.272Z",
+  "generado": "2026-11-19T04:20:00.089Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -10,143 +10,155 @@
       "cuenca": "Atlantic",
       "cuencaEs": "Atlántico",
       "numero": "1",
-      "titulo": "Off the Southeast U.S. Coast",
-      "tituloOriginal": "Off the Southeast U.S. Coast",
+      "titulo": "Offshore the Southeast U.S. Coast",
+      "tituloOriginal": "Offshore the Southeast U.S. Coast",
       "descripcion": "A non-tropical low pressure system is expected to form near the northern Bahamas by late Friday. This system could become a subtropical or tropical storm while it moves northward or northeastward near or offshore of the southeastern U.S. coast through the weekend. Regardless of development, strong winds, dangerous surf, and coastal flooding are likely along portions of the southeast and mid-Atlantic coasts into early next week. Interests along the eastern U.S. coast should monitor the progress of this system.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "bajo",
-      "prob7dias": 40,
+      "prob7dias": 50,
       "riesgo7dias": "medio",
       "centro": [
-        33.391,
-        -74.322
+        33.142,
+        -74.63
       ],
       "anillos": [
         [
           [
-            33.27,
-            -77.24
+            31.38,
+            -79.83
           ],
           [
-            34.48,
-            -75.7
+            31.87,
+            -79.42
           ],
           [
-            35.39,
-            -74.76
+            32.44,
+            -78.57
           ],
           [
-            36.13,
-            -74.26
+            33.18,
+            -77.73
+          ],
+          [
+            34.01,
+            -76.16
+          ],
+          [
+            34.45,
+            -75.54
+          ],
+          [
+            35.07,
+            -75.06
+          ],
+          [
+            36.94,
+            -74.29
+          ],
+          [
+            37.4,
+            -73.92
           ],
           [
             37.76,
-            -73.52
+            -73.39
           ],
           [
-            38.27,
-            -73.17
+            37.95,
+            -72.82
           ],
           [
-            38.62,
-            -72.7
+            38.05,
+            -72.16
           ],
           [
-            38.75,
-            -72.07
+            37.97,
+            -70.72
           ],
           [
-            38.6,
-            -71.07
-          ],
-          [
-            38.17,
+            37.79,
             -70.04
           ],
           [
-            37.55,
-            -69.19
+            37.53,
+            -69.46
           ],
           [
-            36.91,
-            -68.72
+            37.18,
+            -69.01
           ],
           [
-            36.22,
-            -68.62
+            36.86,
+            -68.8
           ],
           [
-            35.59,
-            -68.78
+            36.36,
+            -68.7
           ],
           [
-            34.55,
-            -69.38
+            35.95,
+            -68.74
           ],
           [
-            33.54,
-            -70.15
+            34.88,
+            -69.16
           ],
           [
-            32.06,
-            -71.38
+            33.45,
+            -70.1
           ],
           [
-            30.94,
-            -72.48
+            31.89,
+            -71.36
           ],
           [
-            30.19,
-            -73.37
+            30.37,
+            -72.78
           ],
           [
-            29.47,
-            -74.47
+            29.62,
+            -73.64
           ],
           [
-            28.96,
-            -75.51
+            28.44,
+            -75.32
           ],
           [
-            28.47,
-            -77.03
+            27.83,
+            -76.45
           ],
           [
-            28.35,
-            -77.83
+            27.47,
+            -77.4
           ],
           [
-            28.45,
+            27.35,
+            -78.36
+          ],
+          [
+            27.45,
             -78.85
           ],
           [
-            28.73,
-            -79.36
+            27.84,
+            -79.48
           ],
           [
-            29.21,
-            -79.7
+            28.6,
+            -79.99
           ],
           [
-            29.82,
-            -79.78
+            29.58,
+            -80.21
           ],
           [
-            30.36,
-            -79.66
+            30.54,
+            -80.14
           ],
           [
-            31.18,
-            -79.23
-          ],
-          [
-            31.85,
-            -78.71
-          ],
-          [
-            33.27,
-            -77.24
+            31.38,
+            -79.83
           ]
         ]
       ]
