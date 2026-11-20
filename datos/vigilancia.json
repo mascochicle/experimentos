@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-19T21:54:46.143Z",
+  "generado": "2026-11-20T02:44:07.110Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "Frente a Southeast U.S. Coast",
       "tituloOriginal": "Offshore of the Southeast U.S. Coast",
-      "descripcion": "Disorganized showers and thunderstorms extending over portions of the Bahamas and Florida are associated with a frontal system. A non-tropical low pressure system is expected to form along the front east of the Florida peninsula on Friday. This system could become a subtropical or tropical storm while it moves northward or north-northeastward near or just offshore of the southeastern U.S. coast through the weekend. Regardless of development, strong winds, dangerous surf, and coastal flooding are likely along portions of the southeast and mid-Atlantic coasts into early next week. Heavy rain and flash flooding will continue for portions of the Florida peninsula through Friday, potentially spreading toward coastal portions of the Carolinas and mid-Atlantic into this weekend. Interests along the eastern U.S. coast should monitor the progress of this system. For more information on this system, including Gale Warnings, please see High Seas Forecasts issued by the National Weather Service.",
+      "descripcion": "Disorganized showers and thunderstorms extending across portions of the Florida peninsula and the Bahamas are associated with a frontal boundary. A non-tropical area of low pressure is forecast to form along this boundary just east of the Florida peninsula, or over the northern Bahamas, on Friday. This system could acquire subtropical or tropical characteristics while it moves generally northward to north-northeastward near or just offshore of the southeastern United States coast through the weekend. 1. Regardless of tropical or subtropical development, the system is expected to produce strong, gusty winds, dangerous surf, rip currents and coastal flooding along portions of the southeast and mid-Atlantic U.S. coasts into early next week. In addition, heavy rainfall and the threat of flash flooding will continue across portions of the Florida peninsula through Friday, potentially spreading northward toward coastal portions of the Carolinas and the mid-Atlantic over the weekend. Interests along the eastern coast of the United States should continue to monitor the progress of this system. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 30,
       "riesgo2dias": "bajo",
       "prob7dias": 60,
       "riesgo7dias": "medio",
       "centro": [
-        25.998,
-        -78.504
+        26.378,
+        -78.478
       ],
       "anillos": [
         [
@@ -29,24 +29,24 @@
             -80.74
           ],
           [
-            31.43,
-            -80.38
+            31.38,
+            -80.44
           ],
           [
-            31.86,
-            -79.88
+            31.75,
+            -80.03
           ],
           [
-            34.84,
-            -75.63
+            34.89,
+            -75.58
           ],
           [
             35.45,
             -75.16
           ],
           [
-            36.51,
-            -74.68
+            36.57,
+            -74.63
           ],
           [
             36.9,
@@ -57,12 +57,12 @@
             -73.87
           ],
           [
-            37.46,
-            -72.6
+            37.44,
+            -72.76
           ],
           [
-            37.41,
-            -70.85
+            37.43,
+            -71.02
           ],
           [
             37.1,
@@ -77,68 +77,76 @@
             -69.1
           ],
           [
-            36.22,
+            36.23,
             -68.99
           ],
           [
-            35.86,
-            -68.98
+            35.74,
+            -68.99
           ],
           [
-            34.75,
-            -69.34
+            34.91,
+            -69.27
           ],
           [
-            33.26,
-            -70.28
+            33.72,
+            -69.96
           ],
           [
-            31.56,
-            -71.61
+            31.9,
+            -71.32
           ],
           [
-            30.41,
-            -72.69
+            30.76,
+            -72.3
           ],
           [
-            29.54,
-            -73.73
+            29.88,
+            -73.25
           ],
           [
-            28.56,
-            -75.18
+            29,
+            -74.55
           ],
           [
-            27.85,
-            -76.48
+            28.44,
+            -75.63
           ],
           [
-            27.39,
-            -77.58
+            27.93,
+            -76.9
           ],
           [
-            27.19,
-            -78.41
+            27.62,
+            -78.07
           ],
           [
-            27.2,
-            -79.09
+            27.56,
+            -78.8
           ],
           [
-            27.52,
-            -79.75
+            27.72,
+            -79.54
           ],
           [
-            28.23,
-            -80.29
+            28.2,
+            -80.17
           ],
           [
-            29.42,
-            -80.8
+            28.8,
+            -80.56
           ],
           [
-            30.3,
-            -80.95
+            29.37,
+            -80.81
+          ],
+          [
+            30.19,
+            -80.96
+          ],
+          [
+            30.77,
+            -80.85
           ],
           [
             30.97,
