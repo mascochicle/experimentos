@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21T15:44:20.383Z",
+  "generado": "2026-11-21T21:17:26.765Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,15 +12,15 @@
       "numero": "1",
       "titulo": "Frente a Southeast U.S. Coast",
       "tituloOriginal": "Offshore of the Southeast U.S. Coast",
-      "descripcion": "A large non-tropical low pressure area centered a few hundred miles east of northeastern Florida continues to produce disorganized showers and thunderstorms. The system is moving into an environment that will probably not be conducive for development of significant tropical or subtropical characteristics. 1. Although the chances of tropical development continue to decrease, this large weather system is still expected to produce gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the southeast and mid-Atlantic U.S. coasts into early next week. In addition, heavy rainfall and the threat of flash flooding will move northward over coastal portions of the Carolinas and the mid-Atlantic through the weekend. Interests along the U.S. East Coast should continue to monitor the progress of this system. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
+      "descripcion": "A non-tropical gale-force low pressure area centered several hundred miles offshore of northeastern Florida is producing disorganized showers and thunderstorms primarily along a stationary front. This low is forecast to move northward into an environment that will probably not be conducive for development of significant tropical or subtropical characteristics. 1. Although the chances of tropical development remain low, this large weather system is still expected to produce gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the southeast and mid-Atlantic U.S. coasts into early next week. In addition, heavy rainfall and the threat of flash flooding will move northward over coastal portions of the Carolinas and the mid-Atlantic through the weekend. Interests along the U.S. East Coast should continue to monitor the progress of this system. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 10,
       "riesgo2dias": "bajo",
       "prob7dias": 10,
       "riesgo7dias": "bajo",
       "centro": [
-        29.971,
-        -73.871
+        30.145,
+        -73.622
       ],
       "anillos": [
         [
@@ -29,119 +29,119 @@
             -69.44
           ],
           [
-            32.52,
-            -70.03
+            32.34,
+            -70.09
           ],
           [
-            31.15,
-            -70.55
+            30.54,
+            -70.87
           ],
           [
-            30.23,
-            -70.99
+            30.1,
+            -71.2
           ],
           [
-            29.55,
-            -71.43
+            29.63,
+            -71.75
           ],
           [
-            28.98,
-            -71.96
+            29.2,
+            -72.49
           ],
           [
-            28.61,
-            -72.45
+            28.95,
+            -73.16
           ],
           [
-            28.31,
-            -73.07
+            28.85,
+            -73.76
           ],
           [
-            28.16,
-            -73.93
+            28.94,
+            -74.6
           ],
           [
-            28.27,
-            -74.74
+            29.23,
+            -75.3
           ],
           [
-            28.64,
-            -75.67
+            29.69,
+            -75.98
           ],
           [
-            29.12,
-            -76.33
+            30.21,
+            -76.48
           ],
           [
-            29.71,
-            -76.77
+            30.96,
+            -76.91
           ],
           [
-            30.47,
-            -77.01
-          ],
-          [
-            31.04,
+            31.66,
             -77.07
           ],
           [
-            32.23,
-            -77.04
+            32.51,
+            -77.05
           ],
           [
-            34.27,
-            -76.7
+            33.58,
+            -76.86
           ],
           [
-            34.99,
-            -76.46
+            34.67,
+            -76.55
           ],
           [
-            35.78,
-            -76.04
+            35.52,
+            -76.18
           ],
           [
-            36.49,
-            -75.45
+            36,
+            -75.88
           ],
           [
-            36.98,
-            -74.85
+            36.57,
+            -75.38
           ],
           [
-            37.42,
-            -74.1
+            37.05,
+            -74.77
           ],
           [
-            37.69,
-            -73.37
+            37.3,
+            -74.36
           ],
           [
-            37.84,
-            -72.35
+            37.66,
+            -73.46
+          ],
+          [
+            37.82,
+            -72.62
           ],
           [
             37.79,
-            -71.55
+            -71.54
           ],
           [
-            37.57,
-            -70.75
+            37.6,
+            -70.83
           ],
           [
-            37.24,
-            -70.17
+            37.19,
+            -70.11
           ],
           [
-            36.75,
-            -69.69
+            36.64,
+            -69.61
           ],
           [
-            36.08,
+            36.09,
             -69.39
           ],
           [
-            35.39,
+            35.32,
             -69.34
           ],
           [
