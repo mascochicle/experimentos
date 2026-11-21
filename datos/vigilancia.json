@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-20T18:54:13.127Z",
+  "generado": "2026-11-21T00:27:29.047Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,137 +12,137 @@
       "numero": "1",
       "titulo": "Frente a Southeast U.S. Coast",
       "tituloOriginal": "Offshore of the Southeast U.S. Coast",
-      "descripcion": "Several broad areas of low pressure are located along a front that extends from central Florida eastward into the Atlantic for several hundred miles, and are producing disorganized showers and thunderstorms. One of the low pressure areas, near the central Florida coast, is likely to remain inland without significant development. A second low farther east could acquire subtropical or tropical characteristics while it moves generally northward to north-northeastward, passing near or east of the mid-Atlantic coast through the weekend. 1. Regardless of subtropical or tropical development, this large weather system is expected to produce gusty winds, dangerous surf, rip currents and coastal flooding along portions of the southeast and mid-Atlantic U.S. coasts into early next week. In addition, heavy rainfall and the threat of flash flooding will continue across portions of the northeast Florida peninsula today, spreading northward over coastal portions of the Carolinas and the mid-Atlantic over the weekend. Interests along the eastern coast of the United States should continue to monitor the progress of this system. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
+      "descripcion": "A complex and large low pressure system includes three embedded low pressure centers, one over the Gulf of America, another over west-central Florida, and a third a few hundred miles east-northeast of the northwestern Bahamas. All of these systems are currently non-tropical. However, the system over the western Atlantic still has some potential to acquire subtropical or tropical characteristics over the next day or two while it moves northward, passing near the North Carolina and mid-Atlantic coasts on Sunday. 1. Although the chances of subtropical or tropical development appear to be decreasing, this large weather system is still expected to produce gusty winds, dangerous surf, rip currents and coastal flooding along portions of the southeast and mid-Atlantic U.S. coasts into early next week. In addition, heavy rainfall and the threat of flash flooding will continue across portions of the northeast Florida peninsula tonight, spreading northward over coastal portions of the Carolinas and the mid-Atlantic over the weekend. Interests along the eastern coast of the United States should continue to monitor the progress of this system. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 30,
       "riesgo2dias": "bajo",
-      "prob7dias": 40,
-      "riesgo7dias": "medio",
+      "prob7dias": 30,
+      "riesgo7dias": "bajo",
       "centro": [
-        29.407,
-        -76.385
+        28.38,
+        -73.669
       ],
       "anillos": [
         [
           [
-            30.8,
-            -80.79
+            34.63,
+            -69.44
           ],
           [
-            31.13,
-            -80.74
+            31.99,
+            -70.06
           ],
           [
-            31.61,
-            -80.53
+            29.2,
+            -70.98
           ],
           [
-            32.15,
-            -80.1
+            28.35,
+            -71.39
           ],
           [
-            33.11,
-            -78.84
+            27.88,
+            -71.72
           ],
           [
-            34.06,
-            -76.85
+            27.53,
+            -72.08
           ],
           [
-            34.52,
-            -76.19
+            27.24,
+            -72.62
           ],
           [
-            35.1,
-            -75.67
+            27.13,
+            -73.52
           ],
           [
-            37.03,
-            -74.35
+            27.3,
+            -74.49
           ],
           [
-            37.66,
-            -73.61
+            27.64,
+            -75.27
           ],
           [
-            37.93,
-            -72.82
+            28.28,
+            -76.09
           ],
           [
-            37.9,
-            -71.81
-          ],
-          [
-            37.51,
-            -70.71
-          ],
-          [
-            36.92,
-            -69.94
-          ],
-          [
-            36.17,
-            -69.45
-          ],
-          [
-            35.31,
-            -69.23
-          ],
-          [
-            34.17,
-            -69.24
-          ],
-          [
-            32.95,
-            -69.5
-          ],
-          [
-            31.81,
-            -69.98
-          ],
-          [
-            30.86,
-            -70.62
+            29.2,
+            -76.82
           ],
           [
             30,
-            -71.46
+            -77.21
           ],
           [
-            29.41,
-            -72.31
+            31.08,
+            -77.41
           ],
           [
-            28.95,
-            -73.35
+            32.19,
+            -77.3
           ],
           [
-            28.63,
-            -74.77
+            34.57,
+            -76.6
           ],
           [
-            28.54,
-            -76.74
+            35.53,
+            -76.18
           ],
           [
-            28.65,
-            -77.96
+            36,
+            -75.88
           ],
           [
-            28.88,
-            -79.01
+            36.5,
+            -75.45
           ],
           [
-            29.4,
-            -80.07
+            36.99,
+            -74.86
           ],
           [
-            30.05,
-            -80.63
+            37.3,
+            -74.36
           ],
           [
-            30.8,
-            -80.79
+            37.66,
+            -73.46
+          ],
+          [
+            37.83,
+            -72.44
+          ],
+          [
+            37.8,
+            -71.63
+          ],
+          [
+            37.63,
+            -70.9
+          ],
+          [
+            37.25,
+            -70.16
+          ],
+          [
+            36.86,
+            -69.76
+          ],
+          [
+            36.19,
+            -69.44
+          ],
+          [
+            35.68,
+            -69.37
+          ],
+          [
+            34.63,
+            -69.44
           ]
         ]
       ]
