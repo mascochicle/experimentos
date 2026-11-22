@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-22T08:25:33.934Z",
+  "generado": "2026-11-22T16:29:36.583Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,37 +12,37 @@
       "numero": "1",
       "titulo": "Frente a Southeast U.S. Coast",
       "tituloOriginal": "Offshore of the Southeast U.S. Coast",
-      "descripcion": "A non-tropical gale-force low pressure area centered a few hundred miles southeast of the North Carolina coast is producing disorganized showers and thunderstorms primarily along its associated stationary front. This low is forecast to move northward into unfavorable environmental conditions, and development into a tropical or subtropical system is no longer expected. 1. Regardless of the system's status, this large weather system is still expected to produce heavy rains, gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the southeast and mid-Atlantic U.S. coasts into early next week. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
+      "descripcion": "A non-tropical, gale-force low pressure area centered a few hundred miles east of the North Carolina coast is producing disorganized showers and thunderstorms. This low is forecast to move northward into unfavorable environmental conditions, and development into a tropical or subtropical system is not expected. 1. Regardless of the system's status, this large weather system is still expected to produce heavy rains, gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the eastern U.S. coasts during the next couple of days. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "nearzero",
       "prob7dias": 0,
       "riesgo7dias": "nearzero",
       "centro": [
-        31.722,
-        -73.082
+        34.192,
+        -74.325
       ],
       "anillos": [
         [
           [
-            31.82,
-            -73.18
+            34.29,
+            -74.42
           ],
           [
-            31.83,
-            -72.98
+            34.29,
+            -74.22
           ],
           [
-            31.61,
-            -73.18
+            34.08,
+            -74.42
           ],
           [
-            31.61,
-            -72.98
+            34.09,
+            -74.22
           ],
           [
-            31.82,
-            -73.18
+            34.29,
+            -74.42
           ]
         ]
       ]
