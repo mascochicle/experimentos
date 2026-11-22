@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-22T01:26:59.476Z",
+  "generado": "2026-11-22T08:25:33.934Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,37 +12,37 @@
       "numero": "1",
       "titulo": "Frente a Southeast U.S. Coast",
       "tituloOriginal": "Offshore of the Southeast U.S. Coast",
-      "descripcion": "A non-tropical gale-force low pressure area centered a few hundred miles southeast of the North Carolina coast is producing disorganized showers and thunderstorms primarily along its associated stationary front. This low is forecast to move northward into unfavorable environmental conditions, and development into a tropical or subtropical system is no longer expected. 1. Regardless of the system's status, this large weather system is still expected to produce gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the southeast and mid-Atlantic U.S. coasts into early next week. In addition, heavy rainfall and the threat of flash flooding will move northward from coastal portions of the Carolinas to the mid-Atlantic over the next day or so. Interests along the U.S. East Coast should continue to monitor the progress of this system. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
+      "descripcion": "A non-tropical gale-force low pressure area centered a few hundred miles southeast of the North Carolina coast is producing disorganized showers and thunderstorms primarily along its associated stationary front. This low is forecast to move northward into unfavorable environmental conditions, and development into a tropical or subtropical system is no longer expected. 1. Regardless of the system's status, this large weather system is still expected to produce heavy rains, gusty winds, dangerous surf, rip currents, and coastal flooding along portions of the southeast and mid-Atlantic U.S. coasts into early next week. Additional information on this system, including Gale Warnings, can be found in High Seas Forecasts issued by the National Weather Service, as well as products issued by your local National Weather Service forecast office.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=atlc&fdays=7",
       "prob2dias": 0,
       "riesgo2dias": "nearzero",
       "prob7dias": 0,
       "riesgo7dias": "nearzero",
       "centro": [
-        30.641,
-        -73.369
+        31.722,
+        -73.082
       ],
       "anillos": [
         [
           [
-            30.74,
-            -73.47
+            31.82,
+            -73.18
           ],
           [
-            30.75,
-            -73.27
+            31.83,
+            -72.98
           ],
           [
-            30.55,
-            -73.47
+            31.61,
+            -73.18
           ],
           [
-            30.53,
-            -73.27
+            31.61,
+            -72.98
           ],
           [
-            30.74,
-            -73.47
+            31.82,
+            -73.18
           ]
         ]
       ]
