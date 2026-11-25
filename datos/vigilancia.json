@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-25T01:57:47.482Z",
+  "generado": "2026-11-25T10:50:16.665Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -12,7 +12,7 @@
       "numero": "1",
       "titulo": "Pacífico central (oeste) · CP96",
       "tituloOriginal": "Western Central Pacific (CP96)",
-      "descripcion": "An area of low pressure located over a thousand miles southwest of the Hawaiian Islands continues to produce a broad area of disorganized showers and thunderstorms. Recent satellite wind data indicates the system does not yet have a well defined center and is producing winds of 30 to 35 mph. However, environmental conditions appear conducive for some additional development of this system over the next day or so before upper-level winds become unfavorable by the end of the week.",
+      "descripcion": "An area of low pressure located more than a thousand miles southwest of the Hawaiian Islands continues to produce disorganized showers and thunderstorms. Satellite wind data from earlier today indicated that the system is a surface trough and does not have a closed circulation, but is producing winds of 30 to 35 mph. Environmental conditions appear conducive for some additional development of this system over the next day or so before upper-level winds become unfavorable by the end of the week. The system is forecast to meander slowly over the next day or two.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
       "prob2dias": 30,
       "riesgo2dias": "bajo",
