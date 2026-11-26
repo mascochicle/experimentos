@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-26T11:46:59.101Z",
+  "generado": "2026-11-26T20:40:45.305Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
   "total": 1,
   "cuencasSinFormacion": [
@@ -10,14 +10,14 @@
       "cuenca": "Pacific",
       "cuencaEs": "Pacífico oriental",
       "numero": "1",
-      "titulo": "Pacífico central (oeste) · CP96",
-      "tituloOriginal": "Western Central Pacific (CP96)",
-      "descripcion": "Showers and thunderstorms associated with a broad area of low pressure located more than a thousand miles southwest of the Hawaiian Islands continue to be disorganized. Environmental conditions are expected to become increasingly more unfavorable within the next day or so, making further development unlikely.",
+      "titulo": "Pacífico central (oeste)",
+      "tituloOriginal": "Western Central Pacific",
+      "descripcion": "Showers and thunderstorms have become even more disorganized in association with a broad area of low pressure located more than a thousand miles southwest of the Hawaiian Islands. This system has moved into a highly unfavorable environment, and development is not expected.",
       "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 10,
-      "riesgo2dias": "bajo",
-      "prob7dias": 10,
-      "riesgo7dias": "bajo",
+      "prob2dias": 0,
+      "riesgo2dias": "nearzero",
+      "prob7dias": 0,
+      "riesgo7dias": "nearzero",
       "centro": [
         7.869,
         -168.794
@@ -25,120 +25,24 @@
       "anillos": [
         [
           [
-            7.17,
-            -165.75
+            7.97,
+            -168.89
           ],
           [
-            6.69,
-            -165.98
+            7.97,
+            -168.69
           ],
           [
-            6.08,
-            -166.43
+            7.75,
+            -168.89
           ],
           [
-            5.56,
-            -167.1
+            7.76,
+            -168.69
           ],
           [
-            5.32,
-            -167.64
-          ],
-          [
-            5.17,
-            -168.18
-          ],
-          [
-            5.06,
-            -169.1
-          ],
-          [
-            5.09,
-            -169.96
-          ],
-          [
-            5.31,
-            -170.93
-          ],
-          [
-            5.53,
-            -171.43
-          ],
-          [
-            5.92,
-            -171.97
-          ],
-          [
-            6.37,
-            -172.33
-          ],
-          [
-            6.91,
-            -172.55
-          ],
-          [
-            7.45,
-            -172.62
-          ],
-          [
-            8.18,
-            -172.57
-          ],
-          [
-            8.88,
-            -172.38
-          ],
-          [
-            9.48,
-            -172.07
-          ],
-          [
-            9.9,
-            -171.72
-          ],
-          [
-            10.24,
-            -171.24
-          ],
-          [
-            10.67,
-            -170.04
-          ],
-          [
-            10.93,
-            -168.36
-          ],
-          [
-            10.89,
-            -167.58
-          ],
-          [
-            10.76,
-            -167.1
-          ],
-          [
-            10.53,
-            -166.68
-          ],
-          [
-            10.22,
-            -166.34
-          ],
-          [
-            9.29,
-            -165.78
-          ],
-          [
-            8.31,
-            -165.54
-          ],
-          [
-            7.65,
-            -165.59
-          ],
-          [
-            7.17,
-            -165.75
+            7.97,
+            -168.89
           ]
         ]
       ]
