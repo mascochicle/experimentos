@@ -1,51 +1,10 @@
 {
-  "generado": "2026-11-26T20:40:45.305Z",
+  "generado": "2026-11-27T03:21:18.930Z",
   "fuente": "https://www.nhc.noaa.gov/xgtwo/gtwo_shapefiles.zip",
-  "total": 1,
+  "total": 0,
   "cuencasSinFormacion": [
-    "Atlántico"
+    "Atlántico",
+    "Pacífico oriental"
   ],
-  "zonas": [
-    {
-      "cuenca": "Pacific",
-      "cuencaEs": "Pacífico oriental",
-      "numero": "1",
-      "titulo": "Pacífico central (oeste)",
-      "tituloOriginal": "Western Central Pacific",
-      "descripcion": "Showers and thunderstorms have become even more disorganized in association with a broad area of low pressure located more than a thousand miles southwest of the Hawaiian Islands. This system has moved into a highly unfavorable environment, and development is not expected.",
-      "boletin": "https://www.nhc.noaa.gov/gtwo.php?basin=epac&fdays=7",
-      "prob2dias": 0,
-      "riesgo2dias": "nearzero",
-      "prob7dias": 0,
-      "riesgo7dias": "nearzero",
-      "centro": [
-        7.869,
-        -168.794
-      ],
-      "anillos": [
-        [
-          [
-            7.97,
-            -168.89
-          ],
-          [
-            7.97,
-            -168.69
-          ],
-          [
-            7.75,
-            -168.89
-          ],
-          [
-            7.76,
-            -168.69
-          ],
-          [
-            7.97,
-            -168.89
-          ]
-        ]
-      ]
-    }
-  ]
+  "zonas": []
 }
